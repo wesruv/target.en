@@ -17,6 +17,10 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 13, 2019|[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Updated text and images.|
+||[Estimate the traffic required for success](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md)|Added new image.|
+||[Preview experiences for Automated Personalization in the Visual Experience Composer](/help/c-activities/t-automated-personalization/ap-preview-experiences.md)|Updated text and images.|
+||[Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md)|Updated text and images.|
 |June 12, 2019|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Updated text and images.|
 ||[How Adobe Target works](/help/c-intro/how-target-works.md)|Added important note about using Target in China.|
 ||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Removed Microsoft Internet Explorer 11 (IE 11) from the "Target Standard/Premium interface" section. Target no longer supports or maintains compatibility for IE 11. This change affects the Target UI only. Content delivery is not affected. This change follows similar announcements made by Adobe Analytics, the Adobe Experience Platform, and Adobe Audience Manager. We recommend users switch to a supported browser.|
