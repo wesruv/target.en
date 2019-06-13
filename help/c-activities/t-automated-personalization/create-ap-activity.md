@@ -17,7 +17,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
 1. From the Target Standard Activities list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
-   ![](assets/ap_create.png)
+   ![Create Activity: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
 1. Specify the desired channel: Web.
 
@@ -25,9 +25,8 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
 1. To use the Visual Experience Composer (VEC), click **[!UICONTROL Visual (Default)]**.
 
-   If you prefer to use the Form-Based Experience Composer, select **[!UICONTROL Form]**.
+   If you prefer to use the Form-Based Experience Composer, select **[!UICONTROL Form]**. For more information about both composers, see [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-   For more information about both composers, see [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). 
 1. Verify or enter the activity URL, then click **[!UICONTROL Next]**.
 
    >[!NOTE]
@@ -36,12 +35,12 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    The page with the specified URL opens in the Visual Experience Composer.
 
-   ![](assets/ap_url.png)
+   ![Create Automated Personalization Activity dialog box](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
 1. To name the activity, click the Name field and type your activity name.
 
-   ![](assets/ab_newname.png)
+   ![Name field](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
    The following characters are not allowed in an activity name:
 
@@ -56,56 +55,69 @@ The Automated Personalization activity workflow varies from the workflow of the 
    |-|Minus|
    |@|At sign|
 
-1. Modify page elements as explained in [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), then click **[!UICONTROL Next]**.
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    You can select multiple images at once from the asset manager. This enables you to quickly view the page with each of the images configured for the activity. You can also easily edit text elements in your offers. When you edit an element, bars appear on that element to indicate you have changed it.
 
 1. Click **[!UICONTROL Manage Content]** to configure the available combinations.
 
+   ![Manage Content option](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+
    A dialogue box appears with three options at the top of the screen: Experiences, Offers, and Exclusion Groups.
 
-   ![](assets/ap_content.png)
+   ![Manage Content dialog box](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
    >Although you can create up to 30,000 experiences in an AP activity, the activity performs best when fewer than 5,000 experiences are used.
 
-   The [!UICONTROL Experiences] list shows each piece of content selected for the activity and the location it is assigned to. You can exclude specific experiences by hovering over the desired experience and then clicking the exclude icon, or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then click the Exclude icon in the top right corner of the dialogue box.
+   The [!UICONTROL Experiences] list shows each piece of content selected for the activity and the location it is assigned to. 
+   
+   You can exclude specific experiences by hovering over the desired experience and then clicking the exclude icon.
 
-   ![](assets/ap_content_batch_exclude.png)
+   ![Exclude icon hover](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
+   
+   You can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then click the Exclude icon in the top right corner of the dialog box.
 
-   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.. 
-1. Click **[!UICONTROL Offers]** to select pieces of content and assign them to [reporting groups](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   ![Batch exclude options](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   Use the [!UICONTROL Location] list to filter offers by location. Use the [!UICONTROL Report Group] list to filter offers by reporting groups. You can also use the [!UICONTROL Report Group] list to filter for [!UICONTROL Unassigned Offers] so you can assign a reporting group to an offer that is not currently assigned to any reporting group.
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
-   You can add specific experiences to a reporting group by hovering over the desired offer and then clicking the folder icon, or you can batch include experiences in a reporting group by selecting the checkbox for the relevant experiences and then click the Reporting Group folder icon button in the top right corner of the dialogue box.
-
-   ![](assets/report_group.png)
-
-   It is important to understand that reporting groups impact how Target builds its models. As a result, we recommend that you use reporting groups only if you plan to replace or add new offers while the activity is live. If a new offer is introduced into a live activity, putting the new offer into a group with existing similar offers allow the machine to use the data already collected for the other offers in its group to learn about the new offer. You should never put all offers into a single reporting group.
-
-   For information about targeting an offer to specific audiences, see [Target AP Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
 1. (Conditional) Click **[!UICONTROL Offers]** to select pieces of content and assign them to reporting groups or only allow certain visitors to see certain offers with targeting.
 
    For more information, see [Offer Reporting Groups in Automated Personalization](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
-   For information about targeting an offer to specific audiences, see [Target Automated Personalization Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E). 
+   Use the [!UICONTROL Location] list to filter offers by location. Use the [!UICONTROL Report Group] list to filter offers by reporting groups. You can also use the [!UICONTROL Report Group] list to filter for [!UICONTROL Unassigned Offers] so you can assign a reporting group to an offer that is not currently assigned to any reporting group.
+
+   You can add specific experiences to a reporting group by hovering over the desired offer and then clicking the folder icon.
+
+   ![Folder icon hover](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
+
+   You can batch include experiences in a reporting group by selecting the checkbox for the relevant experiences and then click the Reporting Group folder icon button in the top right corner of the dialog box.
+
+   ![Report Group options](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
+
+   It is important to understand that reporting groups impact how Target builds its models. As a result, we recommend that you use reporting groups only if you plan to replace or add new offers while the activity is live. If a new offer is introduced into a live activity, putting the new offer into a group with existing similar offers allow the machine to use the data already collected for the other offers in its group to learn about the new offer. You should never put all offers into a single reporting group.
+
+   For information about targeting an offer to specific audiences, see [Target AP Offers](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combinations of elements that you want to exclude from the activity.
 
-   ![Step Result](assets/exclusion_groups.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group and click **Save**.
 
-   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon. 
-1. Click **[!UICONTROL Next]** when you have finished setting up the content of your activity.
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.
+
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
+
 1. The **Targeting** step will look familiar if you have used other Target activity types. Here you can select an audience and specify the percentage of visitors who will see the control experience by clicking the **[!UICONTROL Custom Allocation]** drop-down list, then click **Next**.
 
    The [!UICONTROL Custom Allocation] drop-down list lets you choose from the following options:
 
-   ![](assets/split-ap.png)
+   ![Traffic Allocation Goal drop-down list](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **Evaluate Personalization Algorithm (50/50):** If your goal is to test the algorithm, use a 50/50 percent split of visitors between the control and the targeted algorithm. This split gives the most accurate estimate of the lift. 
    * **Maximizing Personalization Traffic (90/10):** If your goal is to create an “always on” activity, put 10% of the visitors into the control to ensure there is enough data for the algorithms to continue learning over time. Note the tradeoff here is that in exchange for personalizing a larger proportion of your traffic, you will have less precision in what the exact lift is. 
@@ -119,7 +131,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
    >
    >In Automated Personalization activities, entry criteria (URL targeting, template rules, and audience target) are evaluated for each request. In previous versions, entry criteria were evaluated once per session.
 
-1. Click **[!UICONTROL Continue]** to display the **[!UICONTROL Goals & Settings]** page.
+1. Click **[!UICONTROL Next]** to display the **[!UICONTROL Goals & Settings]** page.
 1. Configure the activity with the following settings, then click **[!UICONTROL Save & Close]**.
 
    | Setting | Description |
