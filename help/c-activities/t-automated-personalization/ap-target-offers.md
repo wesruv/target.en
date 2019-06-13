@@ -33,8 +33,6 @@ In this scenario, Visitor 1 would see Offer 1 (because he or she qualifies as pa
 
    The Manage Content dialog box opens.
 
-   ![](assets/ap_content.png)
-
 1. Click the Offers tab.
 
    ![Offers page](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
