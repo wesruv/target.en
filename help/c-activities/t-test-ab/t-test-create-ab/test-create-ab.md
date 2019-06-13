@@ -31,7 +31,7 @@ Use the Visual Experience Composer in Target to create your test directly on a T
 
    >[!NOTE]
    >
-   >In addition to the VEC and Form-Based VEC, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various VECs, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
 
    For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 

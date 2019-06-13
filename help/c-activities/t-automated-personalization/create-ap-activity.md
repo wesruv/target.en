@@ -27,6 +27,10 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    If you prefer to use the Form-Based Experience Composer, select **[!UICONTROL Form]**. For more information about both composers, see [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
+   >[!NOTE]
+   >
+   >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+
 1. Verify or enter the activity URL, then click **[!UICONTROL Next]**.
 
    >[!NOTE]
