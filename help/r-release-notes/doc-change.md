@@ -17,8 +17,13 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|June 14, 2019|[Create experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)|Updated text and images.|
+|June 14, 2019|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Added use-case scenario.|
 ||[Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)|Updated text and images.|
+||XT: [Activity URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)|Updated text.|
+||XT: [Create experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)|Updated text and images.|
+||[Switching experiences in Experience Targeting](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)|Updated text and images.|
+||XT: [Goals and settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)|Updated text and images.|
+||XT: [Set metrics](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)|Updated text and image.|
 |June 13, 2019|[Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Added new FAQ: "Why are some offers/experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers/experiences for a certain automated segment?"|
 ||[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Updated text and images.|
 ||[Estimate the traffic required for success](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md)|Added new image.|
