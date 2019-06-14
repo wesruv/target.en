@@ -15,7 +15,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL E
 
 Experience Targeting (XT) delivers content to a specific audience based on a set of marketer-defined rules and criteria.
 
-Experience Targeting, including [geotargeting](../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670), is valuable for defining rules that target a specific experience or content to a particular audience. Several rules can be defined in an activity to deliver different content variations to different audiences.
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Several rules can be defined in an activity to deliver different content variations to different audiences.
 
 For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
 
