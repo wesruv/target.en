@@ -18,6 +18,12 @@ When visitors view your site, Experience Targeting (XT) evaluates them to determ
 
 Experience Targeting is a first step into the world of personalization and often begins with A/B testing. A marketer runs an A/B test, and through the use of reporting audiences discovers that different experiences resonate with different audiences. Experience Targeting allows the marketer to easily leverage that discovery and switch to long-term targeting of content to those different user segments.
 
+## Scenario: Experience Targeting
+
+Suppose your website features outdoor equipment. Your reports for A/B Testing indicate that you have three experiences that resonate with different audiences. To leverage this discovery, you want to display a different hero image on your homepage to appeal to these different audiences, depending on the visitors' location or hobbies. In this scenario, you want to display a hiking image to visitors from New Jersey and a surfing image to visitors from Hawaii. You also have an audience that likes bicycling. You want to display a third hero image that appeals to your biking audience. 
+
+An XT activity lets you target these three audiences with a different hero image that appeals to each audience. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. The video also shows you how to order the three experiences to achieve your goals. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+
 ## Training videos:
 
 The following videos contain more information about the concepts discussed in this article.
