@@ -17,6 +17,9 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 15, 2019|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Made minor text edits.|
+||[Multivariate Test best practices](/help/c-activities/c-multivariate-testing/best-practices.md)|Made minor text edits.|
+||[Plan a Multivariate Test](/help/c-activities/c-multivariate-testing/plan-mvt.md)|Made minor text edits.|
 |June 14, 2019|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Added use-case scenario.|
 ||[Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)|Updated text and images.|
 ||XT: [Activity URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)|Updated text.|
