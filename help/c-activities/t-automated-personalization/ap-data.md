@@ -22,9 +22,9 @@ The following table shows the data collected by Automated Personalization by def
 |--- |--- |--- |--- |
 |URL Parameters|Target inspects the URL to extract the URL parameters.|`Custom - URL Parameter - [URL Parameter]`|Custom data|
 |Referring URL Parameters|In general, the referring URL is the URL that referred to a particular page that initiated the mbox call.<br>Note that this variable can be impacted by the users' activity on your site as well as the technical implementation of your site.|`Custom - [Referring URL Parameter] - [Parameter value]`|Custom data|
-|[Environmental and Session data](#env-session)|Information about how and when the user is accessing the activity.|`Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]`|Visitor Profile - Start of Most Recent Visit<br>Visitor Profile -Total Visits<br>Visitor Profile - Average Time per Visit<br>Browser - Timezone<br>Browser - Day of Week<br>Browser - Language Setting<br>Browser - Type<br>Operating System - Version|
-|[Geography](#geo)|Information on where the visitor is located.|`Geo - [geo attribute]`|City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier|
-|[Device and Mobile Data](#mobile)|Device and mobile-specific information.|`Device - [device attribute]`<br>`Mobile - [mobile attribute]`|Mobile Device OS<br>Mobile Screen Size|
+|Environmental and Session data|Information about how and when the user is accessing the activity.|`Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]`|Visitor Profile - Start of Most Recent Visit<br>Visitor Profile -Total Visits<br>Visitor Profile - Average Time per Visit<br>Browser - Timezone<br>Browser - Day of Week<br>Browser - Language Setting<br>Browser - Type<br>Operating System - Version|
+|Geography|Information on where the visitor is located.|`Geo - [geo attribute]`|City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier|
+|Device and Mobile Data|Device and mobile-specific information.|`Device - [device attribute]`<br>`Mobile - [mobile attribute]`|Mobile Device OS<br>Mobile Screen Size|
 
 The following sections contain detailed information about the various data types, including attribute names, descriptions, and sample values.
 
