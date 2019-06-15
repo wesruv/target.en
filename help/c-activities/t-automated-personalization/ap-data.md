@@ -19,7 +19,7 @@ To learn more about the Target personalization algorithms, see [Random Forest Al
 The following table shows the data collected by Automated Personalization by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). You can augment the input data set at any time. To learn more about how to upload additional data, see [Uploading Data for the Target Personalization Algorithms](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 | Data Type | Description | Data Type Naming Convention | Example Attributes |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 |URL Parameters|Target inspects the URL to extract the URL parameters.|`Custom - URL Parameter - [URL Parameter]`|Custom data|
 |Referring URL Parameters|In general, the referring URL is the URL that referred to a particular page that initiated the mbox call.<br>Note that this variable can be impacted by the users' activity on your site as well as the technical implementation of your site.|`Custom - [Referring URL Parameter] - [Parameter value]`|Custom data|
 |Environmental and Session data|Information about how and when the user is accessing the activity.|`Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]`|Visitor Profile - Start of Most Recent Visit<br>Visitor Profile -Total Visits<br>Visitor Profile - Average Time per Visit<br>Browser - Timezone<br>Browser - Day of Week<br>Browser - Language Setting<br>Browser - Type<br>Operating System - Version|
@@ -30,12 +30,12 @@ The following sections contain detailed information about the various data types
 
 Note that some of the values are rounded to the nearest integer or hour.
 
-## Environmental and session data {#env-session}
+## Environmental and session data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
 |Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 = Sunday)|
-|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(Rounded to the nearest hour)|
+|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23|
 |Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight = 0)|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|<ul><li>English</li><li>German</li></ul>|
 |Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
@@ -52,7 +52,7 @@ Note that some of the values are rounded to the nearest integer or hour.
 |Operating System - Version|The operating system's version the visitor used to access the activity.|<ul><li>Windows 10</li><li>Mac OS 10</li></ul>|
 |Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/experience-cloud.html`|
 
-## Geo data {#geo}
+## Geo data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Note that some of the values are rounded to the nearest integer or hour.
 |Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`|
 |Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation|
 
-## Mobile data {#mobile}
+## Mobile data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
