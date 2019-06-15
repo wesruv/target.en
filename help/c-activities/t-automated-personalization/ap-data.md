@@ -32,7 +32,7 @@ The following sections contain detailed information about the various data types
 >
 >Some of the values in the following tables have been rounded to the nearest integer or hour.
 
-## Environmental and session data {#env-session}
+## Environmental and session data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
@@ -54,7 +54,7 @@ The following sections contain detailed information about the various data types
 |Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|
 |Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|
 
-## Geographical data {#geo}
+## Geographical data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
@@ -70,7 +70,7 @@ The following sections contain detailed information about the various data types
 |Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`|
 |Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation|
 
-## Device and Mobile data {#geo}
+## Device and Mobile data
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
