@@ -22,37 +22,39 @@ The following table shows the data collected by Automated Personalization by def
 | --- | --- | --- | --- |
 |URL Parameters|Target inspects the URL to extract the URL parameters.|`Custom - URL Parameter - [URL Parameter]`|Custom data|
 |Referring URL Parameters|In general, the referring URL is the URL that referred to a particular page that initiated the mbox call.<br>Note that this variable can be impacted by the users' activity on your site as well as the technical implementation of your site.|`Custom - [Referring URL Parameter] - [Parameter value]`|Custom data|
-|Environmental and Session data|Information about how and when the user is accessing the activity.|`Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]`|Visitor Profile - Start of Most Recent Visit<br>Visitor Profile -Total Visits<br>Visitor Profile - Average Time per Visit<br>Browser - Timezone<br>Browser - Day of Week<br>Browser - Language Setting<br>Browser - Type<br>Operating System - Version|
-|Geography|Information on where the visitor is located.|`Geo - [geo attribute]`|City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier|
-|Device and Mobile Data|Device and mobile-specific information.|`Device - [device attribute]`<br>`Mobile - [mobile attribute]`|Mobile Device OS<br>Mobile Screen Size|
+|[Environmental and Session data](#env-session)|Information about how and when the user is accessing the activity.|`Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]`|Visitor Profile - Start of Most Recent Visit<br>Visitor Profile -Total Visits<br>Visitor Profile - Average Time per Visit<br>Browser - Timezone<br>Browser - Day of Week<br>Browser - Language Setting<br>Browser - Type<br>Operating System - Version|
+|[Geographical](#geo)|Information on where the visitor is located.|`Geo - [geo attribute]`|City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier|
+|[Device and Mobile Data](#mobile)|Device and mobile-specific information.|`Device - [device attribute]`<br>`Mobile - [mobile attribute]`|Mobile Device OS<br>Mobile Screen Size|
 
 The following sections contain detailed information about the various data types, including attribute names, descriptions, and sample values.
 
-Note that some of the values are rounded to the nearest integer or hour.
+>[!NOTE]
+>
+>Some of the values in the following tables have been rounded to the nearest integer or hour.
 
-## Environmental and session data
+## Environmental and session data {#env-session}
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
-|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 is Sunday)|
-|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23|
-|Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|
+|Browser - Day of Week|The day of the week when the visitor accessed the activity.|0 to 6.<br>(0 = Sunday)|
+|Browser - Hour of Day|The hour of the day when the visitor accessed the activity.|0 to 23<br>(0 = midnight)|
+|Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight = 0)|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|
 |Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
-|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening)|
+|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 = night, 6 = morning, 12 = afternoon, 18 = evening)|
 |Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|
-|Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer 10<br>Safari<br>Other|
-|Browser - Weekday/Weekend|The work status (weekend, work hours, or weekday free time) when the visitor accessed the activity.|Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time|
+|Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other|
+|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday = weekend<br>Monday through Friday 0900 to 1800 = work time<br>Monday through Friday after 1800 until 0900 = weekday free time|
 |Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
 |Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
 |Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|
 |Device - Screen Width|The device's screen width the visitor used to access the activity.|1, 2, 3, etc.|
 |Mobile > Pixel Density (ppi)|The mobile device's pixel density the visitor used to access the activity.|1, 2, 3, etc.|
-|Operating System|The operating system the visitor's device used to access the activity.|Mac OS<br>Windows 10<br>Linux<br>Search Bot<br>Unknown OS|
+|Operating System|The operating system on the visitor's device used to access the activity.|Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS|
 |Operating System - Version|The operating system's version the visitor used to access the activity.|Windows 10<br>Mac OS 10|
-|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/experience-cloud.html`|
+|Traffic Sources - Referring Landing Page URL|The first page the visitor saw when accessing your site.|`https://www.adobe.com/ecloud.html`|
 
-## Geo data
+## Geographical data {#geo}
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
@@ -64,16 +66,16 @@ Note that some of the values are rounded to the nearest integer or hour.
 |Geo - State/Region|The state or region from which the visitor accessed the activity.|Utah<br>New South Wales|
 |Geo - Zip Code|The Zip Code from which the visitor accessed the activity.|84004|
 |Mobile - Carrier|The mobile carrier the visitor used when accessing the activity.|Vodafone<br>T-Mobile|
-|Network - Connection Speed|The network connection speed when the visitor accessed the activity.|Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite|
+|Network - Connection Speed|The network connection speed of the device when the visitor accessed the activity.|Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite|
 |Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`|
 |Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation|
 
-## Mobile data
+## Device and Mobile data {#geo}
 
 |Attribute name|Attribute description|Sample values|
 | --- | --- | --- |
-|Mobile - Device - Brand|The mobile device's brand the visitor used to access the activity.|Apple|
-|Mobile - Device - Model Name|The mobile device's model name the visitor used to access the activity.|iPhone XS|
+|Mobile - Device - Brand|The brand of the mobile device the visitor used to access the activity.|Apple|
+|Mobile - Device - Model Name|The model name of the mobile device the visitor used to access the activity.|iPhone XS|
 |Mobile - OS - OSX|Specifies whether the user used an OSX device to access the activity.|0 is False, 1 is True|
 |Mobile - Screen Height (px)|The mobile device's screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
 |Mobile - Screen Width (px)|The mobile device's screen width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
