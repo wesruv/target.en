@@ -1,7 +1,7 @@
 ---
 description: Target automatically collects and uses a variety of data to build its personalization algorithms in Automated Personalization (AP) and Auto-Target (AT) activities. When a visitor enters the AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
-seo-description: Target automatically collects and uses a variety of data to build its personalization algorithms in Automated Personalization (AP) and Auto-Target (AT) activities. When a visitor enters the AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
-seo-title: Data collection for Target's personalization algorithms
+seo-description: Adobe Target automatically collects and uses a variety of data to build its personalization algorithms in Automated Personalization (AP) and Auto-Target (AT) activities. When a visitor enters the AP or AT activity, a snapshot of information is passed to a set of "training records" (the visitor data that the personalization algorithms will learn on).
+seo-title: Data collection for Adobe Target's personalization algorithms
 solution: Target
 title: Data collection for Target's personalization algorithms
 title-outputclass: premium
@@ -63,7 +63,7 @@ Note that some of the values are rounded to the nearest integer or hour.
 |Geo - Longitude|The longitude from which the visitor accessed the activity.|-122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy)|
 |Geo - State/Region|The state or region from which the visitor accessed the activity.|<ul><li>Utah</li><li>New South Wales</li></ul>|
 |Geo - Zip Code|The Zip Code from which the visitor accessed the activity.|84004|
-|Mobile - Carrier|The mobile carrier the visitor used when accessing the activity.|<ul><li>Vodaphone</li><li>T-Mobile</li>|
+|Mobile - Carrier|The mobile carrier the visitor used when accessing the activity.|<ul><li>Vodaphone</li><li>T-Mobile</li></ul>|
 |Network - Connection Speed|The network connection speed when the visitor accessed the activity.|<ul><li>Broadband</li><li>Cable</li>DSL<li>Mobile</li><li>Wireless</li><li>Satellite</li></ul>|
 |Network - Domain Name|The name of the network domain from which the visitor accessed the activity.|`nnt.net`|
 |Network - ISP|The network from which the visitor accessed the activity.|nnt communications corporation|
