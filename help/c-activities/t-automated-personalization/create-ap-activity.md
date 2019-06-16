@@ -25,11 +25,17 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
 1. To use the Visual Experience Composer (VEC), click **[!UICONTROL Visual (Default)]**.
 
-   If you prefer to use the Form-Based Experience Composer, select **[!UICONTROL Form]**. For more information about both composers, see [Experiences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
    >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >
+   >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Your organization has a Target Standard license if you do not see this option.]
+
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verify or enter the activity URL, then click **[!UICONTROL Next]**.
 
@@ -40,8 +46,7 @@ The Automated Personalization activity workflow varies from the workflow of the 
    The page with the specified URL opens in the Visual Experience Composer.
 
    ![Create Automated Personalization Activity dialog box](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
-
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4). 
+ 
 1. To name the activity, click the Name field and type your activity name.
 
    ![Name field](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)

@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|June 16, 2019|Create a Multivariate Test|Updated text and images.|
 |June 15, 2019|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Made minor text edits.|
 ||[Multivariate Test best practices](/help/c-activities/c-multivariate-testing/best-practices.md)|Made minor text edits.|
 ||[Plan a Multivariate Test](/help/c-activities/c-multivariate-testing/plan-mvt.md)|Made minor text edits.|
