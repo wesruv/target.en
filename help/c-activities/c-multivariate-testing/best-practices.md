@@ -11,7 +11,7 @@ uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 
 # Multivariate Test best practices{#multivariate-test-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate (MVT) Test activities in [!DNL Adobe Target].
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## Plan {#section_4D4A1F6226F042379BF48DB753608579}
 

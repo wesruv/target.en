@@ -20,23 +20,24 @@ Use the Visual Experience Composer in Target to create your test directly on a T
    >[!NOTE]
    >
    >The available activity types depend on your [!DNL Target] account. Some activity types might not appear in your list. For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >
+   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
 
-   For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
-
-   ![Create A/B Test Activity dialog box](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![Create A/B Test Actity](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) for more information.
+   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
    >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >
+   >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Your organization has a Target Standard license if you do not see this option.]
 
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
-
-1. (Conditional) If you are a [Target Premium](/help/c-intro/intro.md#premium) customer, choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
-
+1. (Conditional) If you are a Target Premium customer, choose a workspace.
 
 1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
