@@ -30,9 +30,11 @@ To retrieve the authorization token:
 1. Select **[!UICONTROL mbox.js]** or **[!UICONTROL at.js]**. 
 1. Click **[!UICONTROL Generate Authentication Token]**.
 
-   ![](assets/gen-auth-token.png)
+   ![Generate Authorization token](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Add the generated token as a parameter to your URL to enable one of the advanced debugging tools.
+
+   ![Authorization token](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 

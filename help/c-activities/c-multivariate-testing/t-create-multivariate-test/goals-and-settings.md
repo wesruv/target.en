@@ -100,7 +100,7 @@ Audiences for Reporting
 
 Advanced settings are available for Multivariate Test goal metrics.
 
-![](assets/Menu_AdvancedSettings.png)
+![Advanced Settings menu](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -118,15 +118,14 @@ The Add Dependency option allows the success metric to increment if another succ
 
 To add a dependency:
 
-1.  After adding additional metrics, click Advanced Settings .
+1.  After adding additional metrics, click **[!UICONTROL Advanced Settings]**.
 2.  Click the Add Dependency option:
+
+    ![Add Dependency](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
     
-    ![](assets/add_dependency.png)
+3.  Drag and drop the desired metrics from the left pane into the right pane, then click **[!UICONTROL Reached]** to toggle the setting between Reached and Not Reached .
     
-3.  Drag and drop the desired metrics from the left pane into the right pane, then click Reached to toggle the setting between Reached and Not Reached .
-    
-    ![](assets/add_dependency_reached.png)
-    
+    ![Dependency Reached](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 You can edit or remove dependencies after adding them.
 
