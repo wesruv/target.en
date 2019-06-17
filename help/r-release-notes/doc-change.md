@@ -17,6 +17,15 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes| 
 | --- | --- | --- |
+|June 17, 2019|[Activity URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)|Updated text and images.|
+||[Create combinations](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
+||[Preview experiences for a Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated text and images.|
+||[Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)|Updated text and images.|
+||[Set metrics](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)|Updated text and image.|
+||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Updated text and images.|
+||[Edit an activity or save as draft](/help/c-activities/edit-activity.md)|Updated text and images.|
+||[Activity Change Log](/help/c-activities/change-log.md)|Updated text and image.|
+||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Updated text and images.|
 |June 16, 2019|[Create a Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
 |June 15, 2019|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Made minor text edits.|
 ||[Multivariate Test best practices](/help/c-activities/c-multivariate-testing/best-practices.md)|Made minor text edits.|
