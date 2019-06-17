@@ -18,16 +18,32 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
 
-   ![](assets/create_mvt.png)
-
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+   ![Create Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
+   >The available activity types depend on your Target account. Some activity types might not appear in your list. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+
+   ![Create Experience Targeting Activity dialog box](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+
+   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+
+   >[!NOTE]
+   >
+   >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >
+   >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
    >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Your organization has a Target Standard license if you do not see this option.]
 
-1. [Specify the URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page you want to test, then click **[!UICONTROL Next]**.
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
+1. [Specify the URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) for the page you want to test, then click **[!UICONTROL Next]**.
+   
    >[!NOTE]
    >
    >Use a complete URL, including the HTTP or HTTPS at the beginning.
@@ -35,8 +51,6 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
    If a message appears, asking you to enable your browser for mixed content, follow the instructions in the message. After enabling your browser for mixed content, begin again at Step 1.
 
    The Visual Experience Composer opens.
-
-   For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. Type a name for the activity.
 
@@ -67,15 +81,25 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 1. Click **[!UICONTROL Preview]** to [preview your experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![](assets/preview.png)
+   ![Preview experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   You can view each experience, and exclude any you do not want to include in your test.
+   You can view each experience, and exclude any you do not want to include in your test. To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
+
+   ![Exclude experiences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
 1. [Use the Traffic Estimator](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) to test the feasibility of your test plan.
 
-   ![](assets/estimator.png)  ![](assets/estimator2.png)
+   ![Traffic indicator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-1. Click **[!UICONTROL Next** to advance to the [!UICONTROL Targeting] page.]
+   The following illustration indicates that the activity has insufficient traffic.
+
+   ![](assets/estimator.png)
+
+   The following illustration indicates that the activity has insufficient traffic.
+
+   ![](assets/estimator2.png)
+
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.]
 
 1. Choose the audience and percentage of qualifying visitors that you want to enter the activity.
 
@@ -87,7 +111,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
    >
    >In addition to selecting an existing audience, you can combine multiple audiences to create ad hoc combined audiences rather than creating a new audience. For more information, see [Combining Multiple Audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**..
+1. [Review the test summary](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) and make any desired changes, then click **[!UICONTROL Next]**.
 
 1. [Specify the goals and settings](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) for the test.
 
