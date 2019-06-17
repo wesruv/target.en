@@ -19,11 +19,9 @@ The Automated Personalization activity workflow varies from the workflow of the 
 
    ![Create Activity: Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Specify the desired channel: Web.
-
-   You can also choose Mobile App, Email, or Other/API. 
-
 1. To use the Visual Experience Composer (VEC), click **[!UICONTROL Visual (Default)]**.
+
+   ![Create Automated Personalization Activity dialog box](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
@@ -44,8 +42,6 @@ The Automated Personalization activity workflow varies from the workflow of the 
    >[!DNL Target] does not differentiate between URL protocols ( [!DNL https] and [!DNL http]). As a result, [!DNL `http://www.adobe.com`] and [!DNL `https://wwww.adobe.com`] both match.
 
    The page with the specified URL opens in the Visual Experience Composer.
-
-   ![Create Automated Personalization Activity dialog box](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
  
 1. To name the activity, click the Name field and type your activity name.
 
