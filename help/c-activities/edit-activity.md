@@ -25,7 +25,7 @@ Target provides various places in the UI where you can edit existing activities.
 
 1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-2. Click the split button to advance to the next step or to save the activity.
+1. Click the split button to advance to the next step or to save the activity.
 
    ![Split button](/help/c-activities/assets/edit_split_button_2.png)
 
