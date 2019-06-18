@@ -1,8 +1,8 @@
 ---
-description: Target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
+description: Create audiences to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
-seo-description: Target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
-seo-title: Mobile
+seo-description: Create audiences to in Adobe Target to target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
+seo-title: Mobile audience in Adobe Target
 solution: Target
 title: Mobile
 topic: Standard
@@ -11,7 +11,7 @@ uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 
 # Mobile{#mobile}
 
-Target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more.
+Create audiences to target mobile devices based on parameters such as mobile device, type of device,device vendor, screen dimensions (by pixels), and more.
 
 For example, you might want to show different content to users who enter your page from a phone than you would if they visit from a computer. In that case, you could select the Mobile audience, then select the **[!UICONTROL Is Mobile Phone]** option, then add any specific details that are important to you, such as the type of phone, size of the screen (in pixels), and so on.
 
@@ -40,9 +40,6 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 
 1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Mobile]**.
-
-   ![](assets/target_mobile.png)
-
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 
     * Device Marketing Name 
@@ -67,6 +64,10 @@ Customers who are using a custom integration (not using at.js or the Mobile SDK)
 
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
+
+The following illustration shows an audience targeting visitors using devices manufactured by Google that are a mobile devices.
+
+![Target mobile devices](assets/target_mobile.png)
 
 ## Training video: Creating Audiences
 
