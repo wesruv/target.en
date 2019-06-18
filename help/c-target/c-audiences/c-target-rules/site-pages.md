@@ -21,7 +21,7 @@ Target visitors who are on a specific page or have a specific mbox parameter.
 1. Name the audience. 
 1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Site Pages]**.
 
-   ![](assets/target_site_pages.png)
+   ![Site Pages audience](assets/target_site_pages.png)
 
 1. Click **[!UICONTROL Select]**, then select one of the following options:
 

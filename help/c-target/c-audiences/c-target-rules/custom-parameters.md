@@ -17,14 +17,30 @@ For more information, see [Passing Parameters to a Global Mbox](https://marketin
 
 When creating a custom audience based on an mbox parameter, `mboxParameter` no longer prompts you for `mboxName`. mbox name is now optional. This change lets you use parameters from multiple mboxes or reference a parameter that has not yet been recorded on the edge.
 
-To select the desired parameter:
+1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Name the audience.
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
-* While creating a new audience, select a parameter name from the list, start typing the first characters of the desired parameter name, or type the full name of the desired parameter name. 
-* If you remember the mbox name, but not the parameter name, use the checkbox to filter on a known mbox passing the desired parameter.
+   To select the desired parameter:
 
-Using either method, there is no link between the mbox and the parameter. The audience will work on the basis of parameter across all mboxes that pass that parameter.
+   * While creating a new audience, select a parameter name from the list, start typing the first characters of the desired parameter name, or type the full name of the desired parameter name. 
+   * If you remember the mbox name, but not the parameter name, use the checkbox to filter on a known mbox passing the desired parameter.
 
-If you edit an existing audience, the filtering criteria displays with the mbox name that was supplied during creation.
+   Using either method, there is no link between the mbox and the parameter. The audience will work on the basis of parameter across all mboxes that pass that parameter.
+
+   If you edit an existing audience, the filtering criteria displays with the mbox name that was supplied during creation.
+
+1. Choose an evaluator:
+
+   * Contains (case insensitive)
+   * Does not contain (case insensitive)
+   * Equals
+
+   ![Custom parameter audience](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+
+1. Enter each value in a new line.
+1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience.
+1. Click **[!UICONTROL Save]**.
 
 The audience's [definition details pop-up card](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) shows the parameter name in the Rules section. There is no reference to the mbox used for filtering.
 
