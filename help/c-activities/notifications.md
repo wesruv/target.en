@@ -19,7 +19,7 @@ For information about setting up Notifications, see [Notifications](https://mark
 
 Access Notifications from anywhere in [!DNL Target], except from within the activity creation workflow. Click the bell icon in the page header to display or hide the notifications widget.
 
-![](assets/notifications-shell.png)
+![Notifications icon](assets/notifications-shell.png)
 
 [!DNL Target] sends two kinds of notifications for all activity types:
 
