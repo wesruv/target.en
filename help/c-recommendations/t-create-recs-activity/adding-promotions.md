@@ -36,7 +36,7 @@ You can promote specific items, dynamically promote items, promote items based o
    ![](assets/add_promotion_front.png)
 
    You can insert promotions both before *and* after your criteria results. 
-2. Set the number of design slots to use for promoted items.
+1. Set the number of design slots to use for promoted items.
 
    You can use up to 20 slots, depending on your [!DNL Recommendations] design. Each slot you use becomes unavailable for recommendations returned based on your criteria.
 
@@ -56,6 +56,6 @@ You can promote specific items, dynamically promote items, promote items based o
 
     * Select **[!UICONTROL Promote a collection]** and choose the collection of items you want to promote. You can create new collections to use for promotions. See [Create a Collection](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) for more information.
 
-3. Click **[!UICONTROL Save.]**.
+1. Click **[!UICONTROL Save.]**.
 
    Promotions are applied to all experiences in the activity. 
