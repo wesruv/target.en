@@ -17,50 +17,16 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes| 
 | --- | --- | --- |
-|June 17, 2019|[Activity URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)|Updated text and images.|
-||[Create combinations](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)|Updated text and images.|
-||[Preview experiences for a Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)|Updated text and images.|
-||[Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)|Updated text and images.|
-||[Set metrics](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)|Updated text and image.|
-||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Updated text and images.|
-||[Edit an activity or save as draft](/help/c-activities/edit-activity.md)|Updated text and images.|
-||[Activity Change Log](/help/c-activities/change-log.md)|Updated text and image.|
-||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md)|Updated text and images.|
-|June 16, 2019|[Create a Multivariate Test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)|Updated text and images.|
-|June 15, 2019|[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Made minor text edits.|
-||[Multivariate Test best practices](/help/c-activities/c-multivariate-testing/best-practices.md)|Made minor text edits.|
-||[Plan a Multivariate Test](/help/c-activities/c-multivariate-testing/plan-mvt.md)|Made minor text edits.|
-|June 14, 2019|[Experience Targeting](/help/c-activities/t-experience-target/experience-target.md)|Added use-case scenario.|
-||[Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)|Updated text and images.|
-||XT: [Activity URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)|Updated text.|
-||XT: [Create experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)|Updated text and images.|
-||[Switching experiences in Experience Targeting](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)|Updated text and images.|
-||XT: [Goals and settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)|Updated text and images.|
-||XT: [Set metrics](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)|Updated text and image.|
+|June 19, 2019|[Add promotions](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)|Added information about promotions being de-duplicated against items recommended by the criteria for your activity.|
 |June 13, 2019|[Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)|Added new FAQ: "Why are some offers/experiences with a lower conversion rate receiving a larger amount of traffic compared to other offers/experiences for a certain automated segment?"|
-||[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Updated text and images.|
-||[Estimate the traffic required for success](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md)|Added new image.|
-||[Preview experiences for Automated Personalization in the Visual Experience Composer](/help/c-activities/t-automated-personalization/ap-preview-experiences.md)|Updated text and images.|
-||[Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md)|Updated text and images.|
-||[Manage exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md)|Updated text and images.|
-|June 12, 2019|[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Updated text and images.|
 ||[How Adobe Target works](/help/c-intro/how-target-works.md)|Added important note about using Target in China.|
 ||[Supported browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)|Removed Microsoft Internet Explorer 11 (IE 11) from the "Target Standard/Premium interface" section. Target no longer supports or maintains compatibility for IE 11. This change affects the Target UI only. Content delivery is not affected. This change follows similar announcements made by Adobe Analytics, the Adobe Experience Platform, and Adobe Audience Manager. We recommend users switch to a supported browser.|
 |June 11, 2019|[Activity creation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md)|Removed note stating that is is unnessary to specify a tracking server if you are using A4T.|
-||[Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)|Updated text and images.|
-||A/B Test: [Activity URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)|Updated text and images.|
-||A/B Test: [Select audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)|Updated text and images.|
-||A/B Test: [Goals and settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)|Updated text and images.|
-||A/B Test: [Set metrics](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)|Updated text and images.|
-||[Multiple experience versions in an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)|Updated text and images.|
 ||[Activities](/help/c-activities/activities.md)|Emphasized that you cannot restore a deleted activity. As best practice you can archive an activity so that it can be unarchived, if necessary.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Removed limitation stating that the Experience Cloud Debugger is not fully supported in at.js 2.x.|
-||[Reports](/help/c-reports/reports.md)|Updated text and images.|
 |June 7, 2019|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default)|Added new section: "Scenario: Create a 4x2 default Recommendations design with null-checking logic."|
 ||[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials)|Updated link to new Adobe Target Tutorials site.|
 ||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)|Updated text and code snippets.|
-||[Visitor profile lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)|Made minor text edits.|
-||[Test an email image Adbox](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)|Made minor text edits.|
 |June 6, 2019|[adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)|Updated the description for the `options > page` parameter.|
 ||[Administrator first steps](/help/administrating-target/start-target.md)|Updated entire article.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added preliminary release notes for the Target 19.6.1 release.|
