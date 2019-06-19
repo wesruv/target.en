@@ -77,11 +77,11 @@ For example, the following profile script information card is accessed by hoveri
 
 The [!UICONTROL Script Info] tab contains the following information: Name, Status, Token Type, Script ID , Change Log, and Description.
 
-![](assets/profile_script_info_card.png)
+![Profile Script info card](assets/profile_script_info_card.png)
 
 The [!UICONTROL Script Usage] tab lists the activities (and their workspaces) that reference the selected profile script.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![Profile Script info card > Script Usage tab](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note] 
 >

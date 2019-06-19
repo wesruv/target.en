@@ -1,8 +1,8 @@
 ---
 description: The category affinity feature automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
 keywords: affinity;category affinity
-seo-description: The category affinity feature automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
-seo-title: Category affinity
+seo-description: The category affinity feature in Adobe Target automatically captures the categories a user visits and then calculates the user's affinity for the category so it can be targeted and segmented on. This helps to ensure that content is targeted to visitors who are most likely to act on that information.
+seo-title: Use category affinity in Adobe Target
 solution: Target
 title: Category affinity
 topic: Standard
@@ -113,9 +113,13 @@ This section contains the following information:
 1. Click **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**. 
 1. From the **[!UICONTROL Visitor Profile]** drop-down list, select **[!UICONTROL Category Affinity]**.
 
-   ![](assets/affinity.png)
+   ![Visitor Profile > Category Affinity](assets/affinity.png)
 
 1. Select the desired category:
+
+    ![Category Affinity > Category](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+    Categories include:
 
     * Favorite Category 
     * First Category 
