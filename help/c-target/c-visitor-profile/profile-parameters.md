@@ -1,8 +1,8 @@
 ---
-description: Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your campaigns.
+description: Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your Adobe Target activities.
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging
-seo-description: Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your campaigns.
-seo-title: Profile attributes
+seo-description: Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your Adobe Target activities.
+seo-title: Profile attributes in Adobe Target
 solution: Target
 title: Profile attributes
 topic: Advanced,Standard,Classic
@@ -11,21 +11,19 @@ uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 
 # Profile attributes{#profile-attributes}
 
-Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your campaigns.
+Profile attributes are parameters that are specific to a visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your activities.
 
-## Profile attributes {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Profile attributes are parameters that are specific to the visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your campaigns. 
-
-As the visitor browses, or when the visitor returns for another session, the saved profile attributes can be used to target content, or log information for segment filtering.
+As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes can be used to target content or log information for segment filtering.
 
 To set up profile attributes, click **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
+
+![Profile Scripts tab](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 The following types of profile attributes are available:
 
 | Parameter Type | Description |
 |--- |--- |
-|Mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Note:   Target  has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target , you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
+|Mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: Target has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target, you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
 |Script|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -52,7 +50,7 @@ To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, 
 
 You can then edit the audience to create a similar audience.
 
-![](assets/profile-script.png)
+![Create Profile Script dialog box](assets/profile-script.png)
 
 Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
 
@@ -68,7 +66,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Refer to profile script attributes (including itself) in the code with `user.get('parameterName')` 
 * Save variables that may be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This is useful for situations where you want to reference the date and time of the last request. 
-* Parameters and values are case sensitive. Match the case of the parameters and values you will receive during the campaign or test. 
+* Parameters and values are case sensitive. Match the case of the parameters and values you will receive during the activity or test. 
 * See the "JavaScript reference for script profile parameters" section below for more JavaScript syntax.
 
 ## Viewing profile script information cards {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
