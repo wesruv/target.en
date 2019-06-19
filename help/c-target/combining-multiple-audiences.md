@@ -2,7 +2,7 @@
 description: Combine multiple audiences (including Adobe Experience Cloud audiences and Target audiences) on the fly to create ad hoc audiences. You can also create exclusion rules and exclude audiences from a rule.
 keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 seo-description: Combine multiple audiences (including Adobe Experience Cloud audiences and Target audiences) on the fly to create ad hoc audiences. You can also create exclusion rules and exclude audiences from a rule.
-seo-title: Combine multiple audiences
+seo-title: Combine multiple audiences in Adobe Target
 solution: Target
 title: Combine multiple audiences
 topic: Advanced,Standard,Classic
@@ -19,7 +19,7 @@ As another example, you can target all loyalty customers by including a specific
 
 You can combine up to ten audiences using AND and OR operators.
 
-You can create and use combined audiences in various places throughout the [!DNL Target] UI. This section contains the following information:
+You can create and use combined audiences in various places throughout the [!DNL Target] UI.
 
 ## Create a Combined Audience While Creating an Activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
