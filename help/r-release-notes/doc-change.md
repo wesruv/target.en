@@ -13,6 +13,14 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}
+
+|Date|Topic|Changes| 
+| --- | --- | --- |
+|June 26, 2019|[Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)|Added information about the [!UICONTROL Background] option under *Styles*.|
+||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|Added information about the [!UICONTROL Clone] action.|
+||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the [!UICONTROL Selected Elements] panel.|
+
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
 
 |Date|Topic|Changes| 
