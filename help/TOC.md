@@ -50,7 +50,6 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
-         + [Google Chrome SameSite cookie policies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Methods to get data into Target {#methods}
          + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
