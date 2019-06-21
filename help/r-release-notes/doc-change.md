@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |June 26, 2019|[Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)|Added information about the [!UICONTROL Background] option under *Styles*.|
 ||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|Added information about the [!UICONTROL Clone] action.|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the [!UICONTROL Selected Elements] panel.|
+||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)|New section: "Page Delivery settings for the SPA VEC."|
 ||[Google Chrome SameSite cookie policies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)|New topic.|
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
