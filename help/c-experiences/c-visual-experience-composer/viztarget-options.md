@@ -50,7 +50,7 @@ Use the color picker to select or configure a background color. You can select a
 
 **Note:** This option is not available for an element where a background image is set. 
 
-#### Styles {#styles}
+#### Styles
 
 Use the [!UICONTROL Styles] panel to view or edit the value of existing styles for the selected element. You can also add additional styling.
 
@@ -69,20 +69,6 @@ Note that blue dots on the main panel and next to each option on the various sec
 >[!NOTE]
 >
 >Quick actions for layout changes, background color, resizing, and move are also available as separate actions in the VEC menu. These options can be leveraged as separate actions or you can use the Styles menu, as explained here.
-
-* **Background**
-
-  Change the background color and image.
-
-  * Color (specify the color code or use the color picker)
-  * Image (select an image from the image picker)
-  * Image source (specify an external URL)
-  * Attachment
-    * Click the top drop-down list to select scroll, fixed, or local
-    * Click the bottom drop-down list to select repeat, repeat-x, repeat-y, no-repeat, space, or round
-  * Clip
-    * Click the top drop-down list to select border-box, padding-box, content-box, or text
-    * Click the bottom drop-down list to select auto audio or audio
 
 * **Typography**
 
