@@ -371,11 +371,11 @@ If you want to use Auto-Target A/B activities, you can move all of your actions 
 
 [!UICONTROL Page Delivery] settings let you configure rules to determine when a Target activity should qualify and execute for an audience. 
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) > **[!UCONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) > **[!UICONTROL Page Delivery]**.
 
 ![Page Delivery options dialog box](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lanss directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. This works perfectly for any multi-page application in which every interaction with the page invokes a page reload, of which at.js retrieves the activities that qualify for the URL that the user navigates to.
+For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. This works perfectly for any multi-page application in which every interaction with the page invokes a page reload, of which at.js retrieves the activities that qualify for the URL that the user navigates to.
 
 However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity. 
 
@@ -387,10 +387,10 @@ Consider this example use-case:
 
 The following changes were made:
 
-* Changed the background color in the Home view, which is located under the URL: <https://target.enablementadobe.com/react/demo/#/>.
-* Changed the button color in the Products view, which is located under the URL: <https://target.enablementadobe.com/react/demo/#/products>.
+* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: <https://target.enablementadobe.com/react/demo/#/> in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
 
 ![Page Delivery dialog box](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -400,24 +400,24 @@ The following illustration shows the Target Flow -  Page Load request in at.js 2
 
 **User Journey #1**
 
-* A user navigates directly to <https://target.enablementadobe.com/react/demo/#/>.
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: <https://target.enablementadobe.com/react/demo/#/>.
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * In step 6, the Target Edge returns the actions for the Home and Products view so that they are cached within the browser.
 
-**Result**: The user sees the green background color in the Home view. When the user then navigates to <https://target.enablementadobe.com/react/demo/#/products>, the blue background color of the button is seen since the action is cached in the browser under the Products view. 
+**Result**: The user sees the green background color in the Home view. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen since the action is cached in the browser under the Products view. 
 
-Note: The user navigating to <https://target.enablementadobe.com/react/demo/#/products> did not trigger a page load.
+Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
 **User Journey #2**
 
-* A user navigates directly to <https://target.enablementadobe.com/react/demo/#/products>.
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: <https://target.enablementadobe.com/react/demo/#/products>.
-* There are no activities qualified for <https://target.enablementadobe.com/react/demo/#/products>.
+* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Because there are no activities qualified, there are no actions and Views to be cached for at.js 2.*x* to trigger from.
 
-**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included <https://target.enablementadobe.com/react/demo/#/products> in the Page Delivery settings.
+**Result**: Even if you have defined `triggerView()` for the Products View and made an action to the Products View through the SPA VEC, you will not see the expected action since you did not create a rule that included [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) in the Page Delivery settings.
 
-### Recommendation
+### Best Practice
 
 You can see that managing the user journey can be quite difficult as users can land on any URL of your SPA and navigate to any other page. Therefore, it is best to specify a Page Delivery rule that includes the base URL so that it includes your entire SPA. In this way, you don’t have to think about all the different journeys and paths that a user might take to get to a page you want to show an A/B Test or Experience Targeting (XT) activity.
 
