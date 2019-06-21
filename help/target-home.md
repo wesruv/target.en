@@ -1,8 +1,10 @@
 ---
-keywords: Target;home;popular topics
+title: Adobe Target product documentation
 seo-title: Adobe Target product documentation
 solution: Target
-title: Adobe Target product documentation
+description: Technical documentation for Adobe Target
+seo-description: Technical documentation, docs, release notes and self help material for Adobe Target.
+keywords: Target;home;popular topics
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 ---
