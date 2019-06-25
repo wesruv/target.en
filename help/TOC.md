@@ -194,7 +194,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Preview Experiences for an Automated Personalization Test](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Use a specific experience as control](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Share experience URLs to preview Automated Personalization outside of Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
