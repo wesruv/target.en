@@ -21,11 +21,11 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|Added information about the [!UICONTROL Clone] action.|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the [!UICONTROL Selected Elements] panel.|
 ||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)|New section: "Page Delivery settings for the SPA VEC."|
-||[Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md)|New topic.|
+||[Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md)|New topic.|
 ||[Google Chrome SameSite cookie policies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)|New topic.|
 ||[Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md)|Added new tables to explain individual attibutes and to give examples.|
-||[Automated personalizaton FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)|Added new FAQ: "Can I specify a specific experience to be used as control?"|
-||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added information and FAQ about specifying a specific experience to be used as control.|
+||[Automated personalizaton FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)|Added new FAQ: "Can I specify a specific experience to be used as control?"<br>Edited the following FAQ: "What are best practices to set up an Automated Personalization activity?"|
+||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added information and FAQ about specifying a specific experience to be used as control.<br>Updated the "Determining Traffic Allocation" section.|
 ||[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Added step with information to select a specific experience as default.|
 ||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Added information about how to manage multiple mobile app versions.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.6.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
