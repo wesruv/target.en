@@ -59,10 +59,10 @@ The following sections contain detailed information about the various data types
 |Browser - Hour of Week|The hour of the week when the visitor accessed the activity.|0 to 168<br>(Sunday midnight is 0)|
 |Browser - Language Setting|The language specified in the visitor's browser used to access the activity.|English<br>German|
 |Browser - Screen Height (px)|The device's browser screen height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
-|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening)|
+|Browser - Time of Day|The browser's time of day when the visitor accessed the activity.|0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening)|
 |Browser - Timezone|The visitor's time zone while accessing the activity.|Pacific Time<br>Eastern Time<br>GMT|
 |Browser - Type|The type of browser the visitor used while accessing the activity.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other|
-|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time|
+|Browser - Weekday/Weekend|The work status when the visitor accessed the activity (weekend, work hours, or weekday free-time).|Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time|
 |Browser - Window Height (px)|The browser's window height (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
 |Browser - Window Width (px)|The browser's window width (in pixels) the visitor used to access the activity.|1, 2, 3, etc.|
 |Device - Screen Height|The device's screen height the visitor used to access the activity.|1, 2, 3, etc.|
