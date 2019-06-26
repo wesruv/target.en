@@ -75,7 +75,7 @@ Actions performed in the VEC are visible in real-time in the app, thereby allowi
 
 When a new app version is detected, you are notified that the app version has been added to the list of targeted versions.
 
-![New app notification](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![New app notification](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
