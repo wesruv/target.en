@@ -50,7 +50,7 @@ Data gets sent to Target in real-time, and can be used on the same server call t
 * If the data needs to be used for targeting on a subsequent page/server call, it needs to be translated to a profile script.
 * Query strings can contain only characters as per the [Internet Engineering Task Force (IETF) standard](https://www.ietf.org/rfc/rfc3986.txt) .
 
-  In addition to those mentioned on the IETF site, Target allows the following characters in query stings:
+  In addition to those mentioned on the IETF site, Target allows the following characters in query strings:
 
   `< > # % " { } | \\ ^ \[\] \``
   
