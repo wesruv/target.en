@@ -329,6 +329,16 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 General pages, such as home or landing pages and offsite ads.
 
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, each site shows only recently purchased items from the appropriate site. If two sites are in the same environment and a visitor switches between the two sites, the visitor will see the same recently purchased items for both sites.
+
+**Where to use on your site**
+
+General pages, such as home or landing pages and offsite ads.
+
 ## Inclusion Rules {#task_28DB20F968B1451481D8E51BAF947079}
 
 Several options help you narrow the items that display in your recommendations. You can use inclusion rules while creating criteria or promotions. 

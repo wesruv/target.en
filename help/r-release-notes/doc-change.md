@@ -28,6 +28,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added information and FAQ about specifying a specific experience to be used as control.<br>Updated the "Determining Traffic Allocation" section.|
 ||[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Added step with information to select a specific experience as default.|
 ||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Added information about how to manage multiple mobile app versions.|
+||[Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)|Added information about the Previously Purchased Items recommendation key.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.6.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.5.1 (May 21, 2019) {#tgt-19-5-1}
