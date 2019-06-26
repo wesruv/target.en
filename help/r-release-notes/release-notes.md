@@ -2,7 +2,7 @@
 description: These release notes provide information about features, enhancements, fixes, and known issues for each Target Standard and Target Premium release.
 keywords: Release notes;prerelease
 seo-description: These release notes provide information about features, enhancements, fixes, and known issues for each Adobe Target Standard and Target Premium release.
-seo-title: Target release notes (current)
+seo-title: Adobe Target release notes (current)
 solution: Target
 title: Target release notes (current)
 topic: Recommendations

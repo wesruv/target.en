@@ -1,5 +1,5 @@
 ---
-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Target releases.
+description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases.
 keywords: release notes
 seo-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases
 seo-title: Adobe Target release notes (prerelease)
