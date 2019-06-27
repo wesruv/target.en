@@ -17,6 +17,10 @@ This topic contains answers to questions that are frequently asked about using r
 
 Yes, provided that your implementation uses [!DNL at.js]. However, your implementation must meet the minimum requirements listed below in order to use [redirect offers](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) in activities that use Analytics as the reporting source.
 
+>[!NOTE]
+>
+>A known issue exits that is causing a limited number of customers using redirects with A4T to see a higher percentage of unstitched hit rates. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+
 ## What are the minimum requirements needed to use redirect offers with A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 Your implementation must meet the following minimum requirements:
