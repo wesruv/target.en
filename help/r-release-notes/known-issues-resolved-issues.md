@@ -21,6 +21,14 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Redirect offers {#redirect}
+
+The following are known issues with redirect offers:
+
+* Under some conditions, a limited number of customers have reported higher degrees of variance in traffic distribution when using a redirect offer in activities configured with Analytics for Target (A4T). Adobe engineers are currently working on this issue.
+* A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned to the at.js implementation to ensure that this race condition can be avoided. For more information about the issue and a workaround, see [Redirect Offers - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) .
+* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
+
 ### Graph report for an Auto-Target activity fails to render when using a custom experience as control
 
 The graph report for an Auto-Target activity fails to render for "differential" modes (Average Lift and Daily Lift) if there is no data (0 visits) in any experience. This situation might occur during the early stage of an activity if the control experience is set to custom. For the other modes (Running Average Control and Targeted, Daily Control and Targeted, and Visits) it works fine. As soon as there is some data (non-zero visits), the report renders as expected.
@@ -88,13 +96,6 @@ The following are known issues with at.js:
 The mbox.js library does not support client-side templating languages, such as Handlebars and Mustache. The at.js library *does* support these languages.
 
 **Note**: The mbox.js library is no longer being developed. All customers should migrate from mbox.js to at.js. For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
-### Redirect offers
-
-The following are known issues with redirect offers:
-
-* A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned in Q2 2018 to the at.js implementation to ensure that this race condition can be avoided. For more information about the issue and a workaround, see [Redirect Offers - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) .
-* Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
 
 ### Implementation: Global Mbox Auto Create
 
