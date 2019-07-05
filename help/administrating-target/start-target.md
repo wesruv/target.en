@@ -38,7 +38,7 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
    >
    >If you do not link your account, you will not be able to access [!DNL Target].
 
-   All Experience Cloud products appear on the linking page. Click `Link Test&Target` and enter your Test&Target username and password to access Standard and Classic. 
+   All Experience Cloud products appear on the linking page. Click `Link Target` and enter your Target username and password to access Target Standard. 
 1. Click **[!UICONTROL Continue to Experience Cloud]**.
 
    At this point, you do not yet have any groups set up with entitlements for you to link. 
