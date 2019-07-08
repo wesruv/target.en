@@ -1,7 +1,7 @@
 ---
-description: Definitions of terms.
+description: Definitions of terms used in Adobe Target.
 seo-description: Definitions of terms.
-seo-title: Glossary
+seo-title: Adobe Target Glossary
 solution: Target
 title: Glossary
 topic: Standard
@@ -224,7 +224,7 @@ A specific content area on a page, often contained by a single DOM element. In M
 
 **mbox**
 
-"Marketing box", the location on your Web page where content is displayed and visitor behavior is recorded. Some mboxes do not display anything. They might track a visitor's progress through your Web site, or might track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase. One such type of mbox is a *conversion mbox*.
+"Marketing box," the location on your Web page where content is displayed and visitor behavior is recorded. Some mboxes do not display anything. They might track a visitor's progress through your Web site, or might track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase. One such type of mbox is a *conversion mbox*.
 
 **mbox.js**
 
@@ -305,10 +305,6 @@ A report filter used to display reports related to a specific segment.
 **single-page application**
 
 A single-page application (SPA) is a web application or web site that fits on a single web page to provide a more fluid user experience, similar to a desktop application.
-
-**smart targeter profile parameter**
-
-Similar to script profile parameter, but predefined to provide useful targeting functionality.
 
 **success metrics**
 
