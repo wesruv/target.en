@@ -25,7 +25,7 @@ Adobe Target integrates with websites by means of one of two JavaScript librarie
 >
 >All customers should migrate to at.js. For more information, see [Migrate to at.js from mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-You must reference the Target JavaScript library file on every page on your site. For example, you might add it to your global header. Alternatively, consider using [Adobe Launch tag manager](./c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 
+You must reference the Target JavaScript library file on every page on your site. For example, you might add it to your global header. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 
 
 Each time a visitor requests a page that has been optimized for Target, a request is sent to the targeting system to determine what content to serve to a visitor. This process occurs in real-time — every time a page is loaded, a request for the content is made and fulfilled by the system. The content is governed by the rules of marketer-controlled activities and experiences and is targeted to the individual site visitor. Content is served that each site visitor is most likely to respond to, interact with, and ultimately purchase, to maximize response rates, acquisition rates, and revenue.
 
