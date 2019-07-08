@@ -17,7 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes| 
 | --- | --- | --- |
-||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Redirect offers-A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Added information about a known issue that is causing a limited number of customers using redirects with A4T to see a higher percentage of unstitched hit rates.|
+|July 8, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Added information explaining why you should use CNAME.|
+|June 28, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[Expected data variances between Target and Analytics when using and not using A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Redirect offers-A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)|Added information about a known issue that is causing a limited number of customers using redirects with A4T to see a higher percentage of unstitched hit rates.|
 |June 26, 2019|[Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)|Added information about the [!UICONTROL Background] option under *Styles*.|
 ||[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|Added information about the [!UICONTROL Clone] action.|
 ||[Click tracking](/help/c-activities/r-success-metrics/click-tracking.md)|Added information about the [!UICONTROL Selected Elements] panel.|
