@@ -94,11 +94,11 @@ For example, you might target an activity to an audience made up of visitors who
 
 Or, your activity might be targeted at visitors from one geographical region, or people who access your page from a certain search engine.
 
-Audiences can be saved for reuse in multiple activities, or they can be created for a specific campaign.
+Audiences can be saved for reuse in multiple activities, or they can be created for a specific activity.
 
 | Audience Type | Description |
 |--- |--- |
-|Reusable audiences|Reusable audiences can be selected for any test. Changing one of these audiences changes it for all activities that use it.|
+|Reusable audiences|Reusable audiences can be selected for any activity. Changing one of these audiences changes it for all activities that use it.|
 |Custom segments|Custom segments (also known as campaign-specific segments) are specific to a campaign in  Target Classic. They are created as a part of the campaign and cannot be reused in other campaigns.|
 |Shared audiences|Audiences can be shared across [!DNL Adobe Experience Cloud] solutions. See [Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) for examples.|
 
