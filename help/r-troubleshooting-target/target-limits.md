@@ -17,7 +17,7 @@ Information about the character limits and other limits (offer size, audiences, 
 >
 >The limits listed below should be considered "hard" limits unless specified as "recommended."
 >
->When the limits designated as "recommended" are approached or exceeded, performance can slow. Slow interface load times can also be caused by a very complex activity, such as many audiences, targets, and experiences all in one activity. 
+>When the limits designated as "recommended" are approached or exceeded, performance can slow. Slow interface load times can also be caused by a very complex activity, such as many audiences, targets, and experiences all in one activity.
 >
 >Highly complex activities should be reviewed with Adobe Consulting and tested in a limited environment before being released to production.
 
