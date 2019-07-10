@@ -25,7 +25,7 @@ Information about the character limits and other limits (offer size, audiences, 
 
 **Recommended limit**: 10,000 active live activities.
 
-**Recommended limit**: 10,000 active saved (not ended) activiites.
+**Recommended limit**: 10,000 active saved (and not ended) activiites.
 
 ## Activity names
 

@@ -24,6 +24,8 @@ Be aware of the following important announcements:
 
 This release includes the following new features and enhancements:
 
+(The issue numbers in parentheses are for internal Adobe use.)
+
 |Feature / Enhancement|Description|
 | --- | --- |
 |Visual Experience Composer (VEC)|**New VEC menu options**: When you click a page element in the VEC, a menu shows the options that are available for that element type.<ul><li>You can now use the [!UICONTROL Styles > Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Click-tracking improvements**: We have improved the process for configuring click tracking within the VEC and the Single Page Application (SPA) VEC.<ul><li>While selecting elements to use in click tracking, the names of all available elements display in the Modifications panel on the right side, making it quick and easy to select the desired elements.</li><li>The [!UICONTROL Goals & Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. You can hover over this number to see the names of all selected elements. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md).|
