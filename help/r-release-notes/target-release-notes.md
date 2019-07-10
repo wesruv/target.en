@@ -1,7 +1,7 @@
 ---
-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases.
+description: These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 keywords: release notes
-seo-description: These release notes provide information about features, enhancements, fixes, and known issues for the latest or upcoming Adobe Target releases
+seo-description: These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 seo-title: Adobe Target release notes (prerelease)
 solution: Target
 title: Target release notes (prerelease)
@@ -29,7 +29,7 @@ This release includes the following new features and enhancements:
 | --- | --- |
 |Visual Experience Composer (VEC)|When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: You can replace an image with HTML to give you full control of the element without needing to select the parent element to access the HTML option.</li><li>**Experience Fragment**: You can replace an image with an Adobe Experience Manager (AEM) [experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) to quickly insert elements created in AEM in Target activities.</li></ul>(TGT-34097)|
 |Mobile App Visual Experience Composer|A new Modifications panel displays in the Mobile App VEC that displays the elements you have set up for click-tracking. (TGT-31741)|
-|![Premium badge](/help/assets/premium.png) Recommendations in A/B Test and Experience Targeting (XT) activities|The Recommendations offer (algorithm) status displays on the Overview page for A/B Test and XT activities that contain Recommendations offers. Statuses include: Results Ready, Results Not Ready, and Feed Failure. (TGT-33649)|
+|![Premium badge](/help/assets/premium.png)<br>Recommendations in A/B Test and Experience Targeting (XT) activities|The Recommendations offer (algorithm) status displays on the Overview page for A/B Test and XT activities that contain Recommendations offers. Statuses include: Results Ready, Results Not Ready, and Feed Failure. (TGT-33649)|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
