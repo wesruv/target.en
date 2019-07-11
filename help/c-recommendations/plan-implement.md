@@ -50,7 +50,7 @@ One common [!DNL Recommendations] implementation option uses both page parameter
 
 This method might be preferred by a retailer who has a relatively set product catalog, but who might want to emphasize specific seasonal items or items that are on sale. Most customers might provide their information primarily through the feed, with only occasional adjustments on the page.
 
-Use a feed to provide information that will remain static. Whether using a CSV file or Google feed, use the following parameters:
+Use a feed to provide information that does not change frequently. Whether using a CSV file or Google feed, use the following parameters:
 
 * Required parameters
 
@@ -58,12 +58,15 @@ Use a feed to provide information that will remain static. Whether using a CSV f
 
 * Helpful parameters
 
-    * `entity.cust1` 
-    * `entity.cust2` 
-    * `entity.cust3` 
-    * All other attributes
+    * `entity.name` 
+    * `entity.categoryId` 
+    * `entity.brand` 
+    * `entity.pageUrl` 
+    * `entity.thumbnailUrl` 
+    * `entity.message`
+    * All custom attributes
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for items that are frequently changing.
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * Required parameters
 
@@ -152,8 +155,7 @@ On a category page, you probably want to restrict your recommendations to produc
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -167,10 +169,8 @@ On a product page, you might want to recommend specific items, or items with a p
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
