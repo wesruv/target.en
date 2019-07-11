@@ -28,13 +28,9 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Create Experience Targeting Activity dialog box](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   If you prefer to use the Form-Based Experience Composer, select [!UICONTROL Form]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![Create Multivariate Test Activity dialog box](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >In addition to the VEC and Form-Based Experience Composer, Target offers the Single Page Application VEC and the VEC for Mobile Apps. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >For troubleshooting information about the VEC, should you have problems, see [Troubleshooting the Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
