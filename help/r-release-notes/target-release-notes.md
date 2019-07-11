@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: July 10, 2019**
+**Last Updated: July 11, 2019**
 
 >[!NOTE]
 >
@@ -30,7 +30,8 @@ This release includes the following new features and enhancements:
 |Visual Experience Composer (VEC)|When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: You can replace an image with HTML to give you full control of the element without needing to select the parent element to access the HTML option.</li><li>**Experience Fragment**: You can replace an image with an Adobe Experience Manager (AEM) [experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md) to quickly insert elements created in AEM in Target activities.</li></ul>(TGT-34097)|
 |Mobile App Visual Experience Composer|A new Modifications panel displays in the Mobile App VEC that displays the elements you have set up for click-tracking. (TGT-31741)|
 |![Premium badge](/help/assets/premium.png)<br>Recommendations in A/B Test and Experience Targeting (XT) activities|The Recommendations offer (algorithm) status displays on the Overview page for A/B Test and XT activities that contain Recommendations offers. Statuses include: Results Ready, Results Not Ready, and Feed Failure. (TGT-33649)|
-|Cross-domain tracking support for at.js 2.0+ via the Experience Cloud ID  (ECID) library|Previously, cross-domain tracking was not supported in at.js 2.*x*. With this release, customers using at.js 2.0 or above can now utilize cross-domain tracking through the ECID library. The ECID library must be installed on the page in conjunction with at.js 2.0 or above in order for cross-domain tracking to work. It is highly recommended to use [Experience Cloud ID library 4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html).|
+|Cross-domain tracking support for at.js 2.0+ via the Experience Cloud ID  (ECID) library|Previously, cross-domain tracking was not supported in at.js 2.*x*. With this release, customers using at.js 2.0 or above can now utilize cross-domain tracking through the ECID library. The ECID library must be installed on the page in conjunction with at.js 2.0 or above in order for cross-domain tracking to work. [Experience Cloud ID library 4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) must be used.|
+|Target support for Apple’s ITP 2.1 and ITP 2.2 via the Experience Cloud ID (ECID) library 4.3|Today, Target customers can mitigate Apple's ITP 2.1 and ITP 2.2 by leveraging Adobe’s CNAME certification program. With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy [ECID library 4.3+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) in conjunction with Target’s JavaScript library to mitigate any future ITP releases. The ECID library will continue to roll out enhancements that provide a robust solution to the ever-changing cookie policies introduced by browsers.|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
