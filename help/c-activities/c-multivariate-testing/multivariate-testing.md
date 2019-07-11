@@ -75,7 +75,7 @@ Multivariate tests can be used together with A/B tests to optimize your page. Ex
     * Pick the elements you want to change and the number of versions of each element (3x2, 4x3, and so forth). 
     * Keep the numbering consistent. For example, if the button is Element 1 and the options are Blue, Green, and Yellow, the blue button is 1-1, the green button is 1-2, and the yellow button is 1-3. 
     * The offline spreadsheet provides the appropriate number of experiences needed (four for a 3x2, nine for a 4x3, and so forth). 
-    * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). If you use the VEC, you can use custom code, edit HTML, WYSIWYG, or any combination. 
+    * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). You can use custom code, edit HTML, WYSIWYG, or any combination. 
     * After the activity is over (based on the sample size calculator), run results through the spreadsheet to get the other details.
 
 For more considerations and best practices, see [Multivariate Test Best Practices](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD). 

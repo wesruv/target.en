@@ -27,7 +27,7 @@ What you need to know before creating a [!DNL Recommendations] activity.
 |![Step 2](/help/c-recommendations/assets/step2_red.png)|Keys|The key determines the type of product or content that displays in your recommendations. For example, the key might be a product category. See [Base the Recommendation on a Recommendation Key](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).|
 |![Step 3](/help/c-recommendations/assets/step3_red.png)|Attributes|Attributes provide more specific information about the products you want to display. For example, you might want to show products within a certain price range, or items that meet an inventory threshold. Attributes can be provided in the mbox or through a [feed](/help/c-recommendations/c-products/feeds.md).<br>See [Inclusion Rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) and [Entity Attributes](/help/c-recommendations/c-products/entity-attributes.md).|
 |![Step 4](/help/c-recommendations/assets/step4_red.png)|Exclusions|Exclusions determine which specific items do not appear in your recommendations.<br>See [Exclusions](/help/c-recommendations/c-products/exclusions.md).|
-|![Step 5](/help/c-recommendations/assets/step5_red.png)|Purchase deals|Purchase details provide information about purchased items and the order when the purchase has been completed.|
+|![Step 5](/help/c-recommendations/assets/step5_red.png)|Purchase details|Purchase details provide information about purchased items and the order when the purchase has been completed.|
 
 ## Base Implementation {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -40,7 +40,7 @@ There are two methods to provide information about products and services to [!DN
 | Method | Description |
 |--- |--- |
 |Pass parameters directly to the page|This method works well for items that change frequently. However, because it requires that changes be made directly to the page, in many organizations, this method requires the involvement of IT and the people who implement the pages.|
-|Pass parameters through a Google or CSV feed|This method works well for collections that do not change frequently. It is usually not necessary to change your mbox implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see [Feeds](/help/c-recommendations/c-products/feeds.md).|
+|Pass parameters through a Google or CSV feed|This method works well for collections that do not change frequently. It is usually not necessary to change your implementation or other page code to provide product information through a feed. However, the product list remains static, so quick changes are more difficult. For more information, see [Feeds](/help/c-recommendations/c-products/feeds.md).|
 
 These methods can be used separately or together, as in the following examples.
 
