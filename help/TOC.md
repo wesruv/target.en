@@ -179,7 +179,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
