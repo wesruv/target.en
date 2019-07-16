@@ -49,7 +49,8 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    ![Recommendations options](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Replacing an element with recommendations deletes the current content and replaces it with your recommendations. 
+   Replacing an element with recommendations deletes the current content and replaces it with your recommendations.
+
 1. Select a page type.
 
    Page types can include:
@@ -79,7 +80,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
 
-     Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
+   Some criteria are supplied with [!DNL Recommendations]. You and your team can also create your own custom criteria. 
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. For information about creating new criteria, see [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE). 
    * You can also group criteria into sequences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. See [Creating Criteria Sequences](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) for more information.
@@ -113,13 +114,13 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
    When you are finished previewing your recommendations, click **[!UICONTROL Compose]**.
 
 1. Review your recommendation in the VEC, then click **[!UICONTROL Next]**.
-   
+
 1. Review your [!DNL Recommendations] activity in the flow diagram and make any necessary changes.
 
    ![Recommendations flow diagram](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
    The flow diagram leads you through the steps of choosing the audience for the activity, setting up experiences, and specifying success metrics. 
-   
+
    From the flow diagram, you can do the following:
 
    * Change the audience that will see the recommendations
@@ -150,7 +151,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 1. When finished, click **[!UICONTROL Save & Close]**.
 
    An overview of your activity is displayed. 
-   
+
    From the [!UICONTROL Overview] page, you can:
 
    * Activate the activity 
