@@ -15,10 +15,6 @@ badge: premium
 
 Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 
-## Criteria {#concept_4BD01DC437F543C0A13621C93A302750}
-
-Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors. 
-
 Criteria determine which action will result in which recommendation. You can test multiple recommendation types against each other by adding multiple criteria.
 
 ## Industry Vertical {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
