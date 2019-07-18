@@ -13,6 +13,14 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target Standard/Premium 19.7.1 (July 23, 2019) {#tgt-19-7-1}
+
+|Date|Topic|Changes| 
+| --- | --- | --- |
+|July 23, 2019|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)|
+||[Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|New topic.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}
 
 |Date|Topic|Changes| 
