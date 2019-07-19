@@ -92,7 +92,9 @@ To improve response times, Edge environments host only activity logic and cached
 
 Each Edge node has all the information required to respond to the user's content request, and track analytics data on that request. User requests are routed to the nearest Edge node.
 
-![](assets/edge_network.png)
+![Map with core edge sites and edge sites](assets/edge_network.png)
+
+Adobe currently has core edge sites in Oregon and Texas in the United States; London, England; and Singapore. Adobe currently has edge sites in Virginia (US), Amsterdam, Netherlands; Tokyo, Japan; and Sydney, Australia.
 
 Core Edge site locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
 
