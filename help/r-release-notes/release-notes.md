@@ -32,6 +32,7 @@ Be aware of the following important announcements:
 * Fixed an issue that prevented exclusion values in Recommendations activities from being cleared when adding duplicate values. (TGT-34996)
 * You can now remove a design in a Recommendations activity from the Targeting page (Step 2 of the three-part guided workflow). Note that to remove a design, there must be more than one design selected. (TGT-35118)
 * Fixed an issue that prevented custom criteria cards for some customers to load properly in the Target UI or to be editable. (TGT-35170)
+
 ## at.js version 2.1.0 (June 3, 2019)
 
 We are thrilled to announce the following exciting features in at.js 2.1.0:
