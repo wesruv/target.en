@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: July 12, 2019**
+**Last Updated: July 19, 2019**
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 19.7.1 (July 23, 2019) {#tgt-19-7-1}
+## Target Standard/Premium 19.7.1 (July 24, 2019) {#tgt-19-7-1}
 
 This release includes the following new features and enhancements:
 
