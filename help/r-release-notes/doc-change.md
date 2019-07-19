@@ -19,6 +19,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |July 23, 2019|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)|
 ||[Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|New topic.|
+||[Feeds](/help/c-recommendations/c-products/feeds.md)|Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status).|
+||[Catalog search](/help/c-recommendations/c-products/catalog-search.md)|Updated text about how the catalog is refreshed.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}

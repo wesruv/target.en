@@ -256,7 +256,7 @@ When the Status says "Success," it means that the file was found and it parsed c
 
 Information about the possible feed statuses and their indicators. 
 
-### Feed Statuses {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Feed Statuses {#status}
 
 The following are possible statuses for a feed: 
 
@@ -268,10 +268,8 @@ The following are possible statuses for a feed:
 |Scheduled at *date and time*|The feed has not been run, but is scheduled to run at the specified date and time.|
 |Waiting for Download|Target is preparing to download the Feed file.|
 |Downloading Feed File|Target is downloading the Feed file.|
-|Importing Items|Target is importing items from the feed file. Note: Once this step is complete and "Preparing search index updates" is displayed, changes to item attributes have been imported into our central system, and will be reflected in delivered recommendations content returned by our geographic edge nodes within 60 minutes.|
-|Preparing Search Index Updates|Target is preparing to update the Catalog Search index. Note: If this status is listed, changes to item attributes have already been made and will shortly be reflected in delivered recommendations, although they are not yet reflected in Catalog Search.|
-|Updating Search Index|Target is updating the Catalog Search index. Note: If this status is listed, changes to item attributes have already been made and will shortly be reflected in delivered recommendations, although they may not yet be reflected in Catalog Search.|
-|Updates Completed|Target has completed all updates associated with the feed file.|
+|Importing Items|Target is importing items from the feed file.|
+|Feed Imported Successfully at *time*|Target has imported the feed file into its content delivery system. Changes to item attributes have been made in the content delivery system and will shortly be reflected in delivered recommendations. If you do not see the expected changes, try again shortly and refresh the page containing recommendations.<br>*Note 1:* If changes to an item's attributes result in an item being excluded from recommendations, the exclusion will be immediately reflected. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Note 2:* When this status is displayed, updates may not yet be reflected in the Catalog Search user interface. A separate status is listed on Catalog Search indicating the last time the searchable catalog was updated.|
 |Failed to Index|The index operation failed. Please try again.|
 |Server Not Found|FTP or URL locations are invalid or otherwise unreachable.|
 

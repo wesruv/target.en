@@ -11,9 +11,9 @@ topic: Standard
 
 # Apple Intelligent Tracking Prevention (ITP) 2.x
 
-ITP, which stands for Intelligent Tracking Prevention, is Apple’s initiative to protect Safari users’ privacy. The first release of ITP, which was in 2017, targeted the usage of third-party cookies. In fact, Apple blocked third-party cookies in its entirety, which in turn, caused a severe headache for ad tech and mar tech companies because third-party cookies are generally used for tracking users and collecting user data. Now, Apple is on the move to place limitations and restrictions on how first-party cookies are used within Safari.
+ITP, which stands for Intelligent Tracking Prevention, is Apple’s initiative to protect Safari users’ privacy. The first release of ITP, which was in 2017, targeted the usage of third-party cookies. In fact, Apple blocked third-party cookies entirety, which in turn, caused a severe headache for ad tech and mar tech companies because third-party cookies are generally used for tracking users and collecting user data. Now, Apple is on the move to place limitations and restrictions on how first-party cookies are used within Safari.
 
-In [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/), which released in February 21, 2019, client-side cookies that are placed on the browser using the `document.cookie` API are capped to a seven-day expiry. [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/), which released in April 24, 2019, drastically reduces the seven-day expiry cap to an eye-popping one day.
+In [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/), which released on February 21, 2019, client-side cookies that are placed on the browser using the `document.cookie` API are capped to a seven-day expiry. [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/), which released on April 24, 2019, drastically reduced the seven-day expiry cap to an eye-popping one day.
 
 ## What is the impact to me as an Adobe Target customer?
 
@@ -23,7 +23,7 @@ Apple ITP 2.1 and 2.1 impact [!DNL Target] in the following areas:
 
 |Impact|Details|
 | --- | --- |
-|Potential increase of unique visitor counts|Due to the expiration window being set to seven days in the case of ITP 2.1, and one day in the case of ITP 2.2, you might see an increase of unique visitors coming from Safari browsers. If your visitors revisit your domain after seven days in the case of ITP 2.1, or one day in the case of ITP 2.2, [!DNL Target] would be forced to place a new [!DNL Target] cookie on your domain in place of the expired one. The new [!DNL Target] cookie translates to a new unique visitor even though the user is the same.|
+|Potential increase of unique visitor counts|Due to the expiration window being set to seven days in the case of ITP 2.1, and one day in the case of ITP 2.2, you might see an increase of unique visitors coming from Safari browsers. If your visitors revisit your domain after seven days in the case of ITP 2.1, or one day in the case of ITP 2.2, [!DNL Target] is forced to place a new [!DNL Target] cookie on your domain in place of the expired cookie. The new [!DNL Target] cookie translates to a new unique visitor even though the user is the same.|
 |Decreased lookback periods for [!DNL Target] activities|Visitor profiles for [!DNL Target] activities might have a decreased lookback period for decisioning. [!DNL Target] cookies are leveraged to identity a visitor and store user profile attributes for personalization. Given that [!DNL Target] cookies can be expired on Safari after seven days, in the case of ITP 2.1, or one day, in the case of ITP 2.2, the user profile data that was tied to the purged [!DNL Target] cookie cannot be used for decisioning.|
 
 ## Is my current implementation of [!DNL Target] impacted?
@@ -42,7 +42,7 @@ To mitigate the impact of ITP 2.1, 2.2, and future ITP releases to [!DNL Target]
 
 1. Use Adobe’s CNAME and Enroll in Adobe Analytics' Managed Certificate Program.
 
-   After installing the ECID library 4.3.0+, you can leverage Adobe Analytics' CNAME and managed certificate program. This program lets you implement a first-party certificate for first-party cookies at no charge. Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.1 and 2.2. If you are not leveraging CNAME, you can start the process by talking with your account rep and enroll in the [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).
+   After installing the ECID library 4.3.0+, you can leverage Adobe Analytics' CNAME and managed certificate program. This program lets you implement a first-party certificate for first-party cookies at no charge. Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.1 and 2.2. If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).
 
 After you deploy Target’s JavaScript library in conjunction with the ECID library v4.3.0+ and enroll in the Adobe Managed Certificate Program to leverage CNAME, you will have a robust and long-term mitigation plan for ITP-related changes.
 
