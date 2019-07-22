@@ -1,7 +1,7 @@
 ---
-description: These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 keywords: release notes
-seo-description: These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
+seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 seo-title: Adobe Target release notes (prerelease)
 solution: Target
 title: Target release notes (prerelease)
