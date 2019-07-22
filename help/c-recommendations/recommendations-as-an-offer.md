@@ -110,4 +110,8 @@ There are two ways to delete a recommendations offer:
 
 ### Viewing the recommendations offer's status {#status}
 
-The recommendations offer (algorithm) status displays on the [!UICONTROL Overview] page for A/B Test and Experience Targeting (XT() activities that contain Recommendations offers. Statuses include: Results Ready, Results Not Ready, and Feed Failure. 
+The recommendations offer (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers: 
+
+* Results Ready
+* Results Not Ready
+* Feed Failure

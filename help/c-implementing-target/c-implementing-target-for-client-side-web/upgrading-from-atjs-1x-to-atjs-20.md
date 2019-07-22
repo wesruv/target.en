@@ -275,7 +275,7 @@ Yes, because execute > pageLoad is treated on the [!DNL Target] edge servers lik
 
 ### Cross-domain tracking support in at.js 2.x {#cross-domain}
 
-Cross-domain tracking makes it possible to stitch visitors across different domains. Because a new cookie must be created for each domain, it is difficult to track visitors when they navigate from domain to domain. To accomplish cross-domain tracking, [!DNL Target] uses a third-party cookie to track visitors across domains. This allows you to create a Target activity that spans siteA.com and siteB.com and visitors remain in the same experience when they navigate across unique domains. This functionality ties into Target’s third-party and first-party cookie behavior.
+Cross-domain tracking makes it possible to stitch visitors across different domains. Because a new cookie must be created for each domain, it is difficult to track visitors when they navigate from domain to domain. To accomplish cross-domain tracking, [!DNL Target] uses a third-party cookie to track visitors across domains. This allows you to create a Target activity that spans `siteA.com` and `siteB.com` and visitors remain in the same experience when they navigate across unique domains. This functionality ties into Target’s third-party and first-party cookie behavior.
 
 >[!NOTE]
 >
@@ -704,7 +704,7 @@ at.js 2.*x* JSON payload:
 }
 ```
 
-### vst.aaaa.id and vst.aaaa.authState
+### `vst.aaaa.id` and `vst.aaaa.authState`
 
 (at.js 1.*x* parameters)
 
