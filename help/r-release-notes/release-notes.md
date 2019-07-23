@@ -39,7 +39,7 @@ This release includes the following new features and enhancements:
 * You can now remove a design in a Recommendations activity from the Targeting page (Step 2 of the three-part guided workflow). Note that to remove a design, there must be more than one design selected. (TGT-35118)
 * Fixed an issue that prevented custom criteria cards for some customers to load properly in the Target UI or to be editable. (TGT-35170)
 
-## at.js version 2.1.1 (July 18, 2019)
+## at.js version 2.1.1 (July 24, 2019)
 
 This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
@@ -56,6 +56,8 @@ This release of at.js is a maintenance release and includes the following enhanc
 * Fixed an issue that prevented at.js from applying the second metric after the rendering of the first metric fails. (TNT-32628)
 * Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
 * Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Documentation Changes, Past Release Notes, and Experience Cloud Release Notes {#section_1BC5F5208DA548E9B4344A0836E4B943}
 

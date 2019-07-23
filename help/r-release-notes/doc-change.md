@@ -27,6 +27,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#best)|Added best practices to avoid slow regex execution.|
 ||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)|Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only.|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md#steps)|Added supported FTP server settings to steps.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js 2.1.1.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}
