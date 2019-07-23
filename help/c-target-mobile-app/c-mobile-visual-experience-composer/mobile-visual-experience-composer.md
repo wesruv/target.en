@@ -81,16 +81,6 @@ Multiple mobile app versions can be added and removed manually from the [!UICONT
 
 ![Manage Versions dialog box](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
-## Troubleshooting {#troubleshooting}
-
-**The Mobile App VEC says that my app has disconnected.**
-
-Your internet connection might have dropped. Relaunch the application after the internet is available and a fresh connection will be established. We recommend authoring a Mobile App VEC activity on a Wifi connection.
-
-**The Mobile App VEC is not in sync with my mobile app.**
-
-Click the [!UICONTROL Refresh] button in the VEC to sync the display.
-
 ## Target Views & Mobile Applications {#target-views}
 
 The Mobile App VEC takes advantage of a new concept of Views: a logical group of visual elements that together make up a mobile app experience.
@@ -190,9 +180,17 @@ Note that each time Target offers are prefetched, the offers for the last Target
 
 ## Troubleshooting {#ts}
 
-**I received an error stating that my "context.application.name" value contains prohibited characters. What characters are allowed in mobile app names?**
+**The Mobile App VEC says that my app has disconnected.**
 
-Allowable characters in mobile app names include:
+Your internet connection might have dropped. Relaunch the application after the internet is available and a fresh connection will be established. We recommend authoring a Mobile App VEC activity on a Wifi connection.
+
+**The Mobile App VEC is not in sync with my mobile app.**
+
+Click the [!UICONTROL Refresh] button in the VEC to sync the display.
+
+**I received an error stating that my "context.application.id" value contains prohibited characters. What characters are allowed in mobile app IDs?**
+
+Allowable characters in mobile app IDs include:
 
 |Allowed character(s)|Description|
 | --- | --- |
@@ -211,7 +209,7 @@ Allowable characters in mobile app names include:
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## Known limitations {#limitations}
