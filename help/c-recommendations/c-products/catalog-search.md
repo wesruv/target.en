@@ -25,9 +25,7 @@ In the search results, you click the **[UICONTROL Environment]** filter to speci
 
 The number that displays next to "Products" is the number of products that match the search term, out of the total available in the specified environment.
 
-Click the refresh icon to re-index your catalog. Be aware that indexing can take some time, depending on the size of your feed.
-
-The catalog is automatically refreshed every hour. Click **[!UICONTROL Refresh]** to re-index the catalog between automatic refreshes.
+The catalog is automatically refreshed when updates are received via feed files, API, or mbox updates. Updates are usually completed in an hour. If updates are in progress, the time that the most recent update started displays. If no updates are in progress, the time that the most recent update started and finished displays.
 
 You can create collections or exclusions using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection or Exclusion].
 

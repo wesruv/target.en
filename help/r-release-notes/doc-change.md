@@ -1,7 +1,7 @@
 ---
 description: This page lists important changes made to the Target documentation.
 keywords: target documentation change log;documentation updates
-seo-description: This page lists important changes made to the Target documentation.
+seo-description: This page lists important changes made to the Adobe Target documentation.
 seo-title: Documentation changes in the Adobe Target product documentation
 solution: Target
 title: Documentation changes
@@ -12,6 +12,23 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 # Documentation changes{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
+
+## Adobe Target Standard/Premium 19.7.1 (July 23, 2019) {#tgt-19-7-1}
+
+|Date|Topic|Changes| 
+| --- | --- | --- |
+|July 24, 2019|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)|
+||[Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|New topic.|
+||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status)|Added new section: "Viewing the recommendations offer's status."|
+||[Feeds](/help/c-recommendations/c-products/feeds.md)|Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status).|
+||[Catalog search](/help/c-recommendations/c-products/catalog-search.md)|Updated text about how the catalog is refreshed.|
+||[Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|Added information about the Modifications panel that shows elements you have set up for click-tracking.|
+||[How Adobe Target Works](/help/c-intro/how-target-works.md#bots)|Added new section: "Bots."|
+||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#best)|Added best practices to avoid slow regex execution.|
+||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)|Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only.|
+||[Feeds](/help/c-recommendations/c-products/feeds.md#steps)|Added supported FTP server settings to steps.|
+||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js 2.1.1.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.6.1 (June 26, 2019) {#tgt-19-6-1}
 
