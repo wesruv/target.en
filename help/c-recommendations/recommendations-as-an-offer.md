@@ -115,3 +115,5 @@ The recommendations offer (algorithm) status displays at the bottom of the [!UIC
 * Results Ready
 * Results Not Ready
 * Feed Failure
+
+![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
