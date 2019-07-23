@@ -193,7 +193,7 @@ The Analytics Product classification is the only classification available for re
 >* Updates to entity attributes incur an additional delay of up to 24 hours.  
 >* Target supports Product Classifications only. The Analytics product SKU must map to the same level as the Recommendations entity.id . Custom Analytics Classifications can be engineered using Adobe Consulting Services. Please contact your Account Manager with questions.
 
-## Create Feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Create Feed {#steps}
 
 Create a feed to insert information about your products or services into [!DNL Recommendations].
 
@@ -215,7 +215,14 @@ recs/t_feeds_create.xml
 
    If you select FTP, provide the FTP server information, the login credentials, the filename, and the FTP directory. You have the option to use FTP with SSL (FTPS) for more secure uploads.
 
-   If you select URL, specify the URL. 
+   Supported FTP server settings:
+
+   * FTP and FTPS must be set to use Passive FTP.
+   * For FTPS, configure server to accept Explicit FTPS connections.
+   * SFTP is not supported.
+
+   If you select URL, specify the URL.
+
 1. Click the **[!UICONTROL Next]** arrow to display the [!UICONTROL Schedule] options.
 
    ![Step Result](assets/CreateFeedSchedule.png)
