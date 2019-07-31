@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |July 31, 2019|[Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)|New topic.|
 ||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed)|Added note to Recently Viewed Items.|
-||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#preview)|Added known issue with preview links.|
+||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#preview)|Added known issue with Activity QA preview links.|
 |July 29, 2019 |[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md)|Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?"|
 |July 24, 2019|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)|
 ||[Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)|New topic.|
