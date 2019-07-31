@@ -125,7 +125,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Illustration showing what makes up a recommendations activity: Audiences, Criteria, and Designs](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. You can customize each of these items or add your own. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. This section focuses on defining the criteria, which define witch items will be recommended.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. You can customize each of these items or add your own. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. This section focuses on defining the criteria, which define which items will be recommended.
 
 Target uses the concept of the criteria card. A criteria card is like a recipe for personalization.
 
@@ -162,7 +162,7 @@ You might base your recommendation on:
 * The item the visitor last purchased or added to the shopping cart
 * A custom attribute related to a visitor or an item
 
-Based on these keys, you then choose the recommendation logic:
+Based on these keys, you then choose the desired recommendation logic:
 
 * Items with similar attributes
 * The most-viewed items in a particular category
