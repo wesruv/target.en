@@ -333,7 +333,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
    + [Reporting FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   
    + [Recommendations overview](c-recommendations/recommendations.md)
-   + [Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Plan and implement Recommendations](c-recommendations/plan-implement.md)
    + Entities {#entities} 
       + [Entities overview](c-recommendations/c-products/products.md)

@@ -17,7 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes| 
 | --- | --- | --- |
-|July 30, 2019|[Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)|New topic.|
+|July 31, 2019|[Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)|New topic.|
 ||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed)|Added note to Recently Viewed Items.|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#preview)|Added known issue with preview links.|
 |July 29, 2019 |[Reporting FAQ](/help/c-reports/reporting-frequently-asked-questions.md)|Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?"|
