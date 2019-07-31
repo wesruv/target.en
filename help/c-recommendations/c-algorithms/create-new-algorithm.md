@@ -329,8 +329,9 @@ The Recently Viewed Items criteria now returns results specific to a given [envi
 
 General pages, such as home or landing pages and offsite ads.
 
-[!NOTE]
-Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
+>[!NOTE]
+>
+>Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
 
 ### Previously Purchased Items {#previously-purchased}
 
