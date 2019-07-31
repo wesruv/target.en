@@ -38,6 +38,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + Enterprise user permissions {#enterprise}
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
+         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Response tokens](administrating-target/response-tokens.md)
