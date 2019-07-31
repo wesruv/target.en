@@ -11,11 +11,11 @@ uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 
 # Create experience{#create-experience}
 
-The Visual Experience Composer (VEC) provides a visual interface for editing the experiences on your page in an Experience Targeting (XT) activity.
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. Select the elements you want to change and make the desired changes.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![All Visitors audience](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -23,19 +23,19 @@ The Visual Experience Composer (VEC) provides a visual interface for editing the
 
    As you hover the elements on your page, the elements are highlighted. Any highlighted element can be altered using the VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created an mbox on the page using Target Classic (formerly Test&Target), that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >By default, the Visual Experience Composer does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript if you want to be able to alter those elements using the VEC.
+   >By default, the VEC does not allow changes to elements containing JavaScript, such as rotating banners. You can select to disable JavaScript to alter those elements using the VEC.
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![Add Experience Targeting link](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. To target an experience to an audience, you must select the audience before you can add an experience.
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of Target. You can either select an audience from the library, or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ The Visual Experience Composer (VEC) provides a visual interface for editing the
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on akamai.net and delivered on adobe.com), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (Conditional) Drag and drop audience/experience pairs while creating or editing XT activities to arrange the pairs in the desired order.
 
@@ -73,7 +73,7 @@ The Visual Experience Composer (VEC) provides a visual interface for editing the
 
    ![Move experiences](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   Experience Targeting assumes that order matters. If a visitor falls into the first audience/experience pair, the first experience is delivered.
+   [!UICONTROL Experience Targeting] assumes that order matters. If a visitor falls into the first audience/experience pair, the first experience is delivered.
 
    For example, suppose you were not aware that order matters while creating an XT activity. You later realize during testing that visitors that you think should qualify for experiences B or C are instead qualifying for experience A. This could be because the audiences are not mutually exclusive and are not in the proper order (for example, experience A = United States, experience B = San Francisco, and experience C = California). In this scenario, all users from the United States qualify for experience A, even if they are located in San Francisco or elsewhere in California. You can reorder the audience/experience pairs from most restrictive to least restrictive (San Francisco > California > United States) without re-creating the entire activity.
 
@@ -83,20 +83,20 @@ The Visual Experience Composer (VEC) provides a visual interface for editing the
 
 You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
-* Rename 
+* Rename
 * Edit
 
 ![Rename and Edit options](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-## Delete an Experience
+## Delete an experience
 
 On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses > **[!UICONTROL Delete]**.
 
 ![Delete experience](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
-## Duplicate an Experience 
+## Duplicate an experience
 
-You can copy an experience in an Experience Targeting (XT) activity so you can make minor changes to it without having to re-create the experience from scratch.
+You can copy an experience in an XT activity so you can make minor changes to it without having to re-create the experience from scratch.
 
 On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses > **[!UICONTROL Duplicate]**.
 
