@@ -1,5 +1,5 @@
 ---
-description: Information about granting existing Adobe I/O integrations access to all workspaces with the desired role.
+description: Information about granting Adobe I/O integrations access to all workspaces with the desired role.
 keywords: integration;roles;user permissions;admin console
 seo-description: Information about granting existing Adobe I/O integrations access to all workspaces with the desired role in Adobe Target
 seo-title: Grant Adobe I/O integrations access to workspaces and assign roles in Adobe Target
@@ -50,10 +50,12 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![Integrations tab](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-   *[!UICONTROL Editor]
-   *[!UICONTROL Observer]
+   * [!UICONTROL Approver]
+   * [!UICONTROL Editor]
+   * [!UICONTROL Observer]
 
    ![Choose Product Profile role](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
