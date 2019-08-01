@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes| 
 | --- | --- | --- |
+|August 1, 2019|[Target Release notes (current)](/help/r-release-notes/release-notes.md)|Added important announcement regarding API support for Enterprise Permissions.|
+||Grant Adobe I/O integrations access to workspaces and assign roles|New topic.|
 |July 31, 2019|[Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)|New topic.|
 ||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed)|Added note to Recently Viewed Items.|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#preview)|Added known issue with Activity QA preview links.|
