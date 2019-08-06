@@ -123,8 +123,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 * **Analytics**: If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
   * **Initial latency**: The initial latency is between two and seven days. This initial latency occurs only once, when the criteria is set up with a report suite that has not been previously used, or is used with a longer lookback window.
-  * **Initial latency for new criteria**: If the report suite has been previously used with a lookback window at least as long as the selected lookback window, the expected latency is less than 12 hours, depending on the amount of behavioral data used and the size of the catalog.
-  * **On-going latency**: The expected latency is less than 12 hours, depending on the amount of behavioral data used and the size of the catalog.
+  * **Ongoing Latency**: If the report suite has been previously used with a lookback window at least as long as the selected lookback window, the expected latency for new and existing criteria is less than 12 hours, depending on the amount of behavioral data used and the size of the catalog.
 
   For example, for the "Viewed Affinity" recommendation, when a user views a product, a product-view tracking call is passed into Analytics close to real-time. The Analytics data is pushed to Target early the next day and Target runs the algorithm is less than 12 hours.
 

@@ -17,9 +17,9 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 6, 2019|Target release notes (current)||
+|August 6, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.0 release.|
 ||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time)|Updated the expected criteria processing time for Analytics.|
-||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics)|Updated consideration about using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace]|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics)|Updated consideration about using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace].|
 |August 1, 2019|[Target Release notes (current)](/help/r-release-notes/release-notes.md)|Added important announcement regarding API support for Enterprise Permissions.|
 ||[Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)|New topic.|
 |July 31, 2019|[Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md)|New topic.|
