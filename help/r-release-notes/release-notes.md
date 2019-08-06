@@ -36,10 +36,10 @@ This release of Mobile VEC SDK includes the following enhancements and fixes:
 
 (The issue numbers in parentheses are for internal Adobe use.)
 
-* Add support for Preview for Visual Activities on mobile device (TGT-27875)
-* Fixed an issue that caused Apple Standard violation due to UIImagePickerController usage.
-* Removed GSON dependency from Android SDK(TGT-31710)
-* Fixed an issue that caused Delivery offer to not reset at the time of authoring(TGT-35270).
+* Added support for Preview for Visual Activities on mobile device. (TGT-27875)
+* Fixed an issue that caused an Apple Standard violation due to `UIImagePickerController` usage.
+* Removed GSON dependency from Android SDK. (TGT-31710)
+* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1 (July 24, 2019) {#tgt-19-7-1}
 
