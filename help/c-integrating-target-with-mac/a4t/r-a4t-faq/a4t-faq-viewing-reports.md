@@ -33,7 +33,7 @@ Segments applied to the reports are like applying segments in Target classic. Th
 
 It is possible to apply segments to metrics with a calculated metric. This is generally done when you want to create a new type of success event. For example, if you want to see how many return visitors your activity generated, or how many visitors made it to a certain page who see your test. Please note that lift and confidence cannot currently be generated for calculated metrics.
 
-## Should I use visitors, activity impressions, or visits when viewing reports? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Should I use visitors, activity impressions, or visits when viewing reports? {#metrics}
 
 There are several options, each with its own advantages:
 
@@ -48,7 +48,7 @@ Consider the following:
 
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL Target]. This does not necessarily mean that the user saw the offer. If an activity experience is below the fold and the user does not scroll down the page, then the offer was served by [!DNL Target] but not seen by the user. 
 * [!UICONTROL Activity Impressions] (measured by [!DNL Target]) and [!UICONTROL Instances] (measured by [!DNL Analytics]) are equal, unless there are multiple mbox calls on the same page in the same activity. This causes multiple [!UICONTROL Activity Impressions] to be counted, but only a single [!UICONTROL Instance]. 
-* Currently the [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversion] metrics are inflated in [!DNL Analysis Workspace] and should not be used until this issue is resolved.
+* When using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
 
 ## What does "activity conversions" mean if the marketer picks an Analytics metric during activity setup? {#section_F3EBACF85AF846E9B366A549AAB64356}
 

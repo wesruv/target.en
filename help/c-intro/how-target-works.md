@@ -94,11 +94,11 @@ Each Edge node has all the information required to respond to the user's content
 
 ![Map with core edge sites and edge sites](assets/edge_network.png)
 
-Adobe currently has core edge sites in Oregon and Texas in the United States; London, England; and Singapore. Adobe currently has edge sites in Virginia (US), Amsterdam, Netherlands; Tokyo, Japan; and Sydney, Australia.
+The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Core Edge site locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
+The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin Servers are hosted entirely within Adobe-owned data centers in London, Singapore, and multiple locations throughout the U.S, including Oregon and Virginia. Edge Servers are hosted both on Adobe-owned and Adobe-leased servers in Amazon AWS data centers in London, Hong Kong, Singapore, Tokyo, and Sydney.
 
-Adobe currently has data centers on several continents, including multiple regional locations across North America, Europe, and Asia.
+Admin Server locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
 
 Rather than respond to all targeting requests from a single location, requests are processed by the Edge environment closest to the visitor, thus mitigating the impact of network/Internet travel time.
 
