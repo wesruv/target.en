@@ -116,11 +116,17 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
    If you are creating a new [!UICONTROL Recommendations] activity or editing an existing one, the **[!UICONTROL Save criteria for later]** check box is selected by default. If you do not want to use the criteria in other activities, clear the check box before saving.
 
-### Expected criteria processing time
+### Expected criteria processing time {#time}
 
-* **mboxes**: If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running. 
+* **mboxes**: If the criteria uses mboxes as the Behavioral Data Source, once created, the criteria will immediately run. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration results in the criteria re-running.
 
-* **Analytics**: If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria. If the report suite has been previously used with a lookback window at least as long as the selected lookback window, then behavioral data is already available in Target and Recommendations runs the criteria immediately. The algorithm can take up to 12 hours to run depending on the amount of behavioral data used and the size of the catalog. If the report suite has not been previously used, or is used with a longer lookback window, Recommendations must request and receive data from Adobe Analytics, then subsequently run the algorithm. The sync process with Analytics generally takes at least 2 days and might take up to 7 days to complete depending on Analytics system load. 
+* **Analytics**: If the criteria uses [!DNL Adobe Analytics] as the Behavioral Data Source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+
+  * **Initial latency**: The initial latency is between two and seven days. This initial latency occurs only once, when the criteria is set up with a report suite that has not been previously used, or is used with a longer lookback window.
+  * **Initial latency for new criteria**: If the report suite has been previously used with a lookback window at least as long as the selected lookback window, the expected latency is less than 12 hours, depending on the amount of behavioral data used and the size of the catalog.
+  * **On-going latency**: The expected latency is less than 12 hours, depending on the amount of behavioral data used and the size of the catalog.
+
+  For example, for the "Viewed Affinity" recommendation, when a user views a product, a product-view tracking call is passed into Analytics close to real-time. The Analytics data is pushed to Target early the next day and Target runs the algorithm is less than 12 hours.
 
 ## Base the recommendation on a recommendation key {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
