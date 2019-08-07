@@ -54,11 +54,11 @@ Consider the following:
 
 "Activity conversions" will be empty if an Analytics metric was selected as the conversion metric for the activity.
 
-## Why do I see "unspecified" in the Analytics reports? What does it mean? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Why do I see "unspecified" in the Analytics reports? What does it mean? {#unspecified}
 
 ![](assets/unspecified.png)
 
-In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It can take up to 36 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and will appear when the classification is complete.
+In other reports, "unspecified" means data did not meet a classification rule, but in A4T this should never happen. If you see "unspecified," then the classification service hasn't run yet. It generally takes between 24 to 72 hours for activity data to appear in the reports. Even though the activities do not appear in this report until that time, all visitor data tied to those activities is captured and will appear when the classification is complete.
 
 After the classification period, data appears in these reports approximately an hour after it is collected from the website. All metrics, segments, and values in the reports come from the report suite you selected when you set up the activity.
 

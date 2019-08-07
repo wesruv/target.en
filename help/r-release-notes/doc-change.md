@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |August 7, 2019|[Prefetch offer content](/help/c-target-mobile-app/prefetch-offer-content.md)|Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types.|
 ||[Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
+||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
 |August 6, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.0 release.|
 ||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time)|Updated the following section: "Expected criteria processing time."|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics)|Updated consideration about using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace].|
