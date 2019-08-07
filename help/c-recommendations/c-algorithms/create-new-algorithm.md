@@ -120,7 +120,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
 After saving a criteria, [!DNL Target] computes recommendations. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
-### moboxes
+### mboxes
 
 If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. Depending on the amount of behavioral data used and the size of the catalog, the algorithm can take up to 12 hours to run. Making changes to the criteria configuration generally results in the algorithm re-running. Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. If an algorithm is not modified, it is automatically re-run by [!DNL Target] every 12-48 hours, depending on the selected data range.
 
