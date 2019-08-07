@@ -20,7 +20,7 @@ There are several reasons why this could happen:
 
 * Classification in [!DNL Target] hasn't fully processed.
 
-  Classification can take as many as 24 hours to process from the first save of the activity. 
+  Classification generally takes between 24 and 72 hours to classify reports after the first save.
 
 * The report suite doesn't contain any data, but [!DNL Target] has tried to classify hits. [!DNL Target] cannot classify data until the first hit occurs.
 
