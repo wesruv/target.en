@@ -1,6 +1,6 @@
 ---
 description: Information about custom events for at.js. 
-keywords: adobe.target.notification;element;selector;notification;extension
+keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
 seo-description: Information about custom events for the Adobe Target at.js JavaScript library.
 seo-title: Information about custom events for the Adobe Target at.js JavaScript library.
 solution: Target

@@ -1,6 +1,6 @@
 ---
 description: Information about the adobe.target.triggerView (viewName, options) function for at.js. 
-keywords: adobe.target.notification;element;selector;notification;extension
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 seo-description: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
 seo-title: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
 solution: Target
