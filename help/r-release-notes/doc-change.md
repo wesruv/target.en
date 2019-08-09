@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 9, 2019|[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)|Added new section: "How at.js renders offers with HTML content."|
+||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)|Added new section: "Considerations."|
 |August 7, 2019|[Prefetch offer content](/help/c-target-mobile-app/prefetch-offer-content.md)|Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types.|
 ||[Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
