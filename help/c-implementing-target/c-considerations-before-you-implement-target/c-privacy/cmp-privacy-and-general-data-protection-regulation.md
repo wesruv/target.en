@@ -1,8 +1,8 @@
 ---
-description: Information about the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) and how these regulations impact your organization and Adobe Target.
+description: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
-seo-description: Information about the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) and how these regulations impact your organization and Adobe Target.
-seo-title: General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Adobe Target
+seo-description: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+seo-title: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
 solution: Target
 title: Privacy and data protection regulations
 topic: Standard
@@ -11,7 +11,7 @@ uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 
 # Privacy and data protection regulations {#privacy-and-general-data-protection-regulation-gdpr}
 
-Information about the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) and how these regulations impact your organization and [!DNL Adobe Target].
+Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -33,9 +33,7 @@ For more information, see:
 
 ## California Consumer Privacy Act (CCPA) overview
 
-The California Consumer Privacy Act (CCPA) is effective January 1, 2020. By design, the law gives the California regulator leeway to make adjustments and clarify the details, which means you naturally might have lots of questions. If you do have questions, you are not alone as many businesses are working through the uncertainties in the law and trying to understand and develop an approach to address the legal, operational, and technical requirements.
-
-The CCPA provides California consumers with new rights regarding their personal information and imposes data protection responsibilities on certain entities that conduct business in California. At a high level, the law affords Californians several key rights, including rights to:
+The California Consumer Privacy Act (CCPA) provides California consumers with new rights regarding their personal information and imposes data protection responsibilities on certain entities that conduct business in California. At a high level, the law affords Californians several key rights, including rights to:
 
 * Request information (data access)
 * Opt out of the sale of personal information (a very broadly defined right to opt out of sharing of information with third parties)
@@ -99,7 +97,7 @@ There are three scenarios to consider when using Opt-In:
 
 ## Privacy and data protection regulations FAQ {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Frequently Asked Questions about the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) specific to [!DNL Target].
+Frequently Asked Questions about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements specific to Target.
 
 ### What is Adobe's policy for these regulations? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
