@@ -288,6 +288,6 @@ The following table contains description of the illustrative profile JSON fields
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. What is returned depends on what information is in that specific visitor profile.
 
-## Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).

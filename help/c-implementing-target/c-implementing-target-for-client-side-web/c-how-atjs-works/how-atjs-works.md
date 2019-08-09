@@ -73,6 +73,20 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |5|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|6|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
 |7|[!DNL Analytics] data is sent to Data Collection servers.|8|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
 
+## How at.js renders offers with HTML content {#render}
+
+When rendering offers with HTML content, at.js applies the following algorithm:
+
+1. Images are preloaded (if there are any `<img>` tags in HTML content)
+1. HTML content is attached to the DOM node
+1. Inline scripts are executed (code enclosed in `<script>` tags)
+1. Remote scripts are loaded asynchronously and executed (`<script>` tags with `src` attributes)
+
+Important notes:
+
+ * at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
+ * Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
+
 ## Training video: at.js 2.x architectural diagram
 
 at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.

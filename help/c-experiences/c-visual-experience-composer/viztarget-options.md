@@ -341,6 +341,10 @@ Open the destination of the link.
 
 Undo changes you make to your activities during an editing session. You can also redo changes that have been previously undone.
 
+## Considerations {#considerations}
+
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+
 ## Navigate elements using the DOM path {#dom-path}
 
 When you click an element on the page, the VEC options menu displays. In addition, when you click an element, the corresponding DOM path displays at the bottom of the page. 
