@@ -77,15 +77,18 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 When rendering offers with HTML content, at.js applies the following algorithm:
 
-1. Images are preloaded (if there are any `<img>` tags in HTML content)
-1. HTML content is attached to the DOM node
-1. Inline scripts are executed (code enclosed in `<script>` tags)
-1. Remote scripts are loaded asynchronously and executed (`<script>` tags with `src` attributes)
+1. Images are preloaded (if there are any `<img>` tags in HTML content).
+
+1. HTML content is attached to the DOM node.
+
+1. Inline scripts are executed (code enclosed in `<script>` tags).
+
+1. Remote scripts are loaded asynchronously and executed (`<script>` tags with `src` attributes).
 
 Important notes:
 
- * at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
- * Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
+* at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
+* Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
 
 ## Training video: at.js 2.x architectural diagram
 
