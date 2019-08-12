@@ -1,8 +1,8 @@
 ---
 description: Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
 keywords: mobile vec;mobile visual experience composer;mobile experience composer options;setting up;android
-seo-description: Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
-seo-title: Android - set up the mobile app
+seo-description: Adobe Target's new SDK Library allows developers to do a one-time setup on their Android mobile apps and enable marketers to use the capabilities of the Mobile Visual Experience Composer (VEC).
+seo-title: Android - set up the mobile app for Adobe Target
 solution: Target
 title: Android - set up the mobile app
 topic: Standard
