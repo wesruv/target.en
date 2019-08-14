@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 14, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated text and added training video link.|
+||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)|Updated information in the "Layout > Move" section.|
 |August 12, 2019|[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library)|Updated information about dependencies and artifacts.<br>Updated code sample for the `AndroidManifest.XML` file.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Updated the list of enhancements and fixes in the "Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.1" section.|
 ||[Edit an activity or save as draft](/help/c-activities/edit-activity.md#classic)|Added new section: "Work with legacy activities created in Recommendations Classic."|

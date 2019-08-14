@@ -33,7 +33,9 @@ For more information, see:
 
 ## California Consumer Privacy Act (CCPA) overview
 
-The California Consumer Privacy Act (CCPA) provides California consumers with new rights regarding their personal information and imposes data protection responsibilities on certain entities that conduct business in California. At a high level, the law affords Californians several key rights, including rights to:
+The California Consumer Privacy Act (CCPA) provides California consumers with new rights regarding their personal information and imposes data protection responsibilities on certain entities that conduct business in California. The CCPA goes into effect January 1, 2020.
+
+At a high level, the law affords Californians several key rights, including rights to:
 
 * Request information (data access)
 * Opt out of the sale of personal information (a very broadly defined right to opt out of sharing of information with third parties)
