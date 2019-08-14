@@ -56,9 +56,9 @@ Target provides various places in the UI where you can edit existing activities.
         * Click **[!UICONTROL Save & Close]** to save your changes and display the activity's Overview page. 
         * Click **[!UICONTROL Save]** to save your changes and remain on that step where you can continue to make changes. Wait for the save to complete before making additional changes. The VEC reloads with the refreshed changes after the save is complete.
 
-## Work with legacy activities created in Adobe Target Classic {#classic}
+## Work with legacy activities created in Recommendations Classic {#classic}
 
-The [!UICONTROL Activities] list display activities created in various sources, including [!DNL Adobe Target Classic]. The following actions are available when working with legacy activities created in [!DNL Target Classic]:
+The [!UICONTROL Activities] list display activities created in various sources, including [!DNL Recommendations Classic]. The following actions are available when working with legacy activities created in [!DNL Recommendations Classic]:
 
 * [!UICONTROL Activate]
 * [!UICONTROL Deactivate]
@@ -66,7 +66,7 @@ The [!UICONTROL Activities] list display activities created in various sources, 
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
 
-You cannot edit a [!DNL Target Classic] activity directly. If you want to edit the activity, you should create a copy of the activity using [!DNL Target Standard/Premium] and then save the newly created activity.
+You cannot edit a [!DNL Recommendations] activity directly. If you want to edit the activity, you should create a copy of the activity using [!DNL Target Premium] and then save the newly created activity. This newly created activity can then be edited as necessary.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
