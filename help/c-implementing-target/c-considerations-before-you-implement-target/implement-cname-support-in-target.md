@@ -1,6 +1,6 @@
 ---
 description: Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target.
-keywords: client care;cname;certificate program;canonical name;cookies;certificate
+keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate
 seo-description: Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target.
 seo-title: CNAME and Adobe Target
 solution: Target
@@ -16,7 +16,7 @@ Information about working with Adobe Client Care to implement CNAME (Canonical N
 Perform the following steps to request CNAME support in Target:
 
 1. Open a [Customer Care ticket](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) requesting CNAME support for your Adobe Target calls. 
-1. Enroll in the [Adobe Managed Certificate (AMC) program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) and follow the implementation steps provided in the [!DNL Adobe Analytics] *First-Party Cookies* guide.
+1. Enroll in the [Adobe Managed Certificate (AMC) program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) and follow the implementation steps provided in the [!DNL Adobe Analytics] *First-Party Cookies* guide. [!DNL Target] uses the same method that [!DNL Analytics] CNAME support uses.
 
    The AMC program helps eliminate effort and confusion experienced by customers when implementing first-party cookies. After enrolling to this program, Adobe will purchase and issue the certificate to install on secure servers.
 
