@@ -455,3 +455,13 @@ When you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attribu
 Because content similarity uses keywords to compare items, some attributes, such as *message* or *description*, can introduce "noise" into the comparison. You can create rules to ignore these attributes. 
 
 By default, all attributes are set to *Baseline*. You do not need to create a rule unless you want to change this setting.
+
+## Training video: Create criteria in Recommendations (12:33)
+
+This video contains the following information:
+
+* Create criteria
+* Create criteria sequences
+* Upload custom criteria
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

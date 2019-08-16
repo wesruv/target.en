@@ -68,4 +68,13 @@ You can also create collections using Advanced Search on the Catalog Search page
 
 >[!IMPORTANT]
 >
->The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. 
+>The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
+
+## Training video: Create collections and exclusions in Recommendations (7:05)
+
+This video contains the following information:
+
+* Create a collection
+* Create an exclusion
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
