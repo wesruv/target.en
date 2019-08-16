@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 16, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added new section: "Considerations."|
 |August 14, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated text and added training video link.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Clarrifed information about the `consumerID` key.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)|Updated information in the "Layout > Move" section.|
