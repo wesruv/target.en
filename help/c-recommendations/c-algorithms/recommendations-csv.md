@@ -88,3 +88,13 @@ The following are possible error messages you might receive if Target encounters
 |Credentials Error|Provide a valid user and password for an active account on the server.|
 |Directory Not Found|Provide a directory that exists on the server.|
 |File Not Found|Provide the name of a file that exists on the server in the directory indicated.|
+
+## Training video: Create criteria in Recommendations (12:33)
+
+This video contains the following information:
+
+* Create criteria
+* Create criteria sequences
+* Upload custom criteria
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

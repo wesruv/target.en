@@ -42,3 +42,12 @@ Create an exclusion list to prevent items from being recommended.
 >[!IMPORTANT]
 >
 >The Advanced Search functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
+
+## Training video: Create collections and exclusions in Recommendations (7:05)
+
+This video contains the following information:
+
+* Create a collection
+* Create an exclusion
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

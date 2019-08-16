@@ -311,3 +311,25 @@ The status should be yellow because the index should have run roughly 6.5 hours 
 * February 3: it is 10:00 a.m. and the feed hasn't run for one month, one day, and one hour ago 
 
 The status should be yellow because the index should have run roughly one day and one hour ago. Although this is only (31+(1/25))/30 = 1.03% of frequency setting, it surpassed the maximum of one-day delay. 
+
+## Training videos
+
+The following videos contain more information about the concepts discussed in this article.
+
+### Understanding feeds in Recommendations (3:01)
+
+This video contains the following information:
+
+* Understand the purpose of feeds
+* Understand the value of feeds
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
+
+### Create a feed (6:44)
+
+This video contains the following information:
+
+* Set up a feed
+* Know which type of feed to use
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

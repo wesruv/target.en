@@ -18,6 +18,14 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 16, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added new section: "Considerations."|
+||[Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)|Added training video.|
+||[Feeds](/help/c-recommendations/c-products/feeds.md)|Added training videos.|
+||[Create criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md)|Added training video.|
+||[Upload custom criteria](/help/c-recommendations/c-algorithms/recommendations-csv.md)|Added training video.|
+||[Create criteria sequences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)|Added training video.|
+||[Create a design](/help/c-recommendations/c-design-overview/create-design.md)|Added training video.|
+||[Collections](/help/c-recommendations/c-products/collections.md)|Added training video.|
+||[Exclusions](/help/c-recommendations/c-products/exclusions.md)|Added training video.|
 |August 14, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated text and added training video link.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Clarrifed information about the `consumerID` key.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)|Updated information in the "Layout > Move" section.|
