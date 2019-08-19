@@ -220,7 +220,7 @@ recs/t_feeds_create.xml
    * FTP and FTPS must be set to use Passive FTP.
    * For FTPS, configure server to accept Explicit FTPS connections.
    * SFTP is not supported.
-   * You may manually specify a port on which to initiate the connection (e.g. ftp://ftp.yoursite.com:2121); if you do not, the default FTP or FTPS port will be used.
+   * You can manually specify a port on which to initiate the connection (e.g. ftp://ftp.yoursite.com:2121). If you do not specify a port, the default FTP or FTPS port is used.
 
    If you select URL, specify the URL.
 
