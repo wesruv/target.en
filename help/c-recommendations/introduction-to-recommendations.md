@@ -38,7 +38,9 @@ Marketers use [!DNL Adobe Target] to drive personalized experiences across a wid
 * **Video Tutorials**: [!DNL Adobe Creative Cloud] uses [!DNL Target] to recommend video tutorials to Photoshop users in the Photoshop application.
 * **Gaming**: Gaming companies use [!DNL Target] to recommend games and content to users on their consoles.
 * **B2B Sales**: [Business-to-business companies use Target to recommend videos, whitepapers, and blog posts to B2B prospects; deliver downloads; and provide help to existing customers](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+
 * **Travel**: [A German travel booker uses Target to recommend hotels and more to travelers](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+
 * **Retail**: [A leading B2B retailer uses Target to recommend top categories and products to return visitors in the browser and in its mobile app](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 These are just a few of the ways customers use Target to deliver personalized recommendations.
