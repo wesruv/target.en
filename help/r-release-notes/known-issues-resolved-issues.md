@@ -30,7 +30,6 @@ The following sections list the known issues for [!DNL Target]:
 The following are known issues with redirect offers:
 
 * Under some conditions, a limited number of customers have reported higher degrees of variance in traffic distribution when using a redirect offer in activities configured with Analytics for Target (A4T). Adobe engineers are currently working on this issue.
-* A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned to the at.js implementation to ensure that this race condition can be avoided. For more information about the issue and a workaround, see [Redirect Offers - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Redirect activities in at.js implementations might cause the preview URL to enter into a loop (the offer is delivered repeatedly). You can use [QA Mode](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) instead to perform Preview and QA. This issue does not impact the actual delivery of the offer. (TGT-23019)
 
 ### Graph report for an Auto-Target activity fails to render when using a custom experience as control
@@ -59,20 +58,8 @@ Code offers created from the Target UI in the Offers library might display in th
 
 The following are known issues with Recommendations activities:
 
-* Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run. The product ingestion for delivery is not impacted. (RECS-6663)
 * Recommendations "error.restapi.algorithmProfileAttributeInvalid" error occurs when specific profile attributes are used as the criteria key.
 * When Back Promotion is used in a Recommendations activity, Criteria inclusion filters don't apply on backup ERs.
-* The Recommendation Feeds UI does not show the correct status of indexing. The backend jobs are functioning correctly, but the UI is not able to fetch and display the current state.
-  
-  **Workaround**: An Alternative way to determine if a Recommendation Feed for a given Host Group has indexed properly is to check the Product Search UI (logged in as Admin) and view the last indexing time. This timestamp represents the last time the feed for a given host group was indexed. (TGT-27116)
-
-* Recommended products might not display values up to two decimal points. For example, if you try to display the value in the design as 35.00, Recommendations displays 35 (no decimal points rather than two decimal points). (RECS-5972)
-
-  **Workaround**: Pass the value of the entity into two entity.attributes . The first, `entity.value`, is a reserved parameter that expects a double. The second, can be a custom entity.attribute that will store the value of the entity as a string to allow for proper rending.
-  
-  For example:
-
-  `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Multivariate Test (MVT) activities
 
@@ -129,6 +116,26 @@ Customers cannot perform CRUD operations on Auto-Allocate activities through the
 
 As known issues above are resolved, they will be moved to the following sections and additional notes, if necessary, will be added.
 
+### Recommendations
+
+* Recommendations feed index can show "Waiting for index" if the items in the feed are the same as in the previous run. The product ingestion for delivery is not impacted. (RECS-6663)
+
+  This issue was fixed in the Target 19.4.2 release.
+
+* Recommendations feeds take longer to process than expected. (COR-2836)
+
+  Fixed in the Target 16.10.1 release.
+
+* The Recommendation Feeds UI does not show the correct status of indexing. The backend jobs are functioning correctly, but the UI is not able to fetch and display the current state.
+
+  This was fixed in the 17.10.1 release.
+
+### Redirect offers
+
+A race condition on your page might cause page views on the original page and on the redirect page to be counted. Updates are planned to the at.js implementation to ensure that this race condition can be avoided.
+
+This issue was fixed in at.js 1.6.3.
+
 ### Exclusion groups
 
 * When auto-dedupe is applied after creating exclusion groups, the count on the activity diagram might be incorrect in the UI.
@@ -183,12 +190,6 @@ This was fixed in the 18.9.1 release.
 When you edit or copy a Recommendations activity that uses an Attribute Promotion rule, the "Has missing field" error displays when clicking Save .
 
 This was fixed in the 17.8.1 release.
-
-### Recommendations Feeds index status
-
-The Recommendation Feeds UI does not show the correct status of indexing. The backend jobs are functioning correctly, but the UI is not able to fetch and display the current state.
-
-This was fixed in the 17.10.1 release.
 
 ### Backup Recommendations
 
@@ -248,12 +249,6 @@ The second issue was fixed in the Target 17.6.1 release (June 2017).
 Since the release of Target 17.4.1 (April 27, 2017), using the Insert Image action in the Visual Experience Composer (VEC) causes the offer content to not be delivered when using the at.js library.
 
 A fix for this issue has been made to at.js version 0.9.7 released May 22, 2017.
-
-### Recommendations
-
-Recommendations feeds take longer to process than expected. (COR-2836)
-
-Fixed in the Target 16.10.1 release.
 
 ### Reporting: A/B and Experience Targeting (XT) activities
 
