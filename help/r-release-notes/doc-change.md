@@ -17,7 +17,6 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|August 20, 2019|[Target release notes (prerelease)](/r-release-notes/target-release-notes.md)|Cancelled the Target Standard/Premium 19.8.1 release (August 20, 2019). Content will be included in the Target Standard/Premium 19.9.1 release (September 24, 2019).|
 |August 16, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added new section: "Considerations."|
 ||[Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)|Added training video.|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md)|Added training videos.|
