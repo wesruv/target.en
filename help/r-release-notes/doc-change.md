@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|August 22, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions.|
 |August 20, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Postponed the Target/Premium 19.8.1 release (August 20, 2019). Content from this release will be rolled into the 19.9.1 release (September 24, 2019).|
 ||[Design FAQ](/help/c-recommendations/c-design-overview/template-faq.md)|Added the following FAQ: "My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?"|
 |August 16, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added new section: "Considerations."|
