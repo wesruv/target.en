@@ -68,7 +68,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    >
    >Custom criteria entities (rows) can contain up to 1,000 recommended items (columns).
 
-Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery.
+Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file.
 
 Contact Client Care to enable the setting to discard the existing results that aren't included in the next CSV upload. If this setting is enabled, only the keys present in the custom CSV feed file will be available for delivery. This setting applies to all custom criteria.
 

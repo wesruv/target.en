@@ -48,6 +48,10 @@ The audience's [definition details pop-up card](../../../c-target/c-audiences/au
 >
 >For custom audiences created before the Target 18.5.1 release (May, 22, 2018), mbox names will not display in the audience's definition pop-up card. You must re-save the custom audience to get the mbox name to be shown in the card.
 
+## Considerations {#considerations}
+
+* Audiences and activities are evaluated for a specific mbox. If the global mbox passes a certain parameter, but the regional mbox does not, the visitor does not qualify for that activity.
+
 ## Training video: Creating Audiences
 
 This video includes information about using audience categories.
