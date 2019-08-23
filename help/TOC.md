@@ -270,7 +270,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Profile attributes](c-target/c-visitor-profile/profile-parameters.md)
       + [Category affinity](c-target/c-visitor-profile/category-affinity.md)
       + [Customer attributes](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Real-time profile syncing for mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Profile and variable glossary](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Targets and audiences FAQ {#faq-audiences}
       + [Targets and audiences FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
