@@ -77,7 +77,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
    To make Mobile Preview work for Android, you must also add the following code snippet in [!DNL AndroidManifest.xml]:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Generating a Preview Link {#section_D9D58173FFF34E9BB75EBF357273F128}
