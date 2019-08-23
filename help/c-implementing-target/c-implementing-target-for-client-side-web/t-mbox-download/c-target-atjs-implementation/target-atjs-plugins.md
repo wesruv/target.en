@@ -1,5 +1,5 @@
 ---
-description: Information about supported and not-supported at.js plug-ins.
+description: Information about supported and not-supported at.js plug-ins in Adobe Target.
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 seo-description: Information about supported and not-supported at.js plug-ins for Adobe Target.
 seo-title: at.js plug-ins for Adobe Target
