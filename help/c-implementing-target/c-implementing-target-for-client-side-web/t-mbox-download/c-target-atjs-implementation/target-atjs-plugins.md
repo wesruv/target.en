@@ -19,7 +19,7 @@ If you are using a plug-in that is not listed here and you would like to know th
 
 Here is the current status of some of the plug-ins that are used by many customers when used with [!DNL at.js]: 
 
-| Plugin | Details |
+|Plugin|Details|
 |--- |--- |
 |mboxTrack|Not supported.<br>This is replaced by the [adobe.target.trackEvent(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) function. Update your plug-ins to apply the new function.<br>See the [integrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md) page.|
 |Persistent Profile Backup Plugin|Not supported.<br>This plug-in was deprecated when the  Target profile lifetime was extended from two weeks to 90 days. Check the expiration date of your mbox cookie to see the profile lifetime setting on your account.<br>Contact ClientCare if you would like to extended the profile lifetime to 90 days.|
