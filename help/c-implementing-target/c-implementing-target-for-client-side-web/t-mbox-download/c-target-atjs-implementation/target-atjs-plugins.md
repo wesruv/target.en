@@ -11,7 +11,7 @@ uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Information about supported and not-supported at.js plug-ins.
+Information about supported and not-supported at.js plug-ins in Adobe Target.
 
 Many people have built customized plugins and response plug-ins for [!DNL mbox.js]. These custom plug-ins might not be supported by [!DNL at.js] without being updated.
 
