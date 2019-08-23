@@ -2,7 +2,7 @@
 description: This page lists important changes made to the Target documentation.
 keywords: target documentation change log;documentation updates
 seo-description: This page lists important changes made to the Adobe Target documentation.
-seo-title: Documentation changes in the Adobe Target product documentation
+seo-title: Documentation changes in the Adobe Target product documentation.
 solution: Target
 title: Documentation changes
 topic: Standard
@@ -18,7 +18,6 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |August 23, 2019|[Target mobile preview](/help/c-target-mobile-app/target-mobile-preview.md)|Updated code snippet in `AndroidManifest.xml`.|
-||[at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)|Updated the ttMETA row. This plug-in is no longer supported. Use response tokens instead.|
 |August 22, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions.|
 ||[Custom parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new section: "Considerations."|
 ||[Upload custom criteria](/help/c-recommendations/c-algorithms/recommendations-csv.md)|Updated following sentence: Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file.|
