@@ -2,7 +2,7 @@
 description: Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 seo-description: Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
-seo-title: Custom parameters
+seo-title: Custom parameters in Adobe Target
 solution: Target
 title: Custom parameters
 topic: Standard
@@ -50,7 +50,7 @@ The audience's [definition details pop-up card](../../../c-target/c-audiences/au
 
 ## Considerations {#considerations}
 
-* Audiences and activities are evaluated for a specific mbox. If the global mbox passes a certain parameter, but the regional mbox does not, the visitor does not qualify for that activity.
+* Audiences and activities are evaluated for a specific mbox. For example, if the global mbox passes a certain parameter, but the regional mbox does not, the activity/audience targeting that parameter will not be qualified for on the regional mbox.
 
 ## Training video: Creating Audiences
 

@@ -1,8 +1,8 @@
 ---
 description: Use the mobile preview link to perform easy end-to-end QA for mobile app activities and enroll yourself into different experiences right on your device without any special test devices.
-keywords: qa;preview;preview links;mobile;mobile preview
+keywords: qa;preview;preview link;mobile;mobile preview
 seo-description: Use the mobile preview link to perform easy end-to-end QA for mobile app activities and enroll yourself into different experiences right on your device without any special test devices.
-seo-title: Target mobile preview
+seo-title: Using the mobile preview link in Adobe Target mobile
 solution: Target
 title: Target mobile preview
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ Use the mobile preview link to perform easy end-to-end QA for mobile app activit
 
 >[!NOTE]
 >
->This feature will be turned on in the UI for all customers after October 12, 2017. The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of the Adobe Mobile SDK.
+>The mobile preview feature requires that you download and install the appropriate 4.14 (or later) version of the Adobe Mobile SDK.
 
 ## Overview {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -77,7 +77,7 @@ The mobile preview functionality lets you fully test your Mobile app activities 
    To make Mobile Preview work for Android, you must also add the following code snippet in [!DNL AndroidManifest.xml]:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Generating a Preview Link {#section_D9D58173FFF34E9BB75EBF357273F128}
