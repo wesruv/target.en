@@ -1,6 +1,6 @@
 ---
 description: Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-keywords: system diagram;flicker;Target Standard;at.js;implementation
+keywords: system diagram;flicker;Target Standard;at.js;implementation;javascript library
 seo-description: Adobe Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
 seo-title: How Adobe Target at.js works
 solution: Target
