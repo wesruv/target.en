@@ -64,7 +64,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## at.js 1.x diagram
 
-![](assets/target-flow.png)
+![Target flow - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Step | Description | Call | Description |
 |--- |--- |--- |--- |
