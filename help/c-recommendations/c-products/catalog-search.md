@@ -2,7 +2,7 @@
 description: The catalog search helps you locate the products or content in your catalog.
 keywords: catalog;search
 seo-description: The catalog search in Adobe Target helps you locate the products or content in your catalog.
-seo-title: Catalog search
+seo-title: Catalog search in Adobe Target
 solution: Target
 title: Catalog search
 title-outputclass: premium
