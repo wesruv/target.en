@@ -1,8 +1,8 @@
 ---
 description: Create an exclusion list to prevent items from being recommended.
 keywords: exclusions
-seo-description: Create an exclusion list to prevent items from being recommended.
-seo-title: Exclusions
+seo-description: Create an exclusion list in Adobe Target to prevent items from being recommended.
+seo-title: Exclusions in Adobe Target
 solution: Target
 title: Exclusions
 topic: Premium
