@@ -1,5 +1,6 @@
 ---
 description: Information about the adobe.target.sendNotifications(options) function for at.js. 
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 seo-description: Information about the adobe.target.sendNotifications(options) function for the Adobe Target at.js JavaScript library.
 seo-title: Information about the adobe.target.sendNotifications(options) function for the Adobe Target at.js JavaScript library.
 solution: Target

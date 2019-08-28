@@ -50,6 +50,7 @@ For more information, see:
 
 * **AEM 6.3:** [Opting into Adobe Analytics and Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in the _Adobe Experience Manager 6.3_ documentation.
 * **AEM 6.4:** [Opting into Adobe Analytics and Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in the _Adobe Experience Manager 6.4_ documentation.
+* **AEM 6.5:** [Opting into Adobe Analytics and Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
 
 ### Step 2: Create the experience fragment
 
@@ -57,6 +58,7 @@ Experience fragments are created in AEM. For more information, see:
 
 * **AEM 6.3:** [Experience Fragments](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) in the *Adobe Experience Manager 6.3* documentation.
 * **AEM 6.4:** [Experience Fragments](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) in the *Adobe Experience Manager 6.4* documentation.
+* **AEM 6.5:** [Experience Fragments](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
 
 ### Step 3: Configure AEM to share the experience fragment with Target
 

@@ -124,4 +124,4 @@ This video is a recording of " [Office Hours](../../cmp-resources-and-contact-in
 * Learn about the ideal reports to use in Analytics 
 * Answers to common questions about A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+[Analytics/Target Integration (A4T) Office Hours](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)

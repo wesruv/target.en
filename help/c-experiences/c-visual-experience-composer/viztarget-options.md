@@ -313,11 +313,11 @@ Resize an element on your page. When you select [!UICONTROL Resize], a handle ap
 
 **Note:** Inline elements cannot be resized.
 
-#### Move
+#### Move {#move}
 
 Move elements on your page. Unlike the [!UICONTROL Rearrange] option, [!UICONTROL Move] does not shift other elements to make room for the element being moved. Use the arrow keys to fine tune the move. (Planned enhancement: support for making sure moved elements are not hidden behind other elements.)
 
-In some cases, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent.
+In some cases, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. An element cannot be moved outside of a container that has following CSS property: `overflow: hidden`.
 
 #### Hide
 
@@ -340,6 +340,10 @@ Open the destination of the link.
 ### Undo/Redo
 
 Undo changes you make to your activities during an editing session. You can also redo changes that have been previously undone.
+
+## Considerations {#considerations}
+
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
 ## Navigate elements using the DOM path {#dom-path}
 

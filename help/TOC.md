@@ -38,7 +38,8 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + Enterprise user permissions {#enterprise}
          + [Enterprise user permissions](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configure enterprise permissions](administrating-target/c-user-management/property-channel/properties-overview.md)
-   + [Scene7 settings](administrating-target/scene7-settings.md)
+         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+   + [Dynamic Media Classic integration](administrating-target/scene7-settings.md)
    + [Hosts](administrating-target/hosts.md)
    + [Response tokens](administrating-target/response-tokens.md)
 + Implement Target {#implement-target}
@@ -48,9 +49,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Prepare to implement Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacy {#privacy}
          + [Privacy overview](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Privacy and General Data Protection Regulation (GDPR)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Privacy and data protection regulations](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Delete the Target cookie](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome SameSite cookie policies](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + Methods to get data into Target {#methods}
          + [Methods](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Profile API settings](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -179,7 +181,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [Goals and settings](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Using Analytics Data](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Set metrics](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Multiple experience versions in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -268,7 +270,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Profile attributes](c-target/c-visitor-profile/profile-parameters.md)
       + [Category affinity](c-target/c-visitor-profile/category-affinity.md)
       + [Customer attributes](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Real-time profile syncing for mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Profile and variable glossary](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Targets and audiences FAQ {#faq-audiences}
       + [Targets and audiences FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -332,6 +334,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
    + [Reporting FAQ](c-reports/reporting-frequently-asked-questions.md)
 + Recommendations {#recommendations}   
    + [Recommendations overview](c-recommendations/recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Plan and implement Recommendations](c-recommendations/plan-implement.md)
    + Entities {#entities} 
       + [Entities overview](c-recommendations/c-products/products.md)

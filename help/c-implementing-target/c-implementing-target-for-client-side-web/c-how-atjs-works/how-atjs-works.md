@@ -1,6 +1,6 @@
 ---
 description: Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-keywords: system diagram;flicker;Target Standard;at.js;implementation
+keywords: system diagram;flicker;Target Standard;at.js;implementation;javascript library;js
 seo-description: Adobe Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
 seo-title: How Adobe Target at.js works
 solution: Target
@@ -41,7 +41,7 @@ The following diagrams help you understand the workflow of at.js 2.x with Views 
 |Step|Details|
 | --- | --- |
 |1|Call returns the [!DNL Experience Cloud ID] if the user is authenticated; another call syncs the customer ID.|
-|2|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an option prehiding snippet implemented on the page.|
+|2|The at.js library loads synchronously and hides the document body.<br>at.js can also be loaded asynchronously with an optional prehiding snippet implemented on the page.|
 |3|A page load request is made including all configured parameters (MCID, SDID, and customer ID).|
 |4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the Audience Library (for example, audiences shared from Adobe Analytics, Audience Management, etc.).<br>Customer attributes are sent to the Profile Store in a batch process.|
 |5|Based on URL request parameters and profile data, [!DNL Target] decides which activities and experiences to return to the visitor for the current page and future views.|
@@ -64,7 +64,7 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 
 ## at.js 1.x diagram
 
-![](assets/target-flow.png)
+![Target flow - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Step | Description | Call | Description |
 |--- |--- |--- |--- |
@@ -72,6 +72,23 @@ Now, wherever `triggerView()` is implemented on your SPA, the Views and actions 
 |3|A global mbox request is made including all configured parameters, MCID, SDID, and customer ID (optional).|4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the [!UICONTROL Audience Library] (for example, audiences shared from [!DNL Adobe Analytics], [!DNL Audience Manager], etc.).<br>Customer attributes are sent to the [!DNL Profile Store] in a batch process.|
 |5|Based on the URL, mbox parameters, and profile data, [!DNL Target] decides which activities and experiences to return to the visitor.|6|Targeted content is sent back to page, optionally including profile values for additional personalization.<br>The experience is revealed as quickly as possible without flicker of default content.|
 |7|[!DNL Analytics] data is sent to Data Collection servers.|8|[!DNL Target] data is matched to [!DNL Analytics] data via the SDID and is processed into the [!DNL Analytics]  reporting storage.<br>[!DNL Analytics] data can then be viewed in both [!DNL Analytics] and  [!DNL Target] via [!DNL Analytics for Target] (A4T) reports.|
+
+## How at.js renders offers with HTML content {#render}
+
+When rendering offers with HTML content, at.js applies the following algorithm:
+
+1. Images are preloaded (if there are any `<img>` tags in HTML content).
+
+1. HTML content is attached to the DOM node.
+
+1. Inline scripts are executed (code enclosed in `<script>` tags).
+
+1. Remote scripts are loaded asynchronously and executed (`<script>` tags with `src` attributes).
+
+Important notes:
+
+* at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
+* Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
 
 ## Training video: at.js 2.x architectural diagram
 

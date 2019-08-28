@@ -1,6 +1,6 @@
 ---
-description: List of functions that can be used with at.js.
-keywords: adobe.target.notification;element;selector;notification;extension
+description: List of functions that can be used with the Adobe Target at.js JavaScript library.
+keywords: at.js;functions;javascript library
 seo-description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
 seo-title: Adobe Target at.js functions
 solution: Target
