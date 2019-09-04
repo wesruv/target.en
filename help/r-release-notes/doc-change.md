@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 4, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
 |August 23, 2019|[Target mobile preview](/help/c-target-mobile-app/target-mobile-preview.md)|Updated code snippet in `AndroidManifest.xml`.|
 |August 22, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions.|
 ||[Custom parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new section: "Considerations."|
