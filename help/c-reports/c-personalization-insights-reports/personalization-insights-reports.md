@@ -22,7 +22,7 @@ Two specialized reports are available to users of Automated Personalization (AP)
 >
 >Personalization Insights reports are supported in the [default environment](../../administrating-target/hosts.md) only.
 >
->Personalization Insights reports are only generated for Activities which are in Live status and have been activated and receiving traffic for at least 15 days.
+>Personalization Insights reports are generated only for activities that are in the Live status and have been activated and receiving traffic for at least 15 days.
 
 ## Personalization Insights Reporting overview {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
