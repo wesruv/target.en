@@ -135,7 +135,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 1. Select the desired experience fragment, then click **[!UICONTROL Save]**. 
 1. Finish configuring the activity.
 
-## Considerations (#considerations)
+## Considerations {#considerations}
 
 * [!DNL Target] currently looks for experience fragments to import every ten minutes. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment "master" version remains in AEM. You cannot edit the experience fragment in [!DNL Target].
