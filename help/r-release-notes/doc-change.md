@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 9, 2019|[AEM experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations)|Added "Considerations" section.|
 |September 6, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release.|
 ||[Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)|New topic.|
 |September 4, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
