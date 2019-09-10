@@ -19,6 +19,18 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2019 {#releases-2019}
 
+### Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.1 (August 7, 2019)
+
+This release of Mobile VEC SDK includes the following enhancements and fixes:
+
+(The issue numbers in parentheses are for internal Adobe use.)
+
+* Added support for Preview for Visual Activities on mobile device. (TGT-27875)
+* Fixed an issue that caused an Apple Standard violation due to `UIImagePickerController` usage.
+* Removed GSON dependency from Android SDK. (TGT-31710)
+* Removed Other redundant Gradle dependencies (TGT-35479)
+* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
+
 ### Target Standard/Premium 19.7.1 (July 24, 2019) {#tgt-19-7-1}
 
 This release includes the following new features and enhancements:
