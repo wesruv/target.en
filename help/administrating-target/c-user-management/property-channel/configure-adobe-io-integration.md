@@ -18,7 +18,7 @@ title: Grant Adobe I/O integrations access to workspaces and assign roles
 
 The [!UICONTROL Enterprise Permissions] feature facilitates effective scaling of optimization programs across teams. Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier in 2019. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
 
-With the upcoming [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
 
 * You can choose the workspaces to which the integration can be applied
 * You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
@@ -32,7 +32,9 @@ This update supports the following use cases:
 
 **Action Needed**: Those customers who are currently leveraging APIs for CRUD operations on resources (activities, audiences, offers, and reporting) across all workspaces need to grant their existing Adobe I/O integration access to all workspaces with the desired role as per their use case. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. You can now choose the desired role.
 
-This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. There is no adverse reaction to setting up integrations in advance. The sooner you make this change, the better. Little time is required to set this up, depending on the number of workspaces in your organization. This process takes only a few clicks to add an existing integration into workspaces with the desired role.
+>[!NOTE]
+>
+>If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. There is no adverse reaction to setting up integrations in advance. The sooner you make this change, the better. Depending on the number of workspaces in your organization, this process takes only a few clicks to add an existing integration into workspaces with the desired role.
 
 **To grant Adobe I/O integrations access to workspaces and to assign roles:**
 

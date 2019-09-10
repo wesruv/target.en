@@ -158,12 +158,6 @@ Information to help you contact Adobe and to understand the legal issues concern
 
 ### Help & Technical Support {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
-<!-- 
-
-target/c_contact_and_legal.xml
-
- -->
-
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
 * [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 

@@ -47,7 +47,9 @@ Keep the following points in mind when considering using A4T:
 * When viewing reporting of an A4T activity in the Target UI, you are viewing Analytics data. For example, if you use the Visitor metric in Target, you are using the Analytics Visitor metric, not the Target Visitors metric, which is now called Entrants. This difference is especially important for basic traffic metrics (Visitors, Visits, Page Views) and conversion metrics. 
 * Any existing Target activities continue to use Target data collection and are not affected by enabling A4T. 
 * Only one mbox-based metric is allowed when using Analytics as the reporting source. 
-* A server-to-server call from Target to Analytics sends activity and experience information to Analytics. This integration does not result in additional server calls for either Target or Analytics.
+* A server-to-server call from Target to Analytics sends activity and experience information to Analytics. This integration does not result in additional server calls for either Target or Analytics. 
+
+  In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. If this happens, see [Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). You can also [contact Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) for further assistance.
 
 ## Supported Activity Types {#section_F487896214BF4803AF78C552EF1669AA}
 
