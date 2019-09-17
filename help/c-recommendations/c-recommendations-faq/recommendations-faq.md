@@ -161,10 +161,12 @@ In the query string, you can pass entity IDs for entities that you want to exclu
 
 To enable the exclusion functionality, use the `excludedIds` mbox parameter. This parameter points to a list of comma-separated entity IDs. For example, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. The value is sent when requesting recommendations.
 
+The exclusion is performed for the current Target call only; items are not excluded on subsequent Target calls unless the `excludedIds` value is passed again. To exclude items in the cart from recommendations on every page, continue to pass the `excludedIds` value on every page.
+
 >[!NOTE]
 >
 >If too many entities are excluded, recommendations behave as if there aren't enough entities to fill the recommendation template.
 
-To excluded `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
 
 By default, this feature is enabled for newly created recommendations. Existing recommendations must be saved to support Dynamically Excluded entities.
