@@ -15,7 +15,7 @@ Audiences determine who will see content and experiences in a targeted activity.
 
 Audiences are used anywhere targeting is available. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 
-You can also use audience data collected by [!DNL Analytics] for real-time targeting and personalization in [!DNL Adobe Target] and other [!DNL Experience Cloud] solutions. See [Audiences in the Experience Cloud Product Documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+You can also use audience data collected by [!DNL Analytics] for real-time targeting and personalization in [!DNL Adobe Target] and other [!DNL Experience Cloud] solutions. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) in the *Core Services User Guide*.
 
 [!DNL Target] defines two types of audiences:
 

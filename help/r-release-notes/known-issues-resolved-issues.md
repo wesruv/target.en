@@ -69,7 +69,7 @@ In an MVT activity, the winner shown in the table and graph are not consistent w
 
 The following are known issues with at.js:
 
-* When a page is loaded into the Visual Experience Composer (VEC), Target needs to determine if the global mbox setting is enabled or disabled and whether entityID or categoryID is present at the location where the user is trying to apply the recommendation in the VEC. Based on this information the criteria list is filtered. The default list has filtered algorithms, but the [Compatible checkbox](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) lets you view the complete algorithms list.
+* When a page is loaded into the Visual Experience Composer (VEC), Target needs to determine if the global mbox setting is enabled or disabled and whether entityID or categoryID is present at the location where the user is trying to apply the recommendation in the VEC. Based on this information the criteria list is filtered. The default list has filtered algorithms, but the [Compatible checkbox](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) lets you view the complete algorithms list.
 
   When using at.js , the Compatibility checkbox is hidden, so you cannot see incompatible algorithms.
 

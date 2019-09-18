@@ -27,8 +27,8 @@ The mobile preview functionality lets you fully test your Mobile app activities 
 
    For instructions to download the appropriate SDK, see:
 
-    * **iOS:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) in the *iOS SDK 4.x for Experience Cloud Solutions* guide. 
-    * **Android:** [Before You Start](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.
+    * **iOS:** [Before You start](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) in the *Mobile Services iOS Help*. 
+    * **Android:** [Before You start](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) in the *Mobile Services Android Help*.
 
 1. **Set up a URL scheme:** The preview link uses a URL scheme to open your app. You must specify a unique URL scheme for the preview.
 

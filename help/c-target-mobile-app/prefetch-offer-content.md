@@ -22,5 +22,5 @@ Consider the following when uses in prefetch method with the iOS and Android Mob
 
 For more information, including prefetch methods, public classes, and code samples, see:
 
-* **iOS:**  [Prefetch Offer Content in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) in the *iOS SDK 4.x for Experience Cloud Solutions* guide. 
-* **Android:**  [Prefetch Offer Content in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) in the *Android SDK 4.x for Experience Cloud Solutions* guide.
+* **iOS:**  [Prefetch offer content in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) in the *Mobile Services iOS SDK Help*. 
+* **Android:**  [Prefetch offer content in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) in the *Mobile Services Android SDK Help*.

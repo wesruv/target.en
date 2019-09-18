@@ -24,7 +24,7 @@ The People core service is part of the [!DNL Adobe Experience Cloud] and provide
 
 Consider the following information as your work with customer attributes and Target:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer Attributes] feature in the [!DNL People] core service. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the *Experience Cloud and Core Services Product Documentation*. Note that [!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required. 
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer Attributes] feature in the [!DNL People] core service. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. Note that [!DNL at.js] (any version) or [!DNL mbox.js] version 58 or later is required. 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the Experience Cloud and thus be available for use for targeting in Target. In our current design, there is a possibility that a small percentage of data might not be onboarded. 
 * The lifetime of customer attributes data imported from the Experience Cloud to Target depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
 * If the `vst.*` parameters are the only thing identifying the user, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to UNAUTHENTICATED (1).
@@ -39,7 +39,7 @@ Complete the following steps to use CRM data in [!DNL Target], as illustrated be
 
 ![](assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a Customer Attribute Source and Upload the Data File](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide*.
 
 1. Create a data file.
 
@@ -60,7 +60,7 @@ Detailed instructions for completing each of the following tasks can be found in
    Data files up to 100 MB can be uploaded using the HTTP method. Files larger than 100 MB, up to 4 GB can be uploaded through FTP.
 
     * **HTTPS:** You can drag-and-drop the [!DNL .csv] data file or click [!UICONTROL Browse] to upload from your file system. 
-    * **FTP:** Click on FTP link to [upload file through FTP](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). First step is to provide a password for the Adobe-provided FTP server. Enter the password, then click [!UICONTROL Done].
+    * **FTP:** Click on FTP link to [upload file through FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). First step is to provide a password for the Adobe-provided FTP server. Enter the password, then click [!UICONTROL Done].
 
       Now transfer your CSV/ZIP/GZIP file to the FTP server. Once this file transfer is successful, create a new file with same name and [!DNL .fin] extension. Transfer this empty file to the server. This indicates a End Of Transfer and the Experience Cloud starts to process data file.
 
@@ -76,7 +76,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. Configure subscriptions and activate the attribute source.
 
-   Click **[!UICONTROL Add Subscription]**, then select the solution to subscribe these attributes. [Configuring a subscription](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) sets up the data flow between the Experience Cloud and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application.
+   Click **[!UICONTROL Add Subscription]**, then select the solution to subscribe these attributes. [Configure subscriptions](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) sets up the data flow between the Experience Cloud and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application.
 
    ![](assets/solution.png)
 
@@ -118,11 +118,11 @@ Pass mbox3rdPartyId as a parameter to the global mbox inside the `targetPagePara
 
 ### Using the Experience Cloud ID Service
 
-If you are using the Experience Cloud ID service, you need to set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see [Customer IDs and Authentication State](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) in the *Experience Cloud ID Service Documentation*.
+If you are using the Experience Cloud ID service, you need to set a Customer ID and Authentication State to use customer attributes in targeting. For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 For more information about using customer attributes in [!DNL Target], see the following resources:
 
-* [Create a Customer Attribute Source and Upload the Data File](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) in the *Experience Cloud and Core Services Product Documentation* 
+* C[reate a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide* 
 * [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) in the *Digital Marketing Blog*
 
 ## Issues Frequently Encountered by Customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
