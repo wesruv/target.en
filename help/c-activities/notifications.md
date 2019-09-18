@@ -15,7 +15,7 @@ Target can exchange notifications with other Adobe Experience Cloud solutions us
 
 Notifications from [!DNL Target] can be seen in all solutions by users who have a [!DNL Experience Cloud]product context of [!DNL Target Standard/Premium].
 
-For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
+For information about setting up Notifications, see [Enable notifications](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html#concept_0105453AD71847B8BFCAF4A40915F157) in the [!DNL Adobe Experience Cloud] documentation.
 
 Access Notifications from anywhere in [!DNL Target], except from within the activity creation workflow. Click the bell icon in the page header to display or hide the notifications widget.
 

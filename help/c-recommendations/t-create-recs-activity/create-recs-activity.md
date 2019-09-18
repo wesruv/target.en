@@ -164,7 +164,7 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
    * View the code for your designs
 
 1. (Optional) Open the [!UICONTROL Reports] page to view the report that shows the performance of your [!DNL Recommendations] activity.
-1. (Optional) Open the [!UICONTROL Collisions] page to view any [activity collisions](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) that might occur.
+1. (Optional) Open the [!UICONTROL Collisions] page to view any [activity collisions](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) that might occur.
 
    Activity collisions occur when multiple activities are set to deliver content to the same page, and may cause unexpected content to be displayed.
 

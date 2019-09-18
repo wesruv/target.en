@@ -6,7 +6,7 @@ title: Deploy at.js to a Non-Production Environment
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 ---
 
-# Deploy at.js to a Non-Production Environment{#deploy-at-js-to-a-non-production-environment}
+# Deploy at.js to a non-production environment{#deploy-at-js-to-a-non-production-environment}
 
 Information about the techniques to safely deploy at.js to a non-production environment.
 
