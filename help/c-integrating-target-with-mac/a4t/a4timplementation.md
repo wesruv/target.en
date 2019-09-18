@@ -29,15 +29,15 @@ User account requirements must be met before you can create an Adobe Analytics-b
 
 The visitor ID service lets you identify users across Experience Cloud solutions. You must implement or migrate to the required version of the Experience Cloud Visitor ID. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-See [Implement the Experience Cloud ID Service for Target](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html) in the Experience Cloud Visitor ID Service documentation.
+See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the Experience Cloud Visitor ID Service documentation.
 
 ## Step 4: Update AppMeasurement for JavaScript or s_code
 
 You must implement or migrate to the required version of appMeasurement.js. For more information, see "Implementation Requirements" in [Before you implement](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-For new implementations, see [Analytics JavaScript Implementation](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+For new implementations, see [JavaScript implementation overview](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) in the *Analytics Implementation Guide*.
 
-For a migration, see [Migrating to AppMeasurement for JavaScript](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate).
+For a migration, see [Migrating to AppMeasurement for JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) in the *Analytics Implementation Guide*.
 
 ## Step 5: Download and update at.js or mbox.js
 

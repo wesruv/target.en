@@ -232,7 +232,7 @@ Use [form-based approach](../c-experiences/form-experience-composer.md#task_FAC8
 
 **Can I ensure that same experience is delivered consistently across all devices a user might have?**
 
-Check out our [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html) that allows you to deterministically and probabilistically link multiple devices of a user through the power of a Co-op .
+Check out our [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) that allows you to deterministically and probabilistically link multiple devices of a user through the power of a Co-op .
 
 If you are in the Co-op, a simple flag on the Goals and Settings page enables the feature. Reporting also changes to now reflect People instead of Visitors. Talk to your Adobe contact for more on this feature as this is not available in all regions.
 

@@ -98,7 +98,7 @@ The Adobe Experience Cloud Debugger makes it fast and easy to understand your Ta
 
 For more information, see the training videos below:
 
-For more detailed information, see the [*Adobe Experience Cloud Debugger Extension* documentation](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+For more detailed information, see [Debug at.js using the Adobe Experience Cloud debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## If target.js Fails to Load During Delivery {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 

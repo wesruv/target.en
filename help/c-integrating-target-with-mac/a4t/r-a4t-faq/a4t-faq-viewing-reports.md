@@ -25,7 +25,7 @@ The counting methodology specifies what Target uses as the denominator for the c
 
 For the Activities report, Admins can change the default metric so every time they run the report it shows the same metrics. Otherwise, the report defaults to the last metric you applied to your last report.
 
-For more information, see [Select Default Report Metrics](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) in the *Reports and Analytics Interface Help* guide.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## When do I apply a segment to the metric (with a calculated metric) versus applying the segment to the report? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -106,7 +106,7 @@ The user then comes back on April 1, views another five pages, and makes a purch
 
 Because both experiences were seen prior to the conversion, they both get “credit” for the order. But, only one order took place in the system and the total reflects that. For Target reporting, because you aren’t putting Target activity against activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. You’re comparing the results of two items within the single activity, and it's not possible for a user to see different experiences in the same activity so you don’t have to worry about cross-contamination of order credit.
 
-For more information, see [Conversion Variables (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) in Analytics Help.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Why do Analytics and Analytics for Target (A4T) calculate numbers for the Unique Visitors metric differently? {#section_0C3B648AB54041F9A2AA839D51791883}
 

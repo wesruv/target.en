@@ -95,7 +95,7 @@ Consider the following information if you see a collection go to zero that previ
 * Is your index up to date? Go t o [!DNL /target/products.html#productSearch] and check how many hours old the index is (for example, “Indexed 3 hour(s) ago”). You can refresh the index as needed. 
 * Did you change something in the feed or the data layer that resulted in your entities no longer matching the collection rules? Make sure your CASE matches (case-sensitive). 
 * Did your feed run successfully? Did someone change the FTP directory, password, etc? 
-* Target does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, we also have to provide some representation in the UI for the marketer. We don’t necessarily delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) to see what is in the system at the time a request comes in.
+* Target does its best to make updates to the delivery (on the customer’s page/app) happen as quickly as possible. Yet, we also have to provide some representation in the UI for the marketer. We don’t necessarily delay delivery updates to wait for the UI updates to be in sync. You can use [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) to see what is in the system at the time a request comes in.
 
 ## What's the difference between general Attribute Weighting and Content Similarity-specific attribute weighting? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
