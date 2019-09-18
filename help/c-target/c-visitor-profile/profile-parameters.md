@@ -144,7 +144,7 @@ To sort visitors into groups that each see a different activity, you must create
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -175,11 +175,11 @@ For example, to create four groups, use the following JavaScript:
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -202,9 +202,9 @@ For example, to place visitors in three equal groups, use the following code:
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
