@@ -1,13 +1,13 @@
 ---
-description: Information about updates related to server-side Target implementation.
-keywords: at.js;api;sdk;release;updates
-seo-description: Information about updates related to server-side Adobe Target implementation.
-seo-title: Updates related to server-side Adobe Target implementation
+description: Release notes related to Adobe Target's server-side APIs and SDKs
+keywords: at.js;api;sdk;release;updates;apis;sdks;server side;serverside;server-side
+seo-description: Release notes related to Adobe Target's server-side APIs and SDKs
+seo-title: Release notes related to Adobe Target's server-side APIs and SDKs
 solution: Target
-title: Releases related to server-side implementation
+title: Release notes - APIs and SDKs
 topic: Standard
 ---
 
-# Releases related to server-side implementation
+# Release notes - APIs and SDKs
 
-Information about updates related to server-side Target implementation, including API and SDK updates.
+Release notes related to Adobe Target's server-side APIs and SDKs.
