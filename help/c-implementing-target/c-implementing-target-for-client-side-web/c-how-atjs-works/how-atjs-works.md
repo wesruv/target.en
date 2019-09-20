@@ -21,7 +21,7 @@ The [at.js library](/help/c-implementing-target/c-implementing-target-for-client
 
 For more information, see [Target JavaScript libraries](/help/c-intro/how-target-works.md#libraries).
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Management. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
 
 ## What is the difference between At.js 1.*x* and at.js 2.x workflow diagrams?
 
@@ -30,7 +30,7 @@ See [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implem
 From a high level view, there are a couple of differences between the two versions:
 
 * at.js 2.x does not have a global mbox request concept but rather a page-load request. A page-load request can be viewed as a request to retrieve content that should be applied on the initial page load of your website.
-* at.js 2.x manages concepts of Views that are use for Single Page Applications (SPAs). at.js 1.*x* is not aware of this concept.
+* at.js 2.x manages  a concepts called Views, which are use for Single Page Applications (SPAs). at.js 1.*x* is not aware of this concept.
 
 ## at.js 2.x diagrams
 
@@ -45,7 +45,7 @@ The following diagrams help you understand the workflow of at.js 2.x with Views 
 |3|A page load request is made including all configured parameters (MCID, SDID, and customer ID).|
 |4|Profile scripts execute and then feed into the Profile Store. The Store requests qualified audiences from the Audience Library (for example, audiences shared from Adobe Analytics, Audience Management, etc.).<br>Customer attributes are sent to the Profile Store in a batch process.|
 |5|Based on URL request parameters and profile data, [!DNL Target] decides which activities and experiences to return to the visitor for the current page and future views.|
-|6|Targeted content is sent back to the page, optionally including profile values for additional personalization.<br>Targeted content on the current page is revealed as quickly as possible without flicker of default content.<br>Targeted content for views that are shown as a result to user actions in a SPA that is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through `triggerView()`.|
+|6|Targeted content is sent back to the page, optionally including profile values for additional personalization.<br>Targeted content on the current page is revealed as quickly as possible without flicker of default content.<br>Targeted content for views that are shown as a result of user actions in a SPA is cached in the browser so it can be instantly applied without an additional server call when the views are triggered through `triggerView()`.|
 |7|Analytics data is sent to Data Collection servers.|
 |8|Targeted data is matched to Analytics data via the SDID and is processed into the Analytics reporting storage.<br>Analytics data can then be viewed in both Analytics and Target via Analytics for Target (A4T) reports.|
 
