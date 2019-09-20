@@ -70,8 +70,9 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
