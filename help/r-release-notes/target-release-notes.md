@@ -13,7 +13,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: September 6, 2019**
+**Last Updated: September 24, 2019**
 
 >[!NOTE]
 >
@@ -38,17 +38,21 @@ This action should be performed during the month of **August 2019**. After the [
 
 For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
+## Target Standard/Premium 19.9.2 (September 30, 2019)
+
+|Feature / Enhancement|Description|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session.|
+
+This release includes the following enhancement:
+
+* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
+
 ## Target Standard/Premium 19.9.1 (September 10, 2019)
 
 |Feature / Enhancement|Description|
 | --- | --- |
 |![Premium badge](/help/assets/premium.png) Enterprise Permissions|With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).|
-
-## Target Standard/Premium 19.9.2 (September 24, 2019)
-
-This maintenance release includes the following enhancement:
-
-* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
