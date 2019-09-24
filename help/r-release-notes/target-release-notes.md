@@ -40,11 +40,7 @@ For step-by-step instructions and more information, see [Grant Adobe I/O integra
 
 ## Target Standard/Premium 19.9.2 (September 30, 2019)
 
-|Feature / Enhancement|Description|
-| --- | --- |
-|![Premium badge](/help/assets/premium.png) User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session.|
-
-This release includes the following enhancement:
+This maintenance release includes the following enhancement:
 
 * Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
 
