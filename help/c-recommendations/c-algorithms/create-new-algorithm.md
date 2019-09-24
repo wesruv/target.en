@@ -118,7 +118,7 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
 
 ## Expected criteria processing time {#process-time}
 
-After saving a criteria, [!DNL Target] computes recommendations. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
+After saving an Activity containing a Criteria, [!DNL Target] computes recommendations based on the selected Collection and Criteria. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
 ### mboxes
 
