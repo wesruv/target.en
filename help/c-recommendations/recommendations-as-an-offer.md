@@ -117,3 +117,7 @@ The recommendations offer's (algorithm) status displays at the bottom of the [!U
 * Feed Failure
 
 ![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
+
+## Training video: Recommendations as an offer
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878)

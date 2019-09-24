@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |September 24, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed date of the Target/Standard 19.2.1 release to September 30, 2019.|
+||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|Added training video.|
 |September 10, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 19.9.1 release.|
 |September 9, 2019|[AEM experience fragments](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations)|Added "Considerations" section.|
 ||[Google Chrome SameSite cookie policies](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)|Updated text for entire topic.|
