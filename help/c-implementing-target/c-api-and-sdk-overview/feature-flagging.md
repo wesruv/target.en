@@ -26,11 +26,11 @@ The following links provide information for key concepts you need to understand 
 
 1. Create a Target JSON Offer that sets this variable to "on."
 
-1. Create an A/B Test activity in the [Visual Experience Composer](/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) with two experiences and use the JSON offer created in the previous step in one experience.
+1. Create an A/B Test activity in the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) with two experiences and use the JSON offer created in the previous step in one experience.
 
    Or
 
-   Create an A/B Test activity in the [Form-Based Experience Composer](/c-experiences/form-experience-composer.md) with a single experience and use the JSON offer created in the previous step.
+   Create an A/B Test activity in the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) with a single experience and use the JSON offer created in the previous step.
 
    >[!NOTE]
    >
@@ -42,11 +42,11 @@ The following links provide information for key concepts you need to understand 
 
    The following illustration shows the VEC with two experiences.
 
-   ![Traffic allocation for feature flagging](/c-implementing-target/c-api-and-sdk-overview/assets/feature-flagging.png)
+   ![Traffic allocation for feature flagging in the VEC](/help/c-implementing-target/c-api-and-sdk-overview/assets/feature-flagging.png)
 
    The following illustration shows the Form-based Experience Composer with a single experience.
 
-   ![Traffic allocation for feature flagging in the Form-based Experience Composer](/c-implementing-target/c-api-and-sdk-overview/assets/feature-flagging-form.png)
+   ![Traffic allocation for feature flagging in the Form-based Experience Composer](/help/c-implementing-target/c-api-and-sdk-overview/assets/feature-flagging-form.png)
 
 1. You can increase the traffic allocation to this activity by gradually increasing the 5% either through the Target UI or using the API until you reach 100% traffic allocation.
 
