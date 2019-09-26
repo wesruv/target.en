@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|September 26, 2019|[Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)|New topic.|
 |September 24, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed date of the Target/Standard 19.2.1 release to September 30, 2019.|
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md)|Added training video.|
 |September 10, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Standard/Premium 19.9.1 release.|

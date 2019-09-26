@@ -137,6 +137,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
    + Server Side: implement Target {#server-side}
       + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implement Target {#implement-email}
       + [Email: implement Target overview](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
