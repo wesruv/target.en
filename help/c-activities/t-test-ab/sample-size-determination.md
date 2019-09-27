@@ -30,7 +30,7 @@ Target provides tools to help ensure that your activity has a large enough sampl
 
   For more information, see [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). 
 
-* **Target Sample Size Calculator:** If you choose to use a manual A/B test rather than Auto-Allocate, the Target Sample Size Calculator helps you determine the sample size needed for a successful test. Continue reading for more information about how to use the calculator.
+* **Target Sample Size Calculator:** If you choose to use a manual A/B test rather than Auto-Allocate, the Target Sample Size Calculator helps you determine the sample size needed for a successful test. A manual A/B test is a fixed horizon test, so the calculator is extremely helpful. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Continue reading for more information about how to use the calculator.
 
 ## Adobe Target Sample Size Calculator {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
