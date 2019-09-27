@@ -1,7 +1,7 @@
 ---
 description: Information about known issues for this release of Target. Also includes information about issues that have been resolved.
-keywords: known issues;resolved issues;release notes
-seo-description: Information about known issues for this release of Target. Also includes information about issues that have been resolved.
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
+seo-description: Information about known issues for this release of Adobe Target. Also includes information about issues that have been resolved.
 seo-title: Known issues and resolved issues in Adobe Target
 solution: Target
 title: Known issues and resolved issues
