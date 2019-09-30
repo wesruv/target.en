@@ -58,8 +58,9 @@ Code offers created from the Target UI in the Offers library might display in th
 
 The following are known issues with Recommendations activities:
 
-* Recommendations "error.restapi.algorithmProfileAttributeInvalid" error occurs when specific profile attributes are used as the criteria key.
-* When Back Promotion is used in a Recommendations activity, Criteria inclusion filters don't apply on backup ERs.
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### Multivariate Test (MVT) activities
 
