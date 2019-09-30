@@ -13,6 +13,12 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] documentation.
 
+## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+||[Release Notes](/help/r-release-notes/release-notes.md): 19.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 19.7.1 (July 23, 2019) {#tgt-19-7-1}
 
 |Date|Topic|Changes|

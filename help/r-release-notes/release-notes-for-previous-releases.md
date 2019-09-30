@@ -19,6 +19,13 @@ Release notes for previous Target releases, including release notes for Target S
 
 ## Release notes - 2019 {#releases-2019}
 
+### Target Standard/Premium 19.9.1 (September 10, 2019)
+
+|Feature / Enhancement|Description|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) Enterprise Permissions|With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>You can apply a role to the Adobe I/O integration: Approver, Editor, or Observer.</li></ul>For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).|
+
+
 ### Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.1 (August 7, 2019)
 
 This release of Mobile VEC SDK includes the following enhancements and fixes:

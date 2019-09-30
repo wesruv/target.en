@@ -13,6 +13,12 @@ uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 
 These release notes provide information about features, enhancements, and fixes for each Target Standard and Target Premium release.
 
+## Target Standard/Premium 19.9.2 (September 30, 2019)
+
+This maintenance release includes the following enhancement:
+
+* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
+
 ## Target Standard/Premium 19.9.1 (September 10, 2019)
 
 |Feature / Enhancement|Description|
