@@ -18,6 +18,7 @@ These release notes provide information about features, enhancements, and fixes 
 This maintenance release includes the following enhancement:
 
 * Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
+* Recommendations Offers can now be added to elements other than DIV (e.g. P, UL, H1), in addition to DIV, in A/B Test and Experience Targeting activities. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (September 10, 2019)
 
