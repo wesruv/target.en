@@ -36,7 +36,7 @@ These release notes provide information about features, enhancements, and fixes 
 | --- | --- |
 |![Premium badge](/help/assets/premium.png) User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site.|
 
-## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
+## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
 
