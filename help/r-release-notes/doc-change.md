@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 2, 2029|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about upcoming releases.|
 |October 1, 2019|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Updated text in the "Customer attributes" section.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated code sample in the "Call getOffers() for all views" section.|
 |September 30, 2019|[Release Notes](/help/r-release-notes/release-notes.md): 19.9.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
