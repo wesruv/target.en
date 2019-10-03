@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 3, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library.|
+||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug)|Added note to "mboxDebug" section.|
 |October 2, 2029|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about upcoming releases.|
 |October 1, 2019|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Updated text in the "Customer attributes" section.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Updated code sample in the "Call getOffers() for all views" section.|

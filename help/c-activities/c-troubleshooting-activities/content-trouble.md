@@ -1,8 +1,8 @@
 ---
 description: If your page does not display the expected content, there are a few steps you can take to debug content delivery.
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery.
-seo-title: Troubleshoot content delivery
+seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery in Adobe Target.
+seo-title: Troubleshoot content delivery in Adobe Target
 solution: Target
 subtopic: Multivariate Test
 title: Troubleshoot content delivery
@@ -75,7 +75,7 @@ You do not need to include `=console`, `=json`, or `=window` in the query parame
 
 The normal functioning and appearance of your site is not affected by mboxTrace. Visitors will see your regular Recommendations design.
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 To use mboxDebug, append an mboxDebug parameter to the end of your URL. The following table contains information about mbox-related URL parameters.
 
@@ -91,6 +91,10 @@ To use mboxDebug, append an mboxDebug parameter to the end of your URL. The foll
 |`mboxDebug=x-profile`|View profiles set.|
 |`mboxDebug=x-time`|Show response time for each mbox request|
 |`mboxOverride.browserIp=<Insert IP address>`|Test geotargeting<br>Test geotargeting with this URL parameter. Type an IP address as the value for this attribute, and Test&Target's geotargeting evaluates that IP address to match against any geotargeting or segmentation set in a campaign.|
+
+>[!NOTE]
+>
+>Ensure that the URL fragment is after query string parameters. Anything after the first `#` is a fragment identifier and causes debugging parameters not to function correctly.
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
