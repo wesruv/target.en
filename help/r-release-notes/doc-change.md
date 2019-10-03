@@ -17,7 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|October 3, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library.</l><li>Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API.</li><li>Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.</li></ul>|
+|October 3, 2019|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added the following: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library.</li><li>Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API.</li><li>Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.</li></ul>|
 ||[Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug)|Added note to "mboxDebug" section.|
 |October 2, 2029|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about upcoming releases.|
 |October 1, 2019|[Profile and variable glossary](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)|Updated text in the "Customer attributes" section.|
