@@ -243,7 +243,6 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Activity QA overview](c-activities/c-activity-qa/activity-qa.md)
       + [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [Activity notifications](c-activities/notifications.md)
 + Audiences {#audiences}
    + [Audiences overview](c-target/target.md)
    + [How targeting works](c-target/target-how-target-works.md)

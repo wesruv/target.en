@@ -1,8 +1,8 @@
 ---
 description: Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
 keywords: settings;priority
-seo-description: Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
-seo-title: Priority
+seo-description: Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
+seo-title: Priority in Adobe Target
 solution: Target
 title: Priority
 topic: Standard
