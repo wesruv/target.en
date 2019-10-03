@@ -62,7 +62,7 @@ The following are known issues with Recommendations activities:
 * The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 * Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
-* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 
 ### Multivariate Test (MVT) activities
 
