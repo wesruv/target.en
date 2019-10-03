@@ -2193,10 +2193,6 @@ This release includes the following features and enhancements:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Experience Cloud Notifications </td> 
-   <td colname="col2"> <p>Notifications from Target are visible in all Adobe Experience Cloud solutions. Notifications are automatically sent when an activity is activated or deactivated. These notifications are available to all users with access to Target Standard/Premium. </p> <p>Notifications are also visible in Target Standard/Premium. </p> <p>See <a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> Notifications </a> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> User Interface Improvements </td> 
    <td colname="col2"> <p>The user interface has been changed significantly in this release. Among the most noticeable changes are: </p> <p> 
      <ul id="ul_28F382C60ADE43F5A3A4BD0CD5A5CE52"> 
