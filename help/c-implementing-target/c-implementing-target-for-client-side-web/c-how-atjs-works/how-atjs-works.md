@@ -1,8 +1,8 @@
 ---
-description: Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-keywords: system diagram;flicker;Target Standard;at.js;implementation;javascript library;js
+description: Target system diagrams showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
+keywords: system diagram;flicker;at.js;implementation;javascript library;js
 seo-description: Adobe Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-seo-title: How Adobe Target at.js works
+seo-title: How the Adobe Target at.js JavaScript library works
 solution: Target
 title: How at.js works
 topic: Standard
@@ -11,7 +11,7 @@ uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 
 # How at.js works{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js library. 
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library. 
 
 In a client-side implementation of [!DNL Adobe Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. The browser decides which experience to display and displays it. With a client-side implementation, you can use a WYSIWYG editor, the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC), or a non-visual interface, the [Form-based Experience Composer](/help/c-experiences/form-experience-composer.md), to create your test and personalization experiences.
 
