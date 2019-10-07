@@ -1,7 +1,7 @@
 ---
 description: Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
-keywords: implement;implementing;implementation;adobe launch;launch;race;redirect
-seo-description: Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
+seo-description: Adobe Experience Platform Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 seo-title: Implement Target using Adobe Launch
 title: Implement Target using Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
@@ -9,7 +9,7 @@ uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 
 # Implement Target using Adobe Launch{#implement-target-using-adobe-launch}
 
-Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+Adobe Experience Platform Launch is the next-generation tag management platform from Adobe and is the preferred method to implement Adobe Target. Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
 ## Implement Target using Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 

@@ -4,7 +4,7 @@ keywords: a4t;analytics;analytics for target;analytics reporting source;adobe an
 seo-description: Adobe "Analytics for Target" (A4T) is a cross-solution integration that lets you create activities based on Analytics conversion metrics and audience segments. This integration lets you use Analytics reports to examine your results. If you use Analytics as the reporting source for an activity, all reporting and segmentation for that activity is based on Analytics data collection.
 seo-title: Adobe Analytics as the reporting source for Adobe Target (A4T)
 solution: Target
-subtopic: Multivariate Test
+subtopic: Integrating
 title: Adobe Analytics as the reporting source for Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
