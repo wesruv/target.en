@@ -11,6 +11,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
 + Target release notes {#release-notes}
    + [Target release notes (current)](r-release-notes/release-notes.md)
    + [Target release notes (prerelease)](r-release-notes/target-release-notes.md)
+   + [Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)
    + [Known issues and resolved issues](r-release-notes/known-issues-resolved-issues.md)
    + [System status updates and proactive notifications](r-release-notes/system-status-updates.md)
    + [Documentation changes](r-release-notes/doc-change.md)
