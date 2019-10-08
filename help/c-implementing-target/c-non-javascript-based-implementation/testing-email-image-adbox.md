@@ -1,8 +1,8 @@
 ---
 description: Dynamically test images in email, and even change those images on the fly when someone opens the email.
-keywords: email;adbox
-seo-description: Dynamically test images in email, and even change those images on the fly when someone opens the email.
-seo-title: Test an email image Adbox
+keywords: email;adbox;email image adbox
+seo-description: Using Adobe Target, dynamically test images in email, and even change those images on the fly when someone opens the email.
+seo-title: Test an email image Adbox using Adobe Target
 solution: Target
 title: Test an email image Adbox
 topic: Recommendations
@@ -24,12 +24,12 @@ Email image testing is achieved through using modified versions of adboxes. Beca
 **Sample code for an email image adbox:**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 Where the below values are specific to you:
