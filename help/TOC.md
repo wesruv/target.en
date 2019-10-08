@@ -136,7 +136,8 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Server Side: implement Target {#server-side}
-      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - Target server-side APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Server Side: implement Target overview](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition from Target legacy APIs to Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Email: implement Target {#implement-email}
