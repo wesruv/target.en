@@ -10,7 +10,7 @@ topic: Standard
 
 # Release notes - Target Node.js SDK
 
-Release notes related to Adobe Target's Node.js SDK.
+Release notes related to [Adobe Target's Node.js SDK](https://github.com/adobe/target-nodejs-sdk).
 
 ## Version 1.0.0 (October 9, 2019)
 
