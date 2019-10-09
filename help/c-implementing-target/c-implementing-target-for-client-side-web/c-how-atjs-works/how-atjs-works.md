@@ -1,6 +1,6 @@
 ---
 description: Target system diagrams showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
-keywords: system diagram;flicker;at.js;implementation;javascript library;js
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 seo-description: Adobe Target system diagram showing the flow of calls and information sent or collected for an auto-created global mbox using at.js.
 seo-title: How the Adobe Target at.js JavaScript library works
 solution: Target
@@ -23,7 +23,7 @@ For more information, see [Target JavaScript libraries](/help/c-intro/how-target
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. In addition, the following Experience Cloud core services are implemented: Adobe Launch, Audiences, and Visitor ID Service.
 
-## What is the difference between At.js 1.*x* and at.js 2.x workflow diagrams?
+## What is the difference between at.js 1.*x* and at.js 2.x workflow diagrams?
 
 See [Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) for more information on the differences that were introduced in 2.O from 1.*x*.
 

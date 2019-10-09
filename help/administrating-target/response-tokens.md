@@ -1,7 +1,7 @@
 ---
 description: Response tokens let you automatically output Target-specific information (campaign details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale)
-keywords: response tokens;tokens;plugins;plug-ins;at.js
-seo-description: Response tokens let you automatically output Target-specific information (campaign details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale)
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
+seo-description: Response tokens let you automatically output Target-specific information (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale)
 seo-title: Response tokens in Adobe Target
 solution: Target
 subtopic: Getting Started
@@ -20,7 +20,7 @@ A key difference between plug-ins and response tokens is that while plug-ins del
 
 >[!NOTE]
 >
->Response tokens are available with [!DNL at.js] 1.1 or later. Response tokens are not supported with mbox.js.
+>Response tokens are available with at.js 1.1 or later. Response tokens are not supported with mbox.js.
 
 | Target Library in Use | Suggested Actions |
 |--- |--- |
