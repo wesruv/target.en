@@ -10,7 +10,7 @@ topic: Standard
 
 # Release notes - Target server-side APIs
 
-Release notes related to the [!DNL Adobe Target] server-side APIs.
+Release notes related to the [Adobe Target server-side APIs](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/delivery (October 9, 2019)
 
