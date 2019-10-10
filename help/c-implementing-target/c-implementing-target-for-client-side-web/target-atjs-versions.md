@@ -17,11 +17,29 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js versions 2.2 and 1.8 (October 10, 2019)
+## at.js version 2.2 (October 10, 2019)
 
-|Feature / Enhancement|Description|
-| --- | --- |
-|at.js version 2.2<br>and<br>at.js version 1.8|These versions of at.js provide:<ul><li>Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 or at.js 1.8 on your web pages.</li><li>Previously, the ECID made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.</li></ul> In order to take advantage of these performance improvements, upgrade to at.js 2.2 or at.js 1.8 along with ECID Library v4.4.<br>at.js 2.2 provides:<ul><li>**serverState**: A setting available in at.js v2.2+ that can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served.<br>For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul>|
+This release of at.js includes the following enhancements and fixes:
+
+* Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 on your web pages.
+* Previously, the ECID made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.
+
+  >[!NOTE]
+  >
+  >Upgrade your ECID Launch Extension to v4.4 to take advantage of this performance enhancement.
+
+* at.js version 2.2 also provides a new setting called `serverState`. This setting can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+
+## at.js version 1.8 (October 10, 2019)
+
+This release of at.js includes the following enhancements and fixes:
+
+* Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 1.8 on your web pages.
+* Previously, the ECID made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.
+
+>[!NOTE]
+>
+>Upgrade your ECID Launch Extension to v4.4 to take advantage of this performance enhancement.
 
 ## at.js version 2.1.1 (July 24, 2019)
 
