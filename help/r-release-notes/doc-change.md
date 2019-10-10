@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |October 10, 2019|[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)|Added new section: "serverState."|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.2 and at.js 1.8 releases.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.2 and at.js 1.8 releases.|
+||[Troubleshoot activities](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)|Added new section: "I created an activity using the Target UI and I cannot update it via API."|
 |October 9, 2019|[Server Side: implement Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)|Updated topic.|
 ||[Release notes - Target server-side APIs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)|New topic.|
 ||[Release notes - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)|New topic.|
