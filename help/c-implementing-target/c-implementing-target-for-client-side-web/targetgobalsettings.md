@@ -182,7 +182,7 @@ Consider the following when working with the `dataProviders` setting:
 You must have a hybrid integration of [!DNL Target].
   
 * **Server-side**:  You must use the new [delivery API](https://developers.adobetarget.com/api/delivery-api/) or [Target SDKs](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Client-side**: You must use [at.js version 2.2 or later](help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Client-side**: You must use [at.js version 2.2 or later](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Code samples
 
