@@ -19,6 +19,10 @@ If your activity does not appear on your site, these troubleshooting suggestions
 
 The following sections contain problems you might encounter with suggested solutions.
 
+## I created an activity using the Target UI and I cannot update it via API.
+
+Activities created using the Target UI can *only* be updated via the Target UI. Activities created via API can *only* be updated via API. Try updating the activity using the same method (UI or API) that was used to create the activity.
+
 ## You are seeing default content.
 
 Make sure your activity is complete and has been activated.
