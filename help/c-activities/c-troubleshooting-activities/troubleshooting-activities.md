@@ -21,7 +21,9 @@ The following sections contain problems you might encounter with suggested solut
 
 ## I created an activity using the Target UI and I cannot update it via API.
 
-Activities created using the Target UI can *only* be updated via the Target UI. Activities created via API can *only* be updated via API. Try updating the activity using the same method (UI or API) that was used to create the activity.
+Activities created using the Target UI should be updated via the Target UI. Activities created via API should be updated via API. If you originally create an activity using the API, for example, but then later edit the activity via the Target UI, not all of the changes are updated. All of the changes are stored on the backend and can be updated by making another API call.
+
+As best practice, try updating the activity using the same method (UI or API) that was used to originally create the activity.
 
 ## You are seeing default content.
 
