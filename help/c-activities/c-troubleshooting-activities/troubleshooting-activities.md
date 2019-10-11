@@ -1,4 +1,4 @@
-~~~~---
+---
 description: If your activity does not appear on your site, these troubleshooting suggestions should help you find your solution.
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 seo-description: If your activity does not appear on your site, these troubleshooting suggestions should help you find your solution.
@@ -21,9 +21,9 @@ The following sections contain problems you might encounter with suggested solut
 
 ## I created an activity using the Target UI and I cannot update it via API.
 
-Activities created using the Target UI should be updated via the Target UI. Activities created via API should be updated via API. If you originally create an activity using the API but then later edit the activity via the Target UI, not all of the fields are updated. All of the fields are stored on the backend and can be updated by making another API call.
+Activities created using the Target UI should be updated via the Target UI. Activities created via API should be updated via API. If you originally create an activity using the API, for example, but then later edit the activity via the Target UI, not all of the changes are updated. All of the changes are stored on the backend and can be updated by making another API call.
 
-As best practice, try updating the activity using the same method (UI or API) that was used to create the activity.
+As best practice, try updating the activity using the same method (UI or API) that was used to originally create the activity.
 
 ## You are seeing default content.
 
