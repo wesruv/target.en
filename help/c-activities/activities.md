@@ -1,8 +1,8 @@
 ---
-description: Activities let you test page designs and target content to specific audiences.
-keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations
-seo-description: Activities in Adobe Target let you test page designs and target content to specific audiences.
-seo-title: Activities in Adobe Target
+description: Activities in Adobe Target let you personalize content to specific audiences and test page designs.
+keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
+seo-description: Activities in Adobe Target let you personalize content to specific audiences and test page designs
+seo-title: Activities in Adobe Target let you personalize content to specific audiences and test page designs.
 solution: Target
 title: Activities
 topic: Standard
@@ -11,7 +11,7 @@ uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 
 # Activities{#activities}
 
-Activities let you test page designs and target content to specific audiences. An activity determines the experiences a site visitor might encounter.
+Activities in Adobe Target let you personalize content to specific audiences and test page designs.
 
 For example, you might design an activity that tests two different landing pages, one that highlights information about women's summer shoes, and another landing page that highlights more general summer apparel. The activity determines the conditions that control when each of these landing pages appears, and the metrics that determine which page is more successful. The activity is configured to start and end when specific conditions are met, such as between specific dates, or to start when the activity is approved and to end when it is deactivated.
 
@@ -24,7 +24,7 @@ Target includes several activity types. The following table provides an overview
 | Activity Type | Description |
 |--- |--- |
 |[A/B Test](/help/c-activities/t-test-ab/test-ab.md)|A/B Testing compares two or more versions of your Web site content to see which version best improves your conversions during a pre-specified test period.<br>**Note:** You can now include [recommendations inside A/B Test activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
-|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.<br>**Note:** You can now include [recommendations inside Auto-Allocate activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a TThis functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
+|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.<br>**Note:** You can now include [recommendations inside Auto-Allocate activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
 |[Auto-Target](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png)|Auto Target uses advanced machine learning to identify multiple high performing marketer-defined experiences, and serves the most tailored experience to each visitor based on their individual customer profile and the behavior of previous visitors with similar profiles, in order to personalize content and drive conversions.<br>**Note:** You can now include [recommendations inside Auto-Target activities](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium).|
 |[Using Analytics Data](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T)|You can configure an activity to use [!DNL Adobe Analytics] as the reporting source. This activity type requires that you link your  [!DNL Adobe Experience Cloud] account with both [!DNL Analytics] and [!DNL Target].|
 |[Multivariate Test](/help/c-activities/c-multivariate-testing/multivariate-testing.md)|Multivariate Testing (MVT) compares combinations of offers in elements on a page to determine which combination performs the best for a specific audience, and identifies which element most impacts the activity's success.|
