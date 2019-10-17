@@ -29,18 +29,18 @@ These release notes provide information about features, enhancements, and fixes 
 
 ### Enhancements, fixes, and changes
 
-* Changes to the Adobe Unified Shell.
+* Changes to the [!DNL Experience Cloud] shell.
 
   Adobe is making updates to the existing shell (the black bar at the top of [!DNL Experience Cloud] solutions) to unify and improve your experience across all [!DNL Adobe Experience Cloud] solutions.
 
   There are no changes to current workflows, and these seemingly simple changes are designed to make your life easier in small, but important ways.
 
-  When you log in to the [!DNL Adobe Experience Cloud], you will be taken to the new Unified Shell. It looks very similar to the previous Shell with the black bar at the top, but it provides the following improvements:
+  When you log in to the [!DNL Adobe Experience Cloud], you will be taken to the new shell. It looks very similar to the previous shell with the black bar at the top, but it provides the following improvements:
 
   * Easier switching between Identity Management System (IMS) organizations or to a different [!Experience Cloud] solution.
   * Improved user help: Search results include results from the [!DNL Target] product documentation, as well as community forums and more video content, giving you easier access to more content to help get the most out [!DNL Target]. We’ve also added a feedback mechanism right in the Help menu, making it easier to report issues or to share your ideas.
   * Improved Net Promoter Score (NPS) functionality. At times, some customers saw [!DNL Target] surveys at a higher frequency than we intended. In addition, the survey modal used to disturb your flow of work. We have updated this functionality  completely so that it becomes a small survey that is no longer intrusive. In addition, with the new design, we are able to ensure that the frequency of the survey is better controlled.
-  * Improved log-in flow. Previously, all [!DNL Target] customers landed on the Target landing page after clicking the [!DNL Target] icon on the Shell. This page then allowed customers to proceed forward with [!DNL Target Standard/Premium], [!DNl Recommendations Classic], or [!DNL Search&Promote], as shown below:
+  * Improved log-in flow. Previously, all [!DNL Target] customers landed on the Target landing page after clicking the [!DNL Target] icon on the shell. This page then allowed customers to proceed forward with [!DNL Target Standard/Premium], [!DNl Recommendations Classic], or [!DNL Search&Promote], as shown below:
 
     ![Landing page](/help/r-release-notes/assets/landing.png)
   
@@ -50,14 +50,14 @@ These release notes provide information about features, enhancements, and fixes 
 
     ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
     
-    If you use [!DNL Search&Promote], you need to go directly to the link. The path to reach Search&Promote from inside of [!DNL Adobe Target] has been removed completely.
-  * Notifications for [!DNL Target] are currently no longer visible in the [!UICONTROL Notifications] drop-down in Shell.
+    If you use [!DNL Search&Promote], you need to go directly to the link. The path to reach [!DNL Search&Promote] from inside of [!DNL Adobe Target] has been removed completely.
+  * Notifications for [!DNL Target] are currently no longer visible in the [!UICONTROL Notifications] drop-down in the shell.
 
   >[!NOTE]
   >
   >These features will not be rolled out at once, nor will they be rolled out to all customers together. We will be rolling out these features over the course of next few days starting the [!DNL Target Standard/Premium] 19.10.1 (October 22, 2019) release.
   >
-  >As part of the rollout of the new Shell, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
+  >As part of the rollout of the new shell, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
