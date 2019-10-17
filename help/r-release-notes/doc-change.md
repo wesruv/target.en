@@ -17,6 +17,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 17, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Updated topic to explain how Activity QA works with third-party cookies.|
+||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Updated release notes to include information about changes to the Unified Shell.|
 |October 10, 2019|[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)|Added new section: "serverState."|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the at.js 2.2 and at.js 1.8 releases.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the at.js 2.2 and at.js 1.8 releases.|
