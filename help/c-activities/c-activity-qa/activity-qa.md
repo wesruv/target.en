@@ -23,9 +23,9 @@ Activity QA lets you fully test your Target activities prior to launching them l
 * The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/mbox/audience). 
 * The ability to QA the entire user journey. You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA. This feature is particularly useful if you have an activity spanning multiple web pages.
 
->[!NOTE]
->
->This is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
+  >[!NOTE]
+  >
+  >This is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
