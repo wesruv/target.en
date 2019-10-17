@@ -36,7 +36,7 @@ Geo location parameters allow you to target activities and experiences based on 
 
    For Mobile Carrier, [!DNL Target] uses the IP address registration data (who owns the block of IP addresses) to determine the appropriate mobile carrier using [Mobile Country Codes (MCC) and Mobile Network Codes MNC)](https://www.mcc-mnc.com).
 
-1. Specify an operator and the the appropriate value.
+1. Specify an operator and the appropriate value.
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
