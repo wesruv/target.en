@@ -1,4 +1,4 @@
----
+~~~~---
 description: Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
 keywords: qa;preview;preview links
 seo-description: Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
@@ -9,7 +9,7 @@ topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 ---
 
-# Activity QA{#activity-qa}
+# Activity QA {#activity-qa}
 
 Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
 
@@ -22,6 +22,10 @@ Activity QA lets you fully test your Target activities prior to launching them l
 * QA reporting is captured so that marketers can confirm that metrics are incrementing as expected and the QA report data is kept separate from production reporting (for non-A4T reporting). 
 * The ability to preview an experience in isolation or in conjunction with other live activities satisfying the delivery criteria (page/mbox/audience). 
 * The ability to QA the entire user journey. You can access your site once with the QA link and then browse the entire site while in Activity QA. You remain in Activity QA until you end the session or until you use the [QA Target bookmarklet](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) to force yourself out of Activity QA. This feature is particularly useful if you have an activity spanning multiple web pages.
+
+>[!NOTE]
+>
+>This is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
 
 ## Accessing and Sharing a QA URL {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -49,7 +53,9 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
    Activity Links never expire and you do not need to resend links if someone makes changes to an activity or experience. However, if you apply a different audience from the Audience Library, rather than simply editing the activity, a new link is generated that you'll need to re-share.
 
-   Each Activity Link URL (for Exp A, Exp B, etc.) lets you start the user journey from the corresponding experience. You can click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). You can navigate the site to see the other pages because the Activity QA is sticky. 
+   Each Activity Link URL (for Exp A, Exp B, etc.) lets you start the user journey from the corresponding experience. You can click the URL generated for an experience and then proceed with normal site browsing to see experiences on multiple pages (if multiple pages exist). Only one URL is generated per experience, even if the experience spans multiple pages (template testing or multi-page testing). 
+   
+   You can navigate the site to see the other pages because the Activity QA is sticky. Note that this is true for at.js implementations with version 2.*x* or later. For at.js 1.*x* and mbox.js implementations, this is true only if the visitor's browser doesn't block third-party cookies.
 
 1. To see reports generated from Activity Link URLs, click the activity's **[!UICONTROL Reports]** page, click the **[!UICONTROL Settings]** icon (  ![](assets/icon_gear.png) ), then select **[!UICONTROL QA Mode]** from the **[!UICONTROL Environment]** drop-down list.
 
@@ -64,8 +70,8 @@ Activity QA lets you fully test your Target activities prior to launching them l
 
   You can also manually force yourself out by loading a page on your site with the `at_preview_token` parameter with an empty value (for example, `https://www.mysite.com/?at_preview_token=`). 
 
-* If you specified "URL is" while creating the activity [refinements in the Form-based Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL will not work because Activity QA appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL. 
-* 3rd-party cookies must be enabled in Safari browsers for Activity QA to work properly. 
+* If you specified "URL is" while creating the activity [refinements in the Form-based Composer](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) or [page delivery options in the Visual Experience Composer)](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), the QA URL will not work because Activity QA appends URL parameters. To solve this issue, click the QA URL to go to your site, remove the appended parameters from the URL, then load the new URL.
+* If you have at.js 1.*x* or mbox.js, Activity QA mode is not sticky if your browser blocks 3rd-party cookies. In these cases, you must add the preview parameters to each URL you navigate to.
 * If an activity uses multiple experience audiences (for example, a US and UK site that are included in the same activity), QA links aren’t generated for the four combinations (Experience A/ US Site, Experience A/ UK Site, Experience B/ US Site, Experience B/ UK Site). Only two QA links (Experience A and Experience B) are created and users must qualify for the appropriate audience to see the page. A UK QA person couldn’t see the US site. 
 * All `at_preview` parameters and values are already URL encoded. Most of the time, everything works as expected; however, some customers might have load balancers or Web servers that try to encode the query string parameters again.
 
