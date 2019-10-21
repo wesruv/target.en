@@ -1,7 +1,7 @@
 ---
 description: This page lists important changes made to the Target documentation.
 keywords: target documentation change log;documentation updates;new topics;edits
-seo-description: This page lists important changes made to the Adobe Target documentation.
+seo-description: This page lists important changes made to the Adobe Target documentation, ordered by releases.
 seo-title: Documentation changes in the Adobe Target product documentation.
 solution: Target
 title: Documentation changes
