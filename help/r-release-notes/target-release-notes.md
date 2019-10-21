@@ -25,7 +25,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 |Feature / Enhancement|Description|
 | --- | --- |
-|![Premium badge](/help/assets/premium.png) User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site.|
+|![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>(October 24, 2019)|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site.<br>For more information, see "User-Based Recommendations" in [Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms).|
 
 ### Enhancements, fixes, and changes
 
@@ -53,7 +53,7 @@ These release notes provide information about features, enhancements, and fixes 
   >
   >These features will not be rolled out at once, nor will they be rolled out to all customers together. We will be rolling out these features over the course of next few days starting the [!DNL Target Standard/Premium] 19.10.1 (October 22, 2019) release.
   >
-  >As part of the rollout of the new shell, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
+  >As part of the rollout of the new navigation bar, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
