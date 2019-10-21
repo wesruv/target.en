@@ -53,7 +53,7 @@ These release notes provide information about features, enhancements, and fixes 
   >
   >These features will not be rolled out at once, nor will they be rolled out to all customers together. We will be rolling out these features over the course of next few days starting the [!DNL Target Standard/Premium] 19.10.1 (October 22, 2019) release.
   >
-  >As part of the rollout of the new shell, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
+  >As part of the rollout of the new navigation bar, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
