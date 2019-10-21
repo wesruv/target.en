@@ -19,7 +19,7 @@ The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
 |Feature / Enhancement|Description|
 | --- | --- |
-|![Premium badge](/help/assets/premium.png) User-Based Recommendations|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site.<br>For more information, see "User-Based Recommendations" in [Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms).|
+|![Premium badge](/help/assets/premium.png) User-Based Recommendations<br>(October 24, 2019)|Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site.<br>For more information, see "User-Based Recommendations" in [Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms).|
 
 ### Enhancements, fixes, and changes
 
