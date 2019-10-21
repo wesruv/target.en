@@ -35,7 +35,7 @@ These release notes provide information about features, enhancements, and fixes 
   * Improved user help: Search results include results from the [!DNL Target] product documentation, as well as community forums and more video content, giving you easier access to more content to help get the most out [!DNL Target]. We’ve also added a feedback mechanism right in the [!UICONTROL Help] menu, making it easier to report issues or to share your ideas.
 
   * Improved Net Promoter Score (NPS) feedback functionality, so the survey modal doesn’t disturb your flow of work.
-  * Improved log-in flow. Previously, all [!DNL Target] customers landed on the Target landing page after clicking the [!DNL Target] icon in the header. This page then allowed customers to proceed forward with [!DNL Target Standard/Premium], [!DNL Search&Promote], or [!DNl Recommendations Classic],  as shown below:
+  * Improved log-in flow. Previously, all [!DNL Target] customers landed on the Target landing page after clicking the [!DNL Target] icon in the header. This page then allowed customers to proceed forward with [!DNL Target Standard/Premium], [!DNL Search&Promote], or [!DNL Recommendations Classic],  as shown below:
 
     ![Landing page](/help/r-release-notes/assets/landing.png)
   
@@ -45,7 +45,7 @@ These release notes provide information about features, enhancements, and fixes 
 
     ![Recs Classic deep link](/help/r-release-notes/assets/recs-classic.png)
     
-    If you use [!DNL Search&Promote], you need to go directly to the link. The path to reach [!DNL Search&Promote] from inside of [!DNL Adobe Target] has been removed completely.
+    If you use [!DNL Search&Promote], you need to go directly to the [Search&Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1). The path to reach [!DNL Search&Promote] from inside of [!DNL Adobe Target] has been removed completely.
     
   * Notifications for [!DNL Target] are not currently available in the [!UICONTROL Notifications] drop-down in the header.
 
