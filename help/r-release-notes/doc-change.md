@@ -17,7 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|October 22, 2019|||
+|October 22, 2019|[Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)|Added row for User Based Recommendations.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.10.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
