@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 22, 2019|[Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)|Added row for User Based Recommendations.|
+||[Criteria](/help/c-recommendations/c-algorithms/algorithms.md#custom-key)|Added new section: "Using a custom recommendations key."|
 ||[Target and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: "When creating complex URL strings, does [!DNL Target] evaluate the entire URL?"|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.10.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
