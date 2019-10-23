@@ -40,7 +40,9 @@ There are multiple ways to reach the [!UICONTROL Create New Criteria] screen. So
    The description should help you identify the criteria, and might include information about the purpose of the criteria. 
 1. Select an **[!UICONTROL Industry Vertical]**.
 
-   Other criteria options might change depending on the industry vertical you select. 1. Select a **[!UICONTROL Page Type]**.
+   Other criteria options might change depending on the industry vertical you select. 
+
+1. Select a **[!UICONTROL Page Type]**.
 
    You can select multiple page types.
 

@@ -59,7 +59,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 For example, suppose that you want to display the top-selling items from a user’s favorite brand.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
 1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
@@ -67,7 +67,7 @@ For example, suppose that you want to display the top-selling items from a user�
 
 1. Select the entity attribute that matches to the key you’ve chosen. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
+   [!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
 
    ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
