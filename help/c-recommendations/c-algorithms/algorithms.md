@@ -1,8 +1,8 @@
 ---
 description: Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
-keywords: recommendations;recommendations activity;criteria;algorithm
-seo-description: Criteria in Adobe Target are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
-seo-title: Criteria
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+seo-description: Criteria in Adobe Target Recommendations are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+seo-title: Criteria in Adobe Target Recommendations
 solution: Target
 title: Criteria
 title-outputclass: premium
@@ -39,37 +39,39 @@ The recommendation key you select determines the criteria type. There are severa
 |Popularity|Recommend the most popular items, such as the most popular videos in a related category or the products that have been viewed most often on your site.<ul><li>Popularity</li></ul>|
 |Recently Viewed Items|Recommend the items a visitor has viewed most recently, such as the items a visitor looked at the last time he or she visited your site, or the articles that are trending most highly right now.<br>The Recently Viewed Items algorithm returns results specific to a visitor’s activity within an [environment](/help/administrating-target/hosts.md). If two sites belong to different environments and a visitor switches between the two sites, the algorithm will return only recently viewed items from the appropriate site.<br>This criteria type is not limited by collections.<ul><li>Recently Viewed Items</li></ul>**Note:** You cannot use the Recently Viewed Items criteria for backup recommendations.<br>Recently Viewed Items/Media can be filtered so that only items with a particular attribute are displayed.<ul><li>Recently Viewed criteria are configurable, like other criteria in recommendations.</li><li>You can use [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), and [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (including the special rules for Price and Inventory) in the same way as any other criteria.</li></ul>Possible use-cases include:<ul><li>A multi-national company with multiple businesses might have a visitor view items across multiple digital properties. In this case, you can limit the recently viewed items to display only for the respective property where it was viewed. This prevents Recently Viewed items from displaying on another digital property's site.</li></ul>|
 
-## Using a custom recommendations key {#custom-key}
+## Using a custom recommendation key {#custom-key}
 
-You can also base recommendations on the value of a custom profile attribute. 
+You can also base recommendations on the value of a custom profile attribute.
 
 >[!NOTE]
 >
->Custom profile parameters can be passed to Target through JavaScript, API, or integrations. For more information about custom profile attributes, see [Visitor profiles](/help/c-target/c-visitor-profile/visitor-profile.md).)
+>Custom profile parameters can be passed to Target through JavaScript, API, or integrations. For more information about custom profile attributes, see [Visitor profiles](/help/c-target/c-visitor-profile/visitor-profile.md).
 
-For example, suppose that you want to display recommended movies based on the movie that a user most recently added to his or her queue.
+For example, suppose that you want to display recommended movies based on the movie that a user most recently added to the queue.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
 
-![Create New Criteria dialog box](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![Create New Criteria dialog box](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
 For example, suppose that you want to display the top-selling items from a user’s favorite brand.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
 
-Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
-The [!UICONTROL Group By Unique Value Of] option displays. Select the entity attribute that matches to the key you’ve chosen. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+   The [!UICONTROL Group By Unique Value Of] option displays. 
 
-[!DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
+1. Select the entity attribute that matches to the key you’ve chosen. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
 
-## Criteria/Algorithms {#criteria-algorithms}
+   ![Top Sellers attribute](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+
+## Criteria/algorithms {#criteria-algorithms}
 
 [!DNL Target Recommendations] uses sophisticated algorithms to determine when a visitor's actions qualify for the criteria set in your activity. The recommendation key determines the recommendations logic options that are available.
 
@@ -93,7 +95,7 @@ You can also use additional known information about a visitor to enhance your re
 
 All one-day criteria run twice daily. All one-week and longer criteria run once daily. Site Affinity criteria run once daily. Backup criteria run twice daily.
 
-## Viewing Criteria Information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 You can view criteria details on a pop-up card by hovering over a card and by clicking the Information icon on a criteria card without opening the criteria.
 
@@ -107,7 +109,7 @@ Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that
 
 ![Criteria Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Determining When Criteria Results are Ready to Display {#section_03F328C07F234692B6D996DF745584B3}
+## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
 
 From the activity diagram, Criteria cards now indicate when results are ready to display. Knowing if results are ready to display helps you determine if your activity is ready to activate to push it live. Knowing if results are ready to display also helps you know if there are any issues with the criteria.
 
