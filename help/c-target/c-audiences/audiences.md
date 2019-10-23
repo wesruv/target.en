@@ -1,5 +1,5 @@
 ---
-description: Audiences determine who will see content and experiences in a targeted activity.
+description: Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 seo-description: Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
 seo-title: Create audiences in Adobe Target
@@ -11,7 +11,7 @@ uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 
 # Create audiences{#create-audiences}
 
-Audiences determine who will see content and experiences in a targeted activity.
+Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
 
 Audiences are used anywhere targeting is available. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 

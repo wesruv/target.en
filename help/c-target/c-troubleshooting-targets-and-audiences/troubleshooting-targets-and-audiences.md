@@ -23,6 +23,10 @@ For example, in the following URL string:
 
 the first instance of the `Category` parameter is evaluated and the second `Category` parameter is ignored.
 
+Best practice is to have multiple values associated with a single category, as shown below:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
+
 ## When building audiences, why are pre-built audiences under Target Library found under other categories? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 The pre-built audiences in the Target Library category are legacy audiences and exist in other categories. As an example, the legacy Target Library > New Visitors audience has an updated counterpart: Visitor Profile > New Visitor.
