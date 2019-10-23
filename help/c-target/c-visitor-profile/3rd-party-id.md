@@ -30,7 +30,11 @@ When the visitor logs out, the merged profile is maintained.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] goals won’t be tracked in cases where the [!DNL Adobe Experience Cloud] ID (MID) changes (for example, the visitor changes devices), even though the [!DNL Target] profile might be merged based on the mbox3rdPartyId and still has activity information. For visitors identified with the same MID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>If you want to distinguish between authenticated (logged-in) users versus non-authenticated users, use the Adobe Experience Cloud Identity Service (ECID) instead of mbox3rdPartyID. After a user is associated with mbox3rdPartyID, it remains associated with the user even after signing out.
+
+>[!NOTE]
+>
+>[!DNL Adobe Analytics] goals won’t be tracked in cases where the [!DNL Adobe Experience Cloud] ID (EDID) changes (for example, the visitor changes devices), even though the [!DNL Target] profile might be merged based on the mbox3rdPartyId and still has activity information. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
 
 ## Considerations {#considerations}
 
