@@ -108,7 +108,7 @@ To download [!DNL at.js] using the API.
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Replace ` < *`client code`*>` with the client code from Step 1.
+   Replace `client code` with the client code from Step 1.
 
    The result of loading this URL should look similar to the following example:
 
@@ -128,9 +128,9 @@ To download [!DNL at.js] using the API.
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-    * Replace ` < *`admin number`*>` with your admin number. 
-    * Replace ` < *`client code`*>` with the client code from Step 1. 
-    * Replace ` < *`version number`*>` with the desired [ [!DNL at.js] version number ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (for example, 1.6.2).
+    * Replace `admin number` with your admin number. 
+    * Replace `client code` with the client code from Step 1. 
+    * Replace `version number` with the desired at.js version number (for example, 2.2).
 
     >[!IMPORTANT]
     >

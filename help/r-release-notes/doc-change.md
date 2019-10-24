@@ -17,6 +17,9 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 24, 2019|[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9)|Updated text in the following FAQ: "Why is Target sometimes unable to show recommendations?"|
+||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#atjs)|Added a note to a known issue that affects earlier versions of at.js (earlier than version 2.2.0).|
+||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Added note about the default behavior for success metrics for activities using A4T.|
 |October 22, 2019|[Criteria/Algorithms](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms)|Added row for User Based Recommendations.|
 ||[Criteria](/help/c-recommendations/c-algorithms/algorithms.md#custom-key)|Added new section: "Using a custom recommendations key."|
 ||[Target and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: "When creating complex URL strings, does [!DNL Target] evaluate the entire URL?"|

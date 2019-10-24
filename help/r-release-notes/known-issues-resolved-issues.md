@@ -68,17 +68,21 @@ The following are known issues with Recommendations activities:
 
 In an MVT activity, the winner shown in the table and graph are not consistent when checking metrics. This occurs if a user switches from Summary to Graph View, then switches back to Summary View, changes a metric and then switches to Graph View. When this issue occurs, the Summary View always shows the correct winner. If the user never switches Graph View between Summary views, the Graph View shows the correct winner.
 
-### at.js
+### at.js {#atjs}
 
 The following are known issues with at.js:
 
-* If you create an experience with no modifications using at.js 2.*x* (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
+* If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
 
   As a workaround, use a whitespace in the experience content. (TNT-33366)
 
+  >[!NOTE]
+  >
+  >A fix for this issue was included in at.js 2.2.0. You should upgrade to the [latest version or at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) or use the workaround mentioned above only for at.js versions earlier than 2.2.0.
+
 * When a page is loaded into the Visual Experience Composer (VEC), Target needs to determine if the global mbox setting is enabled or disabled and whether entityID or categoryID is present at the location where the user is trying to apply the recommendation in the VEC. Based on this information the criteria list is filtered. The default list has filtered algorithms, but the [Compatible checkbox](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) lets you view the complete algorithms list.
 
-  When using at.js , the Compatibility checkbox is hidden, so you cannot see incompatible algorithms.
+  When using at.js, the Compatibility checkbox is hidden, so you cannot see incompatible algorithms.
 
   This issue applies only to Recommendations activities that use the VEC.
 
