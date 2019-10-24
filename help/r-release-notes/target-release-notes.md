@@ -23,7 +23,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 ## Target Standard/Premium 20.1.1
 
-The next Target release will be in January 2020. The exact date and features will be announced here.
+The Target Standard/Premium 20.1.1 release will be in January 2020. Its exact date, features, and enhancements will be announced here.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 

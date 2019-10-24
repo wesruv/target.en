@@ -1,8 +1,8 @@
 ---
-description: In Target Standard, success metrics are pre-configured for both reporting and tracking purposes.
-keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings
-seo-description: In Target Standard, success metrics are pre-configured for both reporting and tracking purposes.
-seo-title: Success metrics
+description: In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+seo-description: In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
+seo-title: Success metrics in Adobe Target
 solution: Target
 title: Success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
@@ -10,15 +10,19 @@ uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 
 # Success metrics{#success-metrics}
 
-In Target Standard, success metrics are pre-configured for both reporting and tracking purposes.
+In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
 
 Success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a Target activity. For example, you can determine if a new offer increases your revenue per visitor or adding an item to a shopping cart. Success metrics can be useful for discovering issues with registration, ordering, or purchase funnels, but also simply with visitor or customer engagement.
 
 In keeping with the [!DNL Target Standard] goal of simplifying test creation, the application takes care of some of the configuration that was done manually in [!DNL Target Classic]. For example, success metrics are pre-configured with the optimal options.
 
-By default, conversion events are set to "count once and keep the entrant in the activity" in [!DNL Target Standard]. Conversions are counted only once, no repeat conversions are counted, and the visitor always sees the test content.
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Conversions are counted only once, no repeat conversions are counted, and the visitor always sees the test content.
 
 Revenue metrics that are set to "Increment count and keep the user in the activity" log order details only for the first order made by the same visitor. All subsequent orders increase conversion count, but will not add revenue to RPV/AOV/Sales, and will not be included in the Order Details report.
+
+>[!NOTE]
+>
+>The default behavior for activities using [Analytics as the reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) is "Increment count and keep the user in the activity" with "Once per entrant."
 
 The following success metrics are available:
 

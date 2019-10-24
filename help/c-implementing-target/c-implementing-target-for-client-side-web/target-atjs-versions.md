@@ -17,7 +17,7 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
 
-## at.js version 2.2 (October 10, 2019)
+## at.js version 2.2.0 (October 10, 2019)
 
 This release of at.js includes the following enhancements and fixes:
 
@@ -30,7 +30,7 @@ This release of at.js includes the following enhancements and fixes:
 
 * at.js version 2.2 also provides a new setting called `serverState`. This setting can be used to optimize page performance when a hybrid integration of Target is implemented. Hybrid integration means that you are using both at.js v2.2+ on the client-side and the delivery API or a Target SDK on the server-side to deliver experiences. `serverState` gives at.js v2.2+ the ability to apply experiences directly from content fetched on the server side and returned to the client as part of the page being served. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.js version 1.8 (October 10, 2019)
+## at.js version 1.8.0 (October 10, 2019)
 
 This release of at.js includes the following enhancements and fixes:
 
