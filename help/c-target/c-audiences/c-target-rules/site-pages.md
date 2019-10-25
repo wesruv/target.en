@@ -1,8 +1,8 @@
 ---
 description: Target visitors who are on a specific page or have a specific mbox parameter.
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-seo-description: Target visitors who are on a specific page or have a specific mbox parameter.
-seo-title: Site Pages
+seo-description: You can target visitors who are on a specific page or have a specific mbox parameter using Adobe Target.
+seo-title: Site Pages in Adobe Target
 solution: Target
 title: Site Pages
 topic: Standard
@@ -11,7 +11,7 @@ uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 
 # Site Pages{#site-pages}
 
-Target visitors who are on a specific page or have a specific mbox parameter.
+You can target visitors who are on a specific page or have a specific mbox parameter.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Target visitors who are on a specific page or have a specific mbox parameter.
 
       >[!NOTE]
       >
-      >The `landing.url` object is reset on a subdomain change or direct URL replacement.
+      >The `landing.url` object is reset on a subdomain change or direct URL replacement. 
 
     * **Mbox:** The mbox you are targeting on. For example, if you want to count orders with an order total of $100 or more, you would pass `orderTotal` as an mbox parameter with that targeting specified here. 
     * **Domain:** The full domain of the page. When specifying a domain, best practice is to use "contains." For example, "Domain equals facebook.com" will not accept `m.facebook.com` or `www.facebook.com`. "Domain contains facebook.com" will accept any variant of facebook.com. 
@@ -52,6 +52,19 @@ Use a:
 as illustrated below:
 
 ![](assets/site_pages.png)
+
+## Troubleshooting {#ts}
+
+* For landing page audiences to function properly, requests must have the `mboxReferrer` mbox parameter set properly. The at.js JavaScript library fetches `mboxReferrer` from the page using `document.referrer`.
+
+  If these parameters are not set up properly, a visitor might leave an activity after navigating to a subsequent page. For example, if `document.referrer` is used on the landing page but it is not used on subsequent pages, [!DNL Target] cannot ensure that the visitor remains in the activity.
+
+  If you encounter this situation, consider performing one of the following actions:
+
+  * Ensure that your website loads `document.referrer` correctly.
+  * Pass [mbox parameters](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) to [!DNL Target] to be used for targeting purposes.
+  * Use an [A/B Test activity](/help/c-activities/t-test-ab/test-ab.md) instead of a landing page activity. A/B Test activities do not switch experiences for the same visitor.
+  * Use a [visitor profile](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) instead.
 
 ## Training video: Creating Audiences
 

@@ -25,6 +25,10 @@ This function lets you retrieve multiple offers by passing in multiple mboxes. A
 
 ## Request
 
+>[!NOTE]
+>
+>Consult the [Delivery API documentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) for information about the acceptable types for all fields listed below.
+
 |Field name|Required?|Limitations|Description|
 | --- | --- | --- | --- |
 |request > id|No||One of `tntId`, `thirdPartyId`, or `marketingCloudVisitorId` is required.|
