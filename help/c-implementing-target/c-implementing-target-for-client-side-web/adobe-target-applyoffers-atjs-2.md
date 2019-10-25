@@ -24,6 +24,10 @@ This function lets you apply more than one offer that was retrieved by `adobe.ta
 
 ## Response
 
+>[!NOTE]
+>
+>Consult the [Delivery API documentation](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) for information about the acceptable types for all fields listed below.
+
 |Field Name|Description|
 | --- | --- |
 |response > prefetch > views > options > content|Note that the content of the "option" is not well-defined and depends directly on the option type/template structure.|

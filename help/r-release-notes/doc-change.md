@@ -17,6 +17,12 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 25, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added note explaining how to distinquish between authenticated users versus non-authenticated users.|
+||[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
+||[Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)|Updated topic entirely and removed outdated examples.|
+||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added note linking to the Target Delivery API documentation to help you understand the available types for requests/responses (array, string, and so forth).|
+||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added note linking to the Target Delivery API documentation to help you understand the available types for requests/responses (array, string, and so forth).|
+||[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts)|Added "Troubleshooting" section.|
 |October 24, 2019|[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9)|Updated text in the following FAQ: "Why is Target sometimes unable to show recommendations?"|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#atjs)|Added a note to a known issue that affects earlier versions of at.js (earlier than version 2.2.0).|
 ||[Success metrics](/help/c-activities/r-success-metrics/success-metrics.md)|Added note about the default behavior for success metrics for activities using A4T.|

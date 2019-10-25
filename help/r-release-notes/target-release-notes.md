@@ -25,6 +25,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 The Target Standard/Premium 20.1.1 release will be in January 2020. Its exact date, features, and enhancements will be announced here.
 
+>[!NOTE]
+>
+>The Target Standard/Premium 19.10.2 release is planned for October 30, 2019.
+
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
 To receive advance notifications about upcoming product enhancements to Target and other Adobe Experience Cloud solutions, sign up for the Adobe Priority Product Update:
