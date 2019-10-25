@@ -88,167 +88,56 @@ To select the desired action, hover over the gear icon (![](assets/icon_gear.png
 |Do not show any results for this criteria|Entity Attribute Matching<br>Profile Attribute Matching<br>Parameter Matching|This is the default action for Entity Attribute Matching.<br>This action is how Target handled empty values before the addition of this option: no results will be shown for this criteria.|
 |Use a static value|Entity Attribute Matching<br>Profile Attribute Matching<br>Parameter Matching|If a value is empty, you can choose to use a static value.|
 
-As an example of handling empty values, consider [Scenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) below:
+## Profile Attribute Matching Examples {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-## Dynamic Filter Scenarios {#section_9873E2F22E094E479569D05AD5BB1D40}
+[!UICONTROL Profile Attribute Matching] allows you to recommend only the items that match an attribute from the visitor's profile, as in the examples below.
 
-**Scenario 1:** Instead of matching an item in a catalog to other items in a catalog using a static filter, you can use a dynamic filter to match an item in a catalog to an attribute from the visitor's profile.
-
-For example, you could use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. With such a rule, if a visitor is looking at running shorts from a particular brand, only recommendations will display that match that user's favorite brand (the value stored in `profile.favoritebrand` in the visitor's profile).
-
-**Scenario 2:** Before Target added the ability to use attribute information from a visitor's profile, if you were setting up job listings that would display only to job seekers from a specific location and with a specific college degree, you would have had to set up many activities with different audiences (one for each city and degree). If you have job listings in many cities, this task became burdensome.
-
-You can now use inclusion rules to match a job seeker's location and degree from his or her visitor's profile to a job listing, as shown in the following example:
-
-![](assets/job_seeker.png)
-
-The job listing on the left side requires that the visitor is in San Francisco, New York, or Los Angeles ( `entity.jobCity`) and have either a BSCS or MBA degree ( `entity.requiredDegree`).
-
-This job seeker on the right side is in Los Angeles ( `profile.usersCity`) and has an MBA degree ( `profile.degree`).
-
-Using a dynamic filter with profile attribute matching, you can create the filter displayed in the lower portion of the above illustration that will recommend only job listings that this visitor qualifies for based on location and degree.
-
-The criteria for these filters are as follows:
+**Example 1: Recommending items from the user's favorite brand** 
+For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. With such a rule, if a visitor is looking at running shorts from a particular brand, only recommendations will display that match that user's favorite brand (the value stored in `profile.favoritebrand` in the visitor's profile).
 
 ```
-entity.jobCity - equals - the value/text stored in - profile.usersCity
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-and
+**Example 2: Matching jobs to job seekers**
+Suppose that you're trying to match jobs to job seekers. You want to recommend only jobs that are in the same city as the job seeker.
+
+You can use inclusion rules to match a job seeker's location from his or her visitor's profile to a job listing, as in the following example:
 
 ```
-entity.requiredDegree - equals - the value/text stored in - profile.degree
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-Dynamic filters using profile attribute matching allows you to do more with fewer activities, as shown below:
+## Entity Attribute Matching Examples 
 
-![](assets/dynamic_before_and_after.png)
+[!UICONTROL Entity Attribute Matching] allows you to recommend only the items that match an attribute from the item the user is currently viewing, the item the user most recently viewed, the item the user most recently purchased, the item the user most frequently viewed, or from an item stored in a custom attribute in the visitor's profile, as in the examples below.
 
-The diagram in the top of the above illustration depicts how dynamic filters using profile attributes work. You can create one audience that uses criteria (in the above scenario, city and degree) to display a job listing that the visitor qualifies for. This filter works for an almost infinite number of possibilities regarding location and degree.
-
-The diagrams in the bottom of the illustration depicts just two of the many audiences that you would have had to set up if you are not configuring a criteria or promotion with dynamic filters using profile attributes. You would have to set up a different audience for each city and for each degree. The number of needed audiences could quickly become unmanageable, especially if you had a large number of job listings in various cities.
-
-Without using profile attributes, your audiences and experiences would look like the top half of the following illustration, but with additional audience/experience pairs for every conceivable scenario.
-
-![](assets/dynamic_audience_experience_pairs.png)
-
-Dynamic filters using profile attributes that match entity attributes to user attributes let you set up one audience that dynamically, on the fly, delivers the desired experience, as shown in the bottom half of the above illustration.
-
-As long as you have the required information embedded into each job listing and you are capturing the required information within the user profiles, creating and managing audiences and experiences is greatly simplified.
-
-**Scenario 3:** A sports company wants to show articles on its website for teams that a person cares about. Every article could have a field with `entity.featuredTeams` that includes all teams discussed in the article. Every profile attribute could have a list of favorite teams the user is "subscribing" to.
-
-A sample inclusion rule would could look like the following:
-
-Include only when `entity.featuredTeam` has one or more values that match `profile.favoriteTeams`.
-
-When considering the following examples, remember that at least one entire string value needs to match (completely). There is no match if none of the strings match. Note the de-coupling of the entity attributes in the matching rules. This allows for matching between different metadata fields.
-
-Examples/Descriptions
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
-
-Considered a match because "Athletics" equals, even though "Red Sox" does not.
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considered a match because both "Athletics" and "Red Sox" equals, although it is not necessary for both teams to match.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considered a match because "Athletics" equals, even though "Red Sox" does not.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
-
-Does not match because "Athletics" (plural) does not equal "Athletic" (singular).
-
-Alternatively, you could use "contains" instead of "equals" to make this a match.
-
-`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
-
-Does not match because "Athletic" (singular) does not equal "Athletics" (plural).
-
-Alternatively, you could use "starts with" instead of "equals" to make this a match.
-
-**Scenario 4:** The following illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a sporting apparel company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shorts.
-
-![](assets/dynamic3.png)
-
-The following rules are used in this example:
+**Example 3: Upselling to a more expensive product**
+Suppose that you're an apparel retailer and want to encourage users to consider higher-priced and therefore more profitable items. You can use the "equals" and "is between" operators to promote more expensive items that are from the same category and the same brand. For example, a visitor seeing running company can promote more expensive running shoes in an effort to up-sell a visitor looking at running shoes.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
 And 
+Entity Attribute Matching
 brand - equals - current item's - brand 
 And 
+Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
->[!NOTE]
->
->You cannot change the key in a dynamic promotion with multiple rules (the third drop-down list in the first two rules labeled "Current Item's" in the illustration).
-
-**Scenario 5:** The second illustration demonstrates how to use the "equals" and "is between" operators to promote more expensive items that are from the same category, the same brand, and the house brand. For example, an office supply company can promote more expensive toner cartridges, of both the same brand and the company's house brand, in an effort to up-sell a visitor looking at printers.
-
-![](assets/dynamic4.png)
-
-The following rules are used in this example:
+**Example 4: Promoting private-label products**
+You can mix dynamic and static filters to promote private-label products. For example, an office supply company can promote toner cartridges of the company's house brand to drive a more profitable sale for a visitor looking at toner -- and promote pens of the company's house brand to drive a more profitable sale for a visitor looking at pens.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
-And 
-IsHouseBrand - equals - true 
-And 
-value - is between - 100% and 1000% of - current item's - value
+And
+Static Filter
+IsHouseBrand - equals - true
 ```
-
-Notice that this example uses two dynamic rules and one static rule.
-
-**Scenario 6:** The third illustration demonstrates how to use the"does not equal" operator to promote a series that does not equal the series that the visitor is currently viewing. For example, a media website could promote a television series that is different than the series the visitor is currently viewing.
-
-![](assets/dynamic5.png)
-
-The following rule is used in this example:
-
-```
-series - does not equal - current item's - series
-```
-
-**Scenario 7:** The fourth illustration demonstrates how to promote compatible accessory items for the visitor's last-purchased item. For example, if someone purchased a new TV, you could dynamically promote an HDMI cable.
-
-![](assets/dynamic1.png)
-
-The following rules are used in this example:
-
-```
-id - equals - last purchased item's - compatibleAccessoryids
-```
-
-**Scenario 8:** The next illustration demonstrates how to promote items that are on sale for between 90 and 110 percent of the item the visitor is currently viewing. For example, if someone is looking at a TV, you could dynamically promote similar TVs that are on sale in approximately the same price range.
-
-![](assets/dynamic2.png)
-
-The following rules are used in this example:
-
-```
-salesPrice - is between - 90% and 110% of - current item's - price
-```
-
-**Scenario 9:** Consider the following scenario for a sport's media site about how to handle empty values, as explained in [Handling Empty Values when Filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) above:
-
-The content team for a sport's media site wants to show content to users for their favorite teams. If a user has specified a favorite team, the team wants to show media for that team. If a user has not specified a favorite team, the team can use the "If *x* is Empty" drop-down list to do one of the following:
-
-* Use the [!UICONTROL Ignore This Filtering Rule] option to ignore the team filter altogether, as shown in the following illustration:
-
-  ![](assets/missing1.png)
-
-* Use the [!UICONTROL Do Not Show Any Results for This Criteria] option to not show any media as part of this criteria, as shown in the following illustration:
-
-  ![](assets/missing7.png)
-
-* Use the [!UICONTROL Use a Static Value] option to show media for a specific team (49ers, for example), as in the following illustration:
-
-  ![](assets/missing10.png)
 
 ## Caveats {#section_A889FAF794B7458CA074DEE06DD0E345}
 
@@ -260,7 +149,7 @@ The content team for a sport's media site wants to show content to users for the
 
 The following table shows effective rules and rules that might not be compatible during runtime:
 
-| Compatible Rules | Potential Incompatible Rules |
+| Compatible Rules | Potentially Incompatible Rules |
 |--- |--- |
 |value - is between - 90% and 110% of current item's - salesValue|salesValue - is between - 90% and 110% of current item's - value|
 |value - is between - 90% and 110% of current item's - value|clearancePrice - is between - 90% and 110% of current item's - margin|
