@@ -2,7 +2,7 @@
 description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 keywords: troubleshoot target;troubleshooting target
 seo-description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
-seo-title: Troubleshoot Target
+seo-title: Troubleshoot Adobe Target
 solution: Target
 title: Troubleshoot Target
 topic: Advanced,Standard,Classic
@@ -66,7 +66,7 @@ The following sections contain troubleshooting information about activities, sep
 * [Target optimization and personalization FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Profile script attributes](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Content
 
