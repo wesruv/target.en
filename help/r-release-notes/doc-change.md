@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 28, 2019|Known issues and resolved issues|Added known issue that you cannot currently deliver experiences to audiences based on a device's screen-size dimensions (screenWidth) using at.js. 2.x.|
 |October 25, 2019|[Real-time profile syncing for mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md)|Added note explaining how to distinquish between authenticated users versus non-authenticated users.|
 ||[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
 ||[Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)|Updated topic entirely and removed outdated examples.|
