@@ -121,12 +121,14 @@ This section contains the following information:
 
     Categories include:
 
-    * Favorite Category 
-    * First Category 
-    * Second Category 
-    * Third Category 
-    * Fourth Category 
+    * Favorite Category
+    * First Category
+    * Second Category
+    * Third Category
+    * Fourth Category
     * Fifth Category
+
+    The "Favorite Category" and "First Category" options are equivalent.
 
 1. Chose the Evaluator:
 

@@ -183,7 +183,7 @@ Provides a standard way to register a specific extension.
 
 This is no longer supported and should not be used.
 
-## Summary of deprecated, new, and supported at.js functions in 2.0
+## Summary of deprecated, new, and supported at.js functions in 2.*x*
 
 |Method|Supported?|New?|Deprecated?<br>(Default content will be shown)|
 | --- | --- | --- | --- |
@@ -314,7 +314,7 @@ No, you do not need to add pre-hiding code before calling `triggerView()`. at.js
 
 ## at.js compatibility
 
-The following tables explain at.js. 2.0.0 compatibility with different activity types, integrations, features, and at.js functions.
+The following tables explain at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
 
 ### Activity types {#types}
 
@@ -392,7 +392,7 @@ Another significant difference is that:
 * at.js 2.*x* - Client code is sent as a query string parameter, such as: 
   `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-The following sections list each at.js 1.*x* parameter, its description, and the corresponding 2.0.0 JSON payload (if applicable):
+The following sections list each at.js 1.*x* parameter, its description, and the corresponding 2.*x* JSON payload (if applicable):
 
 ### at_property
 
