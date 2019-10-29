@@ -109,19 +109,3 @@ Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that
 
 ![Criteria Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-From the activity diagram, Criteria cards now indicate when results are ready to display. Knowing if results are ready to display helps you determine if your activity is ready to activate to push it live. Knowing if results are ready to display also helps you know if there are any issues with the criteria.
-
->[!NOTE]
->
->For a discussion about load times, see "Expected Criteria Processing Time" in [Creating Criteria](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-The following illustration shows the activity diagram on a Recommendations activity's Overview page. You can also see the activity diagram with criteria status results from step 2 during the activity-creation workflow.
-
-![Criteria Status on Overview page](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-Status results include the following: Results Ready, Results Not Ready, and Feed Failure, as illustrated in the following diagram:
-
-![](assets/criteria_status_multi.png)
-

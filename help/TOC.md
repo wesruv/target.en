@@ -366,6 +366,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Select criteria](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Add promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Recommendations Activity settings](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Preview and launch your Recommendations activity](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommendations as an offer](c-recommendations/recommendations-as-an-offer.md)
    + Frequently asked questions {#recommendations-faq}
       + [Recommendations FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
