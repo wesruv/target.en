@@ -440,15 +440,15 @@ Using content similarity to generate recommendations is especially effective for
 
 When you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you have the option to create rules to increase or decrease the importance of specific item attributes in determining recommendations. For items such as books, you might want to boost the importance of attributes like *genre*, *author*, *series*, and so on, to recommend similar books.
 
->[!NOTE]
->
->The content similarity algorithm might use random sampling in computing similarity between items. As a result, similarity ratings between items might vary between algorithm runs.
-
 ![](assets/ContentSimilarity.png)
 
 Because content similarity uses keywords to compare items, some attributes, such as *message* or *description*, can introduce "noise" into the comparison. You can create rules to ignore these attributes. 
 
 By default, all attributes are set to *Baseline*. You do not need to create a rule unless you want to change this setting.
+
+>[!NOTE]
+>
+>The content similarity algorithm might use random sampling in computing similarity between items. As a result, similarity ratings between items might vary between algorithm runs.
 
 ## Training video: Create criteria in Recommendations (12:33)
 

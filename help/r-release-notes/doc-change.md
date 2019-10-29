@@ -18,7 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 29, 2019|[Content similarity](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)|Added note.|
-||[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
+|October 25, 2019|[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
 ||[Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)|Updated topic entirely and removed outdated examples.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added note linking to the Target Delivery API documentation to help you understand the available types for requests/responses (array, string, and so forth).|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added note linking to the Target Delivery API documentation to help you understand the available types for requests/responses (array, string, and so forth).|
