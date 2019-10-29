@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |October 29, 2019|[Content similarity](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)|Added note.|
+||[Preview and launch your Recommendations activity](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)|New topic.|
 |October 25, 2019|[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
 ||[Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)|Updated topic entirely and removed outdated examples.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Added note linking to the Target Delivery API documentation to help you understand the available types for requests/responses (array, string, and so forth).|
@@ -96,7 +97,6 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
 ||[Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated topic to include information about the California Consumer Privacy Act (CCPA).|
 |August 6, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.0 release.|
-||[Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time)|Updated the following section: "Expected criteria processing time."|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics)|Updated consideration about using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace].|
 |August 1, 2019|[Target Release notes (current)](/help/r-release-notes/release-notes.md)|Added important announcement regarding API support for Enterprise Permissions.|
 ||[Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)|New topic.|
