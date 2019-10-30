@@ -33,7 +33,7 @@ Status results include the following, as illustrated below:
 * [!UICONTROL Results Not Ready]: Indicates the algorithm has not finished running.
 * [!UICONTROL Feed Failure]: Indicates the custom criteria feed file could not be retrieved.
 
-![Results dialog box](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![Results dialog box](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## How long will the algorithm take to run?
 
