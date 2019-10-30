@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|October 30, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the Target Premium 19.10.2 (October 31, 2019) release.|
 |October 29, 2019|[Content similarity](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB)|Added note.|
 ||[Preview and launch your Recommendations activity](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)|New topic.|
 |October 25, 2019|[Custom Parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new item under "Considerations" to explain that targeting is not evaluated on internal mbox parameters.|
