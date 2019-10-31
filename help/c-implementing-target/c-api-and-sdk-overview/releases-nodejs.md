@@ -12,6 +12,12 @@ topic: Standard
 
 Release notes related to [Adobe Target's Node.js SDK](https://github.com/adobe/target-nodejs-sdk).
 
+The Target Node.js SDK lets you deploy [!DNL Target] server-side.
+
+This Node.js SDK helps you easily integrate [!DNL Target] with other [!DNL Adobe Experience Cloud] solutions, such as the [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics], and [!DNL Adobe Audience Manager].
+
+The Node.js SDK introduces best practices and removes complexities when integrating with [!DNL Target] via our delivery API so that your engineering teams can focus on business logic.
+
 ## Version 1.0.0 (October 9, 2019)
 
 The following sections provide more information about version 1.0.0 of the Target Node.js SDK:
