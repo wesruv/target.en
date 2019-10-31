@@ -14,6 +14,7 @@ uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 These release notes provide information about features, enhancements, and fixes for each Target Standard and Target Premium release. In addition, release notes for Target APIs, SDKs, the JavaScript library (at.js), and other platform changes are also included, when applicable.
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
 ## Target Standard/Premium 19.10.2 (October 31, 2019)
 
 |Feature / Enhancement|Description|
