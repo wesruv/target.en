@@ -116,7 +116,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
          + [mbox.js cookies](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js version details](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
          + Understand the Global mbox {#global-mbox}
-            + [Understand the Global mbox ovreview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
+            + [Understand the Global mbox overview](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
             + [Customize a Global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
             + [Use a Global mbox from a Legacy implementation](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
             + [Pass Parameters to a global mbox](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
@@ -356,6 +356,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Use a backup recommendation](c-recommendations/c-algorithms/backup-recs.md)
+      + [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Design {#recommendations-design}
       + [Design overview](c-recommendations/c-design-overview/design-overview.md)
       + [Create a design](c-recommendations/c-design-overview/create-design.md)

@@ -15,6 +15,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Standard/Premium 19.10.2 (October 31, 2019)
+
+|Feature / Enhancement|Description|
+| --- | --- |
+|![Premium badge](/help/assets/premium.png) Multi-value attribues|Sometimes you want to work with a multi-value field. Consider the following examples:<ul><li>You offer movies to users. A given movie has multiple actors.</li><li>You sell tickets to concerts. A given user has multiple favorite bands.</li><li>You sell clothing. A shirt is available in multiple sizes.</li></ul>To handle recommendations in these scenarios, you can pass multi-value data to Target Recommendations and use special multi-value operators.<br>For more information, see [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md).|
+
 ## Target Standard/Premium 19.10.1 (October 22, 2019)
 
 |Feature / Enhancement|Description|
