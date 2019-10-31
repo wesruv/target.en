@@ -21,6 +21,10 @@ Information about known issues for this release of Target. Also includes informa
 
 The following sections list the known issues for [!DNL Target]:
 
+### Page delivery {#page-delivery}
+
+If you add a template rule, such as URL contains (/checkout, /cart) in [page delivery](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), extra spaces are prefixed to your rules. This is a cosmetic issue and does not affect audience-definition creation and offer delivery. (TGT-35916)
+
 ### Activity QA preview links {#preview}
 
 [Activity QA preview](/help/c-activities/c-activity-qa/activity-qa.md) links for saved activities might not load if there are too many saved activities in your account. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
