@@ -312,6 +312,19 @@ When a prefetch call is made to the [!DNL Target] backend, the profile scripts a
 
 No, you do not need to add pre-hiding code before calling `triggerView()`. at.js 2.*x* manages the pre-hiding and flicker logic before the view is displayed and applied.
 
+### Which at.js 1.*x* parameters for creating audiences are not supported in at.js 2.*x*? {#audience-parameters}
+
+The following at.js 1.x parameters are *NOT* currently supported for audience creation when using at.js 2.*x*:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## at.js compatibility
 
 The following tables explain at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -407,112 +420,6 @@ Used for [Enterprise User Permissions](/help/administrating-target/c-user-manage
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x* parameter)
-
-The height of the visitor's browser window.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x* parameter)
-
-The width of the visitor's browser window.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x* parameter)
-
-The timezone offset.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x* parameter)
-
-The height of visitor's screen.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x* parameter)
-
-The width of visitor's screen.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x* parameter)
-
-The color depth of visitor's screen.
-
-at.js 2.*x* JSON payload:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 

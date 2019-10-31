@@ -356,6 +356,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
       + [Upload custom criteria](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Use dynamic and static inclusion rules](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Use a backup recommendation](c-recommendations/c-algorithms/backup-recs.md)
+      + [Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Design {#recommendations-design}
       + [Design overview](c-recommendations/c-design-overview/design-overview.md)
       + [Create a design](c-recommendations/c-design-overview/create-design.md)
