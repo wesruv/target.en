@@ -16,6 +16,8 @@ The [!DNL Target] Java SDK lets you deploy [!DNL Target] server-side. This Java 
 
 The Java SDK introduces best practices and removes complexities when integrating with [!DNL Target] via our delivery API so that your engineering teams can focus on business logic.
 
+Learn more about the Target Java SDK on the Adobe Tech Blog - [Server-Side Optimization with the new Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
+
 ## Version 1.0.0 (October 31, 2019)
 
 The following sections provide more information about version 1.0.0 of the Target Java SDK:
