@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |October 31, 2019|[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|New topic.|
 ||[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|New topic.|
-||[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters)|Added new section: "Which at.js 1.*x* parameters for creating audiences are not supported in at.js 2.*x*?"|
+||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters)|Added new section: "Which at.js 1.*x* parameters for creating audiences are not supported in at.js 2.*x*?"|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added new known issue about extra spaces being added to template rules.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the Target Premium 19.10.2 release and the Target Java SDK release.|
 |October 30, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added information about the upcoming Target Premium 19.10.2 (October 31, 2019) release.|

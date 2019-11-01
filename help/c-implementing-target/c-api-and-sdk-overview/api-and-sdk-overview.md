@@ -49,6 +49,8 @@ The Node.js SDK is a sophisticated software development kit that removes the com
 
 ## Target Java SDK
 
+Link: [Target Java SDK](https://github.com/adobe/target-java-sdk)
+
 The Java SDK is a sophisticated software development kit that removes the complexities of managing cookies, sessions, and integrating with [!DNL Adobe Experience Cloud] solutions, such as [!DNL Adobe Analytics], the [!DNL Experience Cloud Visitor ID Service], and [!DNL Adobe Audience Manager]. Behind the scenes, the Java SDK uses the `/rest/v1/delivery` API. Here are some notable features that are supported in the Java SDK:
 
 * **Support for prefetch and notifications that allow you to optimize for performance via caching**: You can use the JavaSDK to retrieve experiences and cache them locally on your Java server with the purpose of minimizing server calls to [!DNL Target] and optimizing your application performance.
