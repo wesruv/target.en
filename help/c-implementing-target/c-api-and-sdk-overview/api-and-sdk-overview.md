@@ -24,7 +24,7 @@ The experience does not need to display in a browser. The experience can display
 
 The following sections provide more information about the various APIs and the NodeJS SDK:
 
-## Server Sice Delivery APIs
+## Server Side Delivery APIs
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
@@ -46,6 +46,13 @@ The Node.js SDK is a sophisticated software development kit that removes the com
 
 * **Support for prefetch and notifications that allow you to optimize for performance via caching:** You can use the Node.js SDK to retrieve experiences and cache them locally on your Node.js server with the purpose of minimizing server calls to [!DNL Target] and optimizing your application performance.
 * **Ability to retrieve VEC-created activities:** Retrieve VEC-created activities on the server-side. The response that contains VEC-created activities has selectors that can be used to pre-hide only portions of your page that need to be personalized. This helps optimize your page's [First Contentful Paint metric](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html), which is an important KPI for your business to achieve a high score in the [Google PageRank](https://en.wikipedia.org/wiki/PageRank) system.
+
+## Target Java SDK
+
+The Java SDK is a sophisticated software development kit that removes the complexities of managing cookies, sessions, and integrating with [!DNL Adobe Experience Cloud] solutions, such as [!DNL Adobe Analytics], the [!DNL Experience Cloud Visitor ID Service], and [!DNL Adobe Audience Manager]. Behind the scenes, the Java SDK uses the `/rest/v1/delivery` API. Here are some notable features that are supported in the Java SDK:
+
+* **Support for prefetch and notifications that allow you to optimize for performance via caching**: You can use the JavaSDK to retrieve experiences and cache them locally on your Java server with the purpose of minimizing server calls to [!DNL Target] and optimizing your application performance.
+* **Ability to retrieve VEC-created activities**: Retrieve VEC-created activities on the server-side. The response that contains VEC-created activities has selectors that can be used to pre-hide only portions of your page that need to be personalized. This helps optimize your page's [First Contentful Paint](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) metric, which is an important KPI for your business to achieve a high score in the [Google PageRank](https://en.wikipedia.org/wiki/PageRank) system.
 
 ## Target Recommendations APIs
 
