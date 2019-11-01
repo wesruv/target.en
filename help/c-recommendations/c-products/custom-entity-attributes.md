@@ -154,6 +154,6 @@ Example:
 
 When `entity.genre=["genre1","genre2"]` is referenced in a design as `$entity<N>.genre`, the result is `genre1, genre2`. 
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Entity Attributes](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
