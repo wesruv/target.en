@@ -18,6 +18,8 @@ This Node.js SDK helps you easily integrate [!DNL Target] with other [!DNL Adobe
 
 The Node.js SDK introduces best practices and removes complexities when integrating with [!DNL Target] via our delivery API so that your engineering teams can focus on business logic.
 
+Learn more about the Target Node.js SDK on the Adobe Tech Blog - [Open Sourcing the New Adobe Target Node.js SDK](https://medium.com/adobetech/open-sourcing-the-new-adobe-target-node-js-sdk-b6feafd828bc).
+
 ## Version 1.0.0 (October 9, 2019)
 
 The following sections provide more information about version 1.0.0 of the Target Node.js SDK:
