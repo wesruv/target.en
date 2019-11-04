@@ -200,6 +200,8 @@ These message are not related to [!DNL at.js] functionality. The [!DNL at.js] li
 
 The following are possible root causes if you see this warning message:
 
+* The page is being built dynamically and at.js cannot find the element.
+* The user is on a slow network and at.js cannot find the selector in the DOM.
 * The page structure that activity is running on has been changed. If you reopen the activity in the Visual Experience Composer (VEC), you should get a warning message. You should update the activity so that all the necessary elements can be found. 
 * The underlying page is part of a Single Page Application (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
 * Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display. Recent versions of [!DNL at.js] try to suppress these messages, but many customers are still on older versions of [!DNL at.js] or on [!DNL mbox.js].

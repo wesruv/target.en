@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 4, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated text under the following FAQ: "Why do I see warning messages, such as 'actions with missing selectors'?"|
 |October 31, 2019|[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|New topic.|
 ||[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|New topic.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters)|Added new section: "Which at.js 1.*x* parameters for creating audiences are not supported in at.js 2.*x*?"|
