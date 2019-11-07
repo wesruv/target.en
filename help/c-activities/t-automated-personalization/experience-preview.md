@@ -1,14 +1,9 @@
 ---
-description: Experience URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience URLs bypass targeting to force viewing of a particular experience.
 keywords: experience preview;experience urls;generate urls;view experience urls
-seo-description: Experience URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience URLs bypass targeting to force viewing of a particular experience.
-seo-title: Share experience URLs to preview Automated Personalization outside of Target
-solution: Target
+description: Experience URLs can be generated for Target Automated Personalization activities to see experience content directly on your site before the activity is live for preview and QA purposes. Experience URLs bypass targeting to force viewing of a particular experience.
 title: Share experience URLs to preview Automated Personalization outside of Target
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Share experience URLs to preview Automated Personalization outside of Target{#share-experience-urls-to-preview-automated-personalization-outside-of-target}

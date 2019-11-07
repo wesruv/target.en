@@ -1,10 +1,8 @@
 ---
-description: Use metrics in an Experience Targeting (XT) activity to determine when a visit is successful.
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-seo-description: Use metrics in an Adobe Target Experience Targeting (XT) activity to determine when a visit is successful.
-seo-title: Set Metrics
-solution: Target,standard
+description: Use metrics in an Adobe Target Experience Targeting (XT) activity to determine when a visit is successful.
 title: Set Metrics
+solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 ---
 

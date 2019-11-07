@@ -1,14 +1,9 @@
 ---
-description: Information about the ways to integrate email with Recommendations.
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
-seo-description: Information about the ways to integrate email with Recommendations.
-seo-title: Integrate Recommendations with email
-solution: Target
+description: Information about the ways to integrate email with Recommendations.
 title: Integrate Recommendations with email
-title-outputclass: premium
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Integrate Recommendations with email{#integrate-recommendations-with-email}

@@ -1,11 +1,7 @@
 ---
-description: The scenarios in this topic show how changes made to your page affect Target's ability to display an experience.
 keywords: Recommendations
-seo-description: The scenarios in this topic show how changes made to your page affect Target's ability to display an experience.
-seo-title: Page Modification Scenarios
-solution: Target
+description: The scenarios in this topic show how changes made to your page affect Target's ability to display an experience.
 title: Page Modification Scenarios
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 ---
 

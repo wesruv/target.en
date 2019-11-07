@@ -1,11 +1,7 @@
 ---
-description: There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
 keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
-seo-description: There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
-seo-title: at.js Limitations
-solution: Target
+description: There are some differences between at.js and mbox.js. This section lists some of the differences and limitations, to help you be successful with at.js.
 title: at.js Limitations
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 ---
 

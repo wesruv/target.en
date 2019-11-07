@@ -1,8 +1,6 @@
 ---
-description: You can send additional information about the location or the user to Target as name-value pairs.
 keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
-seo-description: You can send additional information about the location or the user to Target as name-value pairs.
-seo-title: iOS - send custom user data
+description: You can send additional information about the location or the user to Target as name-value pairs.
 title: iOS - send custom user data
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac

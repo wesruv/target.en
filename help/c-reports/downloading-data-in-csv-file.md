@@ -1,11 +1,8 @@
 ---
-description: Download data in a .csv format for quick import into Excel, Access, or other data analysis programs.
 keywords: reports;download reports;csv;success metrics;order details
-seo-description: Download data in a .csv format for quick import into Excel, Access, or other data analysis programs using Adobe Target.
-seo-title: Downloading data in a CSV file using Adobe Target
-solution: Target
+description: Download data in a .csv format for quick import into Excel, Access, or other data analysis programs using Adobe Target.
+title: Downloading data in a CSV file using Adobe Target
 subtopic: Multivariate Test
-title: Downloading data in a CSV file
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 ---

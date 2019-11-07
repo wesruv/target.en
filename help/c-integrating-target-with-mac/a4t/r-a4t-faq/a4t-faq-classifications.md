@@ -1,9 +1,6 @@
 ---
-description: This topic contains answers to questions that are frequently asked about classifications and using Analytics as the reporting source for Target (A4T).
 keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
-seo-description: This topic contains answers to questions that are frequently asked about classifications and using Analytics as the reporting source for Target (A4T).
-seo-title: Classifications - A4T FAQ
-solution: Target
+description: This topic contains answers to questions that are frequently asked about classifications and using Analytics as the reporting source for Target (A4T).
 title: Classifications - A4T FAQ
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54

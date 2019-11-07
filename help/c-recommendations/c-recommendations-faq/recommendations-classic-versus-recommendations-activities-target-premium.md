@@ -1,14 +1,8 @@
 ---
-description: Information to help you choose between Recommendations Classic and Recommendations activities in Target Premium.
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
-seo-description: Information to help you choose between Recommendations Classic and Recommendations activities in Target Premium.
-seo-title: Recommendations Classic versus Recommendations activities in Target Premium
-solution: Target
+description: Information to help you choose between Recommendations Classic and Recommendations activities in Target Premium.
 title: Recommendations Classic versus Recommendations activities in Target Premium
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Classic versus Recommendations activities in Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}

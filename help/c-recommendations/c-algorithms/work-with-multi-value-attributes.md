@@ -1,13 +1,7 @@
 ---
-description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
 keywords: multi-value;attributes;recommendations;multi value;multivalue
-seo-description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
-seo-title: Working with multi-value attributes in Adobe Target Recommendations
-solution: Target
-title: Work with multi-value attributes
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
+title: Working with multi-value attributes in Adobe Target Recommendations
 ---
 
 # Work with multi-value attributes

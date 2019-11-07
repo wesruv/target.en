@@ -1,11 +1,8 @@
 ---
-description: Details about how at.js 2.x and at.js 1.x handle cookies
 keywords: at.js;2.0;1.x;cookies
-seo-description: Details about how Adobe Target at.js 2.x and at.js 1.x handle cookies
-seo-title: Adobe Target at.js cookies
-solution: Target
+description: Details about how Adobe Target at.js 2.x and at.js 1.x handle cookies
+title: Adobe Target at.js cookies
 subtopic: Getting Started
-title: at.js cookies
 topic: Standard
 ---
 

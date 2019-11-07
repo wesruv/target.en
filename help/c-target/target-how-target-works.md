@@ -1,9 +1,6 @@
 ---
-description: Adobe Target integrates with your web pages by means of the at.js or mbox.js JavaScript library.
 keywords: targeting;cookie;first-party cookie;1st-party cookie
-seo-description: Adobe Target integrates with your web pages by means of the at.js or mbox.js JavaScript library.
-seo-title: How targeting works
-solution: Target
+description: Adobe Target integrates with your web pages by means of the at.js or mbox.js JavaScript library.
 title: How targeting works
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 ---

@@ -1,9 +1,6 @@
 ---
-description: A successful A/B test requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about Auto-Allocate activities and the Target Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
-seo-description: A successful A/B test requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about Auto-Allocate activities and the Target Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
-seo-title: How long should you run an A/B Test?
-solution: Target
+description: A successful A/B test requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about Auto-Allocate activities and the Target Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
 title: How long should you run an A/B Test?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 ---

@@ -1,9 +1,6 @@
 ---
-description: Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target.
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate
-seo-description: Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target.
-seo-title: CNAME and Adobe Target
-solution: Target
+description: Information about working with Adobe Client Care to implement CNAME (Canonical Name) support in Adobe Target.
 title: CNAME and Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e

@@ -1,14 +1,8 @@
 ---
-description: Select the criteria to use in your Recommendations activity.
 keywords: recommendations;recommendations activity;criteria
-seo-description: Select the criteria to use in your Adobe Target Recommendations activity.
-seo-title: Select criteria
-solution: Target
+description: Select the criteria to use in your Adobe Target Recommendations activity.
 title: Select criteria
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Select criteria{#select-criteria}

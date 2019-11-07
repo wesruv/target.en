@@ -1,7 +1,5 @@
 ---
 description: Information about how to safely deploy at.js to a non-production environment.
-seo-description: Information about how to safely deploy at.js to a non-production environment.
-seo-title: Deploy at.js to a Non-Production Environment
 title: Deploy at.js to a Non-Production Environment
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 ---

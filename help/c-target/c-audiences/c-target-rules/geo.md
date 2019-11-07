@@ -1,10 +1,8 @@
 ---
-description: Use audiences to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
-seo-description: Use Adobe Target audiences to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
-seo-title: Geo
+description: Use Adobe Target audiences to target users based on their geographical location, including their country, state/province, city, zip/postal code, DMA, or mobile carrier.
+title: Geo
 solution: Target,Analytics
-title: Geo targeting in Adobe Target
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 ---

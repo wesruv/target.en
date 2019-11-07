@@ -1,8 +1,5 @@
 ---
 description: Delete your Target browser cookies so that you can validate all of your experiences.
-seo-description: Delete your Target browser cookies so that you can validate all of your experiences.
-seo-title: Delete the Target cookie
-solution: Target
 title: Delete the Target cookie
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c

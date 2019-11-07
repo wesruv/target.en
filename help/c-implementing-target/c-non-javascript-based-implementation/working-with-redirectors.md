@@ -1,11 +1,8 @@
 ---
-description: Use a Redirector similarly to how you use an mbox in your tests.
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
-seo-description: Use a Redirector similarly to how you use an mbox in your tests.
-seo-title: Work with redirectors
-solution: Target
-subtopic: Getting Started
+description: Use a Redirector similarly to how you use an mbox in your tests.
 title: Work with redirectors
+subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 ---

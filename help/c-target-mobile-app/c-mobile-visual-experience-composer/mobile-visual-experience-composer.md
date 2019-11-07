@@ -1,8 +1,5 @@
 ---
 description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
-seo-description: The Visual Experience Composer (VEC) for Native Mobile Apps lets you create activities and personalize content on native mobile apps in a do-it-yourself fashion without continuous development dependencies and app-release cycles.
-seo-title: Mobile App Visual Experience Composer
-solution: Target
 title: Mobile App Visual Experience Composer
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2

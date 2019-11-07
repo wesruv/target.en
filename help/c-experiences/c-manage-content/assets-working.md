@@ -1,11 +1,7 @@
 ---
-description: There are a number of tasks you can perform on an asset in the library.
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-seo-description: There are a number of tasks you can perform on an asset in the library.
-seo-title: Work with content in the library
-solution: Target
+description: There are a number of tasks you can perform on an asset in the library.
 title: Work with content in the library
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 ---
 

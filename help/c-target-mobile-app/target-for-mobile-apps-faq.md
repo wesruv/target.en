@@ -1,9 +1,7 @@
 ---
-description: Frequently Asked Questions about Adobe Target for mobile apps.
 keywords: mobile app;frequently asked questions;faq;target mobile app
-seo-description: Frequently Asked Questions about Adobe Target for mobile apps.
-seo-title: Frequently asked questions about Adobe Target for mobile apps
-title: Adobe Target for mobile apps FAQ
+description: Frequently Asked Questions about Adobe Target for mobile apps.
+title: Frequently asked questions about Adobe Target for mobile apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 ---

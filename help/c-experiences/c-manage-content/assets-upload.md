@@ -1,9 +1,6 @@
 ---
-description: You can add items to the Image Offers list.
 keywords: content;update content;assets;upload content;upload asset
-seo-description: You can add items to the Image Offers list.
-seo-title: Upload content
-solution: Target
+description: You can add items to the Image Offers list.
 title: Upload content
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88

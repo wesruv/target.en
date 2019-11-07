@@ -1,11 +1,8 @@
 ---
-description: This page shows changes to each version of mbox.js.
 keywords: mbox.js changes;mbox.js versions
-seo-description: This page shows changes to each version of mbox.js.
-seo-title: mbox.js version details
-solution: Target
-subtopic: Getting Started
+description: This page shows changes to each version of mbox.js.
 title: mbox.js version details
+subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 ---
 

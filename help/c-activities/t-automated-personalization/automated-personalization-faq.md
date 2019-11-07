@@ -1,14 +1,8 @@
 ---
-description: List of frequently asked questions (FAQs) about Automated Personalization (AP).
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
-seo-description: List of frequently asked questions (FAQs) about Automated Personalization (AP).
-seo-title: Automated Personalization FAQ
-solution: Target
+description: List of frequently asked questions (FAQs) about Automated Personalization (AP).
 title: Automated Personalization FAQ
-title-outputclass: premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization FAQ{#automated-personalization-faq}

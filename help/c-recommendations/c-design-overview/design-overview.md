@@ -1,11 +1,7 @@
 ---
-description: Overview information about designs that define how recommendations appear on a page.
 keywords: recommendations design;template;create design;delivery;output
-seo-description: Overview information about designs that define how recommendations appear on a page.
-seo-title: Design overview
-solution: Target
+description: Overview information about designs that define how recommendations appear on a page.
 title: Design overview
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 ---
 

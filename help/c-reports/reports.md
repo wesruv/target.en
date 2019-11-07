@@ -1,11 +1,8 @@
 ---
-description: Reports provide information about the performance of your activities.
 keywords: reports;block ip address;block visitor from ip address;download reports;csv
-seo-description: Reports provide information about the performance of your activities
-seo-title: Reports
-solution: Target
-subtopic: Multivariate Test
+description: Reports provide information about the performance of your activities
 title: Reports
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 ---

@@ -1,11 +1,8 @@
 ---
-description: Information about key concepts that will help you understand the features and capabilities of Adobe Target.
 keywords: Overview and Reference;act
-seo-description: Information about key concepts that will help you understand the features and capabilities of Adobe Target.
-seo-title: Target key concepts
-solution: Target
-subtopic: Getting Started
+description: Information about key concepts that will help you understand the features and capabilities of Adobe Target.
 title: Target key concepts
+subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 ---

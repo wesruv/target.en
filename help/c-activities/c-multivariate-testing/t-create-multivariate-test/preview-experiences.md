@@ -1,8 +1,5 @@
 ---
 description: Because a multivariate test compares multiple experiences on a page, it is helpful to preview the page with each experience.
-seo-description: Because a multivariate test compares multiple experiences on a page, it is helpful to preview the page with each experience.
-seo-title: Preview experiences for a Multivariate Test
-solution: Target
 title: Preview experiences for a Multivariate Test
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24

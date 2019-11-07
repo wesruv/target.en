@@ -1,11 +1,8 @@
 ---
-description: List of functions that can be used with the Adobe Target at.js JavaScript library.
 keywords: at.js;functions;javascript library
-seo-description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
-seo-title: Adobe Target at.js functions
-solution: Target
+description: List of functions that can be used with the at.js JavaScript library in Adobe Target.
+title: Adobe Target at.js functions
 subtopic: Getting Started
-title: at.js functions
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 ---

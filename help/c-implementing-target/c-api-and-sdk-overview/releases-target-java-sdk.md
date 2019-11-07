@@ -1,10 +1,7 @@
 ---
-description: Release notes related to Adobe Target's Java SDK
 keywords: at.js;sdk;release;updates;sdks;server side;serverside;server-side;java;java sdk
-seo-description: Release notes related to Adobe Target's Java SDK.
-seo-title: Release notes related to Adobe Target's Java SDK.
-solution: Target
-title: Release notes - Target Java SDK
+description: Release notes related to Adobe Target's Java SDK.
+title: Release notes related to Adobe Target's Java SDK.
 topic: Standard
 ---
 

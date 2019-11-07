@@ -1,10 +1,7 @@
 ---
-description: In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-seo-description: In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
-seo-title: Success metrics in Adobe Target
-solution: Target
-title: Success metrics
+description: In Adobe Target, success metrics are pre-configured for both reporting and tracking purposes.
+title: Success metrics in Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 ---
 

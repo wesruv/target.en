@@ -1,9 +1,6 @@
 ---
-description: You can configure an Activity in Target Standard to use Adobe Analytics as the reporting source (A4T).
 keywords: Targeting;analytics;tracking server
-seo-description: You can configure an Activity in Target Standard to use Adobe Analytics as the reporting source (A4T).
-seo-title: Using Analytics data
-solution: Target
+description: You can configure an Activity in Target Standard to use Adobe Analytics as the reporting source (A4T).
 title: Using Analytics data
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 ---

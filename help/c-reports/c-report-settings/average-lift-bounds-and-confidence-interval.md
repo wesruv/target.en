@@ -1,11 +1,7 @@
 ---
-description: Reports include several data points and visualization representations that help you understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-seo-description: Reports include several data points and visualization representations that help you understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
-seo-title: Average Lift, Lift Bounds, and Confidence Interval
-solution: Target
+description: Reports include several data points and visualization representations that help you understand the lift bounds and confidence level associated with your activity. This helps you more accurately determine a winner.
 title: Average Lift, Lift Bounds, and Confidence Interval
-topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 ---
 

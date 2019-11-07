@@ -1,14 +1,8 @@
 ---
-description: A collection is a set of products or items that are eligible for a recommendation.
 keywords: collection;Targeting
-seo-description: A collection is a set of products or items in Adobe Target that are eligible for a recommendation.
-seo-title: Collections in Adobe Target
-solution: Target
-title: Collections
-title-outputclass: premium
-topic: Premium
+description: A collection is a set of products or items in Adobe Target that are eligible for a recommendation.
+title: Collections in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Collections {#collections}

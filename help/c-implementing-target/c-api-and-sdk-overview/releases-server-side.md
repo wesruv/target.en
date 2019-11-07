@@ -1,10 +1,7 @@
 ---
-description: Release notes related to Adobe Target's server-side APIs and SDKs
 keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side;api;delivery api
-seo-description: Release notes related to Adobe Target's server-side APIs.
-seo-title: Release notes related to Adobe Target's server-side APIs.
-solution: Target
-title: Release notes - Target server-side APIs
+description: Release notes related to Adobe Target's server-side APIs.
+title: Release notes related to Adobe Target's server-side APIs.
 topic: Standard
 ---
 

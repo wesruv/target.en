@@ -1,14 +1,8 @@
 ---
-description: Because an automated personalization activity compares multiple offers on a page, it is helpful to preview the page with each experience.
 keywords: Recommendations
-seo-description: Because an Automated Personalization (AP) activity compares multiple offers on a page, it is helpful to preview the page with each experience.
-seo-title: Preview experiences for an Automated Personalization (AP) activity in the Adobe Target Visual Experience Composer
-solution: Target
-title: Preview experiences for Automated Personalization in the Visual Experience Composer
-title-outputclass: premium
-topic: Premium
+description: Because an Automated Personalization (AP) activity compares multiple offers on a page, it is helpful to preview the page with each experience.
+title: Preview experiences for an Automated Personalization (AP) activity in the Adobe Target Visual Experience Composer
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Preview experiences for Automated Personalization in the Visual Experience Composer{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}

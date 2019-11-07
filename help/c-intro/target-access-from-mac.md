@@ -1,11 +1,8 @@
 ---
-description: Instructions to access Adobe Target from the Adobe Experience Cloud.
 keywords: Experience Cloud;sign in
-seo-description: Instructions to access Adobe Target from the Adobe Experience Cloud.
-seo-title: Access Target from the Adobe Experience Cloud
-solution: Target
-subtopic: Getting Started
+description: Instructions to access Adobe Target from the Adobe Experience Cloud.
 title: Access Target from the Adobe Experience Cloud
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 ---

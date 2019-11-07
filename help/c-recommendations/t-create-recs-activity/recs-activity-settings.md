@@ -1,15 +1,9 @@
 ---
-description: Several settings can be used to describe and control a Recommendations activity.
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
-seo-description: Several settings can be used to describe and control a Recommendations activity in Adobe Target.
-seo-title: Recommendations Activity settings in Adobe Target
-solution: Target
+description: Several settings can be used to describe and control a Recommendations activity in Adobe Target.
+title: Recommendations Activity settings in Adobe Target
 subtopic: Recommendations
-title: Recommendations Activity settings
-title-outputclass: premium
-topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Activity settings{#recommendations-activity-settings}

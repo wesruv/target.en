@@ -1,11 +1,8 @@
 ---
-description: Answers to frequently asked questions about mbox.js.
 keywords: mbox.js faq;mbox.js frequently asked questions;document.write;tt.omtrdc.net;parser blocking
-seo-description: Answers to frequently asked questions about mbox.js.
-seo-title: mbox.js Frequently Asked Questions
-solution: Target
-subtopic: Getting Started
+description: Answers to frequently asked questions about mbox.js.
 title: mbox.js Frequently Asked Questions
+subtopic: Getting Started
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 ---
 

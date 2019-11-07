@@ -1,9 +1,6 @@
 ---
-description: This topic contains answers to questions that are frequently asked about sharing metrics, audiences, and reports when using Analytics as the reporting source for Target (A4T).
 keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
-seo-description: This topic contains answers to questions that are frequently asked about sharing metrics, audiences, and reports when using Analytics as the reporting source for Target (A4T).
-seo-title: Share metrics, audiences, and reports - A4T FAQ
-solution: Target
+description: This topic contains answers to questions that are frequently asked about sharing metrics, audiences, and reports when using Analytics as the reporting source for Target (A4T).
 title: Share metrics, audiences, and reports - A4T FAQ
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9

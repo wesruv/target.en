@@ -1,14 +1,8 @@
 ---
-description: Recommendations activities automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
-seo-description: Recommendations activities in Adobe Target automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
-seo-title: Adobe Target Recommendations
-solution: Target
-title: Recommendations
-title-outputclass: premium
-topic: Premium
+description: Recommendations activities in Adobe Target automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
+title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations{#recommendations}
