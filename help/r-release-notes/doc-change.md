@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 7, 2019|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#examples)|Added code sample for the adobeQA parameter.|
 |November 5, 2019|[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts)|Updated text in the "Troubleshooting" section.|
 |November 4, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated text under the following FAQ: "Why do I see warning messages, such as 'actions with missing selectors'?"|
 |October 31, 2019|[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|New topic.|
