@@ -1,11 +1,8 @@
 ---
-description: There are tasks you should complete and information you should gather when preparing to implement Adobe Target.
 keywords: implement;implementing;rfi;request for information
-seo-description: There are tasks you should complete and information you should gather when preparing to implement Adobe Target.
-seo-title: Prepare to implement Adobe Target
-solution: Target
+description: There are tasks you should complete and information you should gather when preparing to implement Adobe Target.
+title: Prepare to implement Adobe Target
 subtopic: Getting Started
-title: Prepare to implement Target
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 ---

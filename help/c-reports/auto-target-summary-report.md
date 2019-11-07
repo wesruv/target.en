@@ -1,11 +1,8 @@
 ---
-description: Information about how to interpret the Auto-Target Summary report.
 keywords: reports;auto-target;auto target;AT
-seo-description: Information about how to interpret the Auto-Target Summary report.
-seo-title: Auto-Target Summary report
-solution: Target
-subtopic: Multivariate Test
+description: Information about how to interpret the Auto-Target Summary report.
 title: Auto-Target Summary report
+subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 ---

@@ -1,10 +1,7 @@
 ---
-description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
 keywords: qa;preview;bookmarklet;preview links
-seo-description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
-seo-title: Activity QA bookmarklet for Adobe Target
-solution: Target
-title: Activity QA bookmarklet
+description: Information to help you use the Adobe Target QA bookmarklet to force Target to release you from QA mode.
+title: Activity QA bookmarklet for Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 ---

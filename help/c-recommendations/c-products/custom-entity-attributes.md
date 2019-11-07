@@ -1,14 +1,8 @@
 ---
-description: Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
-seo-description: Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
-seo-title: Custom entity attributes
-solution: Target
+description: Use single- and multi-value custom entity attributes to define additional information about items in your catalog.
 title: Custom entity attributes
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Custom entity attributes{#custom-entity-attributes}

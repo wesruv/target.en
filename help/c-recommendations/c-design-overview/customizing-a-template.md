@@ -1,14 +1,8 @@
 ---
-description: Use the open-source Velocity design language to customize recommendation designs.
 keywords: custom design;velocity;decimal;comma;customize design
-seo-description: Use the open-source Velocity design language to customize recommendation designs.
-seo-title: Customize a design using Velocity
-solution: Target
+description: Use the open-source Velocity design language to customize recommendation designs.
 title: Customize a design using Velocity
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Customize a design using Velocity{#customize-a-design-using-velocity}

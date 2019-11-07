@@ -1,11 +1,8 @@
 ---
-description: This topic contains suggestions for resolving some issues that might occur when designing an MVT test.
 keywords: Mobile Web Experience Editor
-seo-description: This topic contains suggestions for resolving some issues that might occur when designing an MVT test.
-seo-title: Troubleshoot Multivariate Tests
-solution: Target
-subtopic: Mobile Viewports
+description: This topic contains suggestions for resolving some issues that might occur when designing an MVT test.
 title: Troubleshoot Multivariate Tests
+subtopic: Mobile Viewports
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 ---

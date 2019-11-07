@@ -1,13 +1,7 @@
 ---
-description: Introduction to Target Recommendations activities that automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
 keywords: Recommendations;intro;introduction;webinar;demo
-seo-description: Introduction to Adobe Target Recommendations activities that automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
-seo-title: Introduction to Recommendations activities in Adobe Target
-solution: Target
-title: Introduction to Recommendations
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Introduction to Adobe Target Recommendations activities that automatically display products or content that might interest your customers based on previous user activity or other algorithms. Recommendations help direct customers to relevant items they might otherwise not know about.
+title: Introduction to Recommendations activities in Adobe Target
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Introduction to Recommendations

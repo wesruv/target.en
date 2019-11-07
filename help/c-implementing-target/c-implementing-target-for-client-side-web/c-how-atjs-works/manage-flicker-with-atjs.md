@@ -1,10 +1,7 @@
 ---
-description: Information about how the Target at.js JavaScript library prevents flicker during page or app load.
 keywords: flicker;at.js;implementation
-seo-description: Information about how the Adobe Target at.js JavaScript library prevents flicker during page or app load.
-seo-title: How Adobe Target at.js manages flicker
-solution: Target
-title: How at.js manages flicker
+description: Information about how the Adobe Target at.js JavaScript library prevents flicker during page or app load.
+title: How Adobe Target at.js manages flicker
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 ---

@@ -1,14 +1,8 @@
 ---
-description: Use feeds to get entities imported into Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-seo-description: Use feeds to get entities imported into Adobe Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
-seo-title: Feeds
-solution: Target
+description: Use feeds to get entities imported into Adobe Recommendations. Entities can be sent using CSV files, the Google Product Search feed format, and/or Adobe Analytics product classifications.
 title: Feeds
-title-outputclass: premium
-topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Feeds{#feeds}

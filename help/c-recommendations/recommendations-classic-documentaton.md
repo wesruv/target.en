@@ -1,13 +1,7 @@
 ---
-description: Adobe Recommendations Classic documentation.
 keywords: recommendations Classic
-seo-description: Adobe Recommendations Classic documentation.
-seo-title: Adobe Recommendations Classic documentation.
-solution: Target
-title: Recommendations Classic documentation.
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Adobe Recommendations Classic documentation.
+title: Adobe Recommendations Classic documentation.
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations Classic documentation

@@ -1,11 +1,7 @@
 ---
-description: Create audiences to target visitors who meet specific profile parameters.
 keywords: visitor profile;target visitor profile
-seo-description: Create audiences in Adobe Target to target visitors who meet specific profile parameters.
-seo-title: Visitor Profile
-solution: Target
-title: Create audiences to target visitor profiles using Adobe Target
-topic: Premium
+description: Create audiences in Adobe Target to target visitors who meet specific profile parameters.
+title: Visitor Profile
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 ---
 

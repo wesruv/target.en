@@ -1,10 +1,7 @@
 ---
-description: Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
 keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
-seo-description: Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
-seo-title: Custom parameters in Adobe Target
-solution: Target
-title: Custom parameters
+description: Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences.
+title: Custom parameters in Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 ---

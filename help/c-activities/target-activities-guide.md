@@ -1,9 +1,6 @@
 ---
-description: Download an interactive PDF that describes the different activity types in Adobe Target (with the exception of Recommendations).
 keywords: activities guide;activities;activity;activity types;activity actions
-seo-description: Download an interactive PDF that describes the different activity types in Adobe Target (with the exception of Recommendations).
-seo-title: Target activity types
-solution: Target
+description: Download an interactive PDF that describes the different activity types in Adobe Target (with the exception of Recommendations).
 title: Target activity types
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5

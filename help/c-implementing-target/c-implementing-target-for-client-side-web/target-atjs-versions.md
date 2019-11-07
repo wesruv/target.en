@@ -1,11 +1,8 @@
 ---
-description: Details about changes in each version of at.js.
 keywords: at.js releases;at.js versions
-seo-description: Details about changes in each version of at.js.
-seo-title: at.js version details
-solution: Target
-subtopic: Getting Started
+description: Details about changes in each version of at.js.
 title: at.js version details
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 ---
 

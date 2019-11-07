@@ -1,9 +1,6 @@
 ---
-description: An experience determines which content displays when the visitor meets the audience criteria for an activity.
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow;ip blacklist;ip whitelist
-seo-description: An experience determines which content displays when the visitor meets the audience criteria for an activity.
-seo-title: Experiences and offers
-solution: Target
+description: An experience determines which content displays when the visitor meets the audience criteria for an activity.
 title: Experiences and offers
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f

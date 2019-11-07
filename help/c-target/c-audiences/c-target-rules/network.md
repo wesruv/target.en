@@ -1,10 +1,7 @@
 ---
-description: You can create audiences based on network details.
 keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
-seo-description: You can create audiences in Adobe Target based on network details.
-seo-title: Create audiences in Adobe Target based on network details.
-solution: Target
-title: Network
+description: You can create audiences in Adobe Target based on network details.
+title: Create audiences in Adobe Target based on network details.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 ---
 

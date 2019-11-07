@@ -1,10 +1,7 @@
 ---
-description: Target visitors who are on a specific page or have a specific mbox parameter.
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-seo-description: You can target visitors who are on a specific page or have a specific mbox parameter using Adobe Target.
-seo-title: Site Pages in Adobe Target
-solution: Target
-title: Site Pages
+description: You can target visitors who are on a specific page or have a specific mbox parameter using Adobe Target.
+title: Site Pages in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 ---

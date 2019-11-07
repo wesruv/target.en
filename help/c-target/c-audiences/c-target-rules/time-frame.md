@@ -1,9 +1,6 @@
 ---
-description: You can add start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
-seo-description: You can add start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
-seo-title: Time Frame
-solution: Target
+description: You can add start/end dates and times to target users who visit your site during a specific time frame. You can also set Week and Day Parting options to create recurring patterns for audience targeting.
 title: Time Frame
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 ---

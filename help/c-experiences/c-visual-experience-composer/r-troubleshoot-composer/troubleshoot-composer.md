@@ -1,9 +1,6 @@
 ---
-description: Display problems sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
 keywords: Targeting;visual experience composer;whitelist;white list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-seo-description: Display problems sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
-seo-title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
-solution: Target
+description: Display problems sometimes occur in the Visual Experience Composer (VEC) and the Enhanced Experience Composer (EEC) under certain conditions.
 title: Troubleshooting the Visual Experience Composer and Enhanced Experience Composer
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 ---

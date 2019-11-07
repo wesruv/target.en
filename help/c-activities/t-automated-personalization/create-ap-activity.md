@@ -1,14 +1,9 @@
 ---
-description: The Automated Personalization activity workflow varies from the workflow of the other activity types.
 keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-seo-description: The Automated Personalization activity workflow varies from the workflow of the other activity types.
-seo-title: Create an Automated Personalization activity
-solution: Target
+description: The Automated Personalization activity workflow varies from the workflow of the other activity types.
 title: Create an Automated Personalization activity
-title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create an Automated Personalization activity{#create-an-automated-personalization-activity}

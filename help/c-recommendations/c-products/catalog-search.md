@@ -1,14 +1,8 @@
 ---
-description: The catalog search helps you locate the products or content in your catalog.
 keywords: catalog;search
-seo-description: The catalog search in Adobe Target helps you locate the products or content in your catalog.
-seo-title: Catalog search in Adobe Target
-solution: Target
-title: Catalog search
-title-outputclass: premium
-topic: Premium
+description: The catalog search in Adobe Target helps you locate the products or content in your catalog.
+title: Catalog search in Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Catalog search {#catalog-search}

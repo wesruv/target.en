@@ -1,13 +1,8 @@
 ---
-description: Specialized reports are available to users of Automated Personalization.
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-seo-description: Specialized reports are available to users of Automated Personalization.
-seo-title: Automated Personalization Summary reports
-solution: Target
+description: Specialized reports are available to users of Automated Personalization.
 title: Automated Personalization Summary reports
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Personalization Summary reports{#automated-personalization-summary-reports}

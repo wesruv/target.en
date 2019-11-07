@@ -1,13 +1,8 @@
 ---
-description: List of IP addresses used in Recommendations feed-processing servers located in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
 keywords: IP address;IP addresses;whitelist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
-seo-description: List of IP addresses used in Recommendations feed-processing servers located in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
-seo-title: IP addresses used by Recommendations feed-processing servers
+description: List of IP addresses used in Recommendations feed-processing servers located in the Oregon data center to help you configure your firewall to allow IP addresses originating from Adobe servers.
 title: IP addresses used by Recommendations feed-processing servers
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) IP addresses used by Recommendations feed-processing servers{#ip-addresses-used-by-recommendations-feed-processing-servers}

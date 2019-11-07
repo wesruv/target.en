@@ -1,14 +1,8 @@
 ---
-description: Information about creating inclusion rules for criteria and promotions, and adding additional dynamic or static filtering rules to achieve better results.
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
-seo-description: Information about creating inclusion rules in Adobe Target Recommendations for criteria and promotions, and adding additional dynamic or static filtering rules to achieve better results.
-seo-title: Use dynamic and static inclusion rules in Adobe Target Recommendations
-solution: Target
-title: Use dynamic and static inclusion rules
-title-outputclass: premium
-topic: Premium
+description: Information about creating inclusion rules in Adobe Target Recommendations for criteria and promotions, and adding additional dynamic or static filtering rules to achieve better results.
+title: Use dynamic and static inclusion rules in Adobe Target Recommendations
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Use dynamic and static inclusion rules{#use-dynamic-and-static-inclusion-rules}

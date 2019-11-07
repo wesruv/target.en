@@ -1,8 +1,6 @@
 ---
-description: Target can be used for mobile app optimization and personalization
 keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
-seo-description: Target can be used for mobile app optimization and personalization
-seo-title: Target for mobile apps
+description: Target can be used for mobile app optimization and personalization
 title: Target for mobile apps
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098

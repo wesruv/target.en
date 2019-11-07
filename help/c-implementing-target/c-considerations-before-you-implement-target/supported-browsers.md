@@ -1,11 +1,8 @@
 ---
-description: The Adobe Target application and content delivery has been tested across a wide range of browsers and devices.
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
-seo-description: The Adobe Target application and content delivery has been tested across a wide range of browsers and devices.
-seo-title: Supported browsers
-solution: Target
-subtopic: Getting Started
+description: The Adobe Target application and content delivery has been tested across a wide range of browsers and devices.
 title: Supported browsers
+subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 ---

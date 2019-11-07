@@ -1,10 +1,7 @@
 ---
-description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
 keywords: troubleshoot target;troubleshooting target
-seo-description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
-seo-title: Troubleshoot Adobe Target
-solution: Target
-title: Troubleshoot Target
+description: List of topics to help you resolve issues in Adobe Target, including troubleshooting topics, frequently asked questions (FAQs), and other helpful topics.
+title: Troubleshoot Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 ---

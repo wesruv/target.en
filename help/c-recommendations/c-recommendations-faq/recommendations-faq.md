@@ -1,14 +1,8 @@
 ---
-description: List of frequently asked questions (FAQs) about Recommendations activities.
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-seo-description: List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
-seo-title: Adobe Target Recommendations FAQ
-solution: Target
-title: Recommendations FAQ
-title-outputclass: premium
-topic: Premium
+description: List of frequently asked questions (FAQs) about Adobe Target Recommendations activities.
+title: Adobe Target Recommendations FAQ
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Recommendations FAQ{#recommendations-faq}

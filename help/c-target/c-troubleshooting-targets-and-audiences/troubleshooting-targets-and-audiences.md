@@ -1,9 +1,6 @@
 ---
-description: List of frequently asked questions (FAQs) about experience targeting and audiences.
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
-seo-description: List of frequently asked questions (FAQs) about experience targeting and audiences.
-seo-title: Targets and audiences FAQ
-solution: Target
+description: List of frequently asked questions (FAQs) about experience targeting and audiences.
 title: Targets and audiences FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53

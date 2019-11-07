@@ -1,11 +1,8 @@
 ---
-description: Information about the Modifications page that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-seo-description: Information about the Modifications page that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
-seo-title: Modifications
-solution: Target
-subtopic: Code Editor
+description: Information about the Modifications page that lets you view modifications to your page and add additional modifications (CSS Selector, Mbox, and Custom Code).
 title: Modifications
+subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 ---

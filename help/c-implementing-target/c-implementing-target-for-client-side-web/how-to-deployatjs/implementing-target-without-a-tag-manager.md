@@ -1,11 +1,8 @@
 ---
-description: Information about implementing Adobe Target without using a tag manager (Adobe Launch or Dynamic Tag Management).
 keywords: order confirmation;orderConfirmPage
-seo-description: Information about implementing Adobe Target without using a tag manager (Adobe Launch or Dynamic Tag Management).
-seo-title: Implement Target without a tag manager
-solution: Target
-subtopic: Getting Started
+description: Information about implementing Adobe Target without using a tag manager (Adobe Launch or Dynamic Tag Management).
 title: Implement Target without a tag manager
+subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 ---

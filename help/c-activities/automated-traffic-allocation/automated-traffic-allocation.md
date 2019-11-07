@@ -1,9 +1,6 @@
 ---
-description: Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-seo-description: Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
-seo-title: Auto-Allocate
-solution: Target
+description: Auto Allocate identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
 title: Auto-Allocate
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
