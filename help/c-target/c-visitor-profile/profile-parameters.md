@@ -248,7 +248,7 @@ Parameters. This section serves as a quick reference to make you productive with
 
 Script Profile Parameters are found under the mboxes/profiles tab. You can write Javascript programs that return any Javascript type (string, integer, array, and so forth).
 
-### Script profile parameter examples
+### Script profile parameter examples {#examples}
 
 **Name:** *user.recency*
 
@@ -274,7 +274,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called frequency, initializing it to either the previous value or 0, if there was no previous value. If the mbox name is `orderThankyouPage`, the incremented value is returned.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. If the mbox name is `orderThankyouPage`, the incremented value is returned.
 
 **Name:** *user.monetaryValue*
 
@@ -286,6 +286,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 Creates a variable called `monetaryValue`, looking up the current value for a given visitor (or set to 0 if there was no previous value). If the mbox name is `orderThankyouPage`, new monetary value is returned by adding the previous one and the value of the `orderTotal` parameter passed to the mbox.
+
+**Name:** adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+Creates a variable called `adobeQA` to track a user for [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
+
 
 ### Objects and methods
 
