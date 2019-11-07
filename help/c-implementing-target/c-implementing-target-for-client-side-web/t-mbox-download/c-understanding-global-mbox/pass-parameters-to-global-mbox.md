@@ -1,11 +1,8 @@
 ---
-description: The JavaScript targetPageParams function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into Target.
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-seo-description: The JavaScript targetPageParams function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into Target.
-seo-title: Pass Parameters to a global mbox
-solution: Target
-subtopic: Getting Started
+description: The JavaScript targetPageParams function is used to pass parameters to the global mbox. This is needed in any scenario where additional targeting/context information is to be passed into Target.
 title: Pass Parameters to a global mbox
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 ---

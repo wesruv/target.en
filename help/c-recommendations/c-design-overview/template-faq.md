@@ -1,14 +1,8 @@
 ---
-description: List of frequently asked questions (FAQs) about recommendations designs.
 keywords: recommendations;frequently asked questions;faq
-seo-description: List of frequently asked questions (FAQs) about recommendations designs.
-seo-title: Design FAQ
-solution: Target
+description: List of frequently asked questions (FAQs) about recommendations designs.
 title: Design FAQ
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Design FAQ {#design-faq}

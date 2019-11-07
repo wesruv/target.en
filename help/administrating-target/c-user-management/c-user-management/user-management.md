@@ -1,11 +1,8 @@
 ---
-description: You can add users and manage their permissions in the Adobe Admin Console.
 keywords: add user;manage user;user permissions
-seo-description: You can add users and manage their permissions in the Adobe Admin Console.
-seo-title: Users
-solution: Target
-subtopic: Getting Started
+description: You can add users and manage their permissions in the Adobe Admin Console.
 title: Users
+subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 ---

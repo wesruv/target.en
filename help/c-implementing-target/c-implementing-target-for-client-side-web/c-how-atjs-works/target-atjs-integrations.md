@@ -1,9 +1,6 @@
 ---
-description: Information about common integrations with Target and their support status with at.js.
 keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
-seo-description: Information about common integrations with Target and their support status with at.js.
-seo-title: at.js integrations
-solution: Target
+description: Information about common integrations with Target and their support status with at.js.
 title: at.js integrations
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c

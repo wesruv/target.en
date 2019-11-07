@@ -1,13 +1,8 @@
 ---
-description: Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-seo-description: Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
-seo-title: Automated Segments report
-solution: Target
+description: Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 title: Automated Segments report
-title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Automated Segments report{#automated-segments-report}

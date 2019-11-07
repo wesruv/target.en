@@ -1,11 +1,8 @@
 ---
-description: To use Target Standard or Target Premium, add one line of code to call mbox.js.
 keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
-seo-description: To use Target Standard or Target Premium, add one line of code to call mbox.js.
-seo-title: mbox.js implementation
-solution: Target
-subtopic: Getting Started
+description: To use Target Standard or Target Premium, add one line of code to call mbox.js.
 title: mbox.js implementation
+subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 ---

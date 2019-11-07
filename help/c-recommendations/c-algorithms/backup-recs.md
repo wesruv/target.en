@@ -1,14 +1,8 @@
 ---
-description: If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 keywords: recommendation;backup;back up
-seo-description: If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
-seo-title: Use a backup recommendation
-solution: Target
+description: If you use the backup recommendation feature, any recommendation that does not have enough recommended items will not display default content. Instead, recommendations display the results of the backup algorithm.
 title: Use a backup recommendation
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Use a backup recommendation{#use-a-backup-recommendation}

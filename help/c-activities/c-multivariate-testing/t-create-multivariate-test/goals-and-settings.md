@@ -1,9 +1,6 @@
 ---
-description: The Goals and Settings page is where you enter information about the goals of the test.
 keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-seo-description: The Goals and Settings page is where you enter information about the goals of the test.
-seo-title: Goals and settings
-solution: Target
+description: The Goals and Settings page is where you enter information about the goals of the test.
 title: Goals and settings
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e

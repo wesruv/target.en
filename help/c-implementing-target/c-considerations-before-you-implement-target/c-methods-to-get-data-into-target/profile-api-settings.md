@@ -1,11 +1,8 @@
 ---
-description: Enable or disable authentication for batch updates via API and generate a profile authentication token.
 keywords: implementation;api;profile;profile api settings
-seo-description: Enable or disable authentication for batch updates via API and generate a profile authentication token.
-seo-title: Profile API settings
-solution: Target
-subtopic: Getting Started
+description: Enable or disable authentication for batch updates via API and generate a profile authentication token.
 title: Profile API settings
+subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 ---

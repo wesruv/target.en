@@ -1,9 +1,6 @@
 ---
-description: Use the Adobe System Status page to view the status of Adobe products and Experience Cloud solutions, including Target. This page helps you determine whether problems you might encounter are due to system updates or routine maintenance.
 keywords: system update;troubleshooting;maintenance;system status;update status
-seo-description: Use the Adobe System Status page to view the status of Adobe products and Experience Cloud solutions, including Target. This page helps you determine whether problems you might encounter are due to system updates or routine maintenance.
-seo-title: System status updates
-solution: Target
+description: Use the Adobe System Status page to view the status of Adobe products and Experience Cloud solutions, including Target. This page helps you determine whether problems you might encounter are due to system updates or routine maintenance.
 title: System status updates
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8

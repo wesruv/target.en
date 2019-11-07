@@ -1,9 +1,6 @@
 ---
-description: Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
 keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
-seo-description: Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
-seo-title: Resources and Contact Information
-solution: Target
+description: Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
 title: Resources and Contact Information
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783

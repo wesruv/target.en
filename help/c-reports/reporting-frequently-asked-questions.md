@@ -1,10 +1,7 @@
 ---
-description: List of frequently asked questions about reporting in Target.
 keywords: troubleshooting;metric discrepancies;FAQ;reports
-seo-description: List of frequently asked questions about reporting in Adobe Target.
-seo-title: Reporting FAQ for Adobe Target
-solution: Target
-title: Reporting FAQ
+description: List of frequently asked questions about reporting in Adobe Target.
+title: Reporting FAQ for Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 ---

@@ -1,11 +1,7 @@
 ---
-description: Search for assets by keywords and save search folders, called smart collections, that are automatically updated with search results.
 keywords: content library;assets;search;smart collections;search folder;filter
-seo-description: Search for assets by keywords and save search folders, called smart collections, that are automatically updated with search results.
-seo-title: Search content and create smart collections
-solution: Target
+description: Search for assets by keywords and save search folders, called smart collections, that are automatically updated with search results.
 title: Search content and create smart collections
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 ---
 

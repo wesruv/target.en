@@ -1,11 +1,7 @@
 ---
 description: Sometimes activities don't go as expected. Here are some potential challenges you might face while using Automated Personalization, and some suggested solutions.
-seo-description: Sometimes activities don't go as expected. Here are some potential challenges you might face while using Automated Personalization, and some suggested solutions.
-seo-title: Troubleshoot Automated Personalization
 title: Troubleshoot Automated Personalization
-title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Troubleshoot Automated Personalization{#troubleshoot-automated-personalization}

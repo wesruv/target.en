@@ -1,9 +1,6 @@
 ---
-description: An element selector is a CSS expression which can identify one or more elements.
 keywords: Experience Targeting;Landing Page Test
-seo-description: An element selector is a CSS expression which can identify one or more elements.
-seo-title: Element Selectors Used in the Visual Experience Composer
-solution: Target
+description: An element selector is a CSS expression which can identify one or more elements.
 title: Element Selectors Used in the Visual Experience Composer
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900

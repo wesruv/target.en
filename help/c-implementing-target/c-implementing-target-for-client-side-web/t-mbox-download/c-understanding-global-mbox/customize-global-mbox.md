@@ -1,11 +1,8 @@
 ---
-description: Information to help you customize a global mbox for both at.js and mbox.js.
 keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
-seo-description: Information to help you customize a global mbox for both at.js and mbox.js.
-seo-title: Customize a Global mbox
-solution: Target
-subtopic: Getting Started
+description: Information to help you customize a global mbox for both at.js and mbox.js.
 title: Customize a Global mbox
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 ---

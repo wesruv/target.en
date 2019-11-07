@@ -1,9 +1,6 @@
 ---
-description: Create JSON offers in the Offer Library for use in the Form-Based Experience Composer.
 keywords: remote offer;create remote offer
-seo-description: Create JSON offers in the Offer Library for use in the Form-Based Experience Composer.
-seo-title: Create JSON offers
-solution: Target
+description: Create JSON offers in the Offer Library for use in the Form-Based Experience Composer.
 title: Create JSON offers
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90

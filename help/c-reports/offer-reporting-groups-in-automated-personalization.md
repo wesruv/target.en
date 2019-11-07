@@ -1,14 +1,9 @@
 ---
-description: Information about using reporting groups in Automated Personalization (AP) activities.
 keywords: automated personalization;offer;reporting;group;reporting group
-seo-description: Information about using reporting groups in Automated Personalization (AP) activities in Adobe Target.
-seo-title: Offer reporting groups in Automated Personalization (AP) activities in Adobe Target
-solution: Target
-title: Offer reporting groups in Automated Personalization
-title-outputclass: premium
+description: Information about using reporting groups in Automated Personalization (AP) activities in Adobe Target.
+title: Offer reporting groups in Automated Personalization (AP) activities in Adobe Target
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Offer reporting groups in Automated Personalization{#offer-reporting-groups-in-automated-personalization}

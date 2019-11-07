@@ -1,9 +1,6 @@
 ---
-description: This topic contains answers to questions that are frequently asked about provisioning Analytics as the reporting source for Target (A4T).
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
-seo-description: This topic contains answers to questions that are frequently asked about provisioning Analytics as the reporting source for Target (A4T).
-seo-title: Initial provisioning - A4T FAQ
-solution: Target
+description: This topic contains answers to questions that are frequently asked about provisioning Analytics as the reporting source for Target (A4T).
 title: Initial provisioning - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5

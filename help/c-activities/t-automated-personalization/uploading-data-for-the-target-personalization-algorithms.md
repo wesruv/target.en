@@ -1,10 +1,6 @@
 ---
 description: Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models.
-seo-description: Offline data, such as CRM information or customer churn propensity scores, can be incredibly valuable when building personalization models.
-seo-title: Upload data for Target's personalization algorithms
-solution: Target
 title: Upload data for Target's personalization algorithms
-topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 ---
 

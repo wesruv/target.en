@@ -1,14 +1,8 @@
 ---
-description: Criteria are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-seo-description: Criteria in Adobe Target Recommendations are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
-seo-title: Criteria in Adobe Target Recommendations
-solution: Target
-title: Criteria
-title-outputclass: premium
-topic: Premium
+description: Criteria in Adobe Target Recommendations are rules that determine which products to recommend based on a predetermined set of visitor behaviors.
+title: Criteria in Adobe Target Recommendations
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Criteria{#criteria}

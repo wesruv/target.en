@@ -1,10 +1,8 @@
 ---
-description: User account requirements to create an Adobe Analytics-based activity in Adobe Target (A4T).
 keywords: Analytics as reporting source;a4t;A4T
-seo-description: User account requirements to create an Adobe Analytics-based activity in Adobe Target (A4T).
-seo-title: User permission requirements
-solution: Target,Analytics
+description: User account requirements to create an Adobe Analytics-based activity in Adobe Target (A4T).
 title: User permission requirements
+solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 ---

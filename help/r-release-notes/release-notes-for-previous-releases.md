@@ -1,9 +1,6 @@
 ---
-description: Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript libraries (at.js and mbox.js). Release notes are arraigned in descending order by month and year of release.
 keywords: Release notes
-seo-description: Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript libraries (at.js and mbox.js). Release notes are arraigned in descending order by month and year of release.
-seo-title: Release notes for previous releases
-solution: Target
+description: Release notes for previous Target releases, including release notes for Target Standard/Premium, the Target platform, and the Target Javascript libraries (at.js and mbox.js). Release notes are arraigned in descending order by month and year of release.
 title: Release notes for previous releases
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e

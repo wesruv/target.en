@@ -1,10 +1,8 @@
 ---
-description: Select an experience to be used as control while creating an Automated Personalization (AP) or Auto-Target activity.
 keywords: experience;control;automated personalization;auto-target
-seo-description: Select an experience to be used as control while creating an Automated Personalization (AP) or Auto-Target activity in Adobe Target.
-seo-title: Use a specific experience as control in Adobe Target
+description: Select an experience to be used as control while creating an Automated Personalization (AP) or Auto-Target activity in Adobe Target.
+title: Use a specific experience as control in Adobe Target
 solution: Target,Analytics
-title: Use a specific experience as control
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 ---
 

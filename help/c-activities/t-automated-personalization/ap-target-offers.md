@@ -1,12 +1,8 @@
 ---
 description: In an Automated Personalization activity, you can target offers to specific audiences.
-seo-description: In an Automated Personalization activity, you can target offers to specific audiences.
-seo-title: Target Automated Personalization offers
-solution: Target,Analytics
 title: Target Automated Personalization offers
-title-outputclass: premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Target Automated Personalization offers{#target-automated-personalization-offers}

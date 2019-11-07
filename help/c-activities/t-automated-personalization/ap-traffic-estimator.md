@@ -1,13 +1,8 @@
 ---
 description: The Traffic Estimator provides feedback that lets you know whether you have sufficient traffic for your activity to succeed.
-seo-description: The Traffic Estimator provides feedback that lets you know whether you have sufficient traffic for your activity to succeed.
-seo-title: Estimate the traffic required for success
-solution: Target
 title: Estimate the traffic required for success
-title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Estimate the traffic required for success{#estimate-the-traffic-required-for-success}

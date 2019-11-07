@@ -1,11 +1,7 @@
 ---
-description: Several changes occur in your data collection process when enabling Analytics as the reporting source for Target (A4T).
 keywords: Recommendations
-seo-description: Several changes occur in your data collection process when enabling Analytics as the reporting source for Target (A4T).
-seo-title: Before you implement Adobe Analytics as the reporting source for Adobe Target (A4T)
-solution: Target
-title: Before you implement
-topic: Premium
+description: Several changes occur in your data collection process when enabling Analytics as the reporting source for Target (A4T).
+title: Before you implement Adobe Analytics as the reporting source for Adobe Target (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 ---
 
