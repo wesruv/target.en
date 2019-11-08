@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+product: target
 solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/target.html
 solution-image: assets/target-icon-24.png
