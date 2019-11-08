@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 8, 2019|[Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)|Added links to additional past issues.|
+||[Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated CCPA section with new note.<br>Added new FAQ informing customers that Target does not have the ability to allow customers to share or sell data direct from Target to third parties, so there is no opt out of sale for Target.|
 |November 7, 2019|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#examples)|Added code sample for the adobeQA parameter.|
 |November 5, 2019|[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts)|Updated text in the "Troubleshooting" section.|
 |November 4, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated text under the following FAQ: "Why do I see warning messages, such as 'actions with missing selectors'?"|

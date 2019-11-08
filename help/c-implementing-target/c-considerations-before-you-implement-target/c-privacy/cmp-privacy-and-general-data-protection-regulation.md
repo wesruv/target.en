@@ -41,6 +41,10 @@ At a high level, the law affords Californians several key rights, including righ
 
 If you were busy getting ready for Europe’s privacy law (GDPR) last year, some of these rights might be familiar and much of the work you have done might be able to be repurposed.
 
+>[!NOTE]
+>
+>Accessing and deleting data to as it applies to the CCPA follows the same process as for the GDPR.
+
 ## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] provides opt-in functionality support via [!DNL Launch] to help support your consent management strategy. Opt-in functionality lets customers control how and when the [!DNL Target] tag is fired. There is also an option via [!DNL Launch] to pre-approve the [!DNL Target] tag. To enable the ability to use Opt-In in the [!DNL Target] at.js library, you should use `targetGlobalSettings` and add the `optinEnabled=true` setting. In [!DNL Launch] you'll need to select "enable" from the [!UICONTROL GDPR Opt-In] drop-down list in the [!DNL Launch] extension installation view. See the [Launch documentation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) for more details.
@@ -288,3 +292,7 @@ The following table contains description of the illustrative profile JSON fields
 ### Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Do I need to do something to prevent my data from being shared or sold to third parties?
+
+Target does not have the ability to allow customers to share or sell data direct from Target to third parties, so there is no opt-out of sale for Target.
