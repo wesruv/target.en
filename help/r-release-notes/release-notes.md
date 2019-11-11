@@ -12,6 +12,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Java SDK version 1.0.1 (November 11, 2019)
+
+The following issue was fixed in version 1.0.1:
+
+* Send supplemental data ID in a Target request even when there is no Visitor API cookie present.
+
+For more information, see [Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+
 ## Target platform (October 31, 2019)
 
 |Feature / Enhancement|Description|
