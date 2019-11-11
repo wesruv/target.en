@@ -16,6 +16,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 | --- | --- | --- |
 |November 11, 2019|[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|Added information about version 1.0.1.|
 ||[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated entire topic.|
+||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7)|Added information explaining that [!DNL Target] does not store geo information, such as Zip Codes.|
 |November 8, 2019|[Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)|Added links to additional past issues.|
 ||[Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated CCPA section with new note.<br>Added new FAQ informing customers that Target does not have the ability to allow customers to share or sell data direct from Target to third parties, so there is no opt out of sale for Target.|
 |November 7, 2019|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#examples)|Added code sample for the adobeQA parameter.|
