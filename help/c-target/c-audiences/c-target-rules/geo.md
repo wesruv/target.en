@@ -135,7 +135,11 @@ You'll need to clear your cookies before doing this.
 
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
-Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values. 
+Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values.
+
+**Does [!DNL Target] capture (and store) information such as Zip Codes when activity is targeted with geo-location targeting capabilities?**
+
+No, [!DNL Target] uses geo data for the duration of the session only, then the data is discarded.
 
 ## Training video: Creating Audiences
 
