@@ -40,7 +40,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. After completing the preceding tasks and Adobe Client Care has notified you that the implementation is ready, you must update the `serverDomain` to the new CNAME in at.js.
 
-## Fequently Asked Questions
+## Frequently Asked Questions
 
 The following information answers frequently asked questions about requesting and implementing CNAM support in [!DNL Target]:
 
