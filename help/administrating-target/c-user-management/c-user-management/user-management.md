@@ -20,7 +20,7 @@ You can add users and manage their permissions in the Adobe Admin Console.
 >
 >**[!DNL Target] Premium Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target] Premium license. [!DNL Target] Premium customers should follow the instructions in [Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md) and [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
-Only system admin users can add users and manage their permissions. The system admin role is assigned at the [!DNL Experience Cloud] level. [!DNL Experience Cloud] roles are separate from the roles managed in each solution.
+To manage users and permissions, see [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise & Teams User Guide.
 
 When you get started with [!DNL Adobe Target], you will find IDs (ending in Adobe.com) pre-populated in your [!DNL Adobe Experience Cloud] account. These IDs are for members of Adobe teams so that they can assist you with your new account and with your use of [!DNL Adobe Target], should you need help. To get assistance, reach out to your Adobe teams in the usual way.
 
@@ -28,7 +28,7 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 
 By default all [!DNL Target] users start with observer permissions.
 
-System admin users are identified in the Users list. Contact one of those system admin users if you need your access level changed.
+Admin users are identified in the Users list. Contact one of the system admin users if you need your access level changed.
 
 ## Access the Adobe Admin Console {#access}
 
