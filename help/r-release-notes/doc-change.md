@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|November 15, 2019|[Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)|Added "Pitfall 7: Changing the traffic allocation during the testing period."|
 |November 11, 2019|[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|Added information about version 1.0.1.|
 ||[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated entire topic.|
 ||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7)|Added information explaining that [!DNL Target] does not store geo information, such as Zip Codes.|
