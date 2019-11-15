@@ -179,7 +179,7 @@ user-guide-url: /content/help/en/target/using/target-home.html
    + A/B Test {#abtest}
       + [A/B test overview](c-activities/t-test-ab/test-ab.md)
       + [How long should you run an A/B test?](c-activities/t-test-ab/sample-size-determination.md)
-      + [Nine common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [Ten common A/B testing pitfalls and how to avoid them](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Create an A/B test {#create}
          + [Create a test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [Activity URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
