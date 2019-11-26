@@ -66,20 +66,23 @@ System admin users must add users to the system. Users are not automatically add
 
    ![Products tab](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Click the name of the desired configuration. 
-1. Click **[!UICONTROL Users]**.
+1. Click the desired workspace (for example, Default Workspace).
+
+   ![Default Workspace](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![configuration users](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![Product Role drop-down list](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Role | Description |
    |--- |--- |
-   |Observer|Can view activities, but cannot create or edit them.|
-   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
    |Approver|Can create, edit, and activate or stop activities.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Observer|Can view activities, but cannot create or edit them.|
 
 For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
 
