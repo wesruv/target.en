@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 2, 2019|[Use Location Service](/help/c-target-mobile-app/use-location-service.md)|New topic.|
 |November 26, 2019|[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated text in "Managing flicker when loading at.js asynchronously."|
 ||[Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)|Added link to the November 2019 newsletter.|
 ||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Updated text and images under "Specify Roles and Permissions."|
