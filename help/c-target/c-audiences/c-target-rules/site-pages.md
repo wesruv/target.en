@@ -1,6 +1,6 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: You can target visitors who are on a specific page or have a specific mbox parameter using Adobe Target.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: You can target visitors who are on a specific page on your site.
 title: Site Pages in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
@@ -8,11 +8,7 @@ uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 
 # Site Pages{#site-pages}
 
-You can target visitors who are on a specific page or have a specific mbox parameter.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. You can also create site page audiences using you own "user defined query parameter" or "user defined header."
+You can target visitors who are on a specific page on your site.
 
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 
@@ -28,7 +24,7 @@ You can target visitors who are on a specific page or have a specific mbox param
 
     The following options are available in the intitial drop-down list when you choose [!UICONTROL Select].
 
-    * **Current Page:** The page the user is currently on, which is the page that contains an mbox in the activity. If you target at the activity level, this could be a page with an mbox that you are using to define entry conditions, or a page that displays content. If you are targeting by experience, then the current page is the page that the display mbox is on. For success metric or conversion targeting, then it is the page that those mboxes are on.
+    * **Current Page:** The page the user is currently on.
 
       The following options are available in the second drop-down list if you choose this option:
 
@@ -67,7 +63,7 @@ You can target visitors who are on a specific page or have a specific mbox param
       >
       >The `landing.url` object is reset on a subdomain change or direct URL replacement. 
 
-    * **HTTP Header:** This option evaluates the information in the HTTP header of the first page the visitor sees when accessing your site. For example, if the HTTP header contains language information, you could create a rule that contains the `Accept-Language: es` condition to target visitors.
+    * **HTTP Header:** This option evaluates the information in the HTTP header of the Target request. For example, if the HTTP header contains language information, you could create a rule that contains the `Accept-Language: es` condition to target visitors who access the page in Spanish.
 
       The following options are available in the second drop-down list if you choose this option:
 
@@ -78,7 +74,7 @@ You can target visitors who are on a specific page or have a specific mbox param
       * Authorization
       * Cache-Control
       * Connection
-      * Content-Lenght
+      * Content-Length
       * Content-MDS
       * Content-Type
       * Date
