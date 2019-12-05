@@ -112,7 +112,7 @@ You can also create site pages audiences using you own "user-defined query param
 Use a:
 
 * Query parameter if the rule selected by the user is Current Page, Landing Page, or Previous Page. 
-* Header if the rule select by the user is an HTTP header.
+* Header if the rule selected by the user is an HTTP header.
 
 as illustrated below:
 
