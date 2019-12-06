@@ -37,7 +37,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.setLocal('param_name','value');||
 |user.get('param_name')||
 |user.parameter|Persistent profile attributes created from profile scripts. Also references “system” profiles like geolocation, visit count, etc.|
-|profile.get('param_name')||
+|profile.get('param_name')|The correct way to obtain a profile parameter to use in a profile script is the profile.get('param_name') method.|
 |profile.param('param_name');||
 |profile.parameter('parameter_name');|Mbox parameters that are made persistent due to their  profile.  prefix.|
 |profile.browserTime|The visitor's local browser time. For system time, create a new date object in the profile script|

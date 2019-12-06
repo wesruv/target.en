@@ -103,7 +103,7 @@ Typical reasons for the system to disable profile scripts include the following:
 
 * An undefined variable to referenced. 
 * An invalid value is referenced. This is often caused by referencing URL values and other user-inputted data without proper validation. 
-* Too many JavaScript instructions are used. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
+* Too many JavaScript instructions are used. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. This means that any call to any function consumes 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
 * Not following items highlighted in the [best practices](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) section below.
 
 ## Best practices {#best}
@@ -316,7 +316,7 @@ The following properties and methods can be referenced by script profile paramet
 |`landing.url`, `landing.protocol`, `landing.query`, and `landing.param`|Similar to that of page, but for the landing page.|
 |`mbox.name`|The active mbox's name.|
 |`mbox.param(‘<par_name>’)`|An mbox parameter by the given name in the active mbox.|
-|`profile.get(‘<par_name>’)`|The client-created user profile parameter by the name `<par_name>`. For example, if the user sets a profile parameter named “gender”, the value can be extracted using “profile.gender”. Returns the value of the “`profile.<par_name>`” set for the current visitor; returns null if no value has been set.|
+|`profile.get(‘<par_name>’)`|The client-created user profile parameter by the name `<par_name>`. For example, if the user sets a profile parameter named “gender”, the value can be extracted using “profile.gender”. Returns the value of the “`profile.<par_name>`” set for the current visitor; returns null if no value has been set. Note that `profile.get(<par_name>)` is qualified as a function call.|
 |`user.get(‘<par_name>’)`|Returns the value of the “`user.<par_name>`” set for the current visitor; returns null if no value has been set.|
 |`user.categoryAffinity`|Returns the name of the best category.|
 |`user.categoryAffinities`|Returns an array with the best categories.|
