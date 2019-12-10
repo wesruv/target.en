@@ -105,12 +105,13 @@ All profiles after 50 are ignored.
 
 For standard mbox calls:
 * mbox parameters: 500 parameters per mbox.
-* Profile parameters: 500 parameters profile parameters per mbox:
+* Profile parameters: 500 parameters profile parameters per mbox.
 * Other Parameters (URL, referring URL, etc.): 50 per mbox for each other parameter type.
 
 These limits apply unless the request is shortened due to web browser limitations.
 
 If you are using the [Batch Delivery API](https://developers.adobetarget.com/api/#server-side-batch-delivery) in the Mobile Services SDK, the limit of 50 mbox parameters, 50 profile parameters, and 50 for other parameter types are limitations of the API itself. It is not possible to send a request containing more that these numbers using the Batch Delivery API. If a request contains more than these limits, the API will return the following error message:
+
 "The number of mboxParameters cannot exceed 50."
 
 Limits set for endpoints:
