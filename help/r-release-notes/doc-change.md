@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 10, 2019|[Target limits](/help/r-troubleshooting-target/target-limits.md)|Updated the mbox parameters section.|
+||[Criteria](/help/c-recommendations/c-algorithms/algorithms.md)|Added note about support for the Criteria Usage feature.|
 |December 5, 2019|[Site Pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)|Updated topic.|
 |December 2, 2019|[Use Location Service](/help/c-target-mobile-app/use-location-service.md)|New topic.|
 |November 26, 2019|[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated text in "Managing flicker when loading at.js asynchronously."|

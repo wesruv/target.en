@@ -103,3 +103,6 @@ Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that
 
 ![Criteria Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>The Criteria Usage feature is currently supported for Recommendations activities only. A/B Test and Experience Targeting (XT) activities are currently not supported.
