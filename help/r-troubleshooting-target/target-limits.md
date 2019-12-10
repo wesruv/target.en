@@ -116,25 +116,25 @@ If you are using the [Batch Delivery API](https://developers.adobetarget.com/api
 
 Limits set for endpoints:
 
- Batch mbox v2:
- * mbox parameters 100
- * mbox parameter name max length 128
- * mbox parameter value cannot be null
- * mbox parameter value 5000
- * profile parameters 50
- * profile parameter name max length 128
- * profile parameter value cannot be null
- * profile parameter value max length 256
+Batch mbox v2:
+* mbox parameters 100
+* mbox parameter name max length 128
+* mbox parameter value cannot be null
+* mbox parameter value 5000
+* profile parameters 50
+* profile parameter name max length 128
+* profile parameter value cannot be null
+* profile parameter value max length 256
    
- Delivery API endpoint 
- * mbox parameters 50
- * mbox parameter name max length 128
- * mbox parameter value cannot be null
- * mbox parameter value 5000
- * profile parameters 50
- * profile parameter name max length 128
- * profile parameter value cannot be null
- * profile parameter value max length 256
+Delivery API endpoint 
+* mbox parameters 50
+* mbox parameter name max length 128
+* mbox parameter value cannot be null
+* mbox parameter value 5000
+* profile parameters 50
+* profile parameter name max length 128
+* profile parameter value cannot be null
+* profile parameter value max length 256
    
 ## mbox request URLs
 
