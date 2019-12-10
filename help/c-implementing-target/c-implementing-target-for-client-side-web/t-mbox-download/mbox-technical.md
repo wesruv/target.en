@@ -1,11 +1,8 @@
 ---
-description: Information to help your technical staff understand the mbox.js implementation and how it might affect your site.
 keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
-seo-description: Information to help your technical staff understand the mbox.js implementation and how it might affect your site.
-seo-title: What mbox.js does
-solution: Target
-subtopic: Getting Started
+description: Information to help your technical staff understand the mbox.js implementation and how it might affect your site.
 title: What mbox.js does
+subtopic: Getting Started
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 ---

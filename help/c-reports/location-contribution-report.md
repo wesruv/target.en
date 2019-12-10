@@ -1,9 +1,6 @@
 ---
-description: The Location Contribution report shows the performance of each element and each offer.
 keywords: mvt;multivariate test;location contribution report
-seo-description: The Location Contribution report shows the performance of each element and each offer.
-seo-title: Location Contribution report (MVT)
-solution: Target
+description: The Location Contribution report shows the performance of each element and each offer.
 title: Location Contribution report (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3

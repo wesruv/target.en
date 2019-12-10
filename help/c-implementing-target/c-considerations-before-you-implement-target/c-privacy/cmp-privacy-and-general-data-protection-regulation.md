@@ -1,10 +1,7 @@
 ---
-description: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
-seo-description: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
-seo-title: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
-solution: Target
-title: Privacy and data protection regulations
+description: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+title: Information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 ---
@@ -43,6 +40,10 @@ At a high level, the law affords Californians several key rights, including righ
 * Be informed that personal information is being disclosed or sold
 
 If you were busy getting ready for Europe’s privacy law (GDPR) last year, some of these rights might be familiar and much of the work you have done might be able to be repurposed.
+
+>[!NOTE]
+>
+>Accessing and deleting data to as it applies to the CCPA follows the same process as for the GDPR.
 
 ## Adobe Target and [!DNL Experience Platform Launch] opt-in {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -291,3 +292,7 @@ The following table contains description of the illustrative profile JSON fields
 ### Does Target support IP obfuscation? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] supports IP obfuscation if you choose to use it as part of your GDPR or CCPA implementation strategy. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Do I need to do something to prevent my data from being shared or sold to third parties?
+
+Target does not have the ability to allow customers to share or sell data direct from Target to third parties, so there is no opt-out of sale for Target.

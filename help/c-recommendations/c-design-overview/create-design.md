@@ -1,14 +1,8 @@
 ---
-description: A design defines how recommendations appear on a page.
 keywords: recommendations design;create design;copy design
-seo-description: A design defines how recommendations appear on a page.
-seo-title: Create a design
-solution: Target
+description: A design defines how recommendations appear on a page.
 title: Create a design
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create a design {#create-a-design}

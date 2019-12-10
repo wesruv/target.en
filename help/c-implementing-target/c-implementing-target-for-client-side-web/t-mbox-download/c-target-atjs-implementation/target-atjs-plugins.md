@@ -1,10 +1,7 @@
 ---
-description: Information about supported and not-supported at.js plug-ins in Target.
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
-seo-description: Information about supported and not-supported at.js plug-ins for Adobe Target.
-seo-title: at.js plug-ins for Adobe Target
-solution: Target
-title: at.js Plug-ins
+description: Information about supported and not-supported at.js plug-ins for Adobe Target.
+title: at.js plug-ins for Adobe Target
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 ---

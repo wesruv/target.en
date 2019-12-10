@@ -1,11 +1,8 @@
 ---
-description: Answers to frequently asked questions about at.js.
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
-seo-description: Answers to frequently asked questions about the Adobe Target at.js JavaScript library.
-seo-title: Adobe Target at.js Frequently Asked Questions
-solution: Target
+description: Answers to frequently asked questions about the Adobe Target at.js JavaScript library.
+title: Adobe Target at.js Frequently Asked Questions
 subtopic: Getting Started
-title: at.js Frequently Asked Questions
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 ---
 
@@ -201,11 +198,11 @@ These message are not related to [!DNL at.js] functionality. The [!DNL at.js] li
 The following are possible root causes if you see this warning message:
 
 * The page is being built dynamically and at.js cannot find the element.
-* The user is on a slow network and at.js cannot find the selector in the DOM.
+* The page is being built slowly (due to a slow network) and at.js cannot find the selector in the DOM.
 * The page structure that activity is running on has been changed. If you reopen the activity in the Visual Experience Composer (VEC), you should get a warning message. You should update the activity so that all the necessary elements can be found. 
 * The underlying page is part of a Single Page Application (SPA) or the page contains elements that appear farther down the page and the [!DNL at.js] "selector polling mechanism" cannot find those elements. Increasing the `selectorsPollingTimeout` might help. For more information, see [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). 
-* Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display. Recent versions of [!DNL at.js] try to suppress these messages, but many customers are still on older versions of [!DNL at.js] or on [!DNL mbox.js].
-
+* Any click-tracking metric tries to add itself to every page, regardless of the URL on which the metric was set up. Although harmless, this situation makes many of these messages display.
+  
   For best results, please download and use the latest version of [!DNL at.js]. For more information, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) and [Download at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 ## What is the domain tt.omtrdc.net that Target server calls go to? {#section_999C29940E8B4CAD8A957A6B1D440317}

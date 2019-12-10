@@ -1,11 +1,8 @@
 ---
-description: By default, visitor profiles are stored for 14 days. This profile lifetime can be extended.
 keywords: Overview and Reference
-seo-description: By default, visitor profiles are stored for 14 days. This profile lifetime can be extended.
-seo-title: Visitor profile lifetime
-solution: Target
-subtopic: Getting Started
+description: By default, visitor profiles are stored for 14 days. This profile lifetime can be extended.
 title: Visitor profile lifetime
+subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 ---

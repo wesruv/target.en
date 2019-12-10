@@ -1,9 +1,6 @@
 ---
-description: The audience determines which site visitors are entered into your activity.
 keywords: audience;select audience;choose audience;Selectors
-seo-description: The audience determines which site visitors are entered into your activity.
-seo-title: Select audience
-solution: Target
+description: The audience determines which site visitors are entered into your activity.
 title: Select audience
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942

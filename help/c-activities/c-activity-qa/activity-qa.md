@@ -1,9 +1,6 @@
 ---
-description: Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
-keywords: qa;preview;preview links
-seo-description: Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
-seo-title: Activity QA
-solution: Target
+keywords: qa;preview;preview links;adobe target;target
+description: Use Adobe Target QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
 title: Activity QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
@@ -11,7 +8,7 @@ uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 
 # Activity QA {#activity-qa}
 
-Use QA URLs to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
+Use QA URLs in Adobe Target to perform easy end-to-end activity QA with preview links that never change, optional audience targeting, and QA reporting that stays segmented from live activity data.
 
 ## Overview {#section_11B761A522A14E61978275772210A4C2}
 

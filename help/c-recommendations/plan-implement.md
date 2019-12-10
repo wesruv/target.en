@@ -1,14 +1,8 @@
 ---
-description: What you need to know before creating a Recommendations activity.
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-seo-description: What you need to know before creating a Recommendations activity.
-seo-title: Plan and Implement Recommendations
-solution: Target
+description: What you need to know before creating a Recommendations activity.
 title: Plan and Implement Recommendations
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Plan and Implement Recommendations {#plan-and-implement-recommendations}

@@ -1,15 +1,9 @@
 ---
-description: Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-seo-description: Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
-seo-title: Enterprise user permissions
-solution: Target
-subtopic: Getting Started
+description: Information about creating properties and using the Properties and Permissions functionality that lets Target administrators create separate workspaces (product profiles) in Target and then assign users different roles and permissions for individual pages, properties, or web sites based on these workspaces.
 title: Enterprise user permissions
-title-outputclass: premium
-topic: Premium
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Enterprise user permissions{#enterprise-user-permissions}

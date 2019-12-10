@@ -1,9 +1,6 @@
 ---
-description: Some browsers block the display of a page if secure content is mixed with insecure content.
 keywords: mixed content;secure;insecure;chomre;troubleshooting;vec;visual experience composer;unsecure
-seo-description: Some browsers block the display of a page if secure content is mixed with insecure content.
-seo-title: Enabling Mixed Content in Your Browser
-solution: Target
+description: Some browsers block the display of a page if secure content is mixed with insecure content.
 title: Enabling Mixed Content in Your Browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1

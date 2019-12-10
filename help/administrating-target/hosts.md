@@ -1,9 +1,6 @@
 ---
-description: Organize your sites and pre-production environments for easy management and separated reporting.
 keywords: host;hosts;host group;environment;troubleshooting;best practices
-seo-description: Organize your sites and pre-production environments for easy management and separated reporting.
-seo-title: Hosts
-solution: Target
+description: Organize your sites and pre-production environments for easy management and separated reporting.
 title: Hosts
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604

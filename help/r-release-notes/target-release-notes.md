@@ -1,10 +1,7 @@
 ---
-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
 keywords: release notes;releases;updates;future release;enhancements;new features;fixes
-seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
-seo-title: Adobe Target prerelease notes
-solution: Target
-title: Target release notes (prerelease)
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
+title: Adobe Target prerelease notes
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 ---
@@ -20,6 +17,14 @@ These release notes provide information about features, enhancements, and fixes 
 >These release notes contain prerelease information. Release dates, features, and other information are subject to change without notice. To view information about the current release, see [Target Release Notes](release-notes.md). The information on these pages might be the same or it might differ, depending on the timing of releases.
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
+
+## Target Java SDK version 1.0.1 (November 11, 2019)
+
+The following issue was fixed in version 1.0.1:
+
+* Send supplemental data ID in a Target request even when there is no Visitor API cookie present.
+
+For more information, see [Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
 
 ## Target platform (October 31, 2019)
 

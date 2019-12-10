@@ -1,14 +1,8 @@
 ---
-description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
-seo-description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
-seo-title: Create criteria sequences
-solution: Target
+description: Use sequences of up to five criteria to exercise greater control of the items that appear in your Recommendations activities.
 title: Create criteria sequences
-title-outputclass: premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Create criteria sequences{#create-criteria-sequences}

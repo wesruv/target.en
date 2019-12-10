@@ -1,9 +1,6 @@
 ---
-description: Display problems sometimes occur in the Enhanced Experience Composer (EEC) under certain conditions.
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-seo-description: Display problems sometimes occur in the Enhanced Experience Composer (EEC) under certain conditions.
-seo-title: Troubleshooting Issues Related to the Enhanced Experience Composer
-solution: Target
+description: Display problems sometimes occur in the Enhanced Experience Composer (EEC) under certain conditions.
 title: Troubleshooting Issues Related to the Enhanced Experience Composer
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 ---

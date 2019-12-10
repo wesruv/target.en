@@ -1,9 +1,6 @@
 ---
-description: Definitions of terms used in Adobe Target.
-seo-description: Definitions of terms.
-seo-title: Adobe Target Glossary
-solution: Target
-title: Glossary
+description: Definitions of terms.
+title: Adobe Target Glossary
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 ---

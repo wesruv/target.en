@@ -1,11 +1,8 @@
 ---
-description: Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
 keywords: Overview and Reference
-seo-description: Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
-seo-title: Privacy
-solution: Target
-subtopic: Getting Started
+description: Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
 title: Privacy
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 ---

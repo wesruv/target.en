@@ -1,11 +1,8 @@
 ---
-description: Considerations you should address before you implement Adobe Target.
 keywords: implement;implementing
-seo-description: Considerations you should address before you implement Adobe Target.
-seo-title: Before you implement
-solution: Target
-subtopic: Getting Started
+description: Considerations you should address before you implement Adobe Target.
 title: Before you implement
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 ---

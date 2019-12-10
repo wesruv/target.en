@@ -1,9 +1,6 @@
 ---
-description: The test summary provides a visual overview of your multivariate test.
 keywords: Overview and Reference
-seo-description: The test summary provides a visual overview of your multivariate test.
-seo-title: Test summary
-solution: Target
+description: The test summary provides a visual overview of your multivariate test.
 title: Test summary
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82

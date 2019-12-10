@@ -1,9 +1,6 @@
 ---
-description: The Form-Based Experience Composer provides non-visual experience creation.
 keywords: form-based experience composer;form-based composer;refinements
-seo-description: The Form-Based Experience Composer provides non-visual experience creation.
-seo-title: Form-Based Experience Composer
-solution: Target
+description: The Form-Based Experience Composer provides non-visual experience creation.
 title: Form-Based Experience Composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9

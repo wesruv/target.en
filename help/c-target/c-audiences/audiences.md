@@ -1,10 +1,7 @@
 ---
-description: Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
-seo-description: Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
-seo-title: Create audiences in Adobe Target
-solution: Target
-title: Create audiences
+description: Audiences in Adobe Target determine who will see content and experiences in a targeted activity.
+title: Create audiences in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 ---
@@ -22,7 +19,7 @@ You can also use audience data collected by [!DNL Analytics] for real-time targe
 * **Targeting Audiences:** Used to deliver different content to different types of visitors. 
 * **Reporting Audiences:** Used to determine how different types of visitors respond to the same content so you can analyze your test results.
 
-  In [!DNL Target], you can configure reporting audiences only if you use [!DNL Target] as your reporting source. If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
+  In [!DNL Target], you can configure reporting audiences only if you use [!DNL Target] as your reporting source. If you use [Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## Use the Audiences list
 

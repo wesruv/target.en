@@ -1,11 +1,8 @@
 ---
-description: Information to help you set up Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
 keywords: implement;implementing;setting up;setup
-seo-description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
-seo-title: Administer Adobe Target
-solution: Target
+description: Information to help you set up Adobe Target, including preferences, implementation, user management, properties, Scene7 settings, host management, and response tokens.
+title: Administer Adobe Target
 subtopic: Getting Started
-title: Administer Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 ---

@@ -1,9 +1,6 @@
 ---
-description: This page lists profiles, variables, and parameters that are useful in profile scripts.
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
-seo-description: This page lists profiles, variables, and parameters that are useful in profile scripts.
-seo-title: Profile and variable glossary
-solution: Target
+description: This page lists profiles, variables, and parameters that are useful in profile scripts.
 title: Profile and variable glossary
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
@@ -40,7 +37,7 @@ This page lists profiles, variables, and parameters that are useful in profile s
 |user.setLocal('param_name','value');||
 |user.get('param_name')||
 |user.parameter|Persistent profile attributes created from profile scripts. Also references “system” profiles like geolocation, visit count, etc.|
-|profile.get('param_name')||
+|profile.get('param_name')|The correct way to obtain a profile parameter to use in a profile script is the profile.get('param_name') method.|
 |profile.param('param_name');||
 |profile.parameter('parameter_name');|Mbox parameters that are made persistent due to their  profile.  prefix.|
 |profile.browserTime|The visitor's local browser time. For system time, create a new date object in the profile script|

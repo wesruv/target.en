@@ -1,14 +1,8 @@
 ---
-description: Upload a CSV file to customize your recommendations.
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
-seo-description: Upload a CSV file to customize your recommendations.
-seo-title: Upload custom criteria
-solution: Target
+description: Upload a CSV file to customize your recommendations.
 title: Upload custom criteria
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Upload custom criteria{#upload-custom-criteria}

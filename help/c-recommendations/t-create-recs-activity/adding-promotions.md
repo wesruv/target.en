@@ -1,14 +1,8 @@
 ---
-description: Add promoted items and control their placement in your Recommendations designs. You can add static and dynamic promotions.
 keywords: promotions;front promotions;back promotions;promotions type
-seo-description: Add promoted items and control their placement in your Adobe Target Recommendations designs. You can add static and dynamic promotions.
-seo-title: Add promotions in Adobe Target Recommendations designs.
-solution: Target
-title: Add promotions
-title-outputclass: premium
-topic: Premium
+description: Add promoted items and control their placement in your Adobe Target Recommendations designs. You can add static and dynamic promotions.
+title: Add promotions in Adobe Target Recommendations designs.
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Add promotions{#add-promotions}

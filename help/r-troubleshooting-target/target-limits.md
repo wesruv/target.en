@@ -1,9 +1,6 @@
 ---
-description: Information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Adobe Target.
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
-seo-description: Information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Adobe Target.
-seo-title: Limits
-solution: Target
+description: Information about the character limits and other limits (offer size, audiences, profiles, values, parameters, etc.) that affect activities and other elements in Adobe Target.
 title: Limits
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
@@ -33,9 +30,7 @@ Information about the character limits and other limits (offer size, audiences, 
 
 ## Audience names
 
-**Limit**: 256 characters.
-
-Values longer than 256 characters are truncated.
+**Limit**: 255 characters.
 
 ## Audiences
 
@@ -43,7 +38,7 @@ Values longer than 256 characters are truncated.
 
 ## categoryId parameter
 
-**Limit**: 250 characters.
+**Limit**: 128 characters.
 
 ## Customer attribute names
 
@@ -76,7 +71,7 @@ For GET requests, although the limit on the back end is 5 KB, due to the fact th
 
 ## Experience names
 
-**Limit**: 20 characters.
+**Limit**: 50 characters.
 
 ## Experiences per activity
 
@@ -237,8 +232,9 @@ This refers to the number of line-separated values in the targeting text area. F
 
 ## Targeting rules
 
-**Recommended limit**: 2,500 unique values per targeting rule.
+**Recommended limit**: 2,500 characters per targeting rule value.
 
 **Recommended limit**: 30,000 unique values per audience across targeting rules.
 
 **Recommended limit**: 100,000 unique targeting rule values per activity.
+

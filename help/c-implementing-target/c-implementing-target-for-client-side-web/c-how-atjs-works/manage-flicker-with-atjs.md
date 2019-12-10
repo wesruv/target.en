@@ -1,10 +1,7 @@
 ---
-description: Information about how the Target at.js JavaScript library prevents flicker during page or app load.
-keywords: flicker;at.js;implementation
-seo-description: Information about how the Adobe Target at.js JavaScript library prevents flicker during page or app load.
-seo-title: How Adobe Target at.js manages flicker
-solution: Target
-title: How at.js manages flicker
+keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
+description: Information about how the Adobe Target at.js JavaScript library prevents flicker during page or app load.
+title: How Adobe Target at.js manages flicker
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 ---
@@ -41,7 +38,11 @@ For more information about the `bodyHiddenStyle` override, see [targetGlobalSett
 
 Loading at.js asynchronously is a great way to avoid blocking the browser from rendering; however, this technique can lead to flicker on the web page.
 
-You can avoid flicker by using a pre-hiding snippet that will be visible after the relevant HTML elements are personalized by [!DNL Target]. We recommend using a tag manager such as Adobe DTM or the new Adobe Launch to add the pre-hiding snippet. The snippet must be added before loading at.js.
+You can avoid flicker by using a pre-hiding snippet that will be visible after the relevant HTML elements are personalized by [!DNL Target].
+
+at.js can be loaded asynchronously, either directly embedded on the page or via a tag manager (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+
+If at.js is embedded on the page, the snippet must be added before loading at.js. If you load at.js via a tag manager, which is also loaded asynchronously, you must add the snippet before loading the tag manager. If the tag manager is loaded syncronously, the script might be included within the tag manager before at.js.
 
 The pre-hiding code snippet is as follows:
 

@@ -1,10 +1,7 @@
 ---
-description: This page lists important changes made to the Target documentation.
 keywords: target documentation change log;documentation updates;new topics;edits
-seo-description: This page lists important changes made to the Adobe Target documentation, ordered by releases.
-seo-title: Documentation changes in the Adobe Target product documentation.
-solution: Target
-title: Documentation changes
+description: This page lists important changes made to the Adobe Target documentation, ordered by releases.
+title: Documentation changes in the Adobe Target product documentation.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 ---
@@ -17,6 +14,19 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 5, 2019|[Site Pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)|Updated topic.|
+|December 2, 2019|[Use Location Service](/help/c-target-mobile-app/use-location-service.md)|New topic.|
+|November 26, 2019|[How at.js manages flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)|Updated text in "Managing flicker when loading at.js asynchronously."|
+||[Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)|Added link to the November 2019 newsletter.|
+||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Updated text and images under "Specify Roles and Permissions."|
+|November 15, 2019|[Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)|Added "Pitfall 7: Changing the traffic allocation during the testing period."|
+|November 11, 2019|[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|Added information about version 1.0.1.|
+||[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated entire topic.|
+||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7)|Added information explaining that [!DNL Target] does not store geo information, such as Zip Codes.|
+|November 8, 2019|[Target Insider newsletter](/help/r-release-notes/target-insider-newsletter.md)|Added links to additional past issues.|
+||[Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated CCPA section with new note.<br>Added new FAQ informing customers that Target does not have the ability to allow customers to share or sell data direct from Target to third parties, so there is no opt out of sale for Target.|
+|November 7, 2019|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#examples)|Added code sample for the adobeQA parameter.|
+|November 5, 2019|[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts)|Updated text in the "Troubleshooting" section.|
 |November 4, 2019|[at.js Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)|Updated text under the following FAQ: "Why do I see warning messages, such as 'actions with missing selectors'?"|
 |October 31, 2019|[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|New topic.|
 ||[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|New topic.|

@@ -1,11 +1,8 @@
 ---
-description: You can add users and manage their permissions in the Adobe Admin Console.
 keywords: add user;manage user;user permissions
-seo-description: You can add users and manage their permissions in the Adobe Admin Console.
-seo-title: Users
-solution: Target
-subtopic: Getting Started
+description: You can add users and manage their permissions in the Adobe Admin Console.
 title: Users
+subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 ---
@@ -23,7 +20,7 @@ You can add users and manage their permissions in the Adobe Admin Console.
 >
 >**[!DNL Target] Premium Customers**: If you see the [!UICONTROL Properties] tab ([!UICONTROL Setup > Properties]), your organization has a [!DNL Target] Premium license. [!DNL Target] Premium customers should follow the instructions in [Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md) and [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md) to add users and assign permissions in the [!DNL Adobe Admin Console].
 
-Only system admin users can add users and manage their permissions. The system admin role is assigned at the [!DNL Experience Cloud] level. [!DNL Experience Cloud] roles are separate from the roles managed in each solution.
+To manage users and permissions, see [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise & Teams User Guide.
 
 When you get started with [!DNL Adobe Target], you will find IDs (ending in Adobe.com) pre-populated in your [!DNL Adobe Experience Cloud] account. These IDs are for members of Adobe teams so that they can assist you with your new account and with your use of [!DNL Adobe Target], should you need help. To get assistance, reach out to your Adobe teams in the usual way.
 
@@ -31,7 +28,7 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 
 By default all [!DNL Target] users start with observer permissions.
 
-System admin users are identified in the Users list. Contact one of those system admin users if you need your access level changed.
+Admin users are identified in the Users list. Contact one of the system admin users if you need your access level changed.
 
 ## Access the Adobe Admin Console {#access}
 
@@ -69,20 +66,23 @@ System admin users must add users to the system. Users are not automatically add
 
    ![Products tab](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Click the name of the desired configuration. 
-1. Click **[!UICONTROL Users]**.
+1. Click the desired workspace (for example, Default Workspace).
+
+   ![Default Workspace](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![configuration users](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Select the desired permissions role (Observer, Editor, or Approver) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. Select the desired permissions role (Approver, Editor, or Observer) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![Product Role drop-down list](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Role | Description |
    |--- |--- |
-   |Observer|Can view activities, but cannot create or edit them.|
-   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
    |Approver|Can create, edit, and activate or stop activities.|
+   |Editor|Can create and edit activities before they are live, but cannot approve the launch of an activity.|
+   |Observer|Can view activities, but cannot create or edit them.|
 
 For more information, see [Manage Product Permissions and Roles in the Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) in the *Enterprise User Guide*.
 

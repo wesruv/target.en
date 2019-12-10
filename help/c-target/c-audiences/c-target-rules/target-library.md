@@ -1,9 +1,6 @@
 ---
-description: Target users based on pre-built targeting rules.
 keywords: Targeting;target library;library
-seo-description: Target users based on pre-built targeting rules.
-seo-title: Target Library
-solution: Target
+description: Target users based on pre-built targeting rules.
 title: Target Library
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 ---

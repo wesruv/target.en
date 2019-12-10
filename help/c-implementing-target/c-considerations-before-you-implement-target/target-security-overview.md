@@ -1,9 +1,6 @@
 ---
-description: Information about the in-depth approach and security procedures implemented by Adobe to bolster the security of your data and Adobe Target experience.
 keywords: security;security practices
-seo-description: Information about the in-depth approach and security procedures implemented by Adobe to bolster the security of your data and Adobe Target experience.
-seo-title: Target security overview
-solution: Target
+description: Information about the in-depth approach and security procedures implemented by Adobe to bolster the security of your data and Adobe Target experience.
 title: Target security overview
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 ---

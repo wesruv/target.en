@@ -1,9 +1,6 @@
 ---
-description: You can target visitors who use a certain operating system.
 keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
-seo-description: You can target visitors who use a certain operating system.
-seo-title: Operating System
-solution: Target
+description: You can target visitors who use a certain operating system.
 title: Operating System
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4

@@ -1,11 +1,8 @@
 ---
-description: Target enables you to track clicks on any element as a success metric.
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-seo-description: Target enables you to track clicks on any element as a success metric.
-seo-title: Click tracking
-solution: Target
-subtopic: Getting Started
+description: Target enables you to track clicks on any element as a success metric.
 title: Click tracking
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 ---

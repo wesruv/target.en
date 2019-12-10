@@ -1,11 +1,8 @@
 ---
-description: Information about the adobe.target.triggerView (viewName, options) function for at.js. 
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
-seo-description: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
-seo-title: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
-solution: Target
+description: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
+title: Information about the adobe.target.triggerView (viewName, options) function for the Adobe Target at.js JavaScript library.
 subtopic: Getting Started
-title: adobe.target.triggerView (viewName, options)
 topic: Standard
 ---
 

@@ -1,9 +1,6 @@
 ---
-description: Troubleshooting information about managing users in Adobe Target.
 keywords: troubleshoot target;troubleshooting target;users;user management
-seo-description: Troubleshooting information about managing users in Adobe Target.
-seo-title: Troubleshoot user management
-solution: Target
+description: Troubleshooting information about managing users in Adobe Target.
 title: Troubleshoot user management
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b

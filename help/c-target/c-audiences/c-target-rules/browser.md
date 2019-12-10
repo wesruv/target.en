@@ -1,12 +1,8 @@
 ---
-description: You can create audiences in Adobe Target to target users who use a specific browser or specific browser options when they visit your page.
 keywords: browser options;type;browser type;browser language;language;version;browser version
-seo-description: You can create audiences in Adobe Target to target users who use a specific browser or specific browser options when they visit your page.
-seo-title: Browser options in Adobe Target audiences
-solution: Target
+description: You can create audiences in Adobe Target to target users who use a specific browser or specific browser options when they visit your page.
+title: Browser options in Adobe Target audiences
 subtopic: Multivariate Test
-title: Browser
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 ---
 

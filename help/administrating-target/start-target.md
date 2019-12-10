@@ -1,11 +1,8 @@
 ---
-description: This section contains the first steps Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 keywords: Administration;approver role;approver
-seo-description: This section contains the first steps Adobe Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
-seo-title: Administrator first steps
-solution: Target
-subtopic: Getting Started
+description: This section contains the first steps Adobe Target administrators should take after receiving the emailed invitation to the Adobe Experience Cloud.
 title: Administrator first steps
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 ---
