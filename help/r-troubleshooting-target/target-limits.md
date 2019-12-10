@@ -135,7 +135,6 @@ Limits set for endpoints:
    * profile parameter value cannot be null
    * profile parameter value max length 256
    
-
 ## mbox request URLs
 
 **Limit**: 2,083 characters.
