@@ -105,4 +105,4 @@ Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that
 
 >[!NOTE]
 >
->The Algorithm Usage feature is currently supported for Recommendations activities only. This feature does not currently support A/B Test and Experience Targeting (XT) activities.
+>The [!UICONTROL Algorithm Usage] feature is currently supported for Recommendations activities only. This feature is not currently supported for A/B Test and Experience Targeting (XT) activities that include [recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md).
