@@ -101,8 +101,8 @@ Click the **[!UICONTROL Algorithm Info]** tab to view general information about 
 
 Click the **[!UICONTROL Algorithm Usage]** tab to view a list of activities that reference the selected criteria. The card lists active and inactive activities. Click the Live Activities or Inactivities drop-down lists to view the entire list of activities that reference that criteria. You can click the activity link to open the activity for editing.
 
-![Criteria Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Algorithm Usage tab](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->The Criteria Usage feature is currently supported for Recommendations activities only. A/B Test and Experience Targeting (XT) activities are currently not supported.
+>The Algorithm Usage feature is currently supported for Recommendations activities only. This feature does not currently support A/B Test and Experience Targeting (XT) activities.
