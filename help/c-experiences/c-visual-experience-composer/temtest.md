@@ -32,7 +32,7 @@ You can specify pages that include the change elements, or apply the change acro
 
 1. Specify the page range. The page range can be one of the following:
 
-    * URL 
+    * URL (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
     * Domain 
     * Path 
     * Hash (#) Fragment (Target the part of a URL that follows the # symbol.) 

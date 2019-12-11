@@ -28,7 +28,7 @@ You can target visitors who are on a specific page on your site.
 
       The following options are available in the second drop-down list if you choose this option:
 
-      * URL
+      * URL (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domain
       * Query
       * Subdomain
@@ -40,7 +40,7 @@ You can target visitors who are on a specific page on your site.
 
       The following options are available in the second drop-down list if you choose this option:
 
-      * URL
+      * URL (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domain
       * Query
       * Subdomain
@@ -51,7 +51,7 @@ You can target visitors who are on a specific page on your site.
 
       The following options are available in the second drop-down list if you choose this option:
 
-      * URL
+      * URL (For more information about how Target evaluates URLs, see [Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domain
       * Query
       * Subdomain
