@@ -3,6 +3,7 @@ product: target
 audience: end-user
 user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
+solution: Target
 ---
 
 # Adobe Target Help {#using}

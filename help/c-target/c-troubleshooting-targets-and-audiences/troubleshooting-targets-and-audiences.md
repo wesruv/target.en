@@ -18,7 +18,9 @@ Consider the following URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**Audience URL targeting**: To apply audience URL targeting, while creating an activity, on the Experiences page (step one of the three-step guided workflow), click the gear icon, click Page Delivery, then specify the desired URL.
+### Audience URL targeting
+
+To apply audience URL targeting, while creating an activity, on the Experiences page (step one of the three-step guided workflow), click the gear icon, click Page Delivery, then specify the desired URL.
 
 ![Page Delivery URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -28,9 +30,11 @@ Audience URL targeting looks for an exact URL match. If the URL matches, Target 
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-As best practice, beyond audience targeting on the URL, you can also specify specific values that can be in the query.
+Beyond audience targeting on the URL, you can also specify specific values that can be in the query.
 
-**URL targeting**: To apply URL targeting, while creating an audience, click Add Rule, click Site Pages, select an option from the first drop-down list (Current Page, Previous Page, or Landing Page), select URL from the second drop-down list, specify an evaluator, then specify the desired URL.
+### URL targeting
+
+To apply URL targeting, while creating an audience, click Add Rule, click Site Pages, select an option from the first drop-down list (Current Page, Previous Page, or Landing Page), select URL from the second drop-down list, specify an evaluator, then specify the desired URL.
 
 ![Site Pages > Current Page > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
