@@ -10,6 +10,37 @@ uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 
 List of frequently asked questions (FAQs) about experience targeting and audiences.
 
+## How does Target evaluate URLs in targeting? {#url}
+
+Target evaluates URLs differently depending on whether you use audience URL targeting while creating an activity or whether you use URL targeting while creating an audience.
+
+Consider the following URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Audience URL targeting**: To apply audience URL targeting, while creating an activity, on the Experiences page (step one of the three-step guided workflow), click the gear icon, click Page Delivery, then specify the desired URL.
+
+![Page Delivery URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+Audience URL targeting looks for an exact URL match. If the URL matches, Target does not consider further logic. In the above URL, if the activity is set to fire on `www.example.com`, the URL matches for the following URLs because audience URL targeting is query agnostic:
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+As best practice, beyond audience targeting on the URL, you can also specify specific values that can be in the query.
+
+**URL targeting**: To apply URL targeting, while creating an audience, click Add Rule, click Site Pages, select an option from the first drop-down list (Current Page, Previous Page, or Landing Page), select URL from the second drop-down list, specify an evaluator, then specify the desired URL.
+
+![Site Pages > Current Page > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URL targeting transforms the URL into a set of rules to evaluate:
+
+* URL domain = `example.com`
+* Path = path1/path2/path3
+* queryStringParam1 =  test123
+* queryStringParam2 =  test7
+
 ## When creating complex URL strings, does [!DNL Target] evaluate the entire URL?
 
 If you use the same parameter name more than once in a URL string, HTTP considers the first parameter name and ignores subsequent parameters with the same name.
