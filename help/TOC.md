@@ -193,7 +193,7 @@ solution: Target
          + [Multiple experience audiences in an A/B Test](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Auto-Allocate {#auto-allocate}
       + [Auto-Allocate](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Determine a winner](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [Interpret Auto-Allocate reports](c-activities/automated-traffic-allocation/determine-winner.md)
    + [Auto-Target](c-activities/auto-target-to-optimize.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization overview](c-activities/t-automated-personalization/automated-personalization.md)
