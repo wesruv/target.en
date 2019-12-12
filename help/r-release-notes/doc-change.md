@@ -15,6 +15,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |December 12, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated FAQ section.|
+||[Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Renamed topic and added the following section: "Understand Lift and Confidence reporting in Auto-Allocate activities."|
 |December 11, 2019|[Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: "How does Target evaluate URLs in targeting?"|
 |December 10, 2019|[Target limits](/help/r-troubleshooting-target/target-limits.md)|Updated the mbox parameters section.|
 ||[Criteria](/help/c-recommendations/c-algorithms/algorithms.md)|Added note about support for the Criteria Usage feature.|

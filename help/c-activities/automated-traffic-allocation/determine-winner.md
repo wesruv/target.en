@@ -1,16 +1,28 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Determine a winner in an Auto-Allocate A/B activity by viewing indicators in the Target UI.
 title: Determine a winner
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 ---
 
-# Determine a winner{#determine-a-winner}
+# Interpret Auto-Allocate reports {#determine-a-winner}
 
-Determine a winner in an Auto-Allocate A/B activity by viewing indicators in the Target UI.
+Interpret the results of an Auto-Allocate A/B activity by examining important indicators, including lift and confidence, in the Target UI.
 
 Many marketers make the mistake of prematurely declaring a winning experience before the results indicate the clear winner. We've now made it easier for you to determine the winner.
+
+## Understand Lift and Confidence reporting in Auto-Allocate activities {#lift-confidence}
+
+In Auto-Allocate activities, the first experience (by default named Experience A) is always defined as a “Control” experience on the Reports tab. This experience is not treated as a true statistical control in the modeling used to determine the performance of experiences, but it is treated as a reference or baseline for some figures in the report.
+
+The "Lift” numeric value and 95% bounds for each experience are always calculated with reference to the defined “Control” experience. The defined “Control” experience cannot have lift relative to itself, so a blank “---” value is reported for this experience. Unlike in A/B tests, in Auto-Allocate tests, if an experience performs worse than the defined control, a negative Lift value is not reported; instead “---” is displayed.
+
+The displayed Confidence Interval bars represent the 95% confidence interval around the mean estimate of an experience’s conversion rate. These are also color-coded with respect to the defined “Control” experience. The “Control” experience’s bar is always colored gray. The portions of confidence intervals below the “Control” experience’s confidence interval are colored red and the portions of confidence intervals above the “Control” experience are colored green.
+
+A winner is found when the leading experience’s 95% Confidence Interval is not overlapping with any other experiences. The winning experience is designated with a green star badge to the left of the experience name and in the “Winner” banner. When no star is visible, the banner reads “No Winner Yet” and a winner has not yet been found.
+
+A “Confidence” number is also reported next to the currently leading or winning experience. This figure is reported only until the leading experience’s Confidence reaches at least 60%. If exactly two experiences are present in the Auto-Allocate experiment, this number represents the confidence level that the experience is performing better than the other experience. If more than two experiences are present in the Auto-Allocate experiment, this number represents the confidence level that the experience is performing better than the defined “Control” experience. If the “Control” experience is winning, no “Confidence” figure is reported.
 
 ## View the Winner Badge in the Target UI {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
