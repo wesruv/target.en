@@ -62,6 +62,14 @@ Yes, you can provide your own certificate, to do so:
 
 No, [!DNL Target] requires a separate hostname and certificate.
 
+### Is my current implementation of Target impacted by ITP 2.1 or 2.2?
+
+In a Safari browser, navigate to your website on which you have a Target JavaScript library. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+
+ITP issues can be resolved for Target with just an Analytics CNAME. You'll need a separate Target CNAME only in the case of ad-blocking scenarios where Target is blocked.
+
+For more information about ITP, see [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+
 ### How can I validate my CNAME implementation is ready for traffic?
 
 Use the following set of commands (in the MacOs or Linux command-line terminal, using bash and curl 7.49+):
