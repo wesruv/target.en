@@ -15,6 +15,14 @@ The Java SDK introduces best practices and removes complexities when integrating
 
 Learn more about the Target Java SDK on the Adobe Tech Blog - [Server-Side Optimization with the new Target Java SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
 
+## Version 1.1.0 (December 16, 2019)
+
+The following section provides more information about version 1.1.0 of the Target Java SDK:
+
+### Added
+
+* Support for proxy config added due to an open source contribution made by @hisham-hassan.
+
 ## Version 1.0.1 (November 11, 2019)
 
 The following section provides more information about version 1.0.1 of the Target Java SDK:

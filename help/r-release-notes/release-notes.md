@@ -12,6 +12,12 @@ These release notes provide information about features, enhancements, and fixes 
 
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Java SDK version 1.1.0 (December 16, 2019)
+
+* Support for proxy config added due to an open source contribution made by @hisham-hassan.
+
+For more information, see [Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
+
 ## Target Java SDK version 1.0.1 (November 11, 2019)
 
 The following issue was fixed in version 1.0.1:

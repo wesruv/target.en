@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|December 19, 2019|[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|Added information about version 1.1.0.|
 |December 12, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated FAQ section.|
 ||[Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Renamed topic and added the following section: "Understand Lift and Confidence reporting in Auto-Allocate activities."|
 |December 11, 2019|[Targets and audiences FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)|Added new FAQ: "How does Target evaluate URLs in targeting?"|
