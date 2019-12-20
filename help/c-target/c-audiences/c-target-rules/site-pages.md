@@ -127,6 +127,13 @@ as illustrated below:
   * Pass [mbox parameters](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) to [!DNL Target] to be used for targeting purposes.
   * Use an [A/B Test activity](/help/c-activities/t-test-ab/test-ab.md) instead of a landing page activity. A/B Test activities do not switch experiences for the same visitor.
   * Use a [visitor profile](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) instead.
+  
+* When using "starts/ends with" evaluators on strings containing commas, be aware that these 
+are evaluated as an array of values, in which each value separated by comma is evaluated. For example if we have the value for a header: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` it will quaify for conditons like:
+  * starts with zh,
+  * starts with en,
+  * ends with 0.7,
+  * ends with 0.8.
 
 ## Training video: Creating Audiences
 
