@@ -63,6 +63,7 @@ The following are known issues with Recommendations activities:
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 * Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
 * Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
+* Custom Criteria feed status displayed in the Criteria list (card) view is refreshed every 10 minutes and may be more than 10 minutes out-of-date in some rare circumstances. Status displayed in the custom criteria edit view is fetched in real-time and always up-to-date. (TGT-35896, TGT-36173)
 
 ### Multivariate Test (MVT) activities
 
