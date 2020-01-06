@@ -36,6 +36,9 @@ Starting March 1, 2020, Target servers will no longer support TLS 1.1. With this
 
 Some of the older devices and browsers that will be affected include:
 
+* Google Chrome (Chrome for Android) versions 29 and earlier
+* Opera Browser (Opera Mobile) versions 12.17 and earlier
+* Mozilla Firefox (Firefox for Mobile) versions 26 and earlier
 * Android 4.3 and earlier versions 
 * Internet Explorer 8-10 on Windows 7 and earlier versions 
 * Internet Explorer 10 on Windows Phone 8.0 
