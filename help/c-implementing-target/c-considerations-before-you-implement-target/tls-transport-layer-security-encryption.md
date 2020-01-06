@@ -14,7 +14,7 @@ Transport Layer Security (TLS) is the most-widely deployed security protocol use
 
 >[!IMPORTANT]
 >
->After March 1, 2020, Adobe Target will no longer support TLS 1.1 encryption for the Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, APIs, etc. Please upgrade to TLS 1.2 before March 1, 2002 to avoid any issues.
+>After March 1, 2020, Adobe Target will no longer support TLS 1.1 encryption for the Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, APIs, etc. Please upgrade to TLS 1.2 before March 1, 2020 to avoid any issues.
 
 We do not expect this to have a significant impact on customer data or reporting.
 
