@@ -59,7 +59,7 @@ Create a collection to organize the products you want to show in your recommenda
 
 You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Save as](/help/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
