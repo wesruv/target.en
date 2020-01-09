@@ -81,23 +81,23 @@ To check the TLS version on your website using Google Chrome:
 >
 >These instructions are current as of publication and are subject to change. A quick internet search should help should these instructions change.  Other browsers have similar steps.
 
-## Expected behavior with browsers supporting TLS 1.0 Only {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## Expected behavior with browsers supporting TLS versions below 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-This section describes what to expect with browsers that support TLS 1.0 only when using an at.js or mbox.js implementation. For comparison purposes, this section also describes what to expect with browsers that support TLS 1.2.
+This section describes what to expect with browsers that support TLS versions below 1.2 only when using an at.js or mbox.js implementation. For comparison purposes, this section also describes what to expect with browsers that support TLS 1.2.
 
 ### Central endpoints
 
 | Target JavaScript Implementation | Details |
 |--- |--- |
-|at.js|With TLS 1.0 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li></ul>With TLS 1.2 enabled:<ul><li>at.js file is downloaded.</li></ul>|
-|mbox.js|With TLS 1.0 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li></ul>With TLS 1.2 enabled:<ul><li>mbox.js file is downloaded.</li></ul>|
+|at.js|With TLS 1.0 or TLS 1.1 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li></ul>With TLS 1.2 enabled:<ul><li>at.js file is downloaded.</li></ul>|
+|mbox.js|With TLS 1.0 or TLS 1.1 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li></ul>With TLS 1.2 enabled:<ul><li>mbox.js file is downloaded.</li></ul>|
 
 ### Edge endpoints
 
 | Target JavaScript Implementation | Details |
 |--- |--- |
-|at.js|With TLS 1.0 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li><li>Default content is served.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
-|mbox.js|With TLS 1.0 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li><li>Default content is served.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served</li></ul>|
+|at.js|With TLS 1.0 or TLS 1.1 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li><li>Default content is served.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
+|mbox.js|With TLS 1.0 or TLS 1.1 enabled:<ul><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li><li>User sees a "Can't connect securely to this page" message. The message explains that this might be caused because the site uses outdated or unsafe TLS security settings.</li><li>No console errors are displayed.</li><li>Default content is served.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served</li></ul>|
 
 ### Activity targeted with browser-version audience (Internet Explorer, Versions 6, 7, or 8)
 
@@ -108,4 +108,4 @@ This section describes what to expect with browsers that support TLS 1.0 only wh
 | Target JavaScript Implementation | Details |
 |--- |--- |
 |at.js|at.js is not supported on Internet Explorer versions earlier than version 10.|
-|mbox.js|With TLS 1.0 enabled:<ul><li>Default content is served.</li><li>No Target requests are fired.</li><li>No console error is displayed.</li><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
+|mbox.js|With TLS 1.0 or TLS 1.1 enabled:<ul><li>Default content is served.</li><li>No Target requests are fired.</li><li>No console error is displayed.</li><li>Using browser dev tools, on the Network tab, you'll see "200 OK." This means the request has succeeded.</li></ul>With TLS 1.2 enabled:<ul><li>Offer content is served.</li></ul>|
