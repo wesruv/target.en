@@ -39,7 +39,7 @@ Create an exclusion list to prevent items from being recommended.
 
 You can also create exclusions using Advanced Search on the Catalog Search page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-[Save as](/help/c-recommendations/c-products/assets/save-as.png)
+![Save as](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion]. For more information, see [Catalog search](/help/c-recommendations/c-products/catalog-search.md).
 
