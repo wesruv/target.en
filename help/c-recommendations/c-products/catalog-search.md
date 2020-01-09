@@ -36,7 +36,7 @@ The catalog is automatically refreshed when updates are received via feed files,
 
 You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Save as dialog](/help/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection or Exclusion].
 
