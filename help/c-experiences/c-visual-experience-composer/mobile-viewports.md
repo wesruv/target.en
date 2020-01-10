@@ -53,7 +53,7 @@ Below are the viewports and resolutions for some popular devices. Remember to us
 |  Samsung Galaxy Tab 10  | 800w x 1280h  | 800w x 1280h  |
 |  Chromebook Pixel  | 1280w x 850h  | 2560w x 1700h  |
 
-Various websites list viewport sizes for popular devices. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+Various websites list viewport sizes for popular devices. For example, see [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) or consult the device maker's website.
 
 If you want to deliver an activity to people on a particular device, choose the appropriate audience for that device in the activity diagram. Use the Mobile Web Composer to edit the page in the activity for that device. If you want to run an activity across your entire digital experience and make sure it looks good across all devices, don't apply targeting, and use mobile viewports to preview the activity on each screen size.
 
