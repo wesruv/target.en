@@ -164,3 +164,23 @@ The exclusion is performed for the current Target call only; items are not exclu
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. When the content url is extracted, the required parameters are substituted using current mbox request parameters.
 
 By default, this feature is enabled for newly created recommendations. Existing recommendations must be saved to support Dynamically Excluded entities.
+
+## What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?
+
+NO_CONTENT is returned when recommendations are unavailable for the requested algorithm and key combination. Generally speaking, this occurs when backups are disabled for the algorithm and one or more of the following is also true:
+
+* Results are not yet ready. 
+
+  This typically occurs when first saving a newly-created activity or after configuration changes are made to the collection, criteria, or promotions used in the activity.
+  
+* Results are ready, but not yet cached at the nearest edge server, for the requested algorithm/key combination. 
+
+  The request just made will initiate a caching operation, so this should resolve itself after a few page reloads and/or a few minutes pass.
+  
+* Results are ready, but not available for the provided key value.
+
+  This typically occurs when requesting recommendations for an item that was added to the catalog after the most recent algorithm run and will resolve itself after the next algorithm run.
+  
+* Partial template rendering is disabled and not enough results are available to fill the template.
+
+  This typically occurs when you have a dynamic inclusion rule, which aggressively filters many items from the possible results. To avoid this, enable backups and do not apply the inclusion rule to backups, or use the criteria in sequence with a less-aggressively filtered criteria.
