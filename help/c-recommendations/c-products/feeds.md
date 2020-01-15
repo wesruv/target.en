@@ -33,8 +33,9 @@ The Feeds page contains the following columns:
 >[!IMPORTANT]
 >
 >Uploaded entities and entity attributes expire after 61 days. This means:
->1. Your feed should run at least monthly to ensure that your catalog contents do not expire.
->2. Removing an item from your feed file does not remove an item from your catalog. To remove the item from the catalog, manually delete the item via UI or API. Or, modify the item attributes (such as inventory) to ensure the item is excluded from consideration.
+>
+>* Your feed should run at least monthly to ensure that your catalog contents do not expire.
+>* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the Target UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
