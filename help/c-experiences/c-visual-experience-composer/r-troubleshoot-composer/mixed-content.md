@@ -26,19 +26,13 @@ If you website is running on an insecure (HTTP) domain, you are required to allo
 
 For more information, see [Mixed Content](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) on the *Mozilla Developer Network* (MDN) website.
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 If you're visiting a site via a secure connection, Google Chrome will verify that the content on the web page has been transmitted safely. 
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 See [This page has insecure content](https://support.google.com/chrome/answer/1342714?hl=en) in Google Chrome Help.
 
-### Training video: Enable VEC in Chrome (Jan. 2020)
+### Training video: Enable the VEC in Chrome version 79.0.3945.117 or later (Jan. 2020)
 
 If you are using the VEC with the latest version of Chrome (version 79.0.3945.117 or later), you need to update your site settings. Visitors to your site will not need to complete these steps.
 
@@ -56,15 +50,9 @@ The above video outlines the required steps:
 
 1. Reload the VEC page.
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 By default, Firebox blocks pages that mix secure and insecure content. It is recommended that you permanently change this setting to use [!DNL Target].
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. In Firefox, enter `about:config` in the address bar.
 1. Acknowledge the warning message displayed by Firefox.
@@ -73,15 +61,9 @@ target/t_mixed_content_firefox.xml
 
    The value changes from "True" to "False." When the value shows "False," you are finished.  It is recommended that you restart your computer after changing this setting. 
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-By default, Internet Explorer blocks pages that mix secure and insecure content. It is recommended that you permanently change this setting to use Target Standard. 
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+By default, Internet Explorer blocks pages that mix secure and insecure content. It is recommended that you permanently change this setting to use Target. 
 
 1. In Internet Explorer, click the settings icon > **[!UICONTROL Internet Options]**.
 1. Open the [!UICONTROL Security] tab.
@@ -90,5 +72,5 @@ target/t_mixed_content_ie.xml
 1. Under [!UICONTROL Miscellaneous], enable **[!UICONTROL Display Mixed Content]**.
 1. Click **[!UICONTROL OK]** > **[!UICONTROL Yes]** > **[!UICONTROL Apply]**.
 
-It is recommended that you restart your computer after changing this setting.
+We recommended that you restart your computer after changing this setting.
 

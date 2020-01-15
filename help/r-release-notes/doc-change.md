@@ -15,6 +15,8 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 |Date|Topic|Changes|
 | --- | --- | --- |
 |Janurary 15, 2020|[Enabling mixed content in your browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)|Added a training video and instructions to explain how to update your site settings to allow mixed content in the latest version of Chrome.|
+||[Feeds](/help/c-recommendations/c-products/feeds.md)|Added note about uploading and removing entities and entity attributes.|
+||[Create an Order Confirmation mbox - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)|Added note explaining how to perform order confirmation using at.js 2.*x*.|
 |January 9, 2020|[TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)|Updated text.<br>After March 1, 2020, Adobe Target will no longer support TLS 1.1 encryption for the Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), activity delivery, APIs, etc. Please upgrade to TLS 1.2 before March 1, 2020 to avoid any issues.|
 |Janurary 6, 2020|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added known issue about the Custom Criteria feed status.|
 |December 19, 2019|[Release notes - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)|Added information about version 1.1.0.|
