@@ -93,7 +93,7 @@ Each Edge node has all the information required to respond to the user's content
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin Servers are hosted entirely within Adobe-owned data centers in London, Singapore, and multiple locations throughout the U.S, including Oregon and Virginia. Edge Servers are hosted both on Adobe-owned and Adobe-leased servers in Amazon AWS data centers in London, Hong Kong, Singapore, Tokyo, and Sydney.
+The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin Servers are hosted entirely within Adobe-owned data centers in London, Singapore, and multiple locations throughout the U.S, including Oregon and Virginia. Edge Servers are hosted both on Adobe-owned and Adobe-leased servers in Amazon AWS data centers in London, Hong Kong SAR of China, Singapore, Tokyo, and Sydney.
 
 Admin Server locations contain both a data collection center and a data processing center. Edge site locations contain only a data collection center. Each report suite is assigned to a specific data processing center.
 
@@ -101,7 +101,7 @@ Rather than respond to all targeting requests from a single location, requests a
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] currently doesn’t have an Edge network in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] currently doesn’t have an Edge network in China and the end-user performance will continue to be limited for [!DNL Target] customers in China. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## Protected User Experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
