@@ -30,6 +30,13 @@ The Feeds page contains the following columns:
 * **Items**: Displays the number of items in the feed.
 * **Last Updated**: Displays the date and time when the feed was last updated and the name of the person who updated the feed. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
+>[!IMPORTANT]
+>
+>Uploaded entities and entity attributes expire after 61 days. This means:
+>
+>* Your feed should run at least monthly to ensure that your catalog contents do not expire.
+>* Removing an item from your feed file does not remove that item from your catalog. To remove the item from the catalog, manually delete the item via the Target UI or API. Or, modify the item attributes (such as inventory) to ensure that the item is excluded from consideration.
+
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
 You can create a `.csv` file using the Adobe proprietary CSV upload format. The file contains display information about the reserved and custom attributes for your products. To upload attributes specific to your implementation, replace `CustomN` in the header row with the name of the attribute you want to use. In the example below, `entity.Custom1` has been replaced by: `entity.availability`. You can then bulk upload the file to the [!DNL Recommendations] server.
