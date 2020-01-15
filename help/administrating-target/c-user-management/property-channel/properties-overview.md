@@ -168,10 +168,6 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-   >[!NOTE]
-   >
-   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. You cannot use this functionality with [!DNL Target Classic].
-
 1. Click the name of the desired profile. 
 1. Click **[!UICONTROL Users]**.
 
