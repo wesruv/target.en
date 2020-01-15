@@ -19,7 +19,7 @@ Information about implementing Adobe Target without using a tag manager (Adobe L
 >
 >[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) is the preferred method for implementing Target and the at.js library. The following information is not applicable when using Adobe Launch to implement Target.
 
-## at.js Configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
+## at.js configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
 
 Information to help you set several settings on the at.js Settings page.
 
@@ -81,7 +81,7 @@ ov2/c_target-configure-atjs.xml
 >
 >The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version. For more information about what's in each version, see [at.js Version Details](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-## Download at.js Using the Target Interface {#section_1F5EE401C2314338910FC57F9592894E}
+## Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 To download [!DNL at.js] from the [!DNL Target] interface:
 
@@ -89,7 +89,7 @@ To download [!DNL at.js] from the [!DNL Target] interface:
 1. Select **[!UICONTROL at.js]**. 
 1. Click **[!UICONTROL Download at.js]**.
 
-## Download at.js Using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+## Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 To download [!DNL at.js] using the API.
 
@@ -135,7 +135,7 @@ To download [!DNL at.js] using the API.
 
    Loading this URL starts the download of your customized [!DNL at.js] file.
 
-## at.js Implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js should be implemented in the `<head>` element of every page of your website. 
 
@@ -205,15 +205,9 @@ Consider the following important notes:
 * If you use JavaScript helper libraries, such as jQuery, include them before Target so you can leverage their syntax and methods when building Target experiences. 
 * Include at.js in the `<head>` of your pages.
 
-## Track Conversions {#task_E85D2F64FEB84201A594F2288FABF053}
+## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
 
 The Order Confirmation mbox records details about orders on your site and allows reporting based on revenue and orders. The Order Confirmation mbox can also drive recommendation algorithms, such as "People who bought product x also bought product y."
-
-<!-- 
-
-ov/t_create_orderconfirm-page-mbox-atjs.xml
-
- -->
 
 >[!NOTE]
 >
