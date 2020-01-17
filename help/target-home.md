@@ -38,7 +38,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/recommendations.md): Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
-## [Developers]{#developers}
+## Developers {#developers}
 
 - [Implement Target](c-implementing-target/implementing-target.md): Explains how to implement [!DNL Target] on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
 - [Target Server-Side APIs](https://developers.adobetarget.com/api/delivery-api/): Describes the resources that make up the Adobe Target Delivery API.
