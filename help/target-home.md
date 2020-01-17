@@ -56,7 +56,7 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Audiences](c-target/target.md): Explains how to determine who will see content and experiences in targeted activities.
 - [Reports](c-reports/reports.md): Explains how to interpret the performance of your activities.
 
-## QA engineers [#qa]
+## QA engineers {#qa}
 
 - [Activities](c-activities/activities.md): Explains how to set up, manage, and QA [!DNL Target] activities.
 
