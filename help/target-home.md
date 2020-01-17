@@ -38,14 +38,14 @@ Marketers, developers, administrators, analysts, and quality assurance engineers
 - [Experiences and offers](c-experiences/experiences.md): Explains how to specify which content displays when a visitor meets the audience criteria for an activity.
 - [Recommendations](c-recommendations/recommendations.md): Explains how [!DNL Recommendations] activities automatically display products or content that might interest your customers based on previous user activity or other algorithms.
 
-## Developers [#developers]
+## [Developers](#developers)
 
 - [Implement Target](c-implementing-target/implementing-target.md): Explains how to implement [!DNL Target] on web sites, mobile apps, Single-Page Apps (SPAs), and iOT/OTT platforms.
 - [Target Server-Side APIs](https://developers.adobetarget.com/api/delivery-api/): Describes the resources that make up the Adobe Target Delivery API.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Explains how to deploy Target server-side. This Node.js SDK helps you easily integrate Target with other Adobe Experience Cloud solutions.
 - [Target Java SDK](https://github.com/adobe/target-java-sdk): Explains how to deploy Target server-side. This Java SDK helps you easily integrate Target with other Adobe Experience Cloud solutions.
-- [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): Describes the resources that make up the official Adobe Target Recommendations API. 
-- [Target Adobe.IO documentation](http://developers.adobetarget.com/api/#introduction): Describes how use Target’s Admin and Profile REST APIs that use the Adobe.IO integration to manage activities, audiences, offers, properties, reports, mboxes, environments, and profiles.
+- [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): Describes the resources that make up the official Adobe Target Recommendations API.
+- [Target Adobe.IO documentation](http://developers.adobetarget.com/api/#introduction): Describes how to use Target’s Admin and Profile REST APIs that use the Adobe.IO integration to manage activities, audiences, offers, properties, reports, mboxes, environments, and profiles.
 
 ## Target and Adobe Experience Cloud admins {#admins}
 
