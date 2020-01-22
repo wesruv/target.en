@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: January 8, 2020**
+**Last Updated: January 22, 2020**
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 20.1.1 (January 22, 2020)
+## Target Standard/Premium 20.1.1 (January 29, 2020)
 
-The Target Standard/Premium 20.1.1 release will be January 22, 2020. Its features and enhancements will be announced here.
+The Target Standard/Premium 20.1.1 release will be January 29, 2020. Its features and enhancements will be announced here.
 
 >[!IMPORTANT]
 >

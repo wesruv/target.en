@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 22, 2020|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Updated the following FAQ: "Can I use the sample size calculator when using Auto-Allocate to estimate how long the activity will take to identify the winner?"|
 |Janurary 15, 2020|[Enabling mixed content in your browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)|Added a training video and instructions to explain how to update your site settings to allow mixed content in the latest version of Chrome.|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md)|Added note about uploading and removing entities and entity attributes.|
 ||[Recommendations FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Added following FAQ: What does the NO_CONTENT response sometimes returned in the Recommendations content trace mean?|
