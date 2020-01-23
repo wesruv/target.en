@@ -179,7 +179,7 @@ In general, the display information mbox might look like the following example i
 
 >[!NOTE]
 >
->If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use the following API methods: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md), or [applyOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
+>If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targePageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
 
 >[!NOTE]
 >
