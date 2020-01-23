@@ -112,8 +112,7 @@ Information to help you contact Adobe and to understand the legal issues concern
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
 * [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 
-* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/adobeexpcare) 
-* [Log an incident in our customer portal](https://customers.omniture.com/login.php) 
+* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)  
 * [Contact the Customer Care team directly](https://helpx.adobe.com/marketing-cloud/contact-support.html) 
 * [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
 

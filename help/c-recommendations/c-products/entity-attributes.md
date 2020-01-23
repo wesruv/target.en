@@ -175,7 +175,11 @@ Recommendations sends the `productId` or `productPurchasedId` (referred to as `e
 
 Most predefined parameters accept only a single value, with new values overwriting old values. The `categoryId` parameter can accept a comma-delimited list of values for each category containing that product. New `categoryId` values do not overwrite existing values but instead are appended during entity update (250-character limit).
 
-In general, the display information mbox might look like the following example. Change the details in bold to refer to your products.
+In general, the display information mbox might look like the following example if you are using at.js 1.*x* with `mboxCreate`.
+
+>[!NOTE]
+>
+>If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use the following API methods: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md), or [applyOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
 
 >[!NOTE]
 >

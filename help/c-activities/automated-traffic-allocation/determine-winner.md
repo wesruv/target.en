@@ -44,6 +44,10 @@ The following illustration shows an activity that has a winner:
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Target shows a winner after a predefined minimum number of conversions; however, the final decision to pick the winner should always be on the results of the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html). Target does not consider the base conversion rates of a site and other important aspects that are fed into the calculator to determine the duration of the activity. As a result, Target might display a winner earlier than warranted on the basis of a minimum number of conversions. For more information, see [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+
 ## Understand Lift and Confidence reporting in Auto-Allocate activities {#lift-confidence}
 
 In Auto-Allocate activities, the first experience (by default named Experience A) is always defined as a “Control” experience on the Reports tab. This experience is not treated as a true statistical control in the modeling used to determine the performance of experiences, but it is treated as a reference or baseline for some figures in the report.
