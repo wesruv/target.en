@@ -179,7 +179,7 @@ In general, the display information mbox might look like the following example i
 
 >[!NOTE]
 >
->If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>If you are using at.js 2.*x*, `mboxCreate` (as used in the  following example) is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). For an example of this, see [Plan and implement Recommendations](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >

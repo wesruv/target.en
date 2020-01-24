@@ -5,7 +5,7 @@ title: Plan and Implement Recommendations
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Plan and Implement Recommendations {#plan-and-implement-recommendations}
+# ![PREMIUM](/help/assets/premium.png) Plan and implement Recommendations {#plan-and-implement-recommendations}
 
 What you need to know before creating a Recommendations activity.
 
