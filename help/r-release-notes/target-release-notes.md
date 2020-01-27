@@ -10,7 +10,13 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: January 22, 2020**
+**Last Updated: January 27, 2020**
+
+>[!IMPORTANT]
+>
+>Starting on March 1, 2020, Target will disable support for TLS 1.1 and TLS 1.0 encryption. Transport Layer Security (TLS) is the most-widely deployed security protocol used today for web browsers and other applications that require data to be securely exchanged over a network. This change is needed to meet the generally accepted security compliance standard of TLS 1.2 or higher. Check which TLS version you are currently using. If your version is lower than 1.2, implement the required changes prior to March 1, 2020 in order to continue to use Target as expected.
+>
+> For detailed information on the possible impact and the steps you might need to take to update your implementation, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 
 >[!NOTE]
 >
@@ -20,13 +26,10 @@ These release notes provide information about features, enhancements, and fixes 
 
 ## Target Standard/Premium 20.1.1 (January 29, 2020)
 
-The Target Standard/Premium 20.1.1 release will be January 29, 2020. Its features and enhancements will be announced here.
+The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
 
->[!IMPORTANT]
->
->Starting on March 1, 2020, Target will disable support for TLS 1.1 and TLS 1.0 encryption. Transport Layer Security (TLS) is the most-widely deployed security protocol used today for web browsers and other applications that require data to be securely exchanged over a network. This change is needed to meet the generally accepted security compliance standard of TLS 1.2 or higher. Check which TLS version you are currently using. If your version is lower than 1.2, implement the required changes prior to March 1, 2020 in order to continue to use Target as expected.
->
-> For detailed information on the possible impact and the steps you might need to take to update your implementation, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
+* Fixed an issue that caused the Adobe Analytics tracking server field to be blank on the Goals and Settings page for existing Adobe for Target (A4T) activities. (TGT-35960)
+* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display when creating an audience for category affinity. (TGT-36098)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
