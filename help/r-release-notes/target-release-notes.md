@@ -29,7 +29,7 @@ These release notes provide information about features, enhancements, and fixes 
 The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
 
 * Fixed an issue that caused the Adobe Analytics tracking server field to be blank on the Goals and Settings page for existing Adobe for Target (A4T) activities. (TGT-35960)
-* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display when creating an audience for category affinity. (TGT-36098)
+* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display while creating an audience for category affinity. (TGT-36098)
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
