@@ -9,11 +9,21 @@ uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 
 # Auto-Target Summary report{#auto-target-summary-report}
 
-Information about how to interpret the Auto-Target Summary report.
+Information about how to interpret the Auto-Target Summary reports.
 
-The following illustration shows what a typical summary report looks like when using Auto-Target:
+To display the Auto-Target Summary reports:
 
-![](assets/autotarget.png)
+1. From the [!UICONTROL Activities] page, click the desired Auto-Target activity.
+
+   If you have many activities, you can filter the list by selecting options from the Type, Status, Property, Reporting Source, Experience Composer, Metrics Type, and Activity Source drop-down lists.
+
+1. Click the [!UICONTROL Reports] tab.
+
+## Table View
+
+The following illustration shows what a typical summary report looks like in Table View when using Auto-Target:
+
+![Auto-Target table view report](/help/c-reports/assets/at-table-view.png)
 
 Some tips and considerations as you interpret your Auto-Target reports:
 
@@ -30,4 +40,31 @@ Some tips and considerations as you interpret your Auto-Target reports:
 
 * Comparing the conversion rate of experience A with that of experience B is not the right comparison in Auto-Target. The question is whether experience A performs better when served in an intelligent way versus a random way (in other words, versus the control). Marketers should also use caution about interpreting the lifts of individual experiences because the personalization algorithm is attempting to optimize for the success metric over the entire activity, not over each individual experience. 
 * Experiences with the highest lift can be understood as having the highest differentiation within the population. That is the algorithm has found a segment that likes that particular experience the most.
+* The various columns in the table show the number of visits, conversion rate, average lift and confidence level, and confidence. For more information, see [Average Lift, Lift Bounds, and Confidence Interval](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
+
+## Graph View
+
+The following illustration shows what a typical summary report looks like in Graph View when using Auto-Target:
+
+![Auto-Target graph view report](/help/c-reports/assets/at-graph-view.png)
+
+As shown below, you can use the two drop-down lists to choose the desired metrics, counting methodology, and more. See [Report settings overview](/help/c-reports/c-report-settings/report-settings.md) for more information:
+
+![Auto-Target graph view report](/help/c-reports/assets/at-graph-view-2.png)
+
+## Automated Segments
+
+Click the Automated Segments icon. This report shows how different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.
+
+![Automated segments icon](/help/c-reports/assets/icon-automated-sements.png)
+
+For more information, see [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+
+## Important Attributes
+
+Click the Important Attributes icon. This report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.
+
+![Important attributes icon](/help/c-reports/assets/icon-important-attributes.png)
+
+For more information, see [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 

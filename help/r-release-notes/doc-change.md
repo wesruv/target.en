@@ -14,8 +14,10 @@ This page lists important changes made to the [!DNL Adobe Target] documentation.
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|January 27, 2020|[Limits](/help/r-troubleshooting-target/target-limits.md)|Added following information: "If you are using the Batch Delivery API, the limit is 50 mboxes per batch request."|
+|January 27, 2020|[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added new section: "Adobe Blogs."|
+||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added following information: "If you are using the Batch Delivery API, the limit is 50 mboxes per batch request."|
 ||[Resources and contact information](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B)|Updated link to open a support ticket.|
+||[Auto-Target Summary report](/help/c-reports/auto-target-summary-report.md)|Updated text and images.|
 |January 23, 2020|[Interpret Auto-Allocate reports](/help/c-activities/automated-traffic-allocation/determine-winner.md)|Added note to use the Adobe Target sample size calculator to determine the winner.|
 ||[Entity attributes](/help/c-recommendations/c-products/entity-attributes.md)|Added note explaining that if you are using at.js 2.*x*, `mboxCreate` is no longer supported. To pass product or content information to Recommendations using at.js 2.*x*, use `targetPageParams`.|
 |January 22, 2020|[Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)|Updated the following FAQ: "Can I use the sample size calculator when using Auto-Allocate to estimate how long the activity will take to identify the winner?"|

@@ -54,3 +54,9 @@ Target provides many ways for you to pass in additional data to Target to enrich
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+
+## Adobe Blogs
+
+* Part 1: [Taking the Mystery Out of the Magic of AI-Driven Personalization](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Part 2: [A Peek Behind the Curtain of AI for Personalization in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Part 3: [MAGIX — the Solution to the Black Box Issue of AI-Driven Personalization](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
