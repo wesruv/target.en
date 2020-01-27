@@ -6,7 +6,7 @@ topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 ---
 
-# Resources and Contact Information{#resources-and-contact-information}
+# Resources and contact information{#resources-and-contact-information}
 
 Information about additional resources to help you learn about Target features and how to contact Adobe should you need help with Target.
 
@@ -112,7 +112,8 @@ Information to help you contact Adobe and to understand the legal issues concern
 The Adobe Experience Cloud Customer Care team is here to assist you and provides a number of mechanisms by which they can be engaged:
 
 * [Check the Experience Cloud help pages for advice, tips, and FAQs](https://helpx.adobe.com/marketing-cloud.html) 
-* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/adobeexpcare)  
+* [Ask us a quick question on Twitter @AdobeExpCare](https://twitter.com/adobeexpcare) 
+* [Open a ticket to get help from support](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [Contact the Customer Care team directly](https://helpx.adobe.com/marketing-cloud/contact-support.html) 
 * [Check availability and status of Experience Cloud Solutions](https://status.adobe.com/)
 
