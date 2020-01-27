@@ -67,4 +67,3 @@ Click the Important Attributes icon. This report shows how, in different activit
 ![Important attributes icon](/help/c-reports/assets/icon-important-attributes.png)
 
 For more information, see [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
-
