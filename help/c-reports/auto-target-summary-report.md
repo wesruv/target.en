@@ -21,7 +21,7 @@ To display the Auto-Target Summary reports:
 
 ## Table View
 
-The following illustration shows what a typical summary report looks like in Table View when using Auto-Target:
+The following illustration shows what a typical summary report looks like in "table view' when using Auto-Target:
 
 ![Auto-Target table view report](/help/c-reports/assets/at-table-view.png)
 
@@ -44,7 +44,7 @@ Some tips and considerations as you interpret your Auto-Target reports:
 
 ## Graph View
 
-The following illustration shows what a typical summary report looks like in Graph View when using Auto-Target:
+The following illustration shows what a typical summary report looks like in "graph view" when using Auto-Target:
 
 ![Auto-Target graph view report](/help/c-reports/assets/at-graph-view.png)
 
