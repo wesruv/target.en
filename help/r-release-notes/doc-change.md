@@ -8,7 +8,7 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 # Documentation changes{#documentation-changes}
 
-This page lists important changes made to the [!DNL Adobe Target] documentation.
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1 (October 22, 2019)
 
