@@ -12,7 +12,7 @@ These release notes provide information about features, enhancements, and fixes 
 
 
 
-**Last Updated: January 27, 2020**
+**Last Updated: January 28, 2020**
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >   For detailed information on the possible impact and the steps you might need to take to update your implementation, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 
-## Target Standard/Premium 20.1.1 (January 29, 2020)
+## Target Standard/Premium 20.1.1 (February 4, 2020)
 
 The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
 
