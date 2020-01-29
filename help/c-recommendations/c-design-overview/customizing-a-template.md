@@ -118,15 +118,16 @@ You can also use `algorithm.name` and `algorithm.dayCount` as variables in desig
 
 ## Working with numbers in Velocity templates
 
-By default, Velocity templates treat all entity attributes as string values. You may want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To do treat an entity attribute as a numeric value, follow these steps:
+By default, Velocity templates treat all entity attributes as string values. You might want to treat an entity attribute as a numeric value in order to perform a math operation or compare it to another numerical value. To do treat an entity attribute as a numeric value, follow these steps:
+
 1. Declare a dummy variable and initialize it to an arbitrary integer or double value
-2. Ensure that the entity attribute you wish to use is not blank (required for Target Recommendations' template parser to validate and save the template)
-3. Pass the entity attribute into the `parseInt` or `parseDouble` method on the dummy variable you created in step 1 to turn the string into an integer or double value
-4. Perform the math operation or comparison on the new numeric value
+1. Ensure that the entity attribute you want to use is not blank (required for Target Recommendations' template parser to validate and save the template)
+1. Pass the entity attribute into the `parseInt` or `parseDouble` method on the dummy variable you created in step 1 to turn the string into an integer or double value
+1. Perform the math operation or comparison on the new numeric value
 
 **Example: Calculating a discount price**
 
-Suppose you wish to reduce the displayed price of an item by $0.99 to apply a discount. You could use the following approach to achieve this result:
+Suppose you want to reduce the displayed price of an item by $0.99 to apply a discount. You could use the following approach to achieve this result:
 
 ```
 #set( $Double = 0.1 )
