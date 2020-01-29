@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|January 29, 2020|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md)|Updated text and code samples. New code samples show how to work with numbers in Velocity templates.|
 |January 28, 2020|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Changed the release date of the Target Standard/Premium 20.1.1 release. The release date is now February 4, 2020.|
 |January 27, 2020|[Personalization Insights reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)|Added new section: "Adobe Blogs."|
 ||[Limits](/help/r-troubleshooting-target/target-limits.md)|Added following information: "If you are using the Batch Delivery API, the limit is 50 mboxes per batch request."|
