@@ -25,7 +25,7 @@ Specialized reports are available to users of Automated Personalization.
 
 The [!UICONTROL Activity Level] report compares the aggregate performance of using an [!UICONTROL Automated Personalization] algorithm to randomly served content (control).
 
-![](assets/box_plot_ap.jpg)
+![Activity Level report](/help/c-reports/assets/box_plot_ap.png)
 
 The standard rules of results interpretation for A/B testing still apply, including lift, confidence, trending, duration, and so on. For more information about interpreting results, see [About the Conversion Rate](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
