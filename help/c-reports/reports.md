@@ -48,7 +48,7 @@ In addition to the general reporting information in this topic and its subtopics
    The legend displays the following information:
 
     * The activity status, including the date range when the activity ran.
-    * The projected winning experience (if available). 
+    * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available). 
 
    >[!NOTE]
    >
@@ -64,4 +64,10 @@ In addition to the general reporting information in this topic and its subtopics
 
 1. (Optional) Click the **[!UICONTROL Table View]** and **[!UICONTROL Graph View]** icons to switch between reporting formats.
 
-   For Multivariate tests only, click the **[!UICONTROL Location Contribution]** ( ![Location Contribution icon](assets/icon_location_contribution.png) ) icon to switch the report to show contribution by location.
+   Depending on the type of report you selected, other views might be available:
+
+   |Report Type|View|
+   | --- | --- |
+   |Auto-Target|Click the **[!UICONTROL Automated Segments]** or **[!UICONTROL Important Attributes]** icons.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.</li></ul>|
+   |Automated Personalization (AP)|In addition to the [Automated Personalization Summary reports](/help/c-reports/reports-ap.md), you can click the **[!UICONTROL Automated Segments]** or **[!UICONTROL Important Attributes]** icons.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. This report shows how different automated segments defined by Target's personalization models responded to the offers/experiences in the activity.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. This report shows the top attributes that influenced the model and their relative importance.</li></ul>|
+   |Multivariate Test (MVT)|In addition to the [Experience Performance report](/help/c-reports/experience-performance-report.md), you can click the [Location Contribution](/help/c-reports/location-contribution-report.md) icon to switch the report to show contribution by location.|
