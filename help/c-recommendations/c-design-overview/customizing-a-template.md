@@ -167,6 +167,7 @@ Suppose you wish to display an appropriate number of stars based on an item's nu
 **Example: Calculating the time in hours and minutes based on an item's length in minutes**
 
 Suppose you store the length of a movie in minutes, but want to display the length in hours and minutes. You could use the following approach to achieve this result:
+
 ```
 #if( $entity1.get('length_minutes') )
 #set( $Integer = 1 )
@@ -177,6 +178,7 @@ Suppose you store the length of a movie in minutes, but want to display the leng
 ```
 
 ## Displaying a key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+
 You can modify your design to show your key item alongside other recommended products. For example, you might want to show the current item for reference next to the recommendations.
 
 To do this, create a column in your design that uses the `$key` attribute you are basing your recommendation on rather than the `$entity` attribute. For example, the code for your key column might look like this:
