@@ -64,7 +64,7 @@ In addition to the general reporting information in this topic and its subtopics
 
 1. (Optional) Click the **[!UICONTROL Table View]** and **[!UICONTROL Graph View]** icons to switch between reporting formats.
 
-   Depending on the type of report you selected, other views might be available:
+   Depending on the type of report you selected, other views and reports might be available:
 
    |Report Type|View|
    | --- | --- |
