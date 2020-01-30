@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
+description: Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities in Adobe Target.
 title: Automated Segments report
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 ---
@@ -10,7 +10,7 @@ uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 Information about the Automated Segments report, one of the two specialized reports available to users of Automated Personalization (AP) and Auto-Target (AT) activities.
 
 >[!NOTE]
->AP and AT activities are available as part of the  Target Premium solution. They are not included with  Target Standard without a Target Premium license.
+>AP and AT activities are available as part of the  Target Premium solution. They are not included with  Target Standard without a [Target Premium license](/help/c-intro/intro.md#premium).
 >
 >Personalization Insights reports are available only for AP and AT activities that use a conversion optimization goal. Activities where the optimization goal was changed to conversion from revenue after the activity was already live are also not supported.|
 
@@ -18,13 +18,13 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
 ## Access the Automated Segments report {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
+   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists. 
 
 1. Click **[!UICONTROL Reports]**.
 
-   The [!UICONTROL Summary] report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two Personalization Insights reports: Automated Segments and Important Attributes. Note that Auto-Target has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. The two additional icons represent the two Personalization Insights reports: Automated Segments and Important Attributes. Note that Auto-Target has an additional graph icon for the graphical view of the [!UICONTROL Summary] report.
 
    ![](assets/personalization_insights.png)
 
@@ -34,7 +34,7 @@ Different visitors respond differently to the offers/experiences in your AP/AT a
 
 1. After 15 days from activating the activity, you can click the **[!UICONTROL Automated Segments]** icon.
 
-   ![](assets/model_attribute_ranking.png)
+   ![Automated Segments icon](/help/c-reports/assets/icon-automated-sements.png)
 
 1. Select the desired date range.
 
