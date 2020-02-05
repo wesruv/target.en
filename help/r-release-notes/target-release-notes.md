@@ -10,9 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-
-
-**Last Updated: January 28, 2020**
+**Last Updated: February 4, 2020**
 
 >[!NOTE]
 >
@@ -24,12 +22,9 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >   For detailed information on the possible impact and the steps you might need to take to update your implementation, see [TLS (Transport Layer Security) encryption changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 
-## Target Standard/Premium 20.1.1 (February 4, 2020)
+## Target Standard/Premium 20.2.1 (February 19, 2020)
 
-The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
-
-* Fixed an issue that caused the Adobe Analytics tracking server field to be blank on the Goals and Settings page for existing Adobe for Target (A4T) activities. (TGT-35960)
-* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display while creating an audience for category affinity. (TGT-36098)
+The Target Standard/Premium 20.2.1 release is scheduled for February 19, 2020. Information about specific features, enhancements, and fixes will be posted here in the coming days.
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
