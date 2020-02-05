@@ -10,7 +10,7 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.1.1 (February 4, 2019)
+## Adobe Target Standard/Premium 20.1.1 (February 4, 2020)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
