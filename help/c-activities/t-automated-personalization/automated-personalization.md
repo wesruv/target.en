@@ -68,7 +68,7 @@ Offline data, such as CRM information or customer churn propensity scores, can b
 
 For information about the data automatically collected and used by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] personalization algorithms, see [Automated Personalization Data Collection](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). 
 
-## Training video: Activity Types
+## ![Overview badge](/help/assets/overview.png) Training video: Activity Types
 
 This video explains the activity types available in [!DNL Target Standard/Premium]. [!UICONTROL Automated Personalization] is discussed beginning at 5:55.
 
