@@ -34,6 +34,10 @@ Industry best practices are built into [!DNL Target Standard], and it is designe
 
 [!DNL Target Premium] is an advanced [!DNL Target] license that adds premium features to [!DNL Target Standard].
 
+Target Premium topics in this help include the Premium badge at the top of the page:
+
+![Premium badge](/help/assets/premium.png) 
+
 Target Premium includes the following premium features: 
 
 ### Automated Personalization
@@ -93,7 +97,7 @@ Build your optimization and personalization program on Adobe Target with this We
 
 [The Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Training video: Activity Types (9:03)
+## ![Overview badge](/help/assets/overview.png) Training video: Activity Types (9:03)
 
 The following video explains the activity types available in [!DNL Target Standard/Premium] and how Target's three-step guided workflow can help you achieve your site goals.
 

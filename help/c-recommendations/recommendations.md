@@ -39,7 +39,7 @@ A recommendation determines how a product is suggested to a customer, depending 
 
 For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Training video: Activity Types
+## ![Overview badge](/help/assets/overview.png) Training video: Activity Types
 
 This video explains the activity types available in [!DNL Target Standard/Premium]. [!DNL Recommendations] is discussed beginning at 7:20.
 
