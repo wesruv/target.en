@@ -97,7 +97,7 @@ Build your optimization and personalization program on Adobe Target with this We
 
 [The Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## ![Overview badge](/help/assets/overview.png) Training video: Activity Types (9:03)
+## Training video: Activity Types (9:03) ![Overview badge](/help/assets/overview.png) 
 
 The following video explains the activity types available in [!DNL Target Standard/Premium] and how Target's three-step guided workflow can help you achieve your site goals.
 

@@ -73,7 +73,7 @@ You can add devices to use when previewing experiences. Each device has an assoc
 |--- |--- |
 |![Premium badge](/help/assets/premium.png) Add New|Click [!UICONTROL Add New], specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].  For information about how to add a mobile viewport, see [Mobile Viewport Configuration](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).|
 
-## Training video: Account Preferences (7:33)
+## Training video: Account Preferences (7:33) ![Overview badge](/help/assets/overview.png)
 
 This video includes information about account preferences.
 

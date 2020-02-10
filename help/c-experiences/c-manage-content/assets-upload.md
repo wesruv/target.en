@@ -17,7 +17,7 @@ You can add items to or remove items from the Image Offers list.
 
    The item is uploaded to the library. 
 
-## Training video: The Content Repository
+## Training video: The Content Repository ![Overview badge](/help/assets/overview.png)
 
 This video includes information about managing content. 
 

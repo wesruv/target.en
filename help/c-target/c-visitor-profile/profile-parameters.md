@@ -340,7 +340,7 @@ All standard JavaScript operators are present and usable. JavaScript operators c
 |`||`|Logically “ORs” the expressions to the left and right of it – is only true if one of the sides is true (false otherwise).|
 |`//`|Checks if source contains all elements from target boolean contains (Array source, Array target).<br>`//` extracts substring from target (corresponding to regexp) and decodes it `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>The feature also supports the use of constant string values, grouping (`condition1 || condition2) && condition3`, and regular expressions (`/[^a-z]$/.test(landing.referring.url)`.|
 
-## Training video: Profile Scripts
+## Training video: Profile Scripts ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using and creating profile scripts.
 

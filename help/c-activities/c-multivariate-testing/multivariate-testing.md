@@ -83,7 +83,7 @@ For more considerations and best practices, see [Multivariate Test Best Practice
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Types (9:03)
+### Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
 
 This overview video explains the activity types available in Target Standard/Premium. Multivariate testing is discussed beginning at 4:20.
 
@@ -93,7 +93,7 @@ This overview video explains the activity types available in Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creating Multivariate Tests (9:25)
+### Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video explains how to understand, plan, and create a multivariate test using the Target three-step guided workflow.
 

@@ -52,7 +52,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
    Newly created audiences appear in the list after a few seconds of processing delay. If the audience does not display immediately in the list, try searching for the audience or refresh the list. 
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Overview badge](/help/assets/overview.png)
 
 This video includes information about creating audiences.
 

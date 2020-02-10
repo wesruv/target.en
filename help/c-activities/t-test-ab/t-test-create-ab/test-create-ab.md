@@ -108,7 +108,7 @@ Use the Visual Experience Composer in Target to create your test directly on a T
 
 After you create the activity, the Overview tab shows information about the activity, including a diagram of your activity.
 
-## Training video: Creating A/B Tests (8:36)
+## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to create an A/B test using the [!DNL Target] three-step guided workflow.
 

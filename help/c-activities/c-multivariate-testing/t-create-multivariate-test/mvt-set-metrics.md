@@ -48,7 +48,7 @@ Note that when you name or rename a metric, the following characters are not all
    |`-`|Minus|
    |`@`|At sign|
 
-## Training video: Activity Metrics (7:43)
+## Training video: Activity Metrics (7:43) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about working with success metrics.
 

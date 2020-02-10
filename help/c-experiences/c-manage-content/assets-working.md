@@ -29,7 +29,7 @@ Information about the tasks you can perform on an asset in the Content Library.
 
 1. To change the image that represents an item in the library, click the item, then click the **[!UICONTROL Properties]** icon, click **[!UICONTROL Edit]**, and then add an image.
 
-## Training video: The Content Repository
+## Training video: The Content Repository ![Overview badge](/help/assets/overview.png)
 
 This video includes information about managing content. (4:56)
 

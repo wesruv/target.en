@@ -178,7 +178,7 @@ There is really no reason to remove an underperforming experience. Auto-Allocate
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Workflow - Targeting (2:14)
+### Activity Workflow - Targeting (2:14) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about setting up traffic allocation.
 
@@ -189,7 +189,7 @@ This video includes information about setting up traffic allocation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creating A/B Tests (8:36)
+### Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to create an A/B test using the Target three-step guided workflow. Automated traffic allocation is discussed beginning at 4:45.
 

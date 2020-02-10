@@ -436,7 +436,7 @@ By default, all attributes are set to *Baseline*. You do not need to create a ru
 >
 >The content similarity algorithm might use random sampling in computing similarity between items. As a result, similarity ratings between items might vary between algorithm runs.
 
-## Training video: Create criteria in Recommendations (12:33)
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png
 
 This video contains the following information:
 

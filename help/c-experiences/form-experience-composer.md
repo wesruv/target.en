@@ -90,7 +90,7 @@ If you are creating a Recommendations activity, there are no experiences. Choose
 * [Create an Experience Targeting Activity](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765) 
 * [Create a Recommendations Activity](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Training video: Form-based Composer
+## Training video: Form-based Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 This video provides a demo of the form-based composer.
 

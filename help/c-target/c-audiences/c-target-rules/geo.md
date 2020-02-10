@@ -141,7 +141,7 @@ Puerto Rico, Hong Kong, and other territories are treated as separate "Country" 
 
 No, [!DNL Target] uses geo data for the duration of the session only, then the data is discarded.
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using audience categories.
 

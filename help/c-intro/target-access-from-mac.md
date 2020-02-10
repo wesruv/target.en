@@ -87,7 +87,7 @@ The [!DNL Target] documentation is available in the following languages:
 * Chinese Traditional
 * Korean 
 
-## Training video: Adobe Target in the Experience Cloud (4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png) 
 
 This video includes information about [!DNL Adobe Target] in the [!DNL Experience Cloud].
 

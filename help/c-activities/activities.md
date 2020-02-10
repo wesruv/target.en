@@ -164,7 +164,7 @@ This import job will run when the activities page is opened, with a maximum dela
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Types (9:03)
+### Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
 
 This video explains the activity types available in [!DNL Target Standard/Premium].
 
@@ -174,7 +174,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Managing Activities (5:55)
+### Managing Activities (5:55) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use the Activities list to manage activities.
 

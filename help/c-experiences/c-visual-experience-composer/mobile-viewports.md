@@ -150,7 +150,7 @@ This use case shows how to configure experiences for two iPhone versions, iPhone
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Visual Experience Composer (2 of 2) (7:29)
+### Visual Experience Composer (2 of 2) (7:29) ![Overview badge](/help/assets/overview.png)
 
 The following demo video includes information about using the Visual Experience composer to work with mobile viewports:
 
@@ -163,7 +163,7 @@ The following demo video includes information about using the Visual Experience 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Account Preferences in Adobe Target
+### Account Preferences in Adobe Target ![Overview badge](/help/assets/overview.png)
 
 This video includes information about setting up mobile viewports in the account preferences, beginning at 4:40 in the video.
 

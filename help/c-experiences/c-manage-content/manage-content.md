@@ -79,7 +79,7 @@ The following information is available:
 * Redirect URL Type 
 * Absolute or Relative URL
 
-## Training video: The Content Repository
+## Training video: The Content Repository ![Overview badge](/help/assets/overview.png)
 
 This video includes information about managing offers.
 

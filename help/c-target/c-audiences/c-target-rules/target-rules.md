@@ -21,7 +21,7 @@ Use the search box to search your [!UICONTROL Audiences] list. You can search fo
 
 You can sort the Audience list by audience name or by the date when it was last modified. To sort by name or date, click the column header, then select to display audiences in ascending or descending order.
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using audience categories.
 

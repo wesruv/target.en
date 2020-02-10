@@ -148,7 +148,7 @@ Type any information about your activity that is useful to keep on hand for your
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Settings (3:02)
+### Activity Settings (3:02) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about activity settings.
 
@@ -160,7 +160,7 @@ This video includes information about activity settings.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creating Multivariate Tests (9:25)
+### Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. Goals and settings are discussed beginning at 7:00.
 

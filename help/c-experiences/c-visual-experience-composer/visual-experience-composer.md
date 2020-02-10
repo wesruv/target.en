@@ -105,14 +105,14 @@ To continue managing experiences in the current activity or to add new modificat
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Visual Experience Composer (1 of 2) (7:17)
+### Visual Experience Composer (1 of 2) (7:17) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Change the content of a page 
 * Change the layout of a page
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 of 2) (7:29)
+### Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Rename and duplicate an experience 
 * Create a redirect experience 
@@ -123,7 +123,7 @@ The following videos contain more information about the concepts discussed in th
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Office hours: Visual Experience Composer
+### Office hours: Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 This video is a recording of " [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)," an initiative led by the Adobe Customer Care team.
 

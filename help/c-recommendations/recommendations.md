@@ -39,7 +39,7 @@ A recommendation determines how a product is suggested to a customer, depending 
 
 For more information about these and other [!DNL Recommendations] criteria, see [Criteria](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## ![Overview badge](/help/assets/overview.png) Training video: Activity Types
+## Training video: Activity Types ![Overview badge](/help/assets/overview.png)
 
 This video explains the activity types available in [!DNL Target Standard/Premium]. [!DNL Recommendations] is discussed beginning at 7:20.
 
@@ -49,7 +49,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target Basics Webinar: Introduction to Recommendations {#intro-to-recs}
+## Adobe Target Basics Webinar: Introduction to Recommendations {#intro-to-recs} ![Tutorial badge](/help/assets/tutorial.png)
 
 The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Find out how this [!DNL Target] activity automatically displays products or content that might interest your customers by optimizing real-time suggestions based on previous visits. Further, dive into the [!DNL Target] UI for a step-by-step overview of how to build a [!DNL Recommendations] activity.
 

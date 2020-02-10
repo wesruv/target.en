@@ -29,7 +29,7 @@ You can display the best five, worst five, or all experiences. The best and wors
 
 Below the graph, a table shows how many entrants saw each experience, as well as other information relevant to your success metric. 
 
-## Training video: Create an MVT Test
+## Training video: Create an MVT Test ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Experience Performance report is described beginning at 8:20.
 

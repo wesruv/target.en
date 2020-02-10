@@ -244,7 +244,7 @@ In an [!UICONTROL Auto-Target] activity, once a conversion metric (whether optim
 
 For example, there is an activity with a conversion metric (C1) and an additional metric (A1). A1 is dependent on C1. When a visitor enters the activity for the first time, and the criteria for converting A1 and C1 are not converted, metric A1 is not converted due to the success metric dependency. If the visitor converts C1 and then converts A1, A1 is still not converted because as soon as C1 is converted, the visitor is released.
 
-## Training video: Understanding Auto-Target Activities
+## Training video: Understanding Auto-Target Activities ![Overview badge](/help/assets/overview.png)
 
 This video explains how to set up an [!UICONTROL Auto-Target] A/B activity.
 
