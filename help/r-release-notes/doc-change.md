@@ -130,8 +130,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |August 14, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated text and added training video link.|
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Clarrifed information about the `consumerID` key.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)|Updated information in the "Layout > Move" section.|
-|August 12, 2019|[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library)|Updated information about dependencies and artifacts.<br>Updated code sample for the `AndroidManifest.XML` file.|
-||[Edit an activity or save as draft](/help/c-activities/edit-activity.md#classic)|Added new section: "Work with legacy activities created in Recommendations Classic."|
+|August 12, 2019|[Edit an activity or save as draft](/help/c-activities/edit-activity.md#classic)|Added new section: "Work with legacy activities created in Recommendations Classic."|
 |August 9, 2019|[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)|Added new section: "How at.js renders offers with HTML content."|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)|Added new section: "Considerations."|
 |August 7, 2019|[Prefetch offer content](/help/c-target-mobile-app/prefetch-offer-content.md)|Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types.|
@@ -150,7 +149,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status)|Added new section: "Viewing the recommendations offer's status."|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md)|Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status).|
 ||[Catalog search](/help/c-recommendations/c-products/catalog-search.md)|Updated text about how the catalog is refreshed.|
-||[Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|Added information about the Modifications panel that shows elements you have set up for click-tracking.|
 ||[How Adobe Target Works](/help/c-intro/how-target-works.md#bots)|Added new section: "Bots."|
 ||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#best)|Added best practices to avoid slow regex execution.|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md#steps)|Added supported FTP server settings to steps.|
@@ -191,7 +189,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Removed limitation stating that the Experience Cloud Debugger is not fully supported in at.js 2.x.|
 |June 7, 2019|[Customize a design using Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default)|Added new section: "Scenario: Create a 4x2 default Recommendations design with null-checking logic."|
 ||[Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials)|Updated link to new Adobe Target Tutorials site.|
-||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)|Updated text and code snippets.|
 |June 6, 2019|[adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)|Updated the description for the `options > page` parameter.|
 ||[Administrator first steps](/help/administrating-target/start-target.md)|Updated entire article.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added preliminary release notes for the Target 19.6.1 release.|
