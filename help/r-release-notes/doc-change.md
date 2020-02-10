@@ -114,7 +114,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)|New topic.|
 |September 4, 2019|[CNAME and Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)|Updated topic.|
 |August 23, 2019|[Target mobile preview](/help/c-target-mobile-app/target-mobile-preview.md)|Updated code snippet in `AndroidManifest.xml`.|
-|August 22, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Removed information about using prohibited characters in mobile app IDs. There are no longer restrictions.|
 ||[Custom parameters](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations)|Added new section: "Considerations."|
 ||[Upload custom criteria](/help/c-recommendations/c-algorithms/recommendations-csv.md)|Updated following sentence: Custom criteria updates are by default "cumulative." New key-value pairs specified in the CSV upload file overwrite existing key-value pairs. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file.|
 |August 20, 2019|[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Postponed the Target/Premium 19.8.1 release (August 20, 2019). Content from this release will be rolled into the 19.9.1 release (September 24, 2019).|
@@ -132,7 +131,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)|Clarrifed information about the `consumerID` key.|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)|Updated information in the "Layout > Move" section.|
 |August 12, 2019|[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library)|Updated information about dependencies and artifacts.<br>Updated code sample for the `AndroidManifest.XML` file.|
-||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Updated the list of enhancements and fixes in the "Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.1" section.|
 ||[Edit an activity or save as draft](/help/c-activities/edit-activity.md#classic)|Added new section: "Work with legacy activities created in Recommendations Classic."|
 |August 9, 2019|[How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)|Added new section: "How at.js renders offers with HTML content."|
 ||[Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)|Added new section: "Considerations."|
@@ -140,7 +138,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Troubleshoot the Analytics and Target integration (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified)|Updated note indicating how long the classification process takes to complete.|
 ||[Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)|Updated topic to include information about the California Consumer Privacy Act (CCPA).|
-|August 6, 2019|[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added release notes for the Target Mobile VEC SDK iOS 2.1.0 & Android 1.1.0 release.|
 ||[View reports - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics)|Updated consideration about using [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace].|
 |August 1, 2019|[Target Release notes (current)](/help/r-release-notes/release-notes.md)|Added important announcement regarding API support for Enterprise Permissions.|
 ||[Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)|New topic.|
@@ -156,7 +153,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|Added information about the Modifications panel that shows elements you have set up for click-tracking.|
 ||[How Adobe Target Works](/help/c-intro/how-target-works.md#bots)|Added new section: "Bots."|
 ||[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md#best)|Added best practices to avoid slow regex execution.|
-||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)|Updated the Troubleshooting section to reflect that the character restrictions no longer apply to app names. The restrictions apply to IDs only.|
 ||[Feeds](/help/c-recommendations/c-products/feeds.md#steps)|Added supported FTP server settings to steps.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about at.js 2.1.1.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.7.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
@@ -179,7 +175,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Automated personalizaton FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)|Added new FAQ: "Can I specify a specific experience to be used as control?"<br>Edited the following FAQ: "What are best practices to set up an Automated Personalization activity?"|
 ||[Auto-Target](/help/c-activities/auto-target-to-optimize.md)|Added information and FAQ about specifying a specific experience to be used as control.<br>Updated the "Determining Traffic Allocation" section.|
 ||[Create an Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md)|Added step with information to select a specific experience as default.|
-||[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Added information about how to manage multiple mobile app versions.|
 ||[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md)|Added information about reports failing to render for Auto-Target activities in certain situations.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 19.6.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
@@ -200,7 +195,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |June 6, 2019|[adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)|Updated the description for the `options > page` parameter.|
 ||[Administrator first steps](/help/administrating-target/start-target.md)|Updated entire article.|
 ||[Target release notes (prerelease)](/help/r-release-notes/target-release-notes.md)|Added preliminary release notes for the Target 19.6.1 release.|
-|June 5, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)|Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section.|
 ||[Upgrading from at.js 1.x to at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Updated information about deploying at.js using Adobe Launch, which is the preferred method of deployment.|
 ||[Target key concepts](/help/c-intro/target-key-concepts.md)|Minor text edits.|
 |June 3, 2019|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the upcoming release of at.js 2.1.0.|
@@ -238,8 +232,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Form-based Experience Composer](/help/c-experiences/form-experience-composer.md)|Updated text in the introduction.|
 ||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Updated text in the introduction.|
 ||[Glossary](/help/c-intro/glossary.md)|Added and updated several entries.|
-|May 22 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)|Added training video.|
-||[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials:<ul><li>Implement the Experience Cloud in Mobile iOS Objective-C Applications</li><li>Implement the Experience Cloud in Mobile iOS Swift Applications</li></ul>|
+|May 22, 2019|[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials:<ul><li>Implement the Experience Cloud in Mobile iOS Objective-C Applications</li><li>Implement the Experience Cloud in Mobile iOS Swift Applications</li></ul>|
 ||[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial)|Added link to new tutorial:<ul><li>Implement the Experience Cloud in Mobile Android Applications</li></ul>|
 ||[Introduction to Target](/help/c-intro/intro.md#kit)|Added link to the Adobe Target Welcome Kit.|
 |May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
@@ -255,7 +248,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |Date|Topic|Changes|
 | --- | --- | --- |
 |May 15, 2019|[Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview)|Added note that you must fire the `at-view-start` and `at-view-end` events.|
-|May 14, 2019|[Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), and<br>[Set up click tracking in the Mobile VEC](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)|New topics.|
 ||[Pass dynamic data into offers](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)|Updated text.|
 |May 13, 2019|[Activity QA](/help/c-activities/c-activity-qa/activity-qa.md)|Added item to the Considerations list about using QA Mode in a multi-page activity.|
 ||[Include the Same Experience on Similar Pages](/help/c-experiences/c-visual-experience-composer/temtest.md)|Updated steps to match the UI.|
