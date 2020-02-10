@@ -153,14 +153,14 @@ at.js does not fire Target mboxes if you are using an invalid doctype. at.js req
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Add the Extension
+### Add the Extension ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Basic Target Debugging
+### Basic Target Debugging ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Mbox Trace ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

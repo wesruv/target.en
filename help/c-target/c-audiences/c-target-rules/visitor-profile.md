@@ -36,7 +36,7 @@ Create audiences to target visitors who meet specific profile parameters.
 1. (Optional) Click **[!UICONTROL Add Rule]** and set up additional rules for the audience. 
 1. Click **[!UICONTROL Save]**.
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Overview badge](/help/assets/overview.png)
 
 This video includes information about using audience categories.
 

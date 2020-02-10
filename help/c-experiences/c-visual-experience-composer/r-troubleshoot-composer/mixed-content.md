@@ -32,7 +32,7 @@ If you're visiting a site via a secure connection, Google Chrome will verify tha
 
 See [This page has insecure content](https://support.google.com/chrome/answer/1342714?hl=en) in Google Chrome Help.
 
-### Training video: Enable the VEC in Chrome version 79.0.3945.117 or later (Jan. 2020)
+### Training video: Enable the VEC in Chrome version 79.0.3945.117 or later (Jan. 2020) ![Overview badge](/help/assets/overview.png)
 
 If you are using the VEC with the latest version of Chrome (version 79.0.3945.117 or later), you need to update your site settings. Visitors to your site will not need to complete these steps.
 

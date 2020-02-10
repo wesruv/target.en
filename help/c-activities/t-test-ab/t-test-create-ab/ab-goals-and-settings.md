@@ -61,7 +61,7 @@ See [Success Metrics](../../../c-activities/r-success-metrics/success-metrics.md
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Settings (3:02)
+### Activity Settings (3:02) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about activity settings.
 
@@ -73,7 +73,7 @@ This video includes information about activity settings.
 
 (https://video.tv.adobe.com/v/17381)
 
-### Creating A/B Tests (8:36)
+### Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how activity settings fit within the three-step guided workflow when creating an activity. Goals and settings are discussed beginning at 5:30.
 

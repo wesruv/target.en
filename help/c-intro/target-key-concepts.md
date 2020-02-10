@@ -105,7 +105,7 @@ For information about how the visitor profile tracks information about visitors 
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Activity Types (9:03)
+### Activity Types (9:03) ![Overview badge](/help/assets/overview.png)
 
 This video explains the activity types available in [!DNL Target Standard/Premium].
 
@@ -115,7 +115,7 @@ This video explains the activity types available in [!DNL Target Standard/Premiu
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Using Audiences in Adobe Target (6:21)
+### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 

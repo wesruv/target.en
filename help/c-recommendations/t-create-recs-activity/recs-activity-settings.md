@@ -58,7 +58,7 @@ The activity can start when activated, or you can set a specific date and time. 
 
 Enter notes about your activity.
 
-## Training video: Activity Settings (3:02)
+## Training video: Activity Settings (3:02) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about activity settings.
 

@@ -26,7 +26,7 @@ The second table provides an offer-level report. It shows the conversion rate, l
 
 ![](assets/locationcontributionbottom.png)
 
-## Training video: Create an MVT Test
+## Training video: Create an MVT Test ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to create a multivariate test using the Target three-step guided workflow. The Location Contribution report is described beginning at 8:45.
 

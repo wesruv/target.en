@@ -49,7 +49,7 @@ Target provides many ways for you to pass in additional data to Target to enrich
 |Shared Audiences (Adobe Audience Manager or Adobe Analytics)|Audiences created through Adobe Audience Manager or Adobe Analytics and shared with Target.|`Custom - Experience Cloud Segment - [segment name]`|
 |In-Activity Reporting Audiences/ Segments|Audiences defined in your AP or Auto Target activity during setup in “Goals & Metrics.”|`Custom - Reporting Segment - [segment name]`|
 
-## Training video: Using the Personalization Insights reports
+## Training video: Using the Personalization Insights reports ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 

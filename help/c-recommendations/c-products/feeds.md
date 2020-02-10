@@ -318,7 +318,7 @@ The status should be yellow because the index should have run roughly one day an
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Understanding feeds in Recommendations (3:01)
+### Understanding feeds in Recommendations (3:01) ![Overview badge](/help/assets/overview.png)
 
 This video contains the following information:
 
@@ -327,7 +327,7 @@ This video contains the following information:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Create a feed (6:44)
+### Create a feed (6:44) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video contains the following information:
 

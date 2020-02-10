@@ -19,7 +19,7 @@ Plan to test the elements on your page that are likely to produce significant re
 
 Finally, before you create your test, you should create the content you want to test. Understand the content differences for each offer, and create any images, text, and HTML offers that you expect to use in the test. 
 
-## Training video: Creating Multivariate Tests (9:25)
+## Training video: Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
 

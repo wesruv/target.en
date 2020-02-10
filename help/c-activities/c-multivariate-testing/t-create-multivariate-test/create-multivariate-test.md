@@ -110,7 +110,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In other wor
 
 1. Click **[!UICONTROL Save and Close]** to create the activity.
 
-## Training video: Creating Multivariate Tests (9:25)
+## Training video: Creating Multivariate Tests (9:25) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video demonstrates how to plan and create a multivariate test using the Target three-step guided workflow.
 

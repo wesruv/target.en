@@ -38,7 +38,7 @@ You can create a [!UICONTROL Recommendations] design using a default design or b
 
 1. Click **[!UICONTROL Save]**.
 
-## Training video: Create custom designs in Recommendations (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 This video contains the following information:
 

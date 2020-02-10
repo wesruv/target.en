@@ -113,7 +113,7 @@ Only major versions can be entered in the text field. The specified version incl
 
 Multiple options are connected with an OR. 
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using audience categories.
 

@@ -86,7 +86,7 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 ![Delete experience option](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 The video below provides information about using the Visual Experience Composer options. (7:17)
 

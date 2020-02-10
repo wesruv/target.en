@@ -113,6 +113,6 @@ The recommendations offer's (algorithm) status displays at the bottom of the [!U
 
 ![Recommendations offer status](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Training video: Recommendations as an offer
+## Training video: Recommendations as an offer ![Overview badge](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

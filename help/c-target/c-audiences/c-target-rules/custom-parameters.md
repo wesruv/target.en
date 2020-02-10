@@ -50,7 +50,7 @@ The audience's [definition details pop-up card](../../../c-target/c-audiences/au
 * Audiences and activities are evaluated for a specific mbox. For example, if the global mbox passes a certain parameter, but the regional mbox does not, the activity/audience targeting that parameter will not be qualified for on the regional mbox.
 * Targeting is not evaluated on internal mbox parameters, such as mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId, and mboxVersion.
 
-## Training video: Creating Audiences
+## Training video: Creating Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using audience categories.
 

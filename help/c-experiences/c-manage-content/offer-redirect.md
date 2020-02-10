@@ -51,7 +51,7 @@ The redirect offer executes JavaScript code to redirect the browser. It uses the
 >
 >Ask your Implementation Consultant before launching these tests.
 
-## Training video: The Content Repository (4:56)
+## Training video: The Content Repository (4:56) ![Overview badge](/help/assets/overview.png)
 
 This video includes information about managing content.
 

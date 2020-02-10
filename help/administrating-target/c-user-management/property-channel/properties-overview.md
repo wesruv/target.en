@@ -189,7 +189,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 The following videos contain more information about the concepts discussed in this article.
 
-### How to Configure Target Workspaces (6:55)
+### How to Configure Target Workspaces (6:55) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video explains how to create workspaces.
 
@@ -203,7 +203,7 @@ This video explains how to create workspaces.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05)
+### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 * How to create a property within the [!DNL Adobe Target] interface 
 * How to generate a property token to include in your property implementation 

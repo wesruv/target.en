@@ -272,17 +272,17 @@ The following videos contain more information:
 
 ### Understanding how at.js 2.x works
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) ![Overview badge](/help/assets/overview.png)
 
 See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### Implement at.js 2.x in a SPA
 
->[!VIDEO](https://video.tv.adobe.com/v/26248)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) ![Tutorial badge](/help/assets/tutorial.png)
 
 See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
-### Using the VEC for SPAs in Adobe Target
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 

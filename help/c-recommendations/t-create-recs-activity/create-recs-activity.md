@@ -162,6 +162,6 @@ Use the Target Visual Experience Composer (VEC) to create a Recommendations acti
 
    Activity collisions occur when multiple activities are set to deliver content to the same page, and may cause unexpected content to be displayed.
 
-## Training Video: Create a Recommendations activity (7:15)
+## Training Video: Create a Recommendations activity (7:15) ![Tutorial badge](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

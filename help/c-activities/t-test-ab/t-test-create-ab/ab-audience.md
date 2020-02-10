@@ -42,7 +42,7 @@ You can also choose to let Target [allocate traffic automatically](../../../c-ac
 
 The following videos contain more information about the concepts discussed in this article.
 
-### Using Audiences in Adobe Target (6:21)
+### Using Audiences in Adobe Target (6:21) ![Overview badge](/help/assets/overview.png)
 
 This video explains how to use audiences in [!DNL Target Standard/Premium].
 
@@ -54,7 +54,7 @@ This video explains how to use audiences in [!DNL Target Standard/Premium].
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Activity Workflow - Targeting (2:14)
+### Activity Workflow - Targeting (2:14) ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about setting up audiences.
 

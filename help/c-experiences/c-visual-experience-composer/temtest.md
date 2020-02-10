@@ -68,7 +68,7 @@ You can specify pages that include the change elements, or apply the change acro
 >
 > Target cannot check the pages to make sure they appear as expected, so it is always an important practice when using this feature to test affected pages before making them public.
 
-## Training video: Visual Experience Composer (2 of 2) (7:29)
+## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Rename and duplicate an experience 
 * Create a redirect experience 

@@ -75,7 +75,7 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
 
-## Training video: Using Audiences
+## Training video: Using Audiences ![Tutorial badge](/help/assets/tutorial.png)
 
 This video includes information about using audiences.
 
