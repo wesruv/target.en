@@ -130,11 +130,6 @@ solution: Target
       + [Send activity information to Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target mobile preview](c-target-mobile-app/target-mobile-preview.md)
       + [Prefetch offer content](c-target-mobile-app/prefetch-offer-content.md)
-      + Mobile App Visual Experience Composer {#composer}
-         + [Mobile App Visual Experience Composer](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
-         + [Android - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
-         + [iOS - set up the mobile app](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
-         + [Set up click tracking in the Mobile VEC](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Use Location Service](/help/c-target-mobile-app/use-location-service.md)
    + Server Side: implement Target {#server-side}

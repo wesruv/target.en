@@ -12,19 +12,7 @@ List of frequently asked questions about [!DNL Target] for mobile apps.
 
 ## Should I use [!DNL Adobe Experience Platform Launch] to deploy the SDK, or can I deploy the SDK without using [!DNL Launch]?
 
-The SDK is available on the [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). If you don't use [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), you must manage your own settings file and manage it in your app.
-
-## Can the Visual Experience Composer (VEC) for mobile apps be used with React-Native support for the Adobe Experience Platform SDK v5?
-
-The [VEC for Native Mobile Apps](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) currently doesn't support the React native app. You must use the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md).  
-
-## Does the Mobile SDK integration allow for roll-out of new mobile functionality? Can I turn the feature flag on and off without new code deployments?  
-
-Yes, you can use our mobile SDK to roll out features gradually.  
-
-## For more complex logic, should I develop directly in the app instead of using the Mobile VEC? If so, which development language should I use?
-
-Currently, the VEC supports common use cases such as changing the image, text, color, etc. For more advanced use cases, such as personalizing the app layout, you must insert the [!DNL Target] request/location (mbox) in the code and use the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) to design the experiences and allocate traffic. Our mobile SDK supports Java, Objective C, and Swift. It depends on your team's preference and resources to choose the language.  
+The SDK is available on the [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). If you don't use [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), you must manage your own settings file and manage it in your app. 
 
 ## Which SDKs are available today?
 
@@ -33,10 +21,6 @@ The Adobe Experience Platform Mobile SDKs currently support iOS, Android, and Re
 ## What is the frequency of the location-based feature, in terms of verification about the latitude and longitude?
 
 See the [Adobe Places documentation](https://placesdocs.com/places-services-by-adobe-documentation/) for more information.
-
-## Which native classes do mobile "Views" support? Do they support any NSObject derived class (or any Android Object) or just NSViewController and Activities?
-
-For more information, visit the Android documentation for the [manual way of declaring views](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views). 
 
 ## Do I need at.js for the Adobe Experience Platform Mobile SDKs to work?
 

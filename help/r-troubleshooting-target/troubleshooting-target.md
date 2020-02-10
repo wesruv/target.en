@@ -120,7 +120,6 @@ The following sections contain troubleshooting information about implementing Ta
 
 ## Mobile Apps
 
-* [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Reporting
