@@ -22,10 +22,6 @@ The Adobe Experience Platform Mobile SDKs currently support iOS, Android, and Re
 
 See the [Adobe Places documentation](https://placesdocs.com/places-services-by-adobe-documentation/) for more information.
 
-## Which native classes do mobile "Views" support? Do they support any NSObject derived class (or any Android Object) or just NSViewController and Activities?
-
-For more information, visit the Android documentation for the [manual way of declaring views](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views). 
-
 ## Do I need at.js for the Adobe Experience Platform Mobile SDKs to work?
 
 No, you don’t need at.js to use the mobile SDKs. at.js is the [!DNL Target] JavaScript library for websites. The Adobe Experience Platform Mobile SDKs are for mobile apps.

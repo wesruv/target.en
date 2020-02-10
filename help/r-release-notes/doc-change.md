@@ -229,9 +229,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Form-based Experience Composer](/help/c-experiences/form-experience-composer.md)|Updated text in the introduction.|
 ||[Enterprise user permissions](/help/administrating-target/c-user-management/property-channel/property-channel.md)|Updated text in the introduction.|
 ||[Glossary](/help/c-intro/glossary.md)|Added and updated several entries.|
-|May 22, 2019|[iOS - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial)|Added links to new tutorials:<ul><li>Implement the Experience Cloud in Mobile iOS Objective-C Applications</li><li>Implement the Experience Cloud in Mobile iOS Swift Applications</li></ul>|
-||[Android - set up the mobile app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial)|Added link to new tutorial:<ul><li>Implement the Experience Cloud in Mobile Android Applications</li></ul>|
-||[Introduction to Target](/help/c-intro/intro.md#kit)|Added link to the Adobe Target Welcome Kit.|
+|May 22, 2019|[Introduction to Target](/help/c-intro/intro.md#kit)|Added link to the Adobe Target Welcome Kit.|
 |May 21, 2019|[Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)|<ul><li>Updated information about the "Move" option.</li><li>Added note that you can perform many actions before the page loads in the VEC, or even if the page fails to load altogether. </li></ul>|
 ||[Users](/help/administrating-target/c-user-management/c-user-management/user-management.md)|Udated text, updated images, and added training video.|
 ||[Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md)|Udated text and images.|
