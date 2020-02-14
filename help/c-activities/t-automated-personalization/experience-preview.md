@@ -34,7 +34,7 @@ Use experience URLs to share experiences with team members and to QA experiences
    A modal window displays links to your experiences on your site to get a "true preview" of the experiences outside of Target's Visual Experience Composer. You must share the links from the message to share the preview. Clicking a link and then copying the resulting URL from the page won't work because the URL contains a parameter that only displays the page correctly when you access the page from the link in the message. Instead, copy the text in the modal window and email the whole text to your team. 
 1. Click **[!UICONTROL Generate All]**, then click each experience to preview it.
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Generate all** to get new links.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Note:** The preview links open in new tabs and require that the pop-up blocker on your browser is disabled. 
 
