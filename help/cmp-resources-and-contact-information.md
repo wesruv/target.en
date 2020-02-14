@@ -74,25 +74,7 @@ For the quickest triage of your issue, please have the following basic informati
 |Business impact|What is the impact to your business? For example, is this issue causing revenue loss or rendering the product unusable, and is there a viable workaround?|
 |Expectations|What do you expect to happen?|
 
-Also prepare information related to the specific issue. For example, one of the most common problems received by Client Care is that mboxes load too slowly. For this issue, helpful data includes:
-
-* A Firebug trace showing the repeatable slowness to a URL or host.
-
-  A gomez report with one or two outlying requests is not enough data to analyze or troubleshoot the issue. 
-* A screenshot of a traceroute from the machine running the firebug TO 70.42.13.100.
-
-  This is very important. The EDGE networks are worldwide so it is very difficult to determine where the client is being sent. For example, if you can reproduce the issue from your desktop in your office, say "I can reproduce this from my desktop and I am homed to EDGE 20." 
-* Your client code and the mbox name (if you have it). 
-* The number of mboxes embedded in the page.
-
-  Is it a single mbox of many on the page that is slow? 
-* How repeatable is the slowness with the given mbox on the given page?
-
-  Providing a Firebug trace shows Client Care a one-time case scenario. If you can provide statistical data, such as "the lowest I've seen is 300ms, highest I've seen is 1.1 seconds and I've tested 50 times," it will help to facilitate a solution. 
-* Information regarding anything unusual about your campaigns.
-
-  Is there a high number of segments? (For example, do you update segments 3 to 4 times per hour in the admin interface?) This information helps Client Care understand the interaction between the admin interfaces and the edges for this campaign. Frequent updates to the campaign mean frequent reloads from the central server, which can force more remote calls or cache reloads. 
-* Any other data you think might be helpful.
+For content-delivery issues, see [Troubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md) for possible solutions and troubleshooting information.
 
 ### In Case of an Outage {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
