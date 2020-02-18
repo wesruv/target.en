@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: February 4, 2020**
+**Last Updated: February 18, 2020**
 
 >[!NOTE]
 >
@@ -24,7 +24,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 ## Target Standard/Premium 20.2.1 (February 19, 2020)
 
-The Target Standard/Premium 20.2.1 release is scheduled for February 19, 2020. Information about specific features, enhancements, and fixes will be posted here in the coming days.
+This release contains the following enhancements and fixes:
+
+* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
+* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
+* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
+* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
+* Resolved an issue that prevented customers from changing the algorithm in an Automated Personalization (AP) activity from Random Forest to Residual Variance. (TGT-36321)
+* Resolved localization issues so that UI text in various languages displays correctly. 
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
