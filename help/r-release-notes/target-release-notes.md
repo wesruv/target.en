@@ -24,6 +24,14 @@ These release notes provide information about features, enhancements, and fixes 
 
 ## Target Standard/Premium 20.2.1 (February 19, 2020)
 
+>[!IMPORTANT]
+>
+>On August 30, 2020, Adobe Target will no longer support the mbox.js library. Post August 30, 2020, all calls made from mbox.js will fail and impact your pages that have Target activities running. We recommend that all customers migrate to the most recent version of the at.js library before this date to avoid any potential issues with your sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>Although, mbox.js is currently supported, we have not provided feature updates to this library since July 2017. The newer at.js provides many advantages over mbox.js. Among other benefits, at.js improves page load times for web implementations, improves security, and provides better implementation options for single page applications.
+>
+>By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
+
 This release contains the following enhancements and fixes:
 
 * Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
