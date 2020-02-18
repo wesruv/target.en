@@ -133,6 +133,10 @@ You can override your IP address with an IP address from a different location an
 
 You'll need to clear your cookies before doing this.
 
+>[!NOTE]
+>
+>mboxOverride.browserIp is supported only in at.js 1.j*x*. This functionality is not supported in at.js 2.*x*.
+
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
 Puerto Rico, Hong Kong, and other territories are treated as separate "Country" values.
