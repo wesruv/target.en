@@ -38,7 +38,6 @@ This release contains the following enhancements and fixes:
 * Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
 * Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
 * Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
-* Resolved an issue that prevented customers from changing the algorithm in an Automated Personalization (AP) activity from Random Forest to Residual Variance. (TGT-36321)
 * Resolved localization issues so that UI text in various languages displays correctly. 
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
