@@ -10,12 +10,18 @@ uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
+## Adobe Target Standard/Premium 20.2.1 (February 19, 2020)
+
+|Date|Topic|Changes|
+| --- | --- | --- |
+|February 19, 2020|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
+||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added note that `mboxOverride.browserIp` is supported in at.js 1.*x* only.|
+||[Release Notes](/help/r-release-notes/release-notes.md): 20.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
+
 ## Adobe Target Standard/Premium 20.1.1 (February 4, 2020)
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|February 18, 2020|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
-||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added note that mboxOverride.browserIp is supported only in at.js 1.*x*.|
 |February 4|[Release Notes](/help/r-release-notes/release-notes.md): 20.1.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|
 
 ## Adobe Target Standard/Premium 19.10.1 (October 22, 2019)

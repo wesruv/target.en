@@ -23,12 +23,19 @@ These release notes provide information about features, enhancements, and fixes 
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 20.1.1 (February 4, 2020)
+## Target Standard/Premium 20.2.1 (February 19, 2020)
 
-The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
+>[!IMPORTANT]
+>
+>See the information above about the deprecation of mbox.js.
 
-* Fixed an issue that caused the Adobe Analytics tracking server field to be blank on the Goals and Settings page for existing Adobe for Target (A4T) activities. (TGT-35960)
-* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display while creating an audience for category affinity. (TGT-36098)
+This release contains the following enhancements and fixes:
+
+* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
+* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
+* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
+* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
+* Resolved localization issues so that UI text in various languages displays correctly. 
 
 ## Additional release notes and version details
 

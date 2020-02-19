@@ -202,7 +202,7 @@ solution: Target
       + [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Share experience URLs to preview Automated Personalization outside of Target](c-activities/t-automated-personalization/experience-preview.md)
+      + [Preview Automated Personalization activities with experience preview URLs](c-activities/t-automated-personalization/experience-preview.md)
       + [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Experience Targeting {#experience-targeting}
       + [Experience Targeting overview](c-activities/t-experience-target/experience-target.md)

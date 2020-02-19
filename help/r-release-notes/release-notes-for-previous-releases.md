@@ -14,6 +14,15 @@ Release notes for previous Target releases, including release notes for Target S
 >
 >See [Target release notes (current)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) for information about the current month's Target releases (platform and Target Standard/Premium).
 
+## Release notes - 2020
+
+### Target Standard/Premium 20.1.1 (February 4, 2020)
+
+The Target Standard/Premium 20.1.1 release is a maintenance release and includes backend enhancements and improvements. In addition, the following fixes are included:
+
+* Fixed an issue that caused the Adobe Analytics tracking server field to be blank on the Goals and Settings page for existing Adobe for Target (A4T) activities. (TGT-35960)
+* Fixed an issue in the user interface that caused your selection in the second drop-down list to not display while creating an audience for category affinity. (TGT-36098)
+
 ## Release notes - 2019 {#releases-2019}
 
 ### Target Java SDK version 1.1.0 (December 16, 2019)
