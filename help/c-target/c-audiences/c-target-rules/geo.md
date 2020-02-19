@@ -135,7 +135,7 @@ You'll need to clear your cookies before doing this.
 
 >[!NOTE]
 >
->mboxOverride.browserIp is supported only in at.js 1.j*x*. This functionality is not supported in at.js 2.*x*.
+>`mboxOverride.browserIp` is supported in at.js 1.j*x* only. This functionality is not supported in at.js 2.*x*.
 
 **How are territories, such as Puerto Rico and Hong Kong, mapped into the geo-targeting structure?**
 
