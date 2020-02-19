@@ -12,7 +12,7 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 
 >[!IMPORTANT]
 >
->The Target team maintains only two versions of [!DNL at.js]—the current version and the second-latest version. Please upgrade [!DNL at.js] as necessary to ensure that you are running a supported version.
+>The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
 
 ## at.js version 2.2.0 (October 10, 2019)
 
