@@ -21,7 +21,8 @@ These release notes provide information about features, enhancements, and fixes 
 >   Although, mbox.js is currently supported, we have not provided feature updates to this library since July 2017. The newer at.js provides many advantages over mbox.js. Among other benefits, at.js improves page load times for web implementations, improves security, and provides better implementation options for single page applications.
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
-The issue numbers in parentheses are for internal [!DNL Adobe] use.
+>
+>* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
 ## Target Standard/Premium 20.2.1 (February 19, 2020)
 
