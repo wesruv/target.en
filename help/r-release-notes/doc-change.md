@@ -14,7 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|February 19, 2020|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
+|February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
+|February 19|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
 ||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added note that `mboxOverride.browserIp` is supported in at.js 1.*x* only.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Clarified text explaining which versions of at.js the Target team supports.|
 ||[Release Notes](/help/r-release-notes/release-notes.md): 20.2.1|This release includes enhancements and fixes. You can read about them and link to the documentation from the Release Notes. This release also includes many documentation updates throughout the help.|

@@ -26,7 +26,9 @@ You can override the following settings:
 |timeout|Number|Value set via UI|Represents Target edge request timeout|
 |globalMboxAutoCreate|Boolean|Value set via UI|Indicates whether the global mbox request should be fired or not|
 |visitorApiTimeout|Number|2000 ms = 2 s|Represents the Visitor API request timeout|
-|enabled|Boolean|true|Indicates whether at.js as library is enabled, meaning if it should execute anything or not. The main use case for this setting being opt-out cookies or other custom decisions that would disable  at.js  functionality|
+|enabled|Boolean|true|When enabled, a Target request to retrieve experiences and DOM manipulation to render the experiences is executed automatically. Furthermore, Target calls can be executed manually via `getOffer(s)` / `applyOffer(s)`<br>When disabled, Target requests are not automatically or manually executed|
+|pageLoadEnabled|Boolean|true|When enabled, automatically retrieve experiences that must be returned on page load|
+|viewsEnabled|Boolean|true|When enabled, automatically retrieve views that must be returned on page load. Views are supported in at.js 2.*x* only|
 |defaultContentHiddenStyle|String|visibility: hidden|Used only for wrapping mboxes that use DIV with class name "mboxDefault" and are executed via `mboxCreate()`, `mboxUpdate()`, or `mboxDefine()` to hide default content|
 |defaultContentVisibleStyle|String|visibility: visible|Used only for wrapping mboxes that use DIV with class name "mboxDefault" and are executed via `mboxCreate()`, `mboxUpdate()`, or `mboxDefine()` to reveal applied offer if any or default content|
 |bodyHiddenStyle|String|body { opacity: 0 }|Used only when `globalMboxAutocreate === true` to minimize the chance of flicker.<br>For more information, see [How at.js Manages Flicker](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).|
