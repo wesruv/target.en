@@ -2,7 +2,7 @@
 keywords: target documentation change log;documentation updates;new topics;edits
 description: This page lists important changes made to the Adobe Target documentation, ordered by releases.
 title: Documentation changes in the Adobe Target product documentation.
-topic: Standard
+topic: Standard 
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 ---
 
@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|February 21|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the new Adobe Experience Cloud navigation.|
 |February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
 |February 19|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|
 ||[Geo](/help/c-target/c-audiences/c-target-rules/geo.md)|Added note that `mboxOverride.browserIp` is supported in at.js 1.*x* only.|
