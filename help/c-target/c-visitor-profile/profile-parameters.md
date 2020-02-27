@@ -115,17 +115,17 @@ The following guidelines are meant to help write simplified profile scripts that
 * Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2 KB are automatically disabled. There is no set limit to the number of scripts you can run, but each script is executed with every single mbox call. Run only as many scripts as needed.
 * In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. The script execution can be interrupted if such a regex is matched to a long enough input data (which can be as low as several hundred characters).
 * If all fails, wrap script in a try/catch. 
-* Recommendations for limiting profile script complexity: Profile scripts can execute a limited number of instructions.
+* Recommendations for limiting profile script complexity.
+
+  Profile scripts can execute a limited number of instructions.
 
   As best practice:
 
   * Keep profile scripts small and as simple as possible.
-  * Avoid regular expressions or use only very simple regular expressions. Even simple expressions can take a lot of instructions to evaluate.
+  * Avoid regular expressions or use only very simple regular expressions. Even simple expressions can take many instructions to evaluate.
   * Avoid recursion.
-
-  Profile scripts should be performance-tested before being added to Target. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute. This might impact traffic and conversion.
-
-  If profile scripts become too complex, consider using response tokens instead.
+  * Profile scripts should be performance-tested before being added to Target. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute, which might impact traffic and conversion.
+  * If profile scripts become too complex, consider using [response tokens](/help/administrating-target/response-tokens.md) instead.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
