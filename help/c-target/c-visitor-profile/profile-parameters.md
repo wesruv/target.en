@@ -10,18 +10,26 @@ uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 
 Profile attributes are parameters that are specific to a visitor. These attributes are stored in the visitor's profile to provide information about the visitor that can be used in your activities.
 
-As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes can be used to target content or log information for segment filtering.
+A user profile contains demographic and behavioral information of a web page visitor, such as age, gender, products purchased, last time of visit, and so on that Target uses to personalize the content it serves to the visitor.
 
-To set up profile attributes, click **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
+As a visitor browses your website, or when the visitor returns for another session, the saved profile attributes in the profile can be used to target content or log information for segment filtering.
 
-![Profile Scripts tab](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+To set up profile attributes:
 
-The following types of profile attributes are available:
+1. Click **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
 
-| Parameter Type | Description |
-|--- |--- |
-|mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: Target has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target, you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
-|Script|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
+   ![Profile Scripts tab](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. Click **[!UICONTROL Create Script]**.
+
+   ![Create Profile Script dialog box](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   The following types of profile attributes are available:
+
+   | Parameter Type | Description |
+   |--- |--- |
+   |mbox|Passed in directly through page code when creating the mbox. See [Pass Parameters to a Global Mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Note**: Target has a limit of 50 unique profile attributes per mbox call. If you need to pass more than 50 profile attributes to  Target, you can pass them using the  Profile Update  API method. For more information, see [Profile Update  in the Adobe Target API documentation](http://developers.adobetarget.com/api/#updating-profiles).|
+   |Profile|Defined directly with a JavaScript code snippet. These can store running totals like total money spent by consumer and are executed on each mbox request. See Profile Script Attributes below.|
 
 ## Profile script attributes {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -39,13 +47,13 @@ To add a new profile script, click the **[!UICONTROL Profile Scripts]** tab, **[
 
 Or
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 You can then edit the audience to create a similar audience.
 
 ![Create Profile Script dialog box](assets/profile-script.png)
 
-Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
+Profile scripts run profile attribute "catchers" on each location request. When a location request is received, Target determines which activity should run and displays content that is appropriate to that activity and that experience, tracks the success of the activity, and runs any relevant profile scripts. This enables you to track information about the visit, such as the visitor's location, time of day, number of times that visitor has been to the site, if they've purchased before, and so on. This information is then added to the visitor's profile so you can better track that visitor's activity on your site.
 
 Profile script attributes have the `user.` tag inserted before the attribute name. For example:
 
@@ -56,6 +64,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+Keep the following information in mind:
 
 * Refer to profile script attributes (including itself) in the code with `user.get('parameterName')` 
 * Save variables that may be accessed the next time the script is run (on the next mbox request) with `user.setLocal('variable_name', 'value')`. Reference the variable with `user.getLocal('variable_name')`. This is useful for situations where you want to reference the date and time of the last request. 
@@ -82,10 +92,9 @@ The [!UICONTROL Script Usage] tab lists the activities (and their workspaces) th
 > * The activity is in the Draft state.
 > * The content or offer used in the activity uses script variables (either an inline offer within the activity or an offer within the Offer library).
 
-
 ## Target disables profile scripts in certain situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] will automatically disable profile scripts in certain situations, such as if they take too long to execute or have too many instructions.
+[!DNL Target] automatically disables profile scripts in certain situations, such as if they take too long to execute or have too many instructions.
 
 When a profile script is disabled, a yellow alert icon displays next to the profile script in the Target UI, as illustrated below:
 
@@ -106,25 +115,23 @@ Typical reasons for the system to disable profile scripts include the following:
 
 The following guidelines are meant to help write simplified profile scripts that are as error-failing-free as possible by writing code that fails gracefully so the scripts are processed without forcing a system-script-halt. These guidelines are a result of best practices that have been proven to run efficiently. These guidelines are to be applied alongside principles and recommendations drawn by the Rhino development community.
 
-* Set current script value to a local variable in the user script, set a failover to blank string. 
+* Set current script value to a local variable in the user script, set a failover to a blank string. 
 * Validate the local variable by ensuring it is not a blank string. 
-* Use string based manipulation functions vs. Regular Expressions. 
+* Use string-based manipulation functions vs. Regular Expressions. 
 * Use limited for loops vs. open ended for or while loops. 
 * Do not exceed 1,300 characters or 50 loop iterations. 
 * Do not exceed 2,000 JavaScript instructions. Target has limit of 2,000 JavaScript instructions per script, but this cannot simply be calculated by manually reading the JavaScript. For example, Rhino treats all function calls and "new" calls as 100 instructions. Also, the size of any entry data, such as URL values, can impact the instructions count. 
 * Be mindful of not only the script performance, but the combined performance of all scripts. As best practice, we recommend fewer than 5,000 instructions in total. Counting the number of instructions is not obvious, but the important thing to note is that scripts exceeding 2 KB are automatically disabled. There is no set limit to the number of scripts you can run, but each script is executed with every single mbox call. Run only as many scripts as needed.
 * In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. The script execution can be interrupted if such a regex is matched to a long enough input data (which can be as low as several hundred characters).
 * If all fails, wrap script in a try/catch. 
-* Recommendations for limiting profile script complexity.
-
-  Profile scripts can execute a limited number of instructions.
+* The following recommendations can help you limit profile script complexity. Profile scripts can execute a limited number of instructions.
 
   As best practice:
 
   * Keep profile scripts small and as simple as possible.
   * Avoid regular expressions or use only very simple regular expressions. Even simple expressions can take many instructions to evaluate.
   * Avoid recursion.
-  * Profile scripts should be performance-tested before being added to Target. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute, which might impact traffic and conversion.
+  * Profile scripts should be performance-tested before being added to Target. All profile scripts execute on every mbox request. If profile scripts do not execute correctly, mbox requests take longer to execute. This might impact traffic and conversion.
   * If profile scripts become too complex, consider using [response tokens](/help/administrating-target/response-tokens.md) instead.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -135,12 +142,12 @@ You can use profile attributes to set up tests that compare two or more activiti
 
 Testing mutually exclusive activities prevents a visitor in one activity from affecting the test results for the other activities. When a visitor participates in multiple activities, it can be difficult to determine whether positive or negative lift resulted from the visitor's experience with one activity, or if interactions between multiple activities affected the results of one or more of the activities.
 
-For example, you can test two areas of your ecommerce system. You might want to test making your Add to Cart button red instead of blue. You might also test a new checkout process that reduces the number of steps from five to two. If both activities have the same success event (a completed purchase), it can be hard to determine whether the red button improves conversions, or whether those same conversions were also increased because of the improved checkout process. By separating the tests into mutually exclusive activities, you can independently test each change.
+For example, you can test two areas of your ecommerce system. You might want to test making your "Add to Cart" button red instead of blue. You might also test a new checkout process that reduces the number of steps from five to two. If both activities have the same success event (a completed purchase), it can be difficult to determine whether the red button improves conversions, or whether those same conversions were also increased because of the improved checkout process. By separating the tests into mutually exclusive activities, you can independently test each change.
 
 Be aware of the following information when using one of the following profile scripts:
 
 * The profile script must run before the activity launches and the script must remain unchanged for the duration of the activity. 
-* This technique will reduce the amount of traffic in the activity, which might require the activity to run longer. You must account for this fact when you estimate the duration of the activity.
+* This technique reduces the amount of traffic in the activity, which might require the activity to run longer. You must account for this fact when you estimate the duration of the activity.
 
 ### Setting up two activities
 
@@ -157,17 +164,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` determines whether the *twogroups* profile attribute is set for the current visitor. If they do, no further action is required.
+* `if (!user.get('twogroups'))` determines whether the *twogroups* profile attribute is set for the current visitor. If they do, no further action is required.
 
-`var ran_number=Math.floor(Math.random() *99)` declares a new variable called ran_number, sets its value to a random decimal between 0 and 1, then multiplies it by 99 and rounds it down to create a range of 100 (0-99), useful for specifying a percentage of visitors who see the activity.
+* `var ran_number=Math.floor(Math.random() *99)` declares a new variable called ran_number, sets its value to a random decimal between 0 and 1, then multiplies it by 99 and rounds it down to create a range of 100 (0-99), useful for specifying a percentage of visitors who see the activity.
 
-`if (ran_number <= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-99, the visitor is assigned to GroupB. The group determines which activity the visitor sees.
+* `if (ran_number <= 49)` begins a routine that determines which group the visitor belongs to. If the number returned is 0-49, the visitor is assigned to GroupA. If the number is 50-99, the visitor is assigned to GroupB. The group determines which activity the visitor sees.
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter user.twogroups match the value specified for GroupA.
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->Choose an mbox early on the page. This code determines whether a visitor experiences the campaign. As long as an mbox is encountered first by the browser, it can be used to set this value.
+>Choose an mbox early on the page. This code determines whether a visitor experiences the activity. As long as an mbox is encountered first by the browser, it can be used to set this value.
 
 Set up the second campaign so the user profile parameter `user.twogroups` matches the value specified for GroupB.
 
@@ -252,7 +259,7 @@ Profile scripts are unable to read the page directly because they are executed s
 ## JavaScript reference for script profile parameters
 
 Simple Javascript knowledge is required to effectively use script profile
-Parameters. This section serves as a quick reference to make you productive with this functionality in just a few minutes.
+parameters. This section serves as a quick reference to make you productive with this functionality in just a few minutes.
 
 Script Profile Parameters are found under the mboxes/profiles tab. You can write Javascript programs that return any Javascript type (string, integer, array, and so forth).
 
@@ -308,7 +315,6 @@ else if (mbox.param("adobeQA"))
 
 Creates a variable called `adobeQA` to track a user for [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
-
 ### Objects and methods
 
 The following properties and methods can be referenced by script profile parameters:
@@ -317,7 +323,7 @@ The following properties and methods can be referenced by script profile paramet
 | --- | --- |
 |`page.url`|The current URL.|
 |`page.protocol`|The protocol used for the page (http or https).|
-|page.domain|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`.|
+|`page.domain`|The current URL domain (everything before the first slash). For example, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`.|
 |`page.query`|The query string for the current page. Everything after the ‘?’. For example, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`.|
 |`page.param(‘<par_name>’)`|The value of the parameter indicated by `<par_name>`. If your current URL is Google’s search page and you had inputted `page.param('hl')`, you would get “en” for the URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`.|
 |`page.referrer`|The same set of operations as above apply for referrer and landing (i.e. referrer.url will be the url address of the referrer).|
