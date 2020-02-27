@@ -188,9 +188,7 @@ Anything longer is truncated by the system.
 
 **Recommended limit of total profile scripts per account**: 2,000
 
-**Recommendations for limiting profile script complexity**: Profile scripts can execute a limited number of instructions. For more information, see [Best practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) in [Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md).
-
-**Recommended limit**: 500,000 maximum number of loops per profile script.
+**Recommendations for limiting profile script complexity**: Profile scripts can execute a limited number of instructions. For more information, see [Best practices](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Profile attributes*.
 
 ## Properties
 
