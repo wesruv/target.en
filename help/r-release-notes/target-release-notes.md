@@ -28,19 +28,31 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 
-## Target Standard/Premium 20.2.1 (February 19, 2020)
+## Target Standard/Premium 20.2.1 (March 3, 2020)
 
 >[!IMPORTANT]
 >
 >See the information above about the deprecation of mbox.js.
 
-This release contains the following enhancements and fixes:
+This release contains the following enhancements, fixes, and changes:
 
 * Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
 * Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
 * Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
 * Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
-* Resolved localization issues so that UI text in various languages displays correctly. 
+* Resolved localization issues so that UI text in various languages displays correctly.
+* The following Adobe Analytics metrics are no longer supported for Analytics for Target (A4T) effective with the March 2020 Target release:
+  * averagevisitdepth
+  * bots
+* The following metrics are no longer supported and are automatically converted to new versions of the same metric the first time a user modifies an activity containing the metric:
+
+  |Deprecated Metric|New Metric|
+  |--- |--- |
+  |`averagetimespentonpage`|`averagetimespentonsite` (note: measured in minutes rather than seconds)|
+  |`instances`|`occurrences`|
+  |`singleaccess`|`singlepagevisits`|
+  |`uniquevisitors`|`visitors`|
+  |`visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly`|`visitors`|
 
 ## Prerelease information {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63} 
 
