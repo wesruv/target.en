@@ -21,9 +21,15 @@ Adobe has developed a new “privacy by design” setting that can be enabled by
 
 When this feature is enabled, the IP address is made sufficiently anonymous so it is no longer identifiable as personal information. As a result, Adobe Target can be used in compliance with data privacy laws in countries that do not permit the collection of personal information. Obtaining city-level information will likely be significantly impacted by the obfuscation of the IP address. Obtaining region- and country-level information should only be slightly impacted.
 
-There is also a setting available to obfuscate the entire IP address.
-
 Contact Adobe Client Care to enable the IP obfuscation feature.
+
+The following settings are available:
+
+* No obfuscation: Target does not hide any part of the IP address.
+* Last octet: Target hides the last octet of the IP address.
+* Full IP: Target hides the entire IP address.
+
+Target receives the full IP address and obfuscates it (if set to Last octet or Full IP) as specified. Target then holds the obfuscated IP address in memory for the duration of the session.
 
 ## GeoSegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
