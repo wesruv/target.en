@@ -271,6 +271,7 @@ solution: Target
       + [Visitor profiles overview](c-target/c-visitor-profile/visitor-profile.md)
       + [Visitor profile lifetime](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Profile attributes](c-target/c-visitor-profile/profile-parameters.md)
+      + [Use profile scripts to test mutually exclusive activities](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Category affinity](c-target/c-visitor-profile/category-affinity.md)
       + [Customer attributes](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
