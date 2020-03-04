@@ -24,6 +24,32 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
+## Target Standard/Premium 20.2.1 (March 3, 2020)
+
+>[!IMPORTANT]
+>
+>See the information above about the deprecation of mbox.js.
+
+This release contains the following enhancements, fixes, and changes:
+
+* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
+* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
+* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
+* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
+* Resolved localization issues so that UI text in various languages displays correctly.
+* The following Adobe Analytics metrics are no longer supported for Analytics for Target (A4T) effective with the March 2020 Target release:
+  * averagevisitdepth
+  * bots
+* The following metrics are no longer supported and are automatically converted to new versions of the same metric the first time a user modifies an activity containing the metric:
+
+  |Deprecated Metric|New Metric|
+  |--- |--- |
+  |`averagetimespentonpage`|`averagetimespentonsite` (note: measured in minutes rather than seconds)|
+  |`instances`|`occurrences`|
+  |`singleaccess`|`singlepagevisits`|
+  |`uniquevisitors`|`visitors`|
+  |`visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly`|`visitors`|
+
 ## Adobe Experience Cloud navigation (February 22, 2019)
 
 * When you log in to the [!DNL Adobe Experience Cloud], you will be taken to the new header navigation. It looks very similar to the previous navigation with the black bar at the top, but it provides the following improvements:
@@ -49,20 +75,6 @@ These release notes provide information about features, enhancements, and fixes 
   >[!NOTE]
   >
   >As part of the rollout of the new navigation bar, you will also notice some URL changes. All previous bookmarked links continue to work but we encourage you to bookmark new links for faster opening.
-
-## Target Standard/Premium 20.2.1 (February 19, 2020)
-
->[!IMPORTANT]
->
->See the information above about the deprecation of mbox.js.
-
-This release contains the following enhancements and fixes:
-
-* Fixed an issue that prevented customers from selecting a collection when performing a catalog search. (TGT-36230)
-* Fixed an issue in which a criteria created via API, but not referenced by an activity created in the Target UI, could be erroneously deleted from the UI. (TGT-35917)
-* Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
-* Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
-* Resolved localization issues so that UI text in various languages displays correctly. 
 
 ## Additional release notes and version details
 
