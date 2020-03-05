@@ -40,7 +40,7 @@ This release contains the following enhancements, fixes, and changes:
 * The following Adobe Analytics metrics are no longer supported for Analytics for Target (A4T) effective with the March 2020 Target release:
   * averagevisitdepth
   * bots
-* The following metrics are no longer supported and are automatically converted to new versions of the same metric the first time a user modifies an activity containing the metric:
+* The following metrics are no longer supported and are automatically converted to new versions of the metric the first time a user modifies an activity containing the metric:
 
   |Deprecated Metric|New Metric|
   |--- |--- |

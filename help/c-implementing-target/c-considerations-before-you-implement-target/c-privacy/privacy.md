@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
 description: Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
 title: Privacy
 subtopic: Getting Started
@@ -11,11 +11,11 @@ uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 
 Adobe Target has enabled processes and settings that allow you to use Target in compliance with applicable data privacy laws.
 
-## Collection of IP Address {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Collection of IP addresses {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 The IP address of a visitor to your website is transmitted to an Adobe Data Processing Center (DPC). Depending on the network configuration for the visitor, the IP address does not necessarily represent the IP address of the visitor’s computer. For example, the IP address could be the external IP address of a Network Address Translation (NAT) firewall, HTTP proxy, or Internet gateway. Target doesn't store any IP addresses of the user or any Personally Identifiable Information (PII). IP addresses are used only by Target for the duration of the session (in-memory, never persisted).
 
-## Replacement of Last Octet of the IP Address {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Replacement of last octet of IP addresses {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe has developed a new “privacy by design” setting that can be enabled by Adobe Client Care for Adobe Target. When this setting is enabled, the last octet (the last portion) of the IP address is immediately hidden when the IP address is collected by Adobe. This anonymization is performed prior to any processing of the IP address, including before an optional geo-lookup of the IP address.
 
@@ -37,7 +37,7 @@ If you enable the replacement of the last octet of the IP address, the remaining
 
 If IP addresses are completely obfuscated, GeoSegmentation and geo targeting is not available.
 
-## Opt-Out Link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 You can add an opt-out link to your sites to enable visitors to opt-out of all counting and content delivery.
 
@@ -49,3 +49,7 @@ You can add an opt-out link to your sites to enable visitors to opt-out of all c
 Any visitor who clicks this link is not included in any mbox requests called from their browsing sessions until they delete their cookies, or for two years, whichever comes first. This works by setting a cookie for the visitor called `disableClient` in the `clientcode.tt.omtrdc.net` domain.
 
 Even if you use a first-party cookie implementation, the provided opt-out is set via a 3rd-party cookie. If the client is using a first-party cookie only, Target checks whether an opt-out cookie is set. 
+
+## Privacy and data protection regulations
+
+See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union's General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
