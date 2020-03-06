@@ -17,6 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |March 6|[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added more information in the "Replacement of last octet of IP addresses" section.|
 ||[Release Notes](/help/r-release-notes/release-notes.md)|Changed release date to March 9.|
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
+||[Release Notes](/help/r-release-notes/release-notes.md)|Changed the release date to March 9.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about deprecated and changed metrics when using Target for Analytics (A4T).|
 |February 21|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the new Adobe Experience Cloud navigation.|
 |February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
