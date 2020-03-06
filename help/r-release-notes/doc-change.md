@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 6|[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added more information in the "Replacement of last octet of IP addresses" section.|
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
 ||[Release Notes](/help/r-release-notes/release-notes.md)|Changed the release date to March 9.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about deprecated and changed metrics when using Target for Analytics (A4T).|
