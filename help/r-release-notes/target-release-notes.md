@@ -1,5 +1,5 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
 description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
 title: Adobe Target prerelease notes
 topic: Standard
@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: February 18, 2020**
+**Last Updated: March 9, 2020**
 
 >[!NOTE]
 >
@@ -28,7 +28,9 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 
-## Target Standard/Premium 20.2.1 (March 9, 2020)
+## Target Standard/Premium 20.2.1 (To Be Determined)
+
+Check back here for the exact date when that information becomes available.
 
 >[!IMPORTANT]
 >

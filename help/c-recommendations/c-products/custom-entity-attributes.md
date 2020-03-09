@@ -17,7 +17,7 @@ The maximum length of single-value entity custom attributes is 15,000 characters
 
 Multi-value entity custom attributes can contain no more than 500 values. Each individual value is limited to 100 characters. The total number of characters across all values must conform to the limitations for the maximum length of single-value entity custom attributes (see above.)
 
-## Custom Entity Attribute Values {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Custom entity attributes can contain a single value or multiple values. Entity attribute values are displayed in the product view.
 
@@ -57,7 +57,7 @@ After a custom attribute is sent as a valid JSON array, the attribute is treated
 * Arrays must contain a single value type. Mixed-value arrays ( `["AB",1,true]`) are not supported. 
 * A multi-value attribute that includes a nested JSON array ( `[10,12,[1,2,3]]`) is treated as a single-value attribute.
 
-## Implementing Multi-Value Attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Multi-value custom entity attributes are supported when using feeds (CSV), `targetPageParams`, Delivery API, and the Save entities API to upload products. New values replace current values; they are not appended. Empty arrays ( [] ) are treated as having no values.
 
@@ -105,10 +105,16 @@ Use caution when editing a raw catalog CSV file directly.
 
 **Using APIs**
 
+You can pass multi-value attributes using the Delivery API in an mbox parameter as a string value containing an escaped JSON array.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## Using Operators with Multi-Value Attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 When you apply operators to multi-valued custom attributes in algorithm inclusion rules, catalog rules, and exclusion rules, the result will be *true* if at least one value in the list passes the operation (boolean *or*).
 
@@ -140,7 +146,7 @@ Refer to the table below for operator behavior in algorithm inclusion rules, cat
 >
 >*Double* is a Java data type. For operators that require numeric values, converting to double eliminates non-numeric values from consideration in the results.
 
-## Multi-Value Attributes in Designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Multi-value attributes will appear as a comma-separated list when referenced in a design.
 
