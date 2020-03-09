@@ -1,5 +1,5 @@
 ---
-keywords: multi-value;attributes;recommendations;multi value;multivalue
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: Information about working with a multi-value field in Adobe Target Recommendations using special multi-value operators.
 title: Working with multi-value attributes in Adobe Target Recommendations
 ---
@@ -16,14 +16,24 @@ To handle recommendations in these scenarios, you can pass multi-value data to [
 
 To allow [!DNL Recommendations] to identify multi-value data, it should be sent as a JSON array, as in the below code samples.
 
-## Pass a multi-value mbox parameter in JavaScript
+## Pass a multi-value parameter in JavaScript
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+For more information, see [Implementing multi-value attributes](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Custom entity attributes*.
 
 ## Pass a multi-value entity attribute in a CSV file
 

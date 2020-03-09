@@ -1,5 +1,5 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: These release notes provide information about features, enhancements, fixes, and known issues for each Adobe Target Standard and Target Premium release.
 title: Adobe Target release notes (current) 
 topic: Recommendations
@@ -24,7 +24,9 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >* The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 20.2.1 (March 9, 2020)
+## Target Standard/Premium 20.2.1 (To Be Determined)
+
+Check back here for the exact date when that information becomes available.
 
 >[!IMPORTANT]
 >
