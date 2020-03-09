@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 ||[Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md)|Added code sample in *Using APIs* under *Implementing multi-value attributes*.|
 ||[Release Notes](/help/r-release-notes/release-notes.md)|Changed release date to March 9.|
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
-||[Release Notes](/help/r-release-notes/release-notes.md)|Changed the release date to March 9.|
+||[Release Notes](/help/r-release-notes/release-notes.md)|Indicated that this release date is yet to be determined.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about deprecated and changed metrics when using Target for Analytics (A4T).|
 |February 21|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the new Adobe Experience Cloud navigation.|
 |February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
