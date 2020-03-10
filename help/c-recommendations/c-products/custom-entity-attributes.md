@@ -108,7 +108,19 @@ Use caution when editing a raw catalog CSV file directly.
 You can pass multi-value attributes using the Delivery API in an mbox parameter as a string value containing an escaped JSON array.
 
 ```
-"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+"execute": {
+    "mboxes": [
+      {
+        "index": 0,
+        "name": "first-mbox",
+        "parameters": {
+          "entity.id": "32323",
+          "entity.categoryId": "My Category",
+          "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]"
+        }
+      }
+    ]
+  }
 ```
 
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
