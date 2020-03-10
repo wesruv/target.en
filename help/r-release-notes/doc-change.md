@@ -17,7 +17,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |March 9|[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added more information in the "Replacement of last octet of IP addresses" section.|
 ||[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|Updated code sample in *Pass a multi-value parameter in JavaScript*.|
 ||[Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md)|Added code sample in *Using APIs* under *Implementing multi-value attributes*.|
-||[Release Notes](/help/r-release-notes/release-notes.md)|Changed release date to March 9.|
+||[Release Notes](/help/r-release-notes/release-notes.md)|Indicated that this release's date is yet to be determined.|
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
 ||[Release Notes](/help/r-release-notes/release-notes.md)|Indicated that this release date is yet to be determined.|
 ||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about deprecated and changed metrics when using Target for Analytics (A4T).|
