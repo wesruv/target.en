@@ -85,9 +85,9 @@ The following are possible error messages you might receive if Target encounters
 |Directory Not Found|Provide a directory that exists on the server.|
 |File Not Found|Provide the name of a file that exists on the server in the directory indicated.|
 
-## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
-This video contains the following information:
+This video contains the following information (details about uploading custom criteria begins at 11:43):
 
 * Create criteria
 * Create criteria sequences

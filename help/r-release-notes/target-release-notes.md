@@ -28,9 +28,7 @@ These release notes provide information about features, enhancements, and fixes 
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
 
-## Target Standard/Premium 20.2.1 (To Be Determined)
-
-Check back here for the exact date when that information becomes available.
+## Target Standard/Premium 20.2.1 (March 17, 2020)
 
 >[!IMPORTANT]
 >
