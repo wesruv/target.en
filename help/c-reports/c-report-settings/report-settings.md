@@ -19,9 +19,12 @@ You can save up to ten different presets of an individual activity's report afte
 
 You can also configure an individual activity's report as desired and then save that configuration as your default/favorite preset. This is the view that displays whenever you view that activity's report going forward.
 
-**Create a Preset or Default Preset**
+### Create a preset or default preset
 
-1. Configure the activity's report as desired (metrics, date ranges, audiences, advanced settings, and so forth). 
+1. Configure the activity's report as desired.
+
+   The available settings, including metrics, date ranges, audiences, advanced settings, and so forth are explained below.
+
 1. Next to **[!UICONTROL Target Preset]**, click the three vertical ellipses icon > **[!UICONTROL Save as New]**.
 
    ![Report Preset](/help/c-reports/c-report-settings/assets/report_preset-new.png)
@@ -34,13 +37,13 @@ You can also configure an individual activity's report as desired and then save 
 1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set This as Default Preset]** toggle to the On position. 
 1. Click **[!UICONTROL Save]**.
 
-**Select a Different Preset**
+### Select a different preset
 
 Select the desired preset from the **[!UICONTROL Target Preset]** drop-down list.
 
 ![Preset drop-down list](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**Edit a Preset**
+### Edit a Preset
 
 1. Select the preset that you want to edit. 
 1. Edit the report's configuration as desired (metrics, date ranges, audiences, advanced settings, and so forth).
@@ -57,7 +60,7 @@ Select the desired preset from the **[!UICONTROL Target Preset]** drop-down list
 
    ![Report Default update](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**Delete a Preset**
+### Delete a preset
 
 1. Select the preset that you want to delete. 
 1. Click the three vertical ellipses icon > **[!UICONTROL Delete]**.
@@ -66,7 +69,7 @@ Select the desired preset from the **[!UICONTROL Target Preset]** drop-down list
 
 1. Click **[!UICONTROL Delete]** again to confirm your deletion.
 
-**Preset Error Handling**
+### Preset error handling
 
 Alerts and messages inside reports let you know if a preset becomes invalid. The alert or message instructs you to choose another audience, metric, host group, or experience to make a valid preset.
 
@@ -76,7 +79,7 @@ The following list describes some of the situations that might cause a preset to
 * One (or more) metric was deleted but is referenced in the preset definition. For example, you might delete one or more metrics from the activity and then add new metrics. 
 * One (or more) host group (environment) does not exist but is referenced in the preset definition. 
 * One (or more) experience was deleted after the preset was created but is referenced in the preset definition. 
-* A preset is semantically invalid because referred entities still exist but were updated in a manner that the preset definition has semantically changed. For example, suppose you initially create a preset named "Revenue on Chrome." You later update the activity to measure the Conversion metric instead of Revenue. This update to the activity definition invalidated the preset definition semantically.
+* A preset is semantically invalid because referred entities still exist but were updated in a manner that the preset definition has semantically changed. For example, suppose you initially create a preset named "Revenue on Chrome." You later update the activity to measure the Conversion metric instead of Revenue. This update to the activity definition invalidates the preset definition semantically.
 
 ## Report Metric {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -88,13 +91,13 @@ For more information about selecting multiple metrics to view in reports, see [V
 
 ## Audience {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Click the [!UICONTROL Audience] drop-down list to change the displayed [audience](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) for the report.
+Click the [!UICONTROL Audience] drop-down list to change the displayed audience for the report.
 
 For more information, see [Audiences](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Date Range {#section_A410A768403C4E01891F95CB357E63ED}
 
-The Date Range box displays the reports current date range. Click the drop-down icon to display a calendar that lets you change the report's date range.
+The Date Range box displays the report's current date range. Click the drop-down icon to display a calendar that lets you change the report's date range.
 
 ![Calendar](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
@@ -142,17 +145,20 @@ Click the Download icon to download report data in a [!DNL .csv] format for quic
 
 Click the Refresh icon to refresh a report's table and graph view without refreshing the entire page, its configuration, or its date range.
 
-## More Options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Click the More Options icon (three vertical ellipses) to access the [!UICONTROL Edit Activity] and [!UICONTROL View Experience URLs] options.
 
-## Table View {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## View options
 
-Click the **[!UICONTROL Table View]** icon to view the report as a table.
+You can view the report in various formats, depending on the activity type. Select the desired option.
 
-## Graph View {#section_0D24B902A8D142468ADB7EEF1D941786}
+![View options icons](/help/c-reports/c-report-settings/assets/view-options.png)
 
-Click the **[!UICONTROL Graph View]** icon to view the report as a graph.
+* **Table View**: Click the **[!UICONTROL Table View]** icon to view the report as a table.
+* **Graph View**: Click the **[!UICONTROL Graph View]** icon to view the report as a graph.
+* **Automated Segments**:(Available only for Automated Personalization (AP) and Auto-Target (AT) activities.) Click the **[!UICONTROL Automated Segments] icon to view the [Automated segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Important Attributes**: (Available only for Automated Personalization (AP) and Auto-Target (AT) activities.) Click the **[!UICONTROL Important Attributes] icon to view the [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Average Lift, Lift Bounds, and Confidence Interval {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -163,7 +169,7 @@ For more information, see [Average Lift, Lift Bounds, and Confidence Interval](.
 Consider the following:
 
 * Available only when viewing reports in Table View. 
-* This feature is not available for activities that use Analytics as the reporting source (A4T).
+* This feature is not available for activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## Location Contribution {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
@@ -183,18 +189,21 @@ If the following illustration, only experiences Default, Mid-East, and Total dis
 
 (Available only when viewing the report in Graph View)
 
+"Running Average" reflects the cumulative conversions (from the start of the reporting window to the date represented on the graph) divided by the cumulative visitors.
+
 Select the desired graph view:
 
 * Running Average 
 * Running Average Lift 
-* Daily 
+* Daily Control
+* Daily Targeted
 * Daily Lift
 
 ![Report Running Average](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->The name of this drop-down list varies depending on the selected view, but it'll be one of the four views listed above.
+>The name of this drop-down list varies depending on the selected view, but it'll be one of the views listed above.
 
 ## Counting Methodology {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -206,13 +215,13 @@ To access the Counting Methodology option, while viewing a report in graph mode,
 
 The counting methodology will be the same as the one selected in the [!UICONTROL Settings] dialog, described above.
 
-![Counting Methodology](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
+![Counting Methodology](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 By default, the graph is plotted in [!UICONTROL Daily] mode.
 
-You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting [!UICONTROL Cumulative].
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![Cumulative](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![Cumulative](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -222,17 +231,17 @@ There are four modes for Auto-Target activities: Daily Control, Daily Targeted, 
 
 The default order in which the graph is plotted is as follows:
 
-* A/B Tests (including Auto-Allocate and Automated Personalization): Order of experience creation, in descending order. 
-* Experience Targeting (XT): Order of experiences in the activity. 
-* Multivariate Test (MVT): Alphabetical by experience name. 
-* Recommendations: Order of experience creation, in descending order.
+* **A/B Tests (including Auto-Allocate and Automated Personalization)**: Order of experience creation, in descending order. 
+* **Experience Targeting (XT)**: Order of experiences in the activity. 
+* **Multivariate Test (MVT)**: Alphabetical by experience name. 
+* **Recommendations**: Order of experience creation, in descending order.
 
 As you work with the Counting Methodology options, consider the following caveats:
 
-* For an Auto-Target activity, there is no option for selecting "Visitors" as the counting methodology. Auto-Target is the only activity type that you cannot plot by visitors. 
-* For activities that use Analytics as the reporting source (A4T), you cannot plot Visitor, Visit, or Impression cumulatively.
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting "Visitors" as the counting methodology. Auto-Target is the only activity type that you cannot plot by visitors. 
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**Working with Graphs That Have More Than 16 Experiences in the Activity**
+## Working with graphs that have more than 16 experiences in the activity
 
 If an activity has fewer than 16 experiences, each experience is plotted in a different color in the graph.
 

@@ -200,9 +200,7 @@ Anything longer is truncated by the system.
 
 ## Reusable Audiences/Account
 
-**Recommended limit**: 75 audiences.
-
-JavaScript timeouts occur in the interface if you have too many.
+**Recommended limit**: 20,000 audiences.
 
 ## Script profile input box in the Target UI
 
