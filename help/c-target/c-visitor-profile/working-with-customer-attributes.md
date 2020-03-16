@@ -1,5 +1,5 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: Information about using enterprise customer data from a customer relationship management (CRM) databases for content targeting in Adobe Target by using Customer Attributes in the Adobe Profiles & Audiences core service.
 title: Customer attributes in Adobe Target
 subtopic: Getting Started
@@ -29,7 +29,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. In our current design, there is a possibility that a small percentage of data might not be onboarded. 
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. For more information, see [Visitor Profile Lifetime](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD). 
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to UNAUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` has to have the value of 1 (AUTHENTICATED).
 

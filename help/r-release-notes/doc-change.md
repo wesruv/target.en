@@ -14,7 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
-|March 13|[Limits](/help/r-troubleshooting-target/target-limits.md)|Udated the number of Reusable Audiences/Account.|
+|March 13|[Limits](/help/r-troubleshooting-target/target-limits.md)|Udated the number of "Audiences, reusable per account."|
 |March  12|[Release Notes](/help/r-release-notes/release-notes.md#summit)|Added registration information for free access to the online, digital Summit conference.|
 |March 11|[Release notes (current)](/help/r-release-notes/release-notes.md)|Indicated that the Target Standard/Premium 20.2.1 release will be March 17, 2020.|
 |March 9|[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added more information in the "Replacement of last octet of IP addresses" section.|
