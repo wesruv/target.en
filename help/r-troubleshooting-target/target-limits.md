@@ -36,6 +36,10 @@ Information about the character limits and other limits (offer size, audiences, 
 
 **Limit**: 50 audiences per mbox, metric, or experience.
 
+## Audiences, reusable per account
+
+**Recommended limit**: 20,000 audiences.
+
 ## categoryId parameter
 
 **Limit**: 128 characters.
@@ -47,6 +51,12 @@ Information about the character limits and other limits (offer size, audiences, 
 ## Customer attribute alias ID
 
 **Limit** 50 characters.
+
+## Customer attributes, uploading
+
+* **Maximum file size for each upload using the HTTP method**: 100 MB. 
+* **maximum file size for each upload using the FTP method**: 4 GB. 
+* **Number of attributes allowed to subscribe**: 5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
 ## Entity custom attributes
 
@@ -197,10 +207,6 @@ Anything longer is truncated by the system.
 ## Reporting audiences/segments
 
 **Limit**: 50 reporting audiences/segments per activity.
-
-## Reusable Audiences/Account
-
-**Recommended limit**: 20,000 audiences.
 
 ## Script profile input box in the Target UI
 
