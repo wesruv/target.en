@@ -19,7 +19,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 Data onboarded to the [!DNL Experience Cloud] is available for all [!DNL Experience Cloud] workflows. [!DNL Target] uses this data for targeting returning customer based on attributes. [!DNL Adobe Analytics] consumes these attributes and they can be used for analysis and segmentation.
 
-![](assets/crs.png)
+![crs example](/help/c-target/c-visitor-profile/assets/crs.png)
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
@@ -51,7 +51,7 @@ Consider the following information as your work with customer attributes and [!D
 
 Complete the following steps to use CRM data in [!DNL Target], as illustrated below:
 
-![](assets/crm_workflow.png)
+![crm workflow](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
 Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
@@ -61,11 +61,11 @@ Detailed instructions for completing each of the following tasks can be found in
 
    The following illustration shows a sample enterprise customer data file:
 
-   ![](assets/CRS_sample.png)
+   ![crs sample](/help/c-target/c-visitor-profile/assets/CRS_sample.png)
 
    The following illustration shows a sample enterprise customer .csv file:
 
-   ![](assets/CRS_CSV_sample.png)
+   ![csv sample](/help/c-target/c-visitor-profile/assets/CRS_CSV_sample.png)
 
 1. Create the attribute source and upload the data file.
 
@@ -88,17 +88,17 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Click **[!UICONTROL Save]** after the schema validation is complete. The file upload time varies depending on the size.
 
-   ![](assets/SchemaValidate.png)
+   ![Validate schema](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![](assets/upload1.png)
+   ![Upload schema](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. Configure subscriptions and activate the attribute source.
 
    Click **[!UICONTROL Add Subscription]**, then select the solution to subscribe these attributes. [Configure subscriptions](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) sets up the data flow between the [!DNL Experience Cloud] and solutions. Activating the attribute source allows the data to flow to subscribed solutions. The customer records you have uploaded are matched up with incoming ID signals from your website or application.
 
-   ![](assets/solution.png)
+   ![Configure solution](/help/c-target/c-visitor-profile/assets/solution.png)
 
-   ![](assets/activate.PNG)
+   ![Activate](/help/c-target/c-visitor-profile/assets/activate.png)
 
    While performing this step, be aware of the following limitations:
 
