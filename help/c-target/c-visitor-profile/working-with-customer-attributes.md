@@ -165,7 +165,7 @@ Be aware of the following implementation issues:
 
 * The Visitor Id was not passed correctly. The ID was passed in `mboxMCGVID` instead of `setCustomerId`.
 * The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated.
-* `mbox3rdPartyId` was not passed correctly.</li>
+* `mbox3rdPartyId` was not passed correctly.
 
 ### Issue 5: `mboxUpdate` not performed properly
 
