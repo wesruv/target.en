@@ -145,7 +145,11 @@ For more information about using customer attributes in [!DNL Target], see the f
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-You might encounter the following issues when working with customer attributes and [!DNL Target]:
+You might encounter the following issues when working with customer attributes and [!DNL Target].
+
+>[!NOTE]
+>
+>Issues 1 and 2 cause approximately 60% of problems in this area. Issue 3 causes approximately 30% of problems. Issue 4 causes approximately 5% of problems. The remaining 5% are due to miscellaneous issues.
 
 ### Issue 1: Customer attributes are removed because the profile is too large
 
@@ -174,10 +178,6 @@ Be aware of the following implementation issues:
 ### Issue 6: Customer attributes are not being imported into [!DNL Target]
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
-
->[!NOTE]
->
->Issues 1 and 2 above cause approximately 60% of problems in this area. Issue 3 causes approximately 30% of problems. Issue 4 causes approximately 5% of problems. The remaining 5% are due to miscellaneous issues.
 
 ## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
