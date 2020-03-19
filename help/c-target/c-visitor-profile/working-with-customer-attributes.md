@@ -39,11 +39,11 @@ Consider the following information as your work with customer attributes and [!D
 
 ## Access Customer Attributes in the People core service
 
-1. In the [!DNL Adobe Experience Cloud], click the menu icon ( ![menu icon](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) then click [!UICONTROL People].
+1. In the [!DNL Adobe Experience Cloud], click the menu icon ( ![menu icon](/help/c-target/c-visitor-profile/assets/menu-icon.png) ) then click **[!UICONTROL People]**.
 
    ![People](/help/c-target/c-visitor-profile/assets/people.png)
 
-1. Click the Customer Attributes tab.
+1. Click the **[!UICONTROL Customer Attributes]** tab.
 
    ![Customer Attributes tab](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -77,10 +77,10 @@ Detailed instructions for completing each of the following tasks can be found in
 
    Your data file must comply with the file Upload Requirements and must not exceed 100MB. If your file is too big or you have data that will need to be uploaded on a recurring basis you can FTP your files instead.
 
-    * **HTTPS:** You can drag-and-drop the .csv data file or click **[!UICONTROL Browse]** to upload from your file system. 
-    * **FTP:** Click the FTP link to [upload the file through FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). First step is to provide a password for the Adobe-provided FTP server. Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** You can drag-and-drop the .csv data file or click **[!UICONTROL Browse]** to upload from your file system. 
+   * **FTP:** Click the FTP link to [upload the file through FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). First step is to provide a password for the Adobe-provided FTP server. Specify the password, then click **[!UICONTROL Done]**.
 
-      Now transfer your CSV/ZIP/GZIP file to the FTP server. After this file transfer is successful, create a new file with same name and .fin extension. Transfer this empty file to the server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+   Now transfer your CSV/ZIP/GZIP file to the FTP server. After this file transfer is successful, create a new file with same name and .fin extension. Transfer this empty file to the server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Validate the schema.
 
@@ -102,9 +102,9 @@ Detailed instructions for completing each of the following tasks can be found in
 
    While performing this step, be aware of the following limitations:
 
-    * The maximum file size for each upload using the HTTP method is 100 MB. 
-    * The maximum file size for each upload using the FTP method is 4 GB. 
-    * The number of attributes allowed to subscribe: 5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
+   * The maximum file size for each upload using the HTTP method is 100 MB. 
+   * The maximum file size for each upload using the FTP method is 4 GB. 
+   * The number of attributes allowed to subscribe: 5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
 ## Use customer attributes in Target {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
