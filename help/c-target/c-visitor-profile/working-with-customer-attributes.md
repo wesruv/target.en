@@ -147,19 +147,19 @@ For more information about using customer attributes in [!DNL Target], see the f
 
 You might encounter the following issues when working with customer attributes and [!DNL Target]:
 
-### 1. Customer attributes are removed because the profile is too large
+### Issue 1: Customer attributes are removed because the profile is too large
 
 There is no character limit on a particular field in the user's profile, but if the profile gets larger than 64K, it is truncated by removing the oldest attributes until the profile is below 64K again.
 
-### 2. Attributes not listing in the Audience Library in [!DNL Target], even after several days
+### Issue 2: Attributes not listing in the Audience Library in [!DNL Target], even after several days
 
 This is usually a Pipeline connection problem. As a resolution, ask your Customer Attributes team to republish the feed.
 
-### 3. Delivery not working based on the attribute
+### Issue 3: Delivery not working based on the attribute
 
 The profile has not been updated on the edge yet. As a resolution, ask your Customer Attributes team to republish the feed.
 
-### 4. Implementation issues
+### Issue 4: Implementation issues
 
 Be aware of the following implementation issues:
 
@@ -167,11 +167,11 @@ Be aware of the following implementation issues:
 * The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated.
 * `mbox3rdPartyId` was not passed correctly.</li>
 
-### 5. `mboxUpdate` not performed properly
+### Issue 5: `mboxUpdate` not performed properly
 
 `mboxUpdate`  was not performed properly with `mbox3rdPartyId`.
 
-### 6. Customer attributes are not being imported into [!DNL Target]
+### Issue 6: Customer attributes are not being imported into [!DNL Target]
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
