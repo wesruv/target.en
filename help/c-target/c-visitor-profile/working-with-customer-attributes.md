@@ -163,11 +163,11 @@ The profile has not been updated on the edge yet. As a resolution, ask your Cust
 
 Be aware of the following implementation issues:
 
- * The Visitor Id was not passed correctly. The ID was passed in `mboxMCGVID` instead of `setCustomerId`.
- * The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated.
- * `mbox3rdPartyId` was not passed correctly.</li>
+* The Visitor Id was not passed correctly. The ID was passed in `mboxMCGVID` instead of `setCustomerId`.
+* The Visitor Id was passed correctly, but the AUTHENTICATION state was not set to Authenticated.
+* `mbox3rdPartyId` was not passed correctly.</li>
 
- ### 5. `mboxUpdate` not performed properly
+### 5. `mboxUpdate` not performed properly
 
 `mboxUpdate`  was not performed properly with `mbox3rdPartyId`.
 
