@@ -14,16 +14,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 20|[Release notes (current)](/help/r-release-notes/release-notes.md)|Indicated that the Target Standard/Premium 20.2.1 release will be March 23, 2020.|
 |March 13|[Limits](/help/r-troubleshooting-target/target-limits.md)|Udated the number of "Audiences, reusable per account."|
-|March  12|[Release Notes](/help/r-release-notes/release-notes.md#summit)|Added registration information for free access to the online, digital Summit conference.|
-|March 11|[Release notes (current)](/help/r-release-notes/release-notes.md)|Indicated that the Target Standard/Premium 20.2.1 release will be March 17, 2020.|
+|March  12|[Release Notes (current)](/help/r-release-notes/release-notes.md#summit)|Added registration information for free access to the online, digital Summit conference.|
 |March 9|[Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)|Added more information in the "Replacement of last octet of IP addresses" section.|
 ||[Work with multi-value attributes](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)|Updated code sample in *Pass a multi-value parameter in JavaScript*.|
 ||[Custom entity attributes](/help/c-recommendations/c-products/custom-entity-attributes.md)|Added code sample in *Using APIs* under *Implementing multi-value attributes*.|
-||[Release Notes](/help/r-release-notes/release-notes.md)|Indicated that this release's date is yet to be determined.|
 |March 4|[Profile attributes](/help/c-target/c-visitor-profile/profile-parameters.md)|Updated entire topic, with extensive revisions to the "Best practices" section.|
-||[Release Notes](/help/r-release-notes/release-notes.md)|Indicated that this release date is yet to be determined.|
-||[Target release notes (current)](/help/r-release-notes/release-notes.md)|Added information about deprecated and changed metrics when using Target for Analytics (A4T).|
 |February 21|[Release notes (current)](/help/r-release-notes/release-notes.md)|Added information about the new Adobe Experience Cloud navigation.|
 |February 20|[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Updated the description for the `enabled` setting. Added information for the following settings: `pageLoadEnabled` and `viewsEnabled`.|
 |February 19|[Release Notes](/help/r-release-notes/release-notes.md)|Added information about the upcoming deprecation of the mbox.js library.|

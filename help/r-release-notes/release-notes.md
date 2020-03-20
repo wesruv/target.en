@@ -34,7 +34,7 @@ Adobe Summit has become a virtual event! Adobe is pulling out all of the stops w
 
 To register for free access to the entire digital event, go to [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
 
-## Target Standard/Premium 20.2.1 (March 17, 2020)
+## Target Standard/Premium 20.2.1 (March 23, 2020)
 
 >[!IMPORTANT]
 >
@@ -47,18 +47,21 @@ This release contains the following enhancements, fixes, and changes:
 * Implemented security improvements to the Content Security Policy (CSP). (TGT-36190)
 * Fixed an issue that caused "NaN%" to display when sliding the Attribute Weighting percentage bar to the far left. (TGT-36211)
 * Resolved localization issues so that UI text in various languages displays correctly.
-* The following Adobe Analytics metrics are no longer supported for Analytics for Target (A4T) effective with the March 2020 Target release:
-  * averagevisitdepth
-  * bots
-* The following metrics are no longer supported and are automatically converted to new versions of the metric the first time a user modifies an activity containing the metric:
+* We’ve standardized the list of available metrics from Adobe Analytics for Target (A4T) activities by deprecating Adobe Analytics metrics not supported in the current version of Adobe Analytics APIs. This will enable us to extend our A4T support in future Adobe Target releases. 
 
-  |Deprecated Metric|New Metric|
+  The following changes have been made:
+
+  * "Average Time Spent on Page" has been replaced by "Average Time Spent on Site." Any activities using this as metric the Primary Goal Metric will have "Average Time Spent on Site" (note: measured in minutes rather than seconds) selected as the Primary Goal Metric the next time the activity is edited.
+  * "Visitors" has been replaced by "Unique Visitors." Any activities using this metric as the Primary Goal Metric will have "Unique Visitors" selected as the Primary Goal Metric the next time the activity is edited.
+
+* The following metrics have been deprecated and can no longer be selected as the Primary Goal Metric when creating a new A4T activity.
+
+  |Deprecated Metric(s)|Suggested Replacement Metric(s)|
   |--- |--- |
-  |`averagetimespentonpage`|`averagetimespentonsite` (note: measured in minutes rather than seconds)|
-  |`instances`|`occurrences`|
-  |`singleaccess`|`singlepagevisits`|
-  |`uniquevisitors`|`visitors`|
-  |`visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly`|`visitors`|
+  |Daily Visitors, Hourly Visitors, Monthly Visitors, Quarterly Visitors, Weekly Visitors, Yearly Visitors|Unique Visitors|
+  |Average Visit Depth|n/a. Not suggested as a primary goal metric|
+  |Bots|n/a. Not suggested as a primary goal metric|
+  |Mobile Crash Rate, Mobile Avg Prev Session Length, Mobile App Store Avg Rank, Mobile App Performance Crash Rate, Mobile App Store Avg Rating|n/a. Not suggested as a primary goal metric|
 
 ## Adobe Experience Cloud navigation (February 22, 2019)
 
