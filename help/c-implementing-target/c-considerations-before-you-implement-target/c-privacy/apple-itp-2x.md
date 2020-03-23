@@ -17,9 +17,9 @@ These versions of ITP include the following restrictions:
 [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)|Capped client-side cookies that are placed on the browser using the `document.cookie` API to a seven-day expiry.<br>Released February 21, 2019.|
 |[ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/)|Drastically reduced the seven-day expiry cap to one day.<br>Released April 24, 2019.|
 
-## What is the impact to me as an Adobe Target customer?
+## What is the impact to me as an Adobe Target customer? {#impact}
 
-[!DNL Target] provides JavaScript libraries for you to deploy on your pages so that [!DNL Target] can deliver real-time personalization to your visitors. There are three Target JavaScript libraries ([at.js 1.*x* and at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors' browsers via the `document.cookie` API. As a result, [!DNL Target] cookies are impacted by Apple’s ITP 2.1 and 2.2 and will expire after seven days (with ITP 2.1) and after one day (with ITP 2.2).
+[!DNL Target] provides JavaScript libraries for you to deploy on your pages so that [!DNL Target] can deliver real-time personalization to your visitors. There are three Target JavaScript libraries ([at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors' browsers via the `document.cookie` API. As a result, [!DNL Target] cookies are impacted by Apple’s ITP 2.1 and 2.2 and will expire after seven days (with ITP 2.1) and after one day (with ITP 2.2).
 
 Apple ITP 2.1 and 2.1 impact [!DNL Target] in the following areas:
 
@@ -27,6 +27,8 @@ Apple ITP 2.1 and 2.1 impact [!DNL Target] in the following areas:
 | --- | --- |
 |Potential increase of unique visitor counts|Due to the expiration window being set to seven days (with ITP 2.1) and one day (with ITP 2.2), you might see an increase of unique visitors coming from Safari browsers. If your visitors revisit your domain after seven days (ITP 2.1) or one day (ITP 2.2), [!DNL Target] is forced to place a new [!DNL Target] cookie on your domain in place of the expired cookie. The new [!DNL Target] cookie translates to a new unique visitor even though the user is the same.|
 |Decreased lookback periods for [!DNL Target] activities|Visitor profiles for [!DNL Target] activities might have a decreased lookback period for decisioning. [!DNL Target] cookies are leveraged to identity a visitor and store user profile attributes for personalization. Given that [!DNL Target] cookies can be expired on Safari after seven days (ITP 2.1) or one day (ITP 2.2), the user profile data that was tied to the purged [!DNL Target] cookie cannot be used for decisioning.|
+|Profile scripts based on 3rdPartyID|Due to the expiration window being set to seven days (with ITP 2.1) and one day (with ITP 2.2), [profile scripts](/help/c-target/c-visitor-profile/profile-parameters.md) based on the 3rdPartyID cookie will stop functioning upon expiration.|
+|QA/Preview URLs in iOS devices|Due to the expiration window being set to seven days (with ITP 2.1) and one day (with ITP 2.2), [QA/Preview URLs](/help/c-activities/c-activity-qa/activity-qa.md) will stop functioning upon expiration because the URLs are based on the 3rdPartyID cookie.|
 
 ## Is my current implementation of [!DNL Target] impacted?
 
