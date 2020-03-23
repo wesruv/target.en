@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 24|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact)|Added information about impacts for the following:<ul><li>Profile scripts based on 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul>|
 |March 20|[Release notes (current)](/help/r-release-notes/release-notes.md)|Indicated that the Target Standard/Premium 20.2.1 release will be March 23, 2020.|
 |March 13|[Limits](/help/r-troubleshooting-target/target-limits.md)|Udated the number of "Audiences, reusable per account."|
 |March  12|[Release Notes (current)](/help/r-release-notes/release-notes.md#summit)|Added registration information for free access to the online, digital Summit conference.|
