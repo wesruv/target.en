@@ -36,7 +36,7 @@ See [This page has insecure content](https://support.google.com/chrome/answer/13
 
 If you are using the VEC with the latest version of Chrome (version 79.0.3945.117 or later), you need to update your site settings. Visitors to your site will not need to complete these steps.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 The above video outlines the required steps:
 
