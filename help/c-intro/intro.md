@@ -12,9 +12,9 @@ Adobe Target is the Adobe Experience Cloud solution that provides everything you
 
 The following videos provide a basic understanding of how Target, along with other Adobe Experience Cloud solutions, can help your organization achieve its goals:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 The [!DNL Adobe Target] solution contains several components: 
 
