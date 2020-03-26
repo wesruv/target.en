@@ -40,6 +40,8 @@ You can override the following settings:
 |optoutEnabled|Boolean|false|Indicates whether Target should call the Visitor API `isOptedOut()` function. This is part of Device Graph enablement.|
 |selectorsPollingTimeout|Number|5000 ms = 5 s|In at.js 0.9.6, Target introduced this new setting that can be overridden via `targetGlobalSettings`.<br>`selectorsPollingTimeout` represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.<br>Activities created via the Visual Experience Composer (VEC) have offers that contain selectors.|
 |dataProviders|See "Data Providers" below.|See "Data Providers" below.|See "Data Providers" below.|
+|cspScriptNonce|See "Content Security Policy" below.|See "Content Security Policy" below.|See "Content Security Policy" below.|
+|cspStyleNonce|See "Content Security Policy" below.|See "Content Security Policy" below.|See "Content Security Policy" below.|
 
 ## Usage {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -171,6 +173,28 @@ Consider the following when working with the `dataProviders` setting:
 
 * If the data providers added to `window.targetGlobalSettings.dataProviders` are async, they will be executed in parallel. The Visitor API request will be executed in parallel with functions added to `window.targetGlobalSettings.dataProviders` to allow a minimum wait time. 
 * at.js won't try to cache the data. If the data provider fetches data only once, the data provider should make sure that data is cached and, when the provider function is invoked, serve the cache data for the second invocation.
+
+## Content Security Policy {#content-security}
+
+at.js 2.3.0+ supports setting Content Security Policy nonces on SCRIPT and STYLE tags appended to the page DOM when applying delivered Target offers.
+
+The SCRIPT and STYLE nonces should be set in `targetGlobalSettings.cspScriptNonce` and `targetGlobalSettings.cspStyleNonce` correspondingly, prior to at.js 2.3.0+ loading. See an example below:
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+After `cspScriptNonce` and `cspStyleNonce` settings are specified, at.js 2.3.0+ sets these as nonce attributes on all SCRIPT and STYLE tags that it appends to the DOM when applying Target offers.
 
 ## serverState {#server-state}
 

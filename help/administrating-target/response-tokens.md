@@ -11,7 +11,7 @@ uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 
 Response tokens let you automatically output Target-specific information (campaign details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale)
 
-Adobe Target Classic had a feature called server plug-ins that lets you send JavaScript that executes with an mbox response. Response tokens are similar to plug-ins: they let you surface Target-specific information to use elsewhere. Response tokens let you choose which variables to leverage and then enable them to be sent as part of an mbox response. In order to do so, you simply enable a variable using the switch and the variable will be sent with mbox responses, which can be validated in network calls. Response tokens work in Preview mode as well.
+Response tokens let you choose which variables to leverage and then enable them to be sent as part of an mbox response. In order to do so, you simply enable a variable using the switch and the variable will be sent with mbox responses, which can be validated in network calls. Response tokens work in Preview mode as well.
 
 A key difference between plug-ins and response tokens is that while plug-ins deliver JavaScript to the page that would execute upon delivery, response tokens deliver an object that can then can be read and acted upon using event listeners. For more information, see [at.js custom events](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) and the examples later in this article. The response tokens approach is safer and should allow for easier development and maintenance of 3rd-party integrations.
 

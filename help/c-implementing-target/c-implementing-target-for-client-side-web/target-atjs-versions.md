@@ -14,6 +14,20 @@ Details about changes in each version of the [!DNL Adobe Target] at.js JavaScrip
 >
 >The Target team supports both at.js 1.*x* and at.js 2.*x*. Please upgrade to the most recent update of either major version of at.js to ensure that you are running a supported version.
 
+## at.js version 2.3.0 (March 25, 2020)
+
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
+
+* Support setting Content Security Policy nonces on SCRIPT and STYLE tags appended to the page DOM when applying delivered Target offers. Customers can set `targetGlobalSettings.cspScriptNonce` and `targetGlobalSettings.cspStyleNonce` so that at.js can set the corresponding script and style tag nonces on applied offers. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* Fixed an issue when compiling at.js with the Google Closure compiler for Google Tag Manager deployment.
+* Renamed the at.js check cookie from `check` to `at_check` in order to avoid collisions with customers' implementations.
+
+## at.js version 1.8.1 (March 25, 2020)
+
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
+
+* Renamed the at.js check cookie from `check` to `at_check` in order to avoid collisions with customers' implementations.
+
 ## at.js version 2.2.0 (October 10, 2019)
 
 This release of at.js includes the following enhancements and fixes:
