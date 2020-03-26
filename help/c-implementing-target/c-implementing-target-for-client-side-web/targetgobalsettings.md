@@ -194,6 +194,7 @@ window.targetGlobalSettings = {
 </head>
 ...
 ```
+
 After `cspScriptNonce` and `cspStyleNonce` settings are specified, at.js 2.3.0+ sets these as nonce attributes on all SCRIPT and STYLE tags that it appends to the DOM when applying Target offers.
 
 ## serverState {#server-state}
