@@ -14,8 +14,6 @@ Organize your sites and pre-production environments for easy management and sepa
 
 Organize your sites and pre-production environments for easy management and separated reporting. 
 
-Similar functionality existed in [!DNL Target Classic]. Host groups in [!DNL Target Classic] were called "environments" in [!DNL Target Standard/Premium].
-
 The primary goal of host management is to ensure that no inactive content accidentally appears on websites. Host management also lets you separate report data by environment.
 
 A host is any web server (or web domain) from where you serve content during any stage of your project. Any host serving an mbox is recognized.

@@ -157,7 +157,7 @@ An entrant is a visitor who meets the criteria to enter an activity.
 
 **environment**
 
-Hosts are bundled into environments for ease of management. The preset host groups are Production, Staging, and Development. However, you may add new host groups and rename your existing host groups. Environments were called "host groups" in [!DNL Target Classic].
+Hosts are bundled into environments for ease of management. The preset host groups are Production, Staging, and Development. However, you may add new host groups and rename your existing host groups.
 
 **experience**
 

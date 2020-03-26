@@ -34,6 +34,15 @@ Adobe Summit has become a virtual event! Adobe is pulling out all of the stops w
 
 To register for free access to the entire digital event, go to [The Digital Experience Conference: Summit](https://www.adobe.com/summit.html) page.
 
+## Target at.js (March 25, 2020)
+
+The following new versions of the Target at.js JavaScript libraries are available:
+
+* at.js version 2.3.0
+* at.js version 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 ## Target Standard/Premium 20.2.1 (March 23, 2020)
 
 >[!IMPORTANT]

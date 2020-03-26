@@ -14,6 +14,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|March 25|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the following new versions of at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul>|
+||[targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)|Added the following new rows in the "Settings" section:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>Added the following new section:<ul><li>Content Security Policy</li></ul>|
 |March 24|[Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact)|Added information about impacts for the following:<ul><li>Profile scripts based on 3rdPartyID</li><li>QA/Preview URLs in iOS devices</li></ul>|
 |March 20|[Release notes (current)](/help/r-release-notes/release-notes.md)|Indicated that the Target Standard/Premium 20.2.1 release will be March 23, 2020.|
 |March 13|[Limits](/help/r-troubleshooting-target/target-limits.md)|Udated the number of "Audiences, reusable per account."|

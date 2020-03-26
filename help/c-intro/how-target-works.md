@@ -91,7 +91,7 @@ Each Edge node has all the information required to respond to the user's content
 
 ![Map with core edge sites and edge sites](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+The source for this image is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
 The Adobe Target solution is hosted on Adobe-owned and Adobe-leased data centers around the globe. Admin Servers are hosted entirely within Adobe-owned data centers in London, Singapore, and multiple locations throughout the U.S, including Oregon and Virginia. Edge Servers are hosted both on Adobe-owned and Adobe-leased servers in Amazon AWS data centers in London, Hong Kong SAR of China, Singapore, Tokyo, and Sydney.
 

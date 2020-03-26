@@ -43,8 +43,6 @@ Locations are essential to activities and experiences. You decide whether any lo
 
 In [!DNL Target Standard], a location can be any element on a page, as long as the page contains a single line of code that enables [!DNL Target] in the `<head>` section of each page you want to track. This line of code calls the JavaScript libraries needed to collect information and deliver targeted experiences to your visitors.
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
-
 Locations are combined with audiences to provide an almost endless number of options for targeting information to your customers. For example, if a visitor has never been to the site before, you might display a discount coupon for new customers. Likewise, the page might be changed to display offers that are more optimized to returning customers.
 
 You can also use locations to track a visitor's progress through your Web site, or to track whether the visitor completes a specific success metric, such as adding an item to the shopping cart or completing a purchase.

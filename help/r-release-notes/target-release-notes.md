@@ -10,7 +10,7 @@ uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 
 These release notes provide information about features, enhancements, and fixes for the latest or upcoming [!DNL Adobe Target] releases.
 
-**Last Updated: March 20, 2020**
+**Last Updated: March 25, 2020**
 
 >[!NOTE]
 >
@@ -27,6 +27,15 @@ These release notes provide information about features, enhancements, and fixes 
 >   Although, mbox.js is currently supported, we have not provided feature updates to this library since July 2017. The newer at.js provides many advantages over mbox.js. Among other benefits, at.js improves page load times for web implementations, improves security, and provides better implementation options for single page applications.
 >
 >   By moving all customers to at.js, our engineers and support staff will be able to provide you with new functionality and offer the support you have come to expect from Adobe.
+
+## Target at.js (March 25, 2020)
+
+The following new versions of the Target at.js JavaScript libraries are available:
+
+* at.js version 2.3.0
+* at.js version 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1 (March 23, 2020)
 

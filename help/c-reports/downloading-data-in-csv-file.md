@@ -40,7 +40,7 @@ Data is saved until the end of the activity.
 
 ## Export Order Details to CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-The Order Details report (known as the Audit report in [!DNL Target Classic]) shows you information about your orders, including:
+The Order Details report shows you information about your orders, including:
 
 * Order date and time 
 * Order amount (if you inserted a Place Order mbox)

@@ -11,10 +11,6 @@ Target users based on pre-built targeting rules.
 
 The pre-built audiences in the Target Library category are legacy audiences and exist in other categories. For more information and best practices, see [Targets and Audiences Frequently Asked Questions](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classic used expression targets to let you create sophisticated targets once and then use them repeatedly in different activities, experiences, and so on. This functionality is not included in Target Standard/Premium.
-
 1. In the [!DNL Target] interface, click **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**. 
 1. Name the audience. 
 1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Target Library]**.
