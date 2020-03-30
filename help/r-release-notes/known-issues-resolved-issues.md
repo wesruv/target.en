@@ -73,6 +73,7 @@ In an MVT activity, the winner shown in the table and graph are not consistent w
 
 The following are known issues with at.js:
 
+* Using at.js versions prior to 2.2.0, click tracking does not report conversions in Analytics for Target (A4T) if Adobe Analytics code is not present on page elements (such as buttons). A fix was introduced for this issue in at.js 2.2.0. [Please upgrade to the latest at.js version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) if you experience this problem.
 * If you create an experience with no modifications using at.js 2.1.1 or earlier (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Adobe Analytics, or Google Analytics. In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
 
   As a workaround, use a whitespace in the experience content. (TNT-33366)
