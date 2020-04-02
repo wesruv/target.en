@@ -14,6 +14,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 |Date|Topic|Changes|
 | --- | --- | --- |
+|April 2|[Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)|Added following note:<ul><li>After installing the ECID library v4.3.0+ and at.js 2.*x*, you will be able to create activities that span unique domains as well as track users. It is important to note that this functionality works only after the session expires.</li></ul>|
 |March 30|[Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#atjs)|Added a known issues that affects at.js versions prior to at.js 2.2.0. This issue caused click tracking to not report conversions in Analytics for Target (A4T) when Adobe Analytics code was not present on page elements.|
 ||[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added the following information to at.js version 2.2.0 details:<ul><li>Fixed an issue that caused click tracking to not report conversions in Analytics for Target (A4T) when Adobe Analytics code was not present on page elements.</li></ul>|
 |March 25|[at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)|Added information about the following new versions of at.js:<ul><li>at.js version 2.3.0</li><li>at.js version 1.8.1</li></ul>|
