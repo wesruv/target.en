@@ -87,7 +87,7 @@ Important notes:
 * at.js does not provide any guarantees on the order of remote script execution, as these are loaded asynchronously.
 * Inline scripts should not have any dependencies on remote scripts, as these are loaded and executed later.
 
-## Training video: at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png) ![Overview badge](/help/assets/overview.png)
+## Training video: at.js 2.x architectural diagram ![Overview badge](/help/assets/overview.png)
 
 at.js 2.x enhances Adobe Target's support for SPAs and integrates with other Experience Cloud solutions. This video explains how everything comes together.
 
